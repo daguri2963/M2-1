@@ -1,0 +1,449 @@
+{
+  "reviewed_at": "2026-10-20T00:08:37.707362+09:00",
+  "products": [
+    {
+      "product_number": "613602128",
+      "catalog_index": 62,
+      "review_status": "partial",
+      "evidence": [
+        {
+          "source_id": "label-0097",
+          "source_sha256": "15103cc656db950d7532adfbfc69a4f93ae7074e2c2f69127653721fdd3398c5",
+          "source_url": "https://cdn.daisomall.co.kr/file/resize/PD/20260109/description/850/TQKNVdVmVawvDE4d8T3C613602128_01_02TQKNVdVmVawvDE4d8T3C.jpg",
+          "original_path": "data/products/labels/613602128/15103cc656db950d.jpg",
+          "crops": [
+            {
+              "path": "data/products/review-evidence/62-613602128-15103cc6-0.png",
+              "x": 0,
+              "y": 11032,
+              "width": 850,
+              "height": 2000
+            },
+            {
+              "path": "data/products/review-evidence/62-613602128-15103cc6-1.png",
+              "x": 0,
+              "y": 12832,
+              "width": 850,
+              "height": 556
+            }
+          ]
+        }
+      ],
+      "observations": [
+        "제품상세정보와 영양표 실제 확인. 1개4g당 기준, 120g총량 기준 아님. 같은 구미제품끼리 성분/주의 복사하지 않음. 영양표하단까지 확인. B6이상사례주의."
+      ],
+      "field_values": {
+        "food_type": "건강기능식품",
+        "manufacturer": "(주)한국코스모",
+        "distributor": "디엑스앤브이엑스(주)",
+        "package": "120 g (4 g × 30개)",
+        "dosage_form": "구미",
+        "intake": "1일 1회, 1회 1개를 씹어서 섭취하십시오.",
+        "allergen": "돼지고기, 대두 함유",
+        "product_name": "멀티비타민 & 미네랄 하루구미"
+      },
+      "reviewed_nutrients": [],
+      "field_dispositions": {},
+      "evidence_source_sha_prefix": "15103cc6",
+      "nutrient_basis": "1일 섭취량: 1개(4 g)",
+      "nutrient_spec": "열량|15|kcal;탄수화물|3|g|1;당류|2|g|2;단백질|0|g|0;지방|0|g|0;나트륨|0|mg|0;아연|2.55|mg|30;비타민E|3.3|mg α-TE|30;망간|3|mg|100;몰리브덴|25|μg|100;셀레늄|16.5|μg|30;나이아신|7.5|mg NE|50;비타민B6|1.5|mg|100;비타민B1|1.2|mg|100;비타민B2|0.7|mg|50",
+      "reviewed_at": "2026-10-20T00:08:37.707362+09:00",
+      "visual_inspection": true,
+      "source_match": "name_variant_package_matched",
+      "remaining_reasons": [
+        "전체 원재료·기능성·섭취/주의 문구의 완전한 교정 전사 및 정규화 미완료"
+      ]
+    },
+    {
+      "product_number": "613602129",
+      "catalog_index": 63,
+      "review_status": "partial",
+      "evidence": [
+        {
+          "source_id": "label-0101",
+          "source_sha256": "4db75ccd51cc3ba78046286aafa66593b07b252c41f4f4033b22775209aeb723",
+          "source_url": "https://cdn.daisomall.co.kr/file/resize/PD/20260107/description/850/1sIxrhn3ITq4UW0HEfAn613602129_01_011sIxrhn3ITq4UW0HEfAn.jpg",
+          "original_path": "data/products/labels/613602129/4db75ccd51cc3ba7.jpg",
+          "crops": [
+            {
+              "path": "data/products/review-evidence/63-613602129-4db75ccd-0.png",
+              "x": 0,
+              "y": 10220,
+              "width": 850,
+              "height": 2000
+            },
+            {
+              "path": "data/products/review-evidence/63-613602129-4db75ccd-1.png",
+              "x": 0,
+              "y": 12020,
+              "width": 850,
+              "height": 294
+            }
+          ]
+        }
+      ],
+      "observations": [
+        "제품상세정보와 영양표 실제 확인. 1개4g당 기준, 120g총량 기준 아님. 같은 구미제품끼리 성분/주의 복사하지 않음. 프로폴리스알레르기주의. 총플라보노이드0.3mg."
+      ],
+      "field_values": {
+        "food_type": "건강기능식품",
+        "manufacturer": "(주)한국코스모",
+        "distributor": "디엑스앤브이엑스(주)",
+        "package": "120 g (4 g × 30개)",
+        "dosage_form": "구미",
+        "intake": "1일 1회, 1회 1개를 씹어서 섭취하십시오.",
+        "allergen": "돼지고기, 대두 함유",
+        "product_name": "면역&프로폴리스 하루구미"
+      },
+      "reviewed_nutrients": [],
+      "field_dispositions": {},
+      "evidence_source_sha_prefix": "4db75ccd",
+      "nutrient_basis": "1일 섭취량: 1개(4 g)",
+      "nutrient_spec": "열량|15|kcal;탄수화물|3|g|1;당류|2|g|2;단백질|0|g|0;지방|0|g|0;나트륨|0|mg|0;아연|3|mg|35;총 플라보노이드|0.3|mg",
+      "reviewed_at": "2026-10-20T00:08:37.707362+09:00",
+      "visual_inspection": true,
+      "source_match": "name_variant_package_matched",
+      "remaining_reasons": [
+        "전체 원재료·기능성·섭취/주의 문구의 완전한 교정 전사 및 정규화 미완료"
+      ]
+    },
+    {
+      "product_number": "613602130",
+      "catalog_index": 64,
+      "review_status": "partial",
+      "evidence": [
+        {
+          "source_id": "label-0104",
+          "source_sha256": "a8d3012376d8120b0d74b68b3a299ed8b7f52c92ad63b0a223566040dc68aa8f",
+          "source_url": "https://cdn.daisomall.co.kr/file/resize/PD/20260109/description/850/CQANQIt1ttwyyoVpAvDl613602130_01_02CQANQIt1ttwyyoVpAvDl.jpg",
+          "original_path": "data/products/labels/613602130/a8d3012376d8120b.jpg",
+          "crops": [
+            {
+              "path": "data/products/review-evidence/64-613602130-a8d30123-0.png",
+              "x": 0,
+              "y": 11942,
+              "width": 850,
+              "height": 1989
+            },
+            {
+              "path": "data/products/review-evidence/64-613602130-a8d30123-1.png",
+              "x": 0,
+              "y": 13742,
+              "width": 850,
+              "height": 189
+            }
+          ]
+        }
+      ],
+      "observations": [
+        "제품상세정보와 영양표 실제 확인. 1개4g당 기준, 120g총량 기준 아님. 같은 구미제품끼리 성분/주의 복사하지 않음. 고칼슘/약물복용주의. D50μg500%."
+      ],
+      "field_values": {
+        "food_type": "건강기능식품",
+        "manufacturer": "(주)한국코스모",
+        "distributor": "디엑스앤브이엑스(주)",
+        "package": "120 g (4 g × 30개)",
+        "dosage_form": "구미",
+        "intake": "1일 1회, 1회 1개를 씹어서 섭취하십시오.",
+        "allergen": "돼지고기, 대두 함유",
+        "product_name": "비타민 D & 아연 하루구미"
+      },
+      "reviewed_nutrients": [],
+      "field_dispositions": {},
+      "evidence_source_sha_prefix": "a8d30123",
+      "nutrient_basis": "1일 섭취량: 1개(4 g)",
+      "nutrient_spec": "열량|15|kcal;탄수화물|3|g|1;당류|2|g|2;단백질|0|g|0;지방|0|g|0;나트륨|0|mg|0;아연|8.5|mg|100;비타민D|50|μg|500",
+      "reviewed_at": "2026-10-20T00:08:37.707362+09:00",
+      "visual_inspection": true,
+      "source_match": "name_variant_package_matched",
+      "remaining_reasons": [
+        "전체 원재료·기능성·섭취/주의 문구의 완전한 교정 전사 및 정규화 미완료"
+      ]
+    },
+    {
+      "product_number": "613602132",
+      "catalog_index": 65,
+      "review_status": "partial",
+      "evidence": [
+        {
+          "source_id": "label-0107",
+          "source_sha256": "93b8606c1edfb6da13b6fe44ed9a1488c07cd96ae7ff697da9d9a5d928321943",
+          "source_url": "https://cdn.daisomall.co.kr/file/resize/PD/20260109/description/850/vyoOfkdGWdIa7qlU64wQ613602132_01_02vyoOfkdGWdIa7qlU64wQ.jpg",
+          "original_path": "data/products/labels/613602132/93b8606c1edfb6da.jpg",
+          "crops": [
+            {
+              "path": "data/products/review-evidence/65-613602132-93b8606c-0.png",
+              "x": 0,
+              "y": 11556,
+              "width": 850,
+              "height": 2000
+            },
+            {
+              "path": "data/products/review-evidence/65-613602132-93b8606c-1.png",
+              "x": 0,
+              "y": 13356,
+              "width": 850,
+              "height": 330
+            }
+          ]
+        }
+      ],
+      "observations": [
+        "제품상세정보와 영양표 실제 확인. 1개4g당 기준, 120g총량 기준 아님. 같은 구미제품끼리 성분/주의 복사하지 않음. B6따끔거림작열감저림주의."
+      ],
+      "field_values": {
+        "food_type": "건강기능식품",
+        "manufacturer": "(주)한국코스모",
+        "distributor": "디엑스앤브이엑스(주)",
+        "package": "120 g (4 g × 30개)",
+        "dosage_form": "구미",
+        "intake": "1일 1회, 1회 1개를 씹어서 섭취하십시오.",
+        "allergen": "돼지고기, 대두 함유",
+        "product_name": "활력 복합비타민B 하루구미"
+      },
+      "reviewed_nutrients": [],
+      "field_dispositions": {},
+      "evidence_source_sha_prefix": "93b8606c",
+      "nutrient_basis": "1일 섭취량: 1개(4 g)",
+      "nutrient_spec": "열량|15|kcal;탄수화물|3|g|1;당류|2|g|2;단백질|0|g|0;지방|0|g|0;나트륨|0|mg|0;나이아신|15|mg NE|100;비타민B6|3|mg|200;비타민B1|2.4|mg|200;비타민B2|1.4|mg|100",
+      "reviewed_at": "2026-10-20T00:08:37.707362+09:00",
+      "visual_inspection": true,
+      "source_match": "name_variant_package_matched",
+      "remaining_reasons": [
+        "전체 원재료·기능성·섭취/주의 문구의 완전한 교정 전사 및 정규화 미완료"
+      ]
+    },
+    {
+      "product_number": "032627142",
+      "catalog_index": 66,
+      "review_status": "partial",
+      "evidence": [
+        {
+          "source_id": "label-0108",
+          "source_sha256": "cb5e4db0864e52c89939738c7c4f55e3e09cf6cfad6b6508a82ff3610e4b1231",
+          "source_url": "https://cdn.daisomall.co.kr/file/resize/PD/20260612/description/850/jbKxCeEGSODTE14o92Aq032627142_01_00jbKxCeEGSODTE14o92Aq.jpg",
+          "original_path": "data/products/labels/032627142/cb5e4db0864e52c8.jpg",
+          "crops": [
+            {
+              "path": "data/products/review-evidence/66-032627142-cb5e4db0-0.png",
+              "x": 0,
+              "y": 17975,
+              "width": 850,
+              "height": 2000
+            },
+            {
+              "path": "data/products/review-evidence/66-032627142-cb5e4db0-1.png",
+              "x": 0,
+              "y": 19775,
+              "width": 850,
+              "height": 1055
+            }
+          ]
+        }
+      ],
+      "observations": [
+        "리프레쉬Mg&L테아닌 전체표확인. 1병은액상20mL+정제600mg2정. 표내용량1병24g과액상mL혼합단위 원문그대로. 제조/위탁제조원액상과정제 구분. 대두·밀함유. 주의11항목 및Mg석출안내 존재."
+      ],
+      "field_values": {
+        "product_name": "리프레쉬 마그네슘 & L-테아닌",
+        "food_type": "건강기능식품",
+        "manufacturer": "(주)네추럴웨이 포천 제2공장(전문제조원/위탁의뢰원); (주)네추럴웨이(정제 위탁제조원)",
+        "distributor": "(주)더블유젯",
+        "package": "[1병당 24 g {액상20 ml + 정제1.2 g(600 mg × 2정)} × 4병]",
+        "dosage_form": "액상+정제 복합 병",
+        "intake": "뚜껑을 개봉하여 정제 2정을 액상과 함께 또는 물과 함께 섭취하십시오.(1일 1회, 1회 1병)",
+        "allergen": "대두, 밀 함유"
+      },
+      "reviewed_nutrients": [],
+      "field_dispositions": {},
+      "nutrient_basis": "1일 섭취량: 1병[액상20 ml + 정제1.2 g(600 mg × 2정)]",
+      "nutrient_spec": "열량|25|kcal;탄수화물|6|g|2;당류|2|g;단백질|0|g|0;지방|0|g|0;나트륨|0|mg|0;L-테아닌|200|mg;마그네슘|150|mg|48;비타민B1|3.6|mg|300;비타민B2|4.2|mg|300;나이아신|15|mg NE|100;비타민D|3|μg|30;비타민E|3.3|mg α-TE|30",
+      "reviewed_at": "2026-10-20T00:08:37.707362+09:00",
+      "visual_inspection": true,
+      "source_match": "name_variant_package_matched",
+      "remaining_reasons": [
+        "전체 원재료·기능성·섭취/주의 문구의 완전한 교정 전사 및 정규화 미완료"
+      ]
+    },
+    {
+      "product_number": "968235547",
+      "catalog_index": 67,
+      "review_status": "partial",
+      "evidence": [
+        {
+          "source_id": "label-0109",
+          "source_sha256": "82a722e9a9c62a4d640a3a166e32398bd8dc5ff1391d4ac497742b3a566f0457",
+          "source_url": "https://cdn.daisomall.co.kr/file/resize/PD/20260417/description/850/L5FtglN11nUDVHufuuXl968235547_01_01L5FtglN11nUDVHufuuXl.jpg",
+          "original_path": "data/products/labels/968235547/82a722e9a9c62a4d.jpg",
+          "crops": [
+            {
+              "path": "data/products/review-evidence/67-968235547-82a722e9-0.png",
+              "x": 0,
+              "y": 10648,
+              "width": 850,
+              "height": 1297
+            }
+          ]
+        },
+        {
+          "source_id": "label-0110",
+          "source_sha256": "f3bf4d042d3fd65c1459f1a5781b003cefdfd04663a7eb1d985e240551b386ef",
+          "source_url": "https://cdn.daisomall.co.kr/file/resize/PD/20260417/description/850/R9U591JBKYP3SKQ2MWVG968235547_01_02R9U591JBKYP3SKQ2MWVG.jpg",
+          "original_path": "data/products/labels/968235547/f3bf4d042d3fd65c.jpg",
+          "crops": [
+            {
+              "path": "data/products/review-evidence/67-968235547-f3bf4d04-0.png",
+              "x": 0,
+              "y": 0,
+              "width": 850,
+              "height": 1916
+            },
+            {
+              "path": "data/products/review-evidence/67-968235547-f3bf4d04-1.png",
+              "x": 0,
+              "y": 1800,
+              "width": 850,
+              "height": 116
+            }
+          ]
+        }
+      ],
+      "observations": [
+        "원료·영양·섭취/주의 표시표 확인. 두열영양표와여러제형의1포기준 연결. 주의10항목. β카로틴흡수/피부색주의."
+      ],
+      "field_values": {
+        "product_name": "브이팩 남성용",
+        "food_type": "건강기능식품",
+        "manufacturer": "(주)코스팜",
+        "distributor": "안국약품(주)",
+        "package": "21 g [3 g(3정, 2캡슐) × 7포]",
+        "dosage_form": "정제+캡슐 멀티팩",
+        "allergen": "땅콩, 대두, 쇠고기 함유",
+        "intake": "1일 1회, 1회 1포(3정, 2캡슐)를 충분한 물과 함께 섭취하십시오."
+      },
+      "reviewed_nutrients": [],
+      "field_dispositions": {},
+      "evidence_source_sha_prefix": "f3bf4d04",
+      "nutrient_basis": "1일 섭취량: 1포(3 g) [1,000 mg×1정, 500 mg×2정, (400 mg,600 mg)×1캡슐]",
+      "nutrient_spec": "열량|14|kcal;탄수화물|1.3|g|0;단백질|0|g|0;지방|1|g|2;나트륨|0|mg|0;실리마린|130|mg;로사빈|4.2|mg;아스타잔틴|4|mg;옥타코사놀|10|mg;비타민A|700|μg RAE|100;비타민B1|1.2|mg|100;비타민B2|1.4|mg|100;비타민B6|1.5|mg|100;비타민C|100|mg|100;비타민D|10|μg|100;칼슘|210|mg|30;아연|2.55|mg|30",
+      "reviewed_at": "2026-10-20T00:08:37.707362+09:00",
+      "visual_inspection": true,
+      "source_match": "name_variant_package_matched",
+      "remaining_reasons": [
+        "전체 원재료·기능성·섭취/주의 문구의 완전한 교정 전사 및 정규화 미완료"
+      ]
+    },
+    {
+      "product_number": "968235548",
+      "catalog_index": 68,
+      "review_status": "partial",
+      "evidence": [
+        {
+          "source_id": "label-0111",
+          "source_sha256": "7370d430f36e76c03192b9724d0e2d1c0b9d87e20f5c73178a99b4021535222e",
+          "source_url": "https://cdn.daisomall.co.kr/file/resize/PD/20260417/description/850/7Ji1Qcn3bo6KuqjXxIPk968235548_01_017Ji1Qcn3bo6KuqjXxIPk.jpg",
+          "original_path": "data/products/labels/968235548/7370d430f36e76c0.jpg",
+          "crops": [
+            {
+              "path": "data/products/review-evidence/68-968235548-7370d430-0.png",
+              "x": 0,
+              "y": 9580,
+              "width": 850,
+              "height": 1278
+            }
+          ]
+        },
+        {
+          "source_id": "label-0112",
+          "source_sha256": "83e7d037cb6be75daf5b0eadaaeaf974771070eb824552c0f0418f843b293704",
+          "source_url": "https://cdn.daisomall.co.kr/file/resize/PD/20260417/description/850/z6MHBvZhcaY2dYn3IgZr968235548_01_02z6MHBvZhcaY2dYn3IgZr.jpg",
+          "original_path": "data/products/labels/968235548/83e7d037cb6be75d.jpg",
+          "crops": [
+            {
+              "path": "data/products/review-evidence/68-968235548-83e7d037-0.png",
+              "x": 0,
+              "y": 12,
+              "width": 850,
+              "height": 1608
+            }
+          ]
+        }
+      ],
+      "observations": [
+        "원료·영양·섭취/주의 표시표 확인. 두열영양표와여러제형의1포기준 연결. 섭취주의10항목. 남성용과캡슐수다름."
+      ],
+      "field_values": {
+        "product_name": "브이팩 여성용",
+        "food_type": "건강기능식품",
+        "manufacturer": "(주)코스팜",
+        "distributor": "안국약품(주)",
+        "package": "17.85 g [2.55 g(3정, 1캡슐) × 7포]",
+        "dosage_form": "정제+캡슐 멀티팩",
+        "allergen": "땅콩, 대두, 쇠고기 함유",
+        "intake": "1일 1회, 1회 1포(3정, 1캡슐)를 충분한 물과 함께 섭취하십시오."
+      },
+      "reviewed_nutrients": [],
+      "field_dispositions": {},
+      "evidence_source_sha_prefix": "83e7d037",
+      "nutrient_basis": "1일 섭취량: 1포(2.55 g) [(1,000 mg,650 mg,500 mg)×1정,400 mg×1캡슐]",
+      "nutrient_spec": "열량|10|kcal;탄수화물|1.2|g|0;단백질|0.2|g|0;지방|0.4|g|1;나트륨|0|mg|0;L-테아닌|200|mg;히알루론산|120|mg;아스타잔틴|4|mg;비타민A|700|μg RAE|100;비타민B1|1.2|mg|100;비타민B2|1.4|mg|100;비타민B6|1.5|mg|100;비타민C|100|mg|100;비타민D|10|μg|100;칼슘|210|mg|30;아연|2.55|mg|30",
+      "reviewed_at": "2026-10-20T00:08:37.707362+09:00",
+      "visual_inspection": true,
+      "source_match": "name_variant_package_matched",
+      "remaining_reasons": [
+        "전체 원재료·기능성·섭취/주의 문구의 완전한 교정 전사 및 정규화 미완료"
+      ]
+    },
+    {
+      "product_number": "994953532",
+      "catalog_index": 69,
+      "review_status": "partial",
+      "evidence": [
+        {
+          "source_id": "label-0113",
+          "source_sha256": "b91ae89a51764e771dfe3d986fae969f363cf8d6162ddda08384f93fd08f8a22",
+          "source_url": "https://cdn.daisomall.co.kr/file/resize/PD/20250627/description/850/D64LjKWowQrCuQgwfNWS994953532_01_00D64LjKWowQrCuQgwfNWS.jpg",
+          "original_path": "data/products/labels/994953532/b91ae89a51764e77.jpg",
+          "crops": [
+            {
+              "path": "data/products/review-evidence/69-994953532-b91ae89a-0.png",
+              "x": 0,
+              "y": 15743,
+              "width": 850,
+              "height": 1801
+            },
+            {
+              "path": "data/products/review-evidence/69-994953532-b91ae89a-1.png",
+              "x": 0,
+              "y": 17543,
+              "width": 850,
+              "height": 1
+            }
+          ]
+        }
+      ],
+      "observations": [
+        "고형차 일반식품표전체확인. 총60g당식이섬유21.7g87%,160kcal; 1포6g당량으로오인금지. 임산부/수유부피함 및 물200mL와충분한물섭취 표기."
+      ],
+      "field_values": {
+        "product_name": "이너뷰 비눌린 워터믹스",
+        "food_type": "고형차",
+        "manufacturer": "(주)한국코스모",
+        "distributor": "(주)엘지생활건강",
+        "package": "60 g (6 g × 10포)",
+        "dosage_form": "분말 포",
+        "intake": "1일 1회, 1회 1포를 물(200 mL)에 섞어서 섭취하십시오."
+      },
+      "reviewed_nutrients": [],
+      "field_dispositions": {},
+      "nutrient_basis": "총 내용량 60 g",
+      "nutrient_spec": "열량|160|kcal;나트륨|20|mg|1;탄수화물|55|g|17;당류|3|g|3;식이섬유|21.7|g|87;지방|0|g|0;단백질|1|g|1|<",
+      "reviewed_at": "2026-10-20T00:08:37.707362+09:00",
+      "visual_inspection": true,
+      "source_match": "name_variant_package_matched",
+      "remaining_reasons": [
+        "전체 원재료·기능성·섭취/주의 문구의 완전한 교정 전사 및 정규화 미완료"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,356 @@
+[
+  {
+    "product_number": "591580891",
+    "detail_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=591580891",
+    "expected_name": "종근당건강 락토핏 간케어 20포",
+    "status": "label_assets_saved_pending_transcription",
+    "attempts": [
+      {
+        "date": "2026-10-19",
+        "method": "browser_detail_and_page_assets",
+        "source_url": "https://cdn.daisomall.co.kr/file/resize/PD/20251015/description/850/sb3rmdJyQeHohiJMe7IS591580891_01_00sb3rmdJyQeHohiJMe7IS.jpg",
+        "result": "label_asset_saved",
+        "detail_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=591580891"
+      },
+      {
+        "date": "2026-10-19",
+        "method": "browser_detail_and_page_assets",
+        "source_url": "https://cdn.daisomall.co.kr/file/resize/PD/20251015/description/850/j5iKea5tF6LcZg1iWTTC591580891_01_99j5iKea5tF6LcZg1iWTTC.jpg",
+        "result": "label_asset_saved",
+        "detail_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=591580891"
+      },
+      {
+        "date": "2026-10-19",
+        "method": "browser_detail_attempt",
+        "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=591580891",
+        "result": "label_assets_saved",
+        "reason": null
+      }
+    ],
+    "recommendation_eligible": false,
+    "label_assets": [
+      {
+        "source_url": "https://cdn.daisomall.co.kr/file/resize/PD/20251015/description/850/sb3rmdJyQeHohiJMe7IS591580891_01_00sb3rmdJyQeHohiJMe7IS.jpg",
+        "local_path": "data/products/labels/591580891/6f2d3e72b944827b.jpg",
+        "sha256": "6f2d3e72b944827b37060766e84ca18ed22c2fdd2a74b989ca1f49515f8443c0",
+        "method": "official_label_image_saved_pending_visual",
+        "observed_on": "2026-10-19",
+        "published_on": null,
+        "browser_manifest": "/var/folders/yz/kzzkpplj73qbzchy819k7v0m0000gn/T/browser-use/assets/a06433e7-4aa2-404f-a6c2-30326578fc9d/manifest.json"
+      },
+      {
+        "source_url": "https://cdn.daisomall.co.kr/file/resize/PD/20251015/description/850/j5iKea5tF6LcZg1iWTTC591580891_01_99j5iKea5tF6LcZg1iWTTC.jpg",
+        "local_path": "data/products/labels/591580891/83b123f0ef1a61fb.jpg",
+        "sha256": "83b123f0ef1a61fb3a1c4ad0576820465ad4b7d1a7d32e7b570beaecec2ba173",
+        "method": "official_label_image_saved_pending_visual",
+        "observed_on": "2026-10-19",
+        "published_on": null,
+        "browser_manifest": "/var/folders/yz/kzzkpplj73qbzchy819k7v0m0000gn/T/browser-use/assets/a06433e7-4aa2-404f-a6c2-30326578fc9d/manifest.json"
+      }
+    ]
+  },
+  {
+    "product_number": "591580761",
+    "detail_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=591580761",
+    "expected_name": "종근당건강 락토핏 당케어",
+    "status": "label_assets_saved_pending_transcription",
+    "attempts": [
+      {
+        "date": "2026-10-19",
+        "method": "browser_detail_and_page_assets",
+        "source_url": "https://cdn.daisomall.co.kr/file/resize/PD/20250618/description/850/lzsCPi7ZXLBTePNfrr7Z591580761_01_99lzsCPi7ZXLBTePNfrr7Z.jpg",
+        "result": "label_asset_saved",
+        "detail_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=591580761"
+      },
+      {
+        "date": "2026-10-19",
+        "method": "browser_detail_and_page_assets",
+        "source_url": "https://cdn.daisomall.co.kr/file/resize/PD/20250618/description/850/KS9VvCqy64H815c7J6eP591580761_01_00KS9VvCqy64H815c7J6eP.jpg",
+        "result": "label_asset_saved",
+        "detail_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=591580761"
+      },
+      {
+        "date": "2026-10-19",
+        "method": "browser_detail_attempt",
+        "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=591580761",
+        "result": "label_assets_saved",
+        "reason": null
+      }
+    ],
+    "recommendation_eligible": false,
+    "label_assets": [
+      {
+        "source_url": "https://cdn.daisomall.co.kr/file/resize/PD/20250618/description/850/lzsCPi7ZXLBTePNfrr7Z591580761_01_99lzsCPi7ZXLBTePNfrr7Z.jpg",
+        "local_path": "data/products/labels/591580761/83b123f0ef1a61fb.jpg",
+        "sha256": "83b123f0ef1a61fb3a1c4ad0576820465ad4b7d1a7d32e7b570beaecec2ba173",
+        "method": "official_label_image_saved_pending_visual",
+        "observed_on": "2026-10-19",
+        "published_on": null,
+        "browser_manifest": "/var/folders/yz/kzzkpplj73qbzchy819k7v0m0000gn/T/browser-use/assets/c3c0b63f-fa6d-4f74-9b0c-dc2aaf4be88e/manifest.json"
+      },
+      {
+        "source_url": "https://cdn.daisomall.co.kr/file/resize/PD/20250618/description/850/KS9VvCqy64H815c7J6eP591580761_01_00KS9VvCqy64H815c7J6eP.jpg",
+        "local_path": "data/products/labels/591580761/005ddc19333fbbab.jpg",
+        "sha256": "005ddc19333fbbab365a9545cb4e605debe320c3536628a10be0719a8802893b",
+        "method": "official_label_image_saved_pending_visual",
+        "observed_on": "2026-10-19",
+        "published_on": null,
+        "browser_manifest": "/var/folders/yz/kzzkpplj73qbzchy819k7v0m0000gn/T/browser-use/assets/c3c0b63f-fa6d-4f74-9b0c-dc2aaf4be88e/manifest.json"
+      }
+    ]
+  },
+  {
+    "product_number": "034345002",
+    "detail_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=034345002",
+    "expected_name": "올비텐 유산균 30포",
+    "status": "label_assets_saved_pending_transcription",
+    "attempts": [
+      {
+        "date": "2026-10-19",
+        "method": "browser_detail_and_page_assets",
+        "source_url": "https://cdn.daisomall.co.kr/file/resize/PD/20260310/description/850/RdF4YNYPSr6M2QfeDjTl034345002_01_00RdF4YNYPSr6M2QfeDjTl.jpg",
+        "result": "label_asset_saved",
+        "detail_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=034345002"
+      },
+      {
+        "date": "2026-10-19",
+        "method": "browser_detail_attempt",
+        "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=034345002",
+        "result": "label_assets_saved",
+        "reason": null
+      }
+    ],
+    "recommendation_eligible": false,
+    "label_assets": [
+      {
+        "source_url": "https://cdn.daisomall.co.kr/file/resize/PD/20260310/description/850/RdF4YNYPSr6M2QfeDjTl034345002_01_00RdF4YNYPSr6M2QfeDjTl.jpg",
+        "local_path": "data/products/labels/034345002/3cc239b3ce1c4dfc.jpg",
+        "sha256": "3cc239b3ce1c4dfc101fb3988e2d5258d7924682895f6e94b8700e53e6622ccf",
+        "method": "official_label_image_saved_pending_visual",
+        "observed_on": "2026-10-19",
+        "published_on": null,
+        "browser_manifest": "/var/folders/yz/kzzkpplj73qbzchy819k7v0m0000gn/T/browser-use/assets/bba6f23c-850d-47b4-99a9-eeccf2bd6034/manifest.json"
+      }
+    ]
+  },
+  {
+    "product_number": "600651648",
+    "detail_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=600651648",
+    "expected_name": "유한양행 장건강 생유산균 스틱 30포 30일분",
+    "status": "label_assets_saved_pending_transcription",
+    "attempts": [
+      {
+        "date": "2026-10-19",
+        "method": "browser_detail_and_page_assets",
+        "source_url": "https://cdn.daisomall.co.kr/file/resize/PD/20260327/description/850/3UgRmScnrSgBELfEcpgw600651648_01_003UgRmScnrSgBELfEcpgw.png",
+        "result": "label_asset_saved",
+        "detail_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=600651648"
+      },
+      {
+        "date": "2026-10-19",
+        "method": "browser_detail_attempt",
+        "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=600651648",
+        "result": "label_assets_saved",
+        "reason": null
+      }
+    ],
+    "recommendation_eligible": false,
+    "label_assets": [
+      {
+        "source_url": "https://cdn.daisomall.co.kr/file/resize/PD/20260327/description/850/3UgRmScnrSgBELfEcpgw600651648_01_003UgRmScnrSgBELfEcpgw.png",
+        "local_path": "data/products/labels/600651648/a4d8632818212409.png",
+        "sha256": "a4d863281821240932a6cc893a33ae9f52a80b4988cf127d54bae7a6b46e35d5",
+        "method": "official_label_image_saved_pending_visual",
+        "observed_on": "2026-10-19",
+        "published_on": null,
+        "browser_manifest": "/var/folders/yz/kzzkpplj73qbzchy819k7v0m0000gn/T/browser-use/assets/37e045ca-9bca-4c8d-9929-b90afc950923/manifest.json"
+      }
+    ]
+  },
+  {
+    "product_number": "600651649",
+    "detail_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=600651649",
+    "expected_name": "유한양행 장건강 생유산균 30캡슐 30일분",
+    "status": "label_assets_saved_pending_transcription",
+    "attempts": [
+      {
+        "date": "2026-10-19",
+        "method": "browser_detail_and_page_assets",
+        "source_url": "https://cdn.daisomall.co.kr/file/resize/PD/20260327/description/850/Y5Pw6l2601Hl0GnG1X0P600651649_01_00Y5Pw6l2601Hl0GnG1X0P.png",
+        "result": "label_asset_saved",
+        "detail_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=600651649"
+      },
+      {
+        "date": "2026-10-19",
+        "method": "browser_detail_attempt",
+        "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=600651649",
+        "result": "label_assets_saved",
+        "reason": null
+      }
+    ],
+    "recommendation_eligible": false,
+    "label_assets": [
+      {
+        "source_url": "https://cdn.daisomall.co.kr/file/resize/PD/20260327/description/850/Y5Pw6l2601Hl0GnG1X0P600651649_01_00Y5Pw6l2601Hl0GnG1X0P.png",
+        "local_path": "data/products/labels/600651649/afd7e6c446bf26d2.png",
+        "sha256": "afd7e6c446bf26d2939909f5f62e981fb5159b8fd81a1d1942c81e2da6c60d21",
+        "method": "official_label_image_saved_pending_visual",
+        "observed_on": "2026-10-19",
+        "published_on": null,
+        "browser_manifest": "/var/folders/yz/kzzkpplj73qbzchy819k7v0m0000gn/T/browser-use/assets/d99c536a-4332-4d66-bb44-080529b7e8ab/manifest.json"
+      }
+    ]
+  },
+  {
+    "product_number": "600651650",
+    "detail_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=600651650",
+    "expected_name": "유한양행 비피더스 생유산균 10캡슐 10일분",
+    "status": "label_assets_saved_pending_transcription",
+    "attempts": [
+      {
+        "date": "2026-10-19",
+        "method": "browser_detail_and_page_assets",
+        "source_url": "https://cdn.daisomall.co.kr/file/resize/PD/20260327/description/850/eBCQyexRfHI53ejKOY1u600651650_01_00eBCQyexRfHI53ejKOY1u.png",
+        "result": "label_asset_saved",
+        "detail_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=600651650"
+      },
+      {
+        "date": "2026-10-19",
+        "method": "browser_detail_attempt",
+        "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=600651650",
+        "result": "label_assets_saved",
+        "reason": null
+      }
+    ],
+    "recommendation_eligible": false,
+    "label_assets": [
+      {
+        "source_url": "https://cdn.daisomall.co.kr/file/resize/PD/20260327/description/850/eBCQyexRfHI53ejKOY1u600651650_01_00eBCQyexRfHI53ejKOY1u.png",
+        "local_path": "data/products/labels/600651650/cd2bff466e5dd903.png",
+        "sha256": "cd2bff466e5dd903f65f2bf6dac09e3b2124247ae64ba22db10951ba9cca06e0",
+        "method": "official_label_image_saved_pending_visual",
+        "observed_on": "2026-10-19",
+        "published_on": null,
+        "browser_manifest": "/var/folders/yz/kzzkpplj73qbzchy819k7v0m0000gn/T/browser-use/assets/62eba6f6-a26c-446a-8432-b606bdf77fd8/manifest.json"
+      }
+    ]
+  },
+  {
+    "product_number": "600651654",
+    "detail_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=600651654",
+    "expected_name": "유한양행 산뜻해질 생유산균 20캡슐 20일분",
+    "status": "label_assets_saved_pending_transcription",
+    "attempts": [
+      {
+        "date": "2026-10-19",
+        "method": "browser_detail_and_page_assets",
+        "source_url": "https://cdn.daisomall.co.kr/file/resize/PD/20260327/description/850/nsRbx34aM7D3ylLvVpzQ600651654_01_00nsRbx34aM7D3ylLvVpzQ.png",
+        "result": "label_asset_saved",
+        "detail_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=600651654"
+      },
+      {
+        "date": "2026-10-19",
+        "method": "browser_detail_attempt",
+        "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=600651654",
+        "result": "label_assets_saved",
+        "reason": null
+      }
+    ],
+    "recommendation_eligible": false,
+    "label_assets": [
+      {
+        "source_url": "https://cdn.daisomall.co.kr/file/resize/PD/20260327/description/850/nsRbx34aM7D3ylLvVpzQ600651654_01_00nsRbx34aM7D3ylLvVpzQ.png",
+        "local_path": "data/products/labels/600651654/00d7f4c6a19f7f20.png",
+        "sha256": "00d7f4c6a19f7f20218b709200c6cc15808537df30794d40d2847667e554c173",
+        "method": "official_label_image_saved_pending_visual",
+        "observed_on": "2026-10-19",
+        "published_on": null,
+        "browser_manifest": "/var/folders/yz/kzzkpplj73qbzchy819k7v0m0000gn/T/browser-use/assets/a96aa05b-f43a-4a01-bc4b-6e19bf1064e8/manifest.json"
+      }
+    ]
+  },
+  {
+    "product_number": "610910677",
+    "detail_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=610910677",
+    "expected_name": "동국제약 이너케어＆유산균 30캡슐",
+    "status": "label_assets_saved_pending_transcription",
+    "attempts": [
+      {
+        "date": "2026-10-19",
+        "method": "browser_detail_and_page_assets",
+        "source_url": "https://cdn.daisomall.co.kr/file/resize/PD/20260420/description/850/71lOtdJ992CQP63OeRei610910677_01_0071lOtdJ992CQP63OeRei.png",
+        "result": "label_asset_saved",
+        "detail_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=610910677"
+      },
+      {
+        "date": "2026-10-19",
+        "method": "browser_detail_attempt",
+        "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=610910677",
+        "result": "label_assets_saved",
+        "reason": null
+      }
+    ],
+    "recommendation_eligible": false,
+    "label_assets": [
+      {
+        "source_url": "https://cdn.daisomall.co.kr/file/resize/PD/20260420/description/850/71lOtdJ992CQP63OeRei610910677_01_0071lOtdJ992CQP63OeRei.png",
+        "local_path": "data/products/labels/610910677/1b1924ab3c702277.png",
+        "sha256": "1b1924ab3c702277244f068a000abf91b031839247312c190c3d9b9d0647f964",
+        "method": "official_label_image_saved_pending_visual",
+        "observed_on": "2026-10-19",
+        "published_on": null,
+        "browser_manifest": "/var/folders/yz/kzzkpplj73qbzchy819k7v0m0000gn/T/browser-use/assets/3ec3cea0-e6fa-4a69-a1dc-c3bdc9ea512e/manifest.json"
+      }
+    ]
+  },
+  {
+    "product_number": "610910678",
+    "detail_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=610910678",
+    "expected_name": "동국제약 혈당케어＆유산균 30캡슐",
+    "status": "label_assets_saved_pending_transcription",
+    "attempts": [
+      {
+        "date": "2026-10-19",
+        "method": "browser_detail_and_page_assets",
+        "source_url": "https://cdn.daisomall.co.kr/file/resize/PD/20250829/description/850/BmcSxI5G5YFb1LhoR1mz610910678_01_01BmcSxI5G5YFb1LhoR1mz.png",
+        "result": "label_asset_saved",
+        "detail_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=610910678"
+      },
+      {
+        "date": "2026-10-19",
+        "method": "browser_detail_and_page_assets",
+        "source_url": "https://cdn.daisomall.co.kr/file/resize/PD/20250829/description/850/BihNodm3AOQMPWNWrggV610910678_01_99BihNodm3AOQMPWNWrggV.jpg",
+        "result": "label_asset_saved",
+        "detail_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=610910678"
+      },
+      {
+        "date": "2026-10-19",
+        "method": "browser_detail_attempt",
+        "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=610910678",
+        "result": "label_assets_saved",
+        "reason": null
+      }
+    ],
+    "recommendation_eligible": false,
+    "label_assets": [
+      {
+        "source_url": "https://cdn.daisomall.co.kr/file/resize/PD/20250829/description/850/BmcSxI5G5YFb1LhoR1mz610910678_01_01BmcSxI5G5YFb1LhoR1mz.png",
+        "local_path": "data/products/labels/610910678/1e780440790e633b.png",
+        "sha256": "1e780440790e633b845eb2e9e26ec2f8ae5307820af9fe157383b93845fd353f",
+        "method": "official_label_image_saved_pending_visual",
+        "observed_on": "2026-10-19",
+        "published_on": null,
+        "browser_manifest": "/var/folders/yz/kzzkpplj73qbzchy819k7v0m0000gn/T/browser-use/assets/d7e78e1a-2a38-4ab4-a7ed-8f92ee8f81fc/manifest.json"
+      },
+      {
+        "source_url": "https://cdn.daisomall.co.kr/file/resize/PD/20250829/description/850/BihNodm3AOQMPWNWrggV610910678_01_99BihNodm3AOQMPWNWrggV.jpg",
+        "local_path": "data/products/labels/610910678/83b123f0ef1a61fb.jpg",
+        "sha256": "83b123f0ef1a61fb3a1c4ad0576820465ad4b7d1a7d32e7b570beaecec2ba173",
+        "method": "official_label_image_saved_pending_visual",
+        "observed_on": "2026-10-19",
+        "published_on": null,
+        "browser_manifest": "/var/folders/yz/kzzkpplj73qbzchy819k7v0m0000gn/T/browser-use/assets/d7e78e1a-2a38-4ab4-a7ed-8f92ee8f81fc/manifest.json"
+      }
+    ]
+  }
+]

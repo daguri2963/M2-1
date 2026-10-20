@@ -1,0 +1,273 @@
+{
+  "reviewed_at": "2026-10-20T00:04:24.982888+09:00",
+  "products": [
+    {
+      "product_number": "591581101",
+      "catalog_index": 32,
+      "review_status": "partial",
+      "evidence": [
+        {
+          "source_id": "label-0050",
+          "source_sha256": "dbc0d1c60f06addd89632e799d398ca8d8c9563b8d69d30aabb8c8bc38e9deb6",
+          "source_url": "https://cdn.daisomall.co.kr/file/resize/PD/20260508/description/850/q9pThiMgx0plHY9HUtic591581101_01_00q9pThiMgx0plHY9HUtic.jpg",
+          "original_path": "data/products/labels/591581101/dbc0d1c60f06addd.jpg",
+          "crops": [
+            {
+              "path": "data/products/review-evidence/32-591581101-dbc0d1c6-0.png",
+              "x": 0,
+              "y": 10450,
+              "width": 850,
+              "height": 2000
+            },
+            {
+              "path": "data/products/review-evidence/32-591581101-dbc0d1c6-1.png",
+              "x": 0,
+              "y": 12250,
+              "width": 850,
+              "height": 2000
+            },
+            {
+              "path": "data/products/review-evidence/32-591581101-dbc0d1c6-2.png",
+              "x": 0,
+              "y": 14050,
+              "width": 850,
+              "height": 285
+            }
+          ]
+        }
+      ],
+      "observations": [
+        "멀티비타민컴팩트45g30정1500mg SPEC부터 영양·주의·보관표 확인. 대두·밀함유. 베타카로틴1.26mg은별도행으로 보존하며 A700μgRAE와 임의합산하지 않음. 흡연자주의 표기."
+      ],
+      "field_values": {
+        "product_name": "멀티비타민 컴팩트",
+        "food_type": "건강기능식품",
+        "manufacturer": "(주)네추럴웨이",
+        "distributor": "종근당건강(주)",
+        "package": "총 45 g (1정 당 1,500 mg × 30정)",
+        "dosage_form": "정제",
+        "intake": "1일 1회, 1회 1정을 충분한 물과 함께 섭취하십시오.",
+        "allergen": "대두, 밀 함유"
+      },
+      "reviewed_nutrients": [],
+      "field_dispositions": {},
+      "nutrient_basis": "1일 섭취량: 1정(1,500 mg)",
+      "nutrient_spec": "열량|5|kcal;탄수화물|1|g|0;단백질|0|g|0;지방|0|g|0;나트륨|0|mg|0;비타민B1|2.4|mg|200;비타민B2|2.8|mg|200;비타민B6|3|mg|200;비타민B12|4.8|μg|200;판토텐산|5|mg|100;비오틴|60|μg|200;엽산|800|μg DFE|200;비타민C|100|mg|100;셀렌|55|μg|100;칼슘|210|mg|30;비타민A|700|μg RAE|100;비타민D|10|μg|100;비타민E|11|mg α-TE|100;비타민K|70|μg|100;철|6|mg|50;망간|3|mg|100;아연|8.5|mg|100;몰리브덴|12.5|μg|50;크롬|15|μg|50;마그네슘|94.5|mg|30;구리|0.4|mg|50;요오드|150|μg|100;베타카로틴|1.26|mg",
+      "reviewed_at": "2026-10-20T00:04:24.982888+09:00",
+      "visual_inspection": true,
+      "source_match": "name_variant_package_matched",
+      "remaining_reasons": [
+        "전체 원재료·기능성·섭취/주의 문구의 완전한 교정 전사 및 정규화 미완료"
+      ]
+    },
+    {
+      "product_number": "600000270",
+      "catalog_index": 33,
+      "review_status": "partial",
+      "evidence": [
+        {
+          "source_id": "label-0052",
+          "source_sha256": "967182efd41215cb5395f9b39c652614c2c4ee4acc4786660602165b6283c9f6",
+          "source_url": "https://cdn.daisomall.co.kr/file/resize/PD/20260504/description/850/vA5f7ccX5V9RSqjQilxo600000270_01_02vA5f7ccX5V9RSqjQilxo.png",
+          "original_path": "data/products/labels/600000270/967182efd41215cb.png",
+          "crops": [
+            {
+              "path": "data/products/review-evidence/33-600000270-967182ef-0.png",
+              "x": 0,
+              "y": 57,
+              "width": 850,
+              "height": 2000
+            },
+            {
+              "path": "data/products/review-evidence/33-600000270-967182ef-1.png",
+              "x": 0,
+              "y": 1857,
+              "width": 850,
+              "height": 522
+            }
+          ]
+        }
+      ],
+      "observations": [
+        "10정전용 표시표 확인. 30정제품과SKU/규격구분. 1정1000mg당Mg315mg100%, D10μg100%. 우유함유, 고칼슘혈증 경고."
+      ],
+      "field_values": {
+        "product_name": "마그네슘 10일분",
+        "food_type": "건강기능식품",
+        "manufacturer": "코스맥스엔비티(주)",
+        "distributor": "(주)대웅제약",
+        "package": "10 g (1,000 mg × 10정)",
+        "dosage_form": "정제",
+        "intake": "1일 1회, 1회 1정을 충분한 물과 함께 섭취하십시오.",
+        "allergen": "우유 함유"
+      },
+      "reviewed_nutrients": [],
+      "field_dispositions": {},
+      "evidence_source_sha_prefix": "967182ef",
+      "nutrient_basis": "1일 섭취량: 1정(1,000 mg)",
+      "nutrient_spec": "열량|0|kcal;탄수화물|0|g|0;단백질|0|g|0;지방|0|g|0;나트륨|0|mg|0;마그네슘|315|mg|100;비타민D|10|μg|100",
+      "reviewed_at": "2026-10-20T00:04:24.982888+09:00",
+      "visual_inspection": true,
+      "source_match": "name_variant_package_matched",
+      "remaining_reasons": [
+        "전체 원재료·기능성·섭취/주의 문구의 완전한 교정 전사 및 정규화 미완료"
+      ]
+    },
+    {
+      "product_number": "600000204",
+      "catalog_index": 34,
+      "review_status": "partial",
+      "evidence": [
+        {
+          "source_id": "label-0054",
+          "source_sha256": "57fb1c92f48a6fdcd4b5ff7b2652e570caa1cf916e159d24a44555a9a22faab7",
+          "source_url": "https://cdn.daisomall.co.kr/file/resize/PD/20251121/description/850/mZPIGqNWUQ7iBu7oCOKE600000204_01_01mZPIGqNWUQ7iBu7oCOKE.png",
+          "original_path": "data/products/labels/600000204/57fb1c92f48a6fdc.png",
+          "crops": [
+            {
+              "path": "data/products/review-evidence/34-600000204-57fb1c92-0.png",
+              "x": 0,
+              "y": 13093,
+              "width": 850,
+              "height": 2000
+            },
+            {
+              "path": "data/products/review-evidence/34-600000204-57fb1c92-1.png",
+              "x": 0,
+              "y": 14893,
+              "width": 850,
+              "height": 1252
+            }
+          ]
+        }
+      ],
+      "observations": [
+        "마그네슘샷 실제 본문 표 확인. 공지이미지 아닌125mL25mL×5병 표시. 1병25mL당Mg160mg51%, 아연8.5mg100%, B1 1.2mg100%, B2 1.4mg100%, B6 1.5mg100%. 캡슐Mg315mg와다름.",
+        "전체주의하단은임신수유부/약물상담, 개봉공기방치/다른용기보관금지까지 존재."
+      ],
+      "field_values": {
+        "product_name": "마그네슘샷",
+        "food_type": "건강기능식품",
+        "manufacturer": "(주)네추럴웨이 포천 제2공장",
+        "distributor": "(주)대웅제약",
+        "package": "25 mL × 5병 (125 mL)",
+        "dosage_form": "액상 병",
+        "intake": "1일 1회, 1회 1병을 섭취하십시오."
+      },
+      "reviewed_nutrients": [],
+      "field_dispositions": {},
+      "nutrient_basis": "1일 섭취량: 1병(25 mL)",
+      "nutrient_spec": "열량|30|kcal;탄수화물|7|g|2;당류|2|g;단백질|0|g|0;지방|0|g|0;나트륨|0|mg|0;마그네슘|160|mg|51;아연|8.5|mg|100;비타민B1|1.2|mg|100;비타민B2|1.4|mg|100;비타민B6|1.5|mg|100",
+      "reviewed_at": "2026-10-20T00:04:24.982888+09:00",
+      "visual_inspection": true,
+      "source_match": "name_variant_package_matched",
+      "remaining_reasons": [
+        "전체 원재료·기능성·섭취/주의 문구의 완전한 교정 전사 및 정규화 미완료"
+      ]
+    },
+    {
+      "product_number": "600000281",
+      "catalog_index": 35,
+      "review_status": "partial",
+      "evidence": [
+        {
+          "source_id": "label-0056",
+          "source_sha256": "59b054bea803c6f24cddfa0e225bcedda1002351975c29527c40832b00d97d9f",
+          "source_url": "https://cdn.daisomall.co.kr/file/resize/PD/20260504/description/850/g2KsQLUwo0YY5nbyKgyl600000281_01_02g2KsQLUwo0YY5nbyKgyl.png",
+          "original_path": "data/products/labels/600000281/59b054bea803c6f2.png",
+          "crops": [
+            {
+              "path": "data/products/review-evidence/35-600000281-59b054be-0.png",
+              "x": 0,
+              "y": 57,
+              "width": 850,
+              "height": 2000
+            },
+            {
+              "path": "data/products/review-evidence/35-600000281-59b054be-1.png",
+              "x": 0,
+              "y": 1857,
+              "width": 850,
+              "height": 464
+            }
+          ]
+        }
+      ],
+      "observations": [
+        "10정5g 비타민D4000IU 라벨 확인. 1정500mg당D100μg1000%. 30정 SKU와 패키지분리."
+      ],
+      "field_values": {
+        "product_name": "비타민D 4000IU 10일분",
+        "food_type": "건강기능식품",
+        "manufacturer": "코스맥스엔비티(주)",
+        "distributor": "(주)대웅제약",
+        "package": "5 g (500 mg × 10정)",
+        "dosage_form": "정제",
+        "intake": "1일 1회, 1회 1정을 물과 함께 섭취하십시오."
+      },
+      "reviewed_nutrients": [],
+      "field_dispositions": {},
+      "evidence_source_sha_prefix": "59b054be",
+      "nutrient_basis": "1일 섭취량: 1정(500 mg)",
+      "nutrient_spec": "열량|0|kcal;탄수화물|0|g|0;단백질|0|g|0;지방|0|g|0;나트륨|0|mg|0;비타민D|100|μg|1000",
+      "reviewed_at": "2026-10-20T00:04:24.982888+09:00",
+      "visual_inspection": true,
+      "source_match": "name_variant_package_matched",
+      "remaining_reasons": [
+        "전체 원재료·기능성·섭취/주의 문구의 완전한 교정 전사 및 정규화 미완료"
+      ]
+    },
+    {
+      "product_number": "600000202",
+      "catalog_index": 36,
+      "review_status": "partial",
+      "evidence": [
+        {
+          "source_id": "label-0057",
+          "source_sha256": "8598e6932a113e3b4615a50e9bce7fa55167c99f72246572f94dc348599e5d9f",
+          "source_url": "https://cdn.daisomall.co.kr/file/resize/PD/20260508/description/850/dIWrXGziHOG6lsdTkyDl600000202_01_01dIWrXGziHOG6lsdTkyDl.png",
+          "original_path": "data/products/labels/600000202/8598e6932a113e3b.png",
+          "crops": [
+            {
+              "path": "data/products/review-evidence/36-600000202-8598e693-0.png",
+              "x": 0,
+              "y": 13239,
+              "width": 850,
+              "height": 2000
+            },
+            {
+              "path": "data/products/review-evidence/36-600000202-8598e693-1.png",
+              "x": 0,
+              "y": 15039,
+              "width": 850,
+              "height": 1132
+            }
+          ]
+        }
+      ],
+      "observations": [
+        "활성엽산400 라벨 전체 확인. 1정500mg 엽산400ugDFE100%, D10ug100%, B12 3.3ug138%, B6 0.45mg30%. 원문 ug를 μg로교체하지않음. 제조원이이앤에스로다른대웅제품과다름."
+      ],
+      "field_values": {
+        "product_name": "활성엽산 400",
+        "food_type": "건강기능식품",
+        "manufacturer": "(주)이앤에스",
+        "distributor": "(주)대웅제약",
+        "package": "500 mg × 30정 (15 g)",
+        "dosage_form": "정제",
+        "intake": "1일 1회, 1회 1정을 물과 함께 섭취하십시오.",
+        "allergen": "우유 함유"
+      },
+      "reviewed_nutrients": [],
+      "field_dispositions": {},
+      "nutrient_basis": "1일 섭취량: 1정(500 mg)",
+      "nutrient_spec": "열량|0|kcal;탄수화물|0|g|0;당류|0|g|0;단백질|0|g|0;지방|0|g|0;나트륨|0|mg|0;엽산|400|ug DFE|100;비타민D|10|ug|100;비타민B12|3.3|ug|138;비타민B6|0.45|mg|30",
+      "reviewed_at": "2026-10-20T00:04:24.982888+09:00",
+      "visual_inspection": true,
+      "source_match": "name_variant_package_matched",
+      "remaining_reasons": [
+        "전체 원재료·기능성·섭취/주의 문구의 완전한 교정 전사 및 정규화 미완료"
+      ]
+    }
+  ]
+}

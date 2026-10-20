@@ -1,0 +1,436 @@
+[
+  {
+    "product_number": "613602130",
+    "detail_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=613602130",
+    "expected_name": "오브맘 비타민D＆아연 하루구미 30일분",
+    "status": "label_assets_saved_pending_transcription",
+    "attempts": [
+      {
+        "date": "2026-10-19",
+        "method": "browser_detail_and_page_assets",
+        "source_url": "https://cdn.daisomall.co.kr/file/resize/PD/20260109/description/850/PmUmDMA3N0sEnot6rV4u613602130_01_01PmUmDMA3N0sEnot6rV4u.jpg",
+        "result": "label_asset_saved",
+        "detail_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=613602130"
+      },
+      {
+        "date": "2026-10-19",
+        "method": "browser_detail_and_page_assets",
+        "source_url": "https://cdn.daisomall.co.kr/file/resize/PD/20260109/description/850/vKTjL8WNjvq2lsHOLW7F613602130_01_99vKTjL8WNjvq2lsHOLW7F.jpg",
+        "result": "label_asset_saved",
+        "detail_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=613602130"
+      },
+      {
+        "date": "2026-10-19",
+        "method": "browser_detail_and_page_assets",
+        "source_url": "https://cdn.daisomall.co.kr/file/resize/PD/20260109/description/850/CQANQIt1ttwyyoVpAvDl613602130_01_02CQANQIt1ttwyyoVpAvDl.jpg",
+        "result": "label_asset_saved",
+        "detail_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=613602130"
+      },
+      {
+        "date": "2026-10-19",
+        "method": "browser_detail_attempt",
+        "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=613602130",
+        "result": "label_assets_saved",
+        "reason": null
+      }
+    ],
+    "recommendation_eligible": false,
+    "label_assets": [
+      {
+        "source_url": "https://cdn.daisomall.co.kr/file/resize/PD/20260109/description/850/PmUmDMA3N0sEnot6rV4u613602130_01_01PmUmDMA3N0sEnot6rV4u.jpg",
+        "local_path": "data/products/labels/613602130/0a1a40a099785d32.jpg",
+        "sha256": "0a1a40a099785d3217dd1f747ceb0b4143f5cfc41253d6ed6e937ed61cb108a0",
+        "method": "official_label_image_saved_pending_visual",
+        "observed_on": "2026-10-19",
+        "published_on": null,
+        "browser_manifest": "/var/folders/yz/kzzkpplj73qbzchy819k7v0m0000gn/T/browser-use/assets/94683cd5-5cc9-4a11-858c-326a6343b3d0/manifest.json"
+      },
+      {
+        "source_url": "https://cdn.daisomall.co.kr/file/resize/PD/20260109/description/850/vKTjL8WNjvq2lsHOLW7F613602130_01_99vKTjL8WNjvq2lsHOLW7F.jpg",
+        "local_path": "data/products/labels/613602130/83b123f0ef1a61fb.jpg",
+        "sha256": "83b123f0ef1a61fb3a1c4ad0576820465ad4b7d1a7d32e7b570beaecec2ba173",
+        "method": "official_label_image_saved_pending_visual",
+        "observed_on": "2026-10-19",
+        "published_on": null,
+        "browser_manifest": "/var/folders/yz/kzzkpplj73qbzchy819k7v0m0000gn/T/browser-use/assets/94683cd5-5cc9-4a11-858c-326a6343b3d0/manifest.json"
+      },
+      {
+        "source_url": "https://cdn.daisomall.co.kr/file/resize/PD/20260109/description/850/CQANQIt1ttwyyoVpAvDl613602130_01_02CQANQIt1ttwyyoVpAvDl.jpg",
+        "local_path": "data/products/labels/613602130/a8d3012376d8120b.jpg",
+        "sha256": "a8d3012376d8120b0d74b68b3a299ed8b7f52c92ad63b0a223566040dc68aa8f",
+        "method": "official_label_image_saved_pending_visual",
+        "observed_on": "2026-10-19",
+        "published_on": null,
+        "browser_manifest": "/var/folders/yz/kzzkpplj73qbzchy819k7v0m0000gn/T/browser-use/assets/94683cd5-5cc9-4a11-858c-326a6343b3d0/manifest.json"
+      }
+    ]
+  },
+  {
+    "product_number": "613602132",
+    "detail_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=613602132",
+    "expected_name": "오브맘 활력에너지B 하루구미 30일분",
+    "status": "label_assets_saved_pending_transcription",
+    "attempts": [
+      {
+        "date": "2026-10-19",
+        "method": "browser_detail_and_page_assets",
+        "source_url": "https://cdn.daisomall.co.kr/file/resize/PD/20260109/description/850/miFaLIZvjsTv7BTgvZDT613602132_01_01miFaLIZvjsTv7BTgvZDT.jpg",
+        "result": "label_asset_saved",
+        "detail_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=613602132"
+      },
+      {
+        "date": "2026-10-19",
+        "method": "browser_detail_and_page_assets",
+        "source_url": "https://cdn.daisomall.co.kr/file/resize/PD/20260109/description/850/85dtsSuaeGbFPL83l7eF613602132_01_9985dtsSuaeGbFPL83l7eF.jpg",
+        "result": "label_asset_saved",
+        "detail_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=613602132"
+      },
+      {
+        "date": "2026-10-19",
+        "method": "browser_detail_and_page_assets",
+        "source_url": "https://cdn.daisomall.co.kr/file/resize/PD/20260109/description/850/vyoOfkdGWdIa7qlU64wQ613602132_01_02vyoOfkdGWdIa7qlU64wQ.jpg",
+        "result": "label_asset_saved",
+        "detail_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=613602132"
+      },
+      {
+        "date": "2026-10-19",
+        "method": "browser_detail_attempt",
+        "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=613602132",
+        "result": "label_assets_saved",
+        "reason": null
+      }
+    ],
+    "recommendation_eligible": false,
+    "label_assets": [
+      {
+        "source_url": "https://cdn.daisomall.co.kr/file/resize/PD/20260109/description/850/miFaLIZvjsTv7BTgvZDT613602132_01_01miFaLIZvjsTv7BTgvZDT.jpg",
+        "local_path": "data/products/labels/613602132/b9504f9e4711622d.jpg",
+        "sha256": "b9504f9e4711622d7f9ee73189806d577851b7c42c0959c5b8387d55f6997da9",
+        "method": "official_label_image_saved_pending_visual",
+        "observed_on": "2026-10-19",
+        "published_on": null,
+        "browser_manifest": "/var/folders/yz/kzzkpplj73qbzchy819k7v0m0000gn/T/browser-use/assets/45ae9d9d-9e22-4ef2-9d9a-413eb5a51be2/manifest.json"
+      },
+      {
+        "source_url": "https://cdn.daisomall.co.kr/file/resize/PD/20260109/description/850/85dtsSuaeGbFPL83l7eF613602132_01_9985dtsSuaeGbFPL83l7eF.jpg",
+        "local_path": "data/products/labels/613602132/83b123f0ef1a61fb.jpg",
+        "sha256": "83b123f0ef1a61fb3a1c4ad0576820465ad4b7d1a7d32e7b570beaecec2ba173",
+        "method": "official_label_image_saved_pending_visual",
+        "observed_on": "2026-10-19",
+        "published_on": null,
+        "browser_manifest": "/var/folders/yz/kzzkpplj73qbzchy819k7v0m0000gn/T/browser-use/assets/45ae9d9d-9e22-4ef2-9d9a-413eb5a51be2/manifest.json"
+      },
+      {
+        "source_url": "https://cdn.daisomall.co.kr/file/resize/PD/20260109/description/850/vyoOfkdGWdIa7qlU64wQ613602132_01_02vyoOfkdGWdIa7qlU64wQ.jpg",
+        "local_path": "data/products/labels/613602132/93b8606c1edfb6da.jpg",
+        "sha256": "93b8606c1edfb6da13b6fe44ed9a1488c07cd96ae7ff697da9d9a5d928321943",
+        "method": "official_label_image_saved_pending_visual",
+        "observed_on": "2026-10-19",
+        "published_on": null,
+        "browser_manifest": "/var/folders/yz/kzzkpplj73qbzchy819k7v0m0000gn/T/browser-use/assets/45ae9d9d-9e22-4ef2-9d9a-413eb5a51be2/manifest.json"
+      }
+    ]
+  },
+  {
+    "product_number": "032627142",
+    "detail_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=032627142",
+    "expected_name": "자연관 리프레쉬 마그네슘＆L-테아닌 4병 4일분",
+    "status": "label_assets_saved_pending_transcription",
+    "attempts": [
+      {
+        "date": "2026-10-19",
+        "method": "browser_detail_and_page_assets",
+        "source_url": "https://cdn.daisomall.co.kr/file/resize/PD/20260612/description/850/jbKxCeEGSODTE14o92Aq032627142_01_00jbKxCeEGSODTE14o92Aq.jpg",
+        "result": "label_asset_saved",
+        "detail_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=032627142"
+      },
+      {
+        "date": "2026-10-19",
+        "method": "browser_detail_attempt",
+        "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=032627142",
+        "result": "label_assets_saved",
+        "reason": null
+      }
+    ],
+    "recommendation_eligible": false,
+    "label_assets": [
+      {
+        "source_url": "https://cdn.daisomall.co.kr/file/resize/PD/20260612/description/850/jbKxCeEGSODTE14o92Aq032627142_01_00jbKxCeEGSODTE14o92Aq.jpg",
+        "local_path": "data/products/labels/032627142/cb5e4db0864e52c8.jpg",
+        "sha256": "cb5e4db0864e52c89939738c7c4f55e3e09cf6cfad6b6508a82ff3610e4b1231",
+        "method": "official_label_image_saved_pending_visual",
+        "observed_on": "2026-10-19",
+        "published_on": null,
+        "browser_manifest": "/var/folders/yz/kzzkpplj73qbzchy819k7v0m0000gn/T/browser-use/assets/c55fe2c7-30da-4a48-883f-3101b4840aee/manifest.json"
+      }
+    ]
+  },
+  {
+    "product_number": "968235547",
+    "detail_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=968235547",
+    "expected_name": "안국약품 브이팩 남성용 올인원 멀티 비타민 7포",
+    "status": "label_assets_saved_pending_transcription",
+    "attempts": [
+      {
+        "date": "2026-10-19",
+        "method": "browser_detail_and_page_assets",
+        "source_url": "https://cdn.daisomall.co.kr/file/resize/PD/20260417/description/850/L5FtglN11nUDVHufuuXl968235547_01_01L5FtglN11nUDVHufuuXl.jpg",
+        "result": "label_asset_saved",
+        "detail_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=968235547"
+      },
+      {
+        "date": "2026-10-19",
+        "method": "browser_detail_and_page_assets",
+        "source_url": "https://cdn.daisomall.co.kr/file/resize/PD/20260417/description/850/R9U591JBKYP3SKQ2MWVG968235547_01_02R9U591JBKYP3SKQ2MWVG.jpg",
+        "result": "label_asset_saved",
+        "detail_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=968235547"
+      },
+      {
+        "date": "2026-10-19",
+        "method": "browser_detail_attempt",
+        "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=968235547",
+        "result": "label_assets_saved",
+        "reason": null
+      }
+    ],
+    "recommendation_eligible": false,
+    "label_assets": [
+      {
+        "source_url": "https://cdn.daisomall.co.kr/file/resize/PD/20260417/description/850/L5FtglN11nUDVHufuuXl968235547_01_01L5FtglN11nUDVHufuuXl.jpg",
+        "local_path": "data/products/labels/968235547/82a722e9a9c62a4d.jpg",
+        "sha256": "82a722e9a9c62a4d640a3a166e32398bd8dc5ff1391d4ac497742b3a566f0457",
+        "method": "official_label_image_saved_pending_visual",
+        "observed_on": "2026-10-19",
+        "published_on": null,
+        "browser_manifest": "/var/folders/yz/kzzkpplj73qbzchy819k7v0m0000gn/T/browser-use/assets/db8f4aee-bdfe-4e20-ae7b-8fb101ca570a/manifest.json"
+      },
+      {
+        "source_url": "https://cdn.daisomall.co.kr/file/resize/PD/20260417/description/850/R9U591JBKYP3SKQ2MWVG968235547_01_02R9U591JBKYP3SKQ2MWVG.jpg",
+        "local_path": "data/products/labels/968235547/f3bf4d042d3fd65c.jpg",
+        "sha256": "f3bf4d042d3fd65c1459f1a5781b003cefdfd04663a7eb1d985e240551b386ef",
+        "method": "official_label_image_saved_pending_visual",
+        "observed_on": "2026-10-19",
+        "published_on": null,
+        "browser_manifest": "/var/folders/yz/kzzkpplj73qbzchy819k7v0m0000gn/T/browser-use/assets/db8f4aee-bdfe-4e20-ae7b-8fb101ca570a/manifest.json"
+      }
+    ]
+  },
+  {
+    "product_number": "968235548",
+    "detail_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=968235548",
+    "expected_name": "안국약품 브이팩 여성용 올인원 멀티 비타민 7포",
+    "status": "label_assets_saved_pending_transcription",
+    "attempts": [
+      {
+        "date": "2026-10-19",
+        "method": "browser_detail_and_page_assets",
+        "source_url": "https://cdn.daisomall.co.kr/file/resize/PD/20260417/description/850/7Ji1Qcn3bo6KuqjXxIPk968235548_01_017Ji1Qcn3bo6KuqjXxIPk.jpg",
+        "result": "label_asset_saved",
+        "detail_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=968235548"
+      },
+      {
+        "date": "2026-10-19",
+        "method": "browser_detail_and_page_assets",
+        "source_url": "https://cdn.daisomall.co.kr/file/resize/PD/20260417/description/850/z6MHBvZhcaY2dYn3IgZr968235548_01_02z6MHBvZhcaY2dYn3IgZr.jpg",
+        "result": "label_asset_saved",
+        "detail_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=968235548"
+      },
+      {
+        "date": "2026-10-19",
+        "method": "browser_detail_attempt",
+        "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=968235548",
+        "result": "label_assets_saved",
+        "reason": null
+      }
+    ],
+    "recommendation_eligible": false,
+    "label_assets": [
+      {
+        "source_url": "https://cdn.daisomall.co.kr/file/resize/PD/20260417/description/850/7Ji1Qcn3bo6KuqjXxIPk968235548_01_017Ji1Qcn3bo6KuqjXxIPk.jpg",
+        "local_path": "data/products/labels/968235548/7370d430f36e76c0.jpg",
+        "sha256": "7370d430f36e76c03192b9724d0e2d1c0b9d87e20f5c73178a99b4021535222e",
+        "method": "official_label_image_saved_pending_visual",
+        "observed_on": "2026-10-19",
+        "published_on": null,
+        "browser_manifest": "/var/folders/yz/kzzkpplj73qbzchy819k7v0m0000gn/T/browser-use/assets/ffccee06-1599-454b-9105-6964959f4ad1/manifest.json"
+      },
+      {
+        "source_url": "https://cdn.daisomall.co.kr/file/resize/PD/20260417/description/850/z6MHBvZhcaY2dYn3IgZr968235548_01_02z6MHBvZhcaY2dYn3IgZr.jpg",
+        "local_path": "data/products/labels/968235548/83e7d037cb6be75d.jpg",
+        "sha256": "83e7d037cb6be75daf5b0eadaaeaf974771070eb824552c0f0418f843b293704",
+        "method": "official_label_image_saved_pending_visual",
+        "observed_on": "2026-10-19",
+        "published_on": null,
+        "browser_manifest": "/var/folders/yz/kzzkpplj73qbzchy819k7v0m0000gn/T/browser-use/assets/ffccee06-1599-454b-9105-6964959f4ad1/manifest.json"
+      }
+    ]
+  },
+  {
+    "product_number": "994953532",
+    "detail_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=994953532",
+    "expected_name": "LG생활건강 이너뷰 비눌린 워터믹스 10포",
+    "status": "retry_needed",
+    "attempts": [
+      {
+        "date": "2026-10-19",
+        "method": "browser_detail_attempt",
+        "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=994953532",
+        "result": "retry_needed",
+        "reason": "Page.createIsolatedWorld timeout"
+      }
+    ],
+    "recommendation_eligible": false,
+    "failure_reason": "Page.createIsolatedWorld timeout"
+  },
+  {
+    "product_number": "994953534",
+    "detail_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=994953534",
+    "expected_name": "LG생활건강 이너뷰 칼륨밸런스 전해질워터 10포",
+    "status": "label_assets_saved_pending_transcription",
+    "attempts": [
+      {
+        "date": "2026-10-19",
+        "method": "browser_detail_and_page_assets",
+        "source_url": "https://cdn.daisomall.co.kr/file/resize/PD/20260619/description/850/j0BPZGYyAqgEcljVqg4k994953534_01_01j0BPZGYyAqgEcljVqg4k.jpg",
+        "result": "label_asset_saved",
+        "detail_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=994953534"
+      },
+      {
+        "date": "2026-10-19",
+        "method": "browser_detail_attempt",
+        "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=994953534",
+        "result": "label_assets_saved",
+        "reason": null
+      }
+    ],
+    "recommendation_eligible": false,
+    "label_assets": [
+      {
+        "source_url": "https://cdn.daisomall.co.kr/file/resize/PD/20260619/description/850/j0BPZGYyAqgEcljVqg4k994953534_01_01j0BPZGYyAqgEcljVqg4k.jpg",
+        "local_path": "data/products/labels/994953534/819e0b209f185d79.jpg",
+        "sha256": "819e0b209f185d798131854cdad8f5220748f08f3543dc9d69a4851fa702cd3f",
+        "method": "official_label_image_saved_pending_visual",
+        "observed_on": "2026-10-19",
+        "published_on": null,
+        "browser_manifest": "/var/folders/yz/kzzkpplj73qbzchy819k7v0m0000gn/T/browser-use/assets/3b3405f6-0c80-4f4d-b219-63dc69cc117b/manifest.json"
+      }
+    ]
+  },
+  {
+    "product_number": "994953530",
+    "detail_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=994953530",
+    "expected_name": "LG생활건강 이너뷰 레티놀 리포좀C 12포",
+    "status": "label_assets_saved_pending_transcription",
+    "attempts": [
+      {
+        "date": "2026-10-19",
+        "method": "browser_detail_and_page_assets",
+        "source_url": "https://cdn.daisomall.co.kr/file/resize/PD/20250627/description/850/BuNQe86KVi2HlnfoGuVI994953530_01_00BuNQe86KVi2HlnfoGuVI.jpg",
+        "result": "label_asset_saved",
+        "detail_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=994953530"
+      },
+      {
+        "date": "2026-10-19",
+        "method": "browser_detail_and_page_assets",
+        "source_url": "https://cdn.daisomall.co.kr/file/resize/PD/20250627/description/850/TKRedYaRfQebKjZnAEmo994953530_01_99TKRedYaRfQebKjZnAEmo.jpg",
+        "result": "label_asset_saved",
+        "detail_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=994953530"
+      },
+      {
+        "date": "2026-10-19",
+        "method": "browser_detail_attempt",
+        "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=994953530",
+        "result": "label_assets_saved",
+        "reason": null
+      }
+    ],
+    "recommendation_eligible": false,
+    "label_assets": [
+      {
+        "source_url": "https://cdn.daisomall.co.kr/file/resize/PD/20250627/description/850/BuNQe86KVi2HlnfoGuVI994953530_01_00BuNQe86KVi2HlnfoGuVI.jpg",
+        "local_path": "data/products/labels/994953530/d129b47baa45a6f1.jpg",
+        "sha256": "d129b47baa45a6f16da5ee3320c79941a8e25e83ee963b7bcf2dec6eb73b4ef0",
+        "method": "official_label_image_saved_pending_visual",
+        "observed_on": "2026-10-19",
+        "published_on": null,
+        "browser_manifest": "/var/folders/yz/kzzkpplj73qbzchy819k7v0m0000gn/T/browser-use/assets/a35a861f-20f4-4a31-886b-0d9ee3f0bb2f/manifest.json"
+      },
+      {
+        "source_url": "https://cdn.daisomall.co.kr/file/resize/PD/20250627/description/850/TKRedYaRfQebKjZnAEmo994953530_01_99TKRedYaRfQebKjZnAEmo.jpg",
+        "local_path": "data/products/labels/994953530/83b123f0ef1a61fb.jpg",
+        "sha256": "83b123f0ef1a61fb3a1c4ad0576820465ad4b7d1a7d32e7b570beaecec2ba173",
+        "method": "official_label_image_saved_pending_visual",
+        "observed_on": "2026-10-19",
+        "published_on": null,
+        "browser_manifest": "/var/folders/yz/kzzkpplj73qbzchy819k7v0m0000gn/T/browser-use/assets/a35a861f-20f4-4a31-886b-0d9ee3f0bb2f/manifest.json"
+      }
+    ]
+  },
+  {
+    "product_number": "994953529",
+    "detail_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=994953529",
+    "expected_name": "LG생활건강 이너뷰 진한 레드 석류 콜라겐 7포",
+    "status": "label_assets_saved_pending_transcription",
+    "attempts": [
+      {
+        "date": "2026-10-19",
+        "method": "browser_detail_and_page_assets",
+        "source_url": "https://cdn.daisomall.co.kr/file/resize/PD/20250627/description/850/lHFlJz79K6ImVPzfPtkT994953529_01_00lHFlJz79K6ImVPzfPtkT.jpg",
+        "result": "label_asset_saved",
+        "detail_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=994953529"
+      },
+      {
+        "date": "2026-10-19",
+        "method": "browser_detail_and_page_assets",
+        "source_url": "https://cdn.daisomall.co.kr/file/resize/PD/20250627/description/850/WlYOwq1kKUzMHUwFzABq994953529_01_99WlYOwq1kKUzMHUwFzABq.jpg",
+        "result": "label_asset_saved",
+        "detail_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=994953529"
+      },
+      {
+        "date": "2026-10-19",
+        "method": "browser_detail_attempt",
+        "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=994953529",
+        "result": "label_assets_saved",
+        "reason": null
+      }
+    ],
+    "recommendation_eligible": false,
+    "label_assets": [
+      {
+        "source_url": "https://cdn.daisomall.co.kr/file/resize/PD/20250627/description/850/lHFlJz79K6ImVPzfPtkT994953529_01_00lHFlJz79K6ImVPzfPtkT.jpg",
+        "local_path": "data/products/labels/994953529/6622c3f9f80b0196.jpg",
+        "sha256": "6622c3f9f80b01960383d36fd0bacf56a6a1331b15b197dd72bd25c82b272d93",
+        "method": "official_label_image_saved_pending_visual",
+        "observed_on": "2026-10-19",
+        "published_on": null,
+        "browser_manifest": "/var/folders/yz/kzzkpplj73qbzchy819k7v0m0000gn/T/browser-use/assets/6bdba5f2-7a3f-4225-a3f4-27919a7aa916/manifest.json"
+      },
+      {
+        "source_url": "https://cdn.daisomall.co.kr/file/resize/PD/20250627/description/850/WlYOwq1kKUzMHUwFzABq994953529_01_99WlYOwq1kKUzMHUwFzABq.jpg",
+        "local_path": "data/products/labels/994953529/83b123f0ef1a61fb.jpg",
+        "sha256": "83b123f0ef1a61fb3a1c4ad0576820465ad4b7d1a7d32e7b570beaecec2ba173",
+        "method": "official_label_image_saved_pending_visual",
+        "observed_on": "2026-10-19",
+        "published_on": null,
+        "browser_manifest": "/var/folders/yz/kzzkpplj73qbzchy819k7v0m0000gn/T/browser-use/assets/6bdba5f2-7a3f-4225-a3f4-27919a7aa916/manifest.json"
+      }
+    ]
+  },
+  {
+    "product_number": "032306212",
+    "detail_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=032306212",
+    "expected_name": "[여성건강] 종근당 데일리와이즈 리스펙타 유산균 6포 6일분",
+    "status": "retry_needed",
+    "attempts": [
+      {
+        "date": "2026-10-19",
+        "method": "browser_detail_attempt",
+        "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=032306212",
+        "result": "retry_needed",
+        "reason": "Page.createIsolatedWorld timeout"
+      }
+    ],
+    "recommendation_eligible": false,
+    "failure_reason": "Page.createIsolatedWorld timeout"
+  }
+]

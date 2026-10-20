@@ -1,0 +1,534 @@
+{
+  "reviewed_at": "2026-10-20T00:11:01.167271+09:00",
+  "products": [
+    {
+      "product_number": "591580521",
+      "catalog_index": 78,
+      "review_status": "partial",
+      "evidence": [
+        {
+          "source_id": "label-0125",
+          "source_sha256": "ebe25fad80cdc0dc9e95deb95f53456c60736aeb280ec886f0fc96517d26b16c",
+          "source_url": "https://cdn.daisomall.co.kr/file/resize/PD/20260518/description/850/WeaWwhaYiojuGIcg7WjC591580521_01_00WeaWwhaYiojuGIcg7WjC.jpg",
+          "original_path": "data/products/labels/591580521/ebe25fad80cdc0dc.jpg",
+          "crops": [
+            {
+              "path": "data/products/review-evidence/78-591580521-ebe25fad-0.png",
+              "x": 0,
+              "y": 25050,
+              "width": 850,
+              "height": 2000
+            },
+            {
+              "path": "data/products/review-evidence/78-591580521-ebe25fad-1.png",
+              "x": 0,
+              "y": 26850,
+              "width": 850,
+              "height": 2000
+            },
+            {
+              "path": "data/products/review-evidence/78-591580521-ebe25fad-2.png",
+              "x": 0,
+              "y": 28650,
+              "width": 850,
+              "height": 2000
+            },
+            {
+              "path": "data/products/review-evidence/78-591580521-ebe25fad-3.png",
+              "x": 0,
+              "y": 30450,
+              "width": 850,
+              "height": 2000
+            },
+            {
+              "path": "data/products/review-evidence/78-591580521-ebe25fad-4.png",
+              "x": 0,
+              "y": 32250,
+              "width": 850,
+              "height": 543
+            }
+          ]
+        }
+      ],
+      "observations": [
+        "해당SKU제품정보·영양·주의·보관·교차시설표를실제확인. 40억CFU이며타용량락토핏값으로대체안함."
+      ],
+      "field_values": {
+        "product_name": "락토핏 골드",
+        "food_type": "건강기능식품",
+        "manufacturer": "(주)아람(위탁제조); 종근당건강(주)(위탁의뢰)",
+        "distributor": "종근당건강(주); 관찰표 위탁의뢰로 표기",
+        "package": "총 34 g (2 g × 17포)",
+        "dosage_form": "분말 포",
+        "intake": "1일 1회, 1회 1포를 식전·식후 어느때나 물 없이 섭취하십시오.",
+        "allergen": "우유, 대두 함유"
+      },
+      "reviewed_nutrients": [],
+      "field_dispositions": {},
+      "nutrient_basis": "1일 섭취량: 1포(2 g)",
+      "nutrient_spec": "열량|10|kcal;탄수화물|2|g|1;단백질|0|g|0;지방|0|g|0;나트륨|0|mg|0;프로바이오틱스 수|4000000000|CFU;아연|2.55|mg|30",
+      "reviewed_at": "2026-10-20T00:11:01.167271+09:00",
+      "visual_inspection": true,
+      "source_match": "name_variant_package_matched",
+      "remaining_reasons": [
+        "전체 원재료·기능성·섭취/주의 문구의 완전한 교정 전사 및 정규화 미완료"
+      ]
+    },
+    {
+      "product_number": "591580891",
+      "catalog_index": 79,
+      "review_status": "partial",
+      "evidence": [
+        {
+          "source_id": "label-0126",
+          "source_sha256": "6f2d3e72b944827b37060766e84ca18ed22c2fdd2a74b989ca1f49515f8443c0",
+          "source_url": "https://cdn.daisomall.co.kr/file/resize/PD/20251015/description/850/sb3rmdJyQeHohiJMe7IS591580891_01_00sb3rmdJyQeHohiJMe7IS.jpg",
+          "original_path": "data/products/labels/591580891/6f2d3e72b944827b.jpg",
+          "crops": [
+            {
+              "path": "data/products/review-evidence/79-591580891-6f2d3e72-0.png",
+              "x": 0,
+              "y": 21627,
+              "width": 850,
+              "height": 2000
+            },
+            {
+              "path": "data/products/review-evidence/79-591580891-6f2d3e72-1.png",
+              "x": 0,
+              "y": 23427,
+              "width": 850,
+              "height": 2000
+            },
+            {
+              "path": "data/products/review-evidence/79-591580891-6f2d3e72-2.png",
+              "x": 0,
+              "y": 25227,
+              "width": 850,
+              "height": 2000
+            },
+            {
+              "path": "data/products/review-evidence/79-591580891-6f2d3e72-3.png",
+              "x": 0,
+              "y": 27027,
+              "width": 850,
+              "height": 1379
+            }
+          ]
+        }
+      ],
+      "observations": [
+        "해당SKU제품정보·영양·주의·보관·교차시설표를실제확인. 기존2포4g수치재대조 일치. 교차시설은시설대상과제조작업장공정표현 보존."
+      ],
+      "field_values": {
+        "product_name": "락토핏 간케어",
+        "food_type": "건강기능식품",
+        "manufacturer": "(주)아람(위탁제조); 종근당건강(주)(위탁의뢰)",
+        "distributor": "종근당건강(주); 관찰표 위탁의뢰로 표기",
+        "package": "총 40 g (2 g × 20포)",
+        "dosage_form": "분말 포",
+        "intake": "1일 2회, 1회 1포를 식전·식후 어느때나 물 없이 섭취하십시오.",
+        "allergen": "우유, 대두 함유"
+      },
+      "reviewed_nutrients": [],
+      "field_dispositions": {},
+      "nutrient_basis": "1일 섭취량: 2포(4 g)",
+      "nutrient_spec": "열량|15|kcal;탄수화물|4|g|1;단백질|0|g|0;지방|0|g|0;나트륨|0|mg|0;프로바이오틱스 수|2000000000|CFU;실리마린|130|mg;비타민B1|1.2|mg|100;비타민B2|1.4|mg|100;비타민B6|1.5|mg|100",
+      "reviewed_at": "2026-10-20T00:11:01.167271+09:00",
+      "visual_inspection": true,
+      "source_match": "name_variant_package_matched",
+      "remaining_reasons": [
+        "전체 원재료·기능성·섭취/주의 문구의 완전한 교정 전사 및 정규화 미완료"
+      ]
+    },
+    {
+      "product_number": "591580761",
+      "catalog_index": 80,
+      "review_status": "partial",
+      "evidence": [
+        {
+          "source_id": "label-0129",
+          "source_sha256": "005ddc19333fbbab365a9545cb4e605debe320c3536628a10be0719a8802893b",
+          "source_url": "https://cdn.daisomall.co.kr/file/resize/PD/20250618/description/850/KS9VvCqy64H815c7J6eP591580761_01_00KS9VvCqy64H815c7J6eP.jpg",
+          "original_path": "data/products/labels/591580761/005ddc19333fbbab.jpg",
+          "crops": [
+            {
+              "path": "data/products/review-evidence/80-591580761-005ddc19-0.png",
+              "x": 0,
+              "y": 20064,
+              "width": 850,
+              "height": 2000
+            },
+            {
+              "path": "data/products/review-evidence/80-591580761-005ddc19-1.png",
+              "x": 0,
+              "y": 21864,
+              "width": 850,
+              "height": 2000
+            },
+            {
+              "path": "data/products/review-evidence/80-591580761-005ddc19-2.png",
+              "x": 0,
+              "y": 23664,
+              "width": 850,
+              "height": 2000
+            },
+            {
+              "path": "data/products/review-evidence/80-591580761-005ddc19-3.png",
+              "x": 0,
+              "y": 25464,
+              "width": 850,
+              "height": 1456
+            }
+          ]
+        }
+      ],
+      "observations": [
+        "해당SKU제품정보·영양·주의·보관·교차시설표를실제확인. 코로솔산1.3mg,20억CFU. 제품원료특성밝은입자문구."
+      ],
+      "field_values": {
+        "product_name": "락토핏 당케어",
+        "food_type": "건강기능식품",
+        "manufacturer": "(주)아람(위탁제조); 종근당건강(주)(위탁의뢰)",
+        "distributor": "종근당건강(주); 관찰표 위탁의뢰로 표기",
+        "package": "총 30 g (2 g × 15포)",
+        "dosage_form": "분말 포",
+        "intake": "1일 1회, 1회 1포를 식전·식후 어느때나 물 없이 섭취하십시오.",
+        "allergen": "우유, 대두 함유"
+      },
+      "reviewed_nutrients": [],
+      "field_dispositions": {},
+      "nutrient_basis": "1일 섭취량: 1포(2 g)",
+      "nutrient_spec": "열량|10|kcal;탄수화물|2|g|1;당류|0|g;단백질|0|g|0;지방|0|g|0;나트륨|0|mg|0;프로바이오틱스 수|2000000000|CFU;코로솔산|1.3|mg;아연|2.55|mg|30",
+      "reviewed_at": "2026-10-20T00:11:01.167271+09:00",
+      "visual_inspection": true,
+      "source_match": "name_variant_package_matched",
+      "remaining_reasons": [
+        "전체 원재료·기능성·섭취/주의 문구의 완전한 교정 전사 및 정규화 미완료"
+      ]
+    },
+    {
+      "product_number": "034345002",
+      "catalog_index": 81,
+      "review_status": "partial",
+      "evidence": [
+        {
+          "source_id": "label-0130",
+          "source_sha256": "3cc239b3ce1c4dfc101fb3988e2d5258d7924682895f6e94b8700e53e6622ccf",
+          "source_url": "https://cdn.daisomall.co.kr/file/resize/PD/20260310/description/850/RdF4YNYPSr6M2QfeDjTl034345002_01_00RdF4YNYPSr6M2QfeDjTl.jpg",
+          "original_path": "data/products/labels/034345002/3cc239b3ce1c4dfc.jpg",
+          "crops": [
+            {
+              "path": "data/products/review-evidence/81-034345002-3cc239b3-0.png",
+              "x": 0,
+              "y": 21036,
+              "width": 850,
+              "height": 1529
+            }
+          ]
+        }
+      ],
+      "observations": [
+        "올비텐유산균표전체확인. 1.5g30포, 일1포20억CFU. 우유대두함유. 표시제조업소내츄럴바이오; 유통전문판매원별도줄없음. 영진다른제품판매원추론금지."
+      ],
+      "field_values": {
+        "product_name": "올비텐 유산균",
+        "food_type": "건강기능식품",
+        "manufacturer": "(주)내츄럴바이오",
+        "package": "1.5 g × 30포",
+        "dosage_form": "분말 포",
+        "intake": "1일 1회, 1회 1포를 식전, 식후 어느때나 섭취하십시오.",
+        "allergen": "우유, 대두 함유"
+      },
+      "reviewed_nutrients": [],
+      "field_dispositions": {
+        "distributor": {
+          "status": "not_displayed_in_observed_label",
+          "reason": "관찰한제품표에는제조업소만표기; 별도유통전문판매원없음"
+        }
+      },
+      "nutrient_basis": "1일 섭취량당; 섭취방법 1일1회1포(1.5 g)",
+      "nutrient_spec": "열량|5|kcal;탄수화물|1|g|0;단백질|0|g|0;지방|0|g|0;나트륨|0|mg|0;프로바이오틱스 수|2000000000|CFU",
+      "reviewed_at": "2026-10-20T00:11:01.167271+09:00",
+      "visual_inspection": true,
+      "source_match": "name_variant_package_matched",
+      "remaining_reasons": [
+        "전체 원재료·기능성·섭취/주의 문구의 완전한 교정 전사 및 정규화 미완료"
+      ]
+    },
+    {
+      "product_number": "600651648",
+      "catalog_index": 82,
+      "review_status": "partial",
+      "evidence": [
+        {
+          "source_id": "label-0131",
+          "source_sha256": "a4d863281821240932a6cc893a33ae9f52a80b4988cf127d54bae7a6b46e35d5",
+          "source_url": "https://cdn.daisomall.co.kr/file/resize/PD/20260327/description/850/3UgRmScnrSgBELfEcpgw600651648_01_003UgRmScnrSgBELfEcpgw.png",
+          "original_path": "data/products/labels/600651648/a4d8632818212409.png",
+          "crops": [
+            {
+              "path": "data/products/review-evidence/82-600651648-a4d86328-0.png",
+              "x": 0,
+              "y": 20323,
+              "width": 850,
+              "height": 1491
+            }
+          ]
+        }
+      ],
+      "observations": [
+        "해당제품표시표전체판독가능. 나트륨0g 단위원문보존."
+      ],
+      "field_values": {
+        "product_name": "장건강 유한 생유산균 스틱",
+        "food_type": "건강기능식품",
+        "manufacturer": "퍼멘텍(주) 오송공장",
+        "distributor": "(주)유한양행",
+        "package": "45 g (1.5 g × 30포)",
+        "dosage_form": "분말 포",
+        "intake": "1일 1회, 1회 1포를 물과 함께 섭취하십시오.",
+        "allergen": "우유, 대두 함유"
+      },
+      "reviewed_nutrients": [],
+      "field_dispositions": {},
+      "nutrient_basis": "영양표 및 섭취방법: 1일1회1포(1.5 g)",
+      "nutrient_spec": "열량|5|kcal;탄수화물|1|g|0;단백질|0|g|0;지방|0|g|0;나트륨|0|g|0;프로바이오틱스 수|2000000000|CFU",
+      "reviewed_at": "2026-10-20T00:11:01.167271+09:00",
+      "visual_inspection": true,
+      "source_match": "name_variant_package_matched",
+      "remaining_reasons": [
+        "전체 원재료·기능성·섭취/주의 문구의 완전한 교정 전사 및 정규화 미완료"
+      ]
+    },
+    {
+      "product_number": "600651649",
+      "catalog_index": 83,
+      "review_status": "partial",
+      "evidence": [
+        {
+          "source_id": "label-0132",
+          "source_sha256": "afd7e6c446bf26d2939909f5f62e981fb5159b8fd81a1d1942c81e2da6c60d21",
+          "source_url": "https://cdn.daisomall.co.kr/file/resize/PD/20260327/description/850/Y5Pw6l2601Hl0GnG1X0P600651649_01_00Y5Pw6l2601Hl0GnG1X0P.png",
+          "original_path": "data/products/labels/600651649/afd7e6c446bf26d2.png",
+          "crops": [
+            {
+              "path": "data/products/review-evidence/83-600651649-afd7e6c4-0.png",
+              "x": 0,
+              "y": 20576,
+              "width": 850,
+              "height": 1533
+            }
+          ]
+        }
+      ],
+      "observations": [
+        "해당제품표시표전체판독가능. 영양표에나트륨행없어0생성안함."
+      ],
+      "field_values": {
+        "product_name": "장건강 유한 생유산균 캡슐",
+        "food_type": "건강기능식품",
+        "manufacturer": "퍼멘텍(주) 오송공장",
+        "distributor": "(주)유한양행",
+        "package": "5.7 g (190 mg × 30캡슐)",
+        "dosage_form": "캡슐",
+        "intake": "1일 1회, 1회 1캡슐을 물과 함께 섭취하십시오.",
+        "allergen": "우유, 대두 함유"
+      },
+      "reviewed_nutrients": [],
+      "field_dispositions": {},
+      "nutrient_basis": "1일 섭취량당; 섭취방법 1일1회1캡슐(190 mg)",
+      "nutrient_spec": "열량|0|kcal;탄수화물|0|g|0;단백질|0|g|0;지방|0|g|0;프로바이오틱스 수|2000000000|CFU",
+      "reviewed_at": "2026-10-20T00:11:01.167271+09:00",
+      "visual_inspection": true,
+      "source_match": "name_variant_package_matched",
+      "remaining_reasons": [
+        "전체 원재료·기능성·섭취/주의 문구의 완전한 교정 전사 및 정규화 미완료"
+      ]
+    },
+    {
+      "product_number": "600651650",
+      "catalog_index": 84,
+      "review_status": "partial",
+      "evidence": [
+        {
+          "source_id": "label-0133",
+          "source_sha256": "cd2bff466e5dd903f65f2bf6dac09e3b2124247ae64ba22db10951ba9cca06e0",
+          "source_url": "https://cdn.daisomall.co.kr/file/resize/PD/20260327/description/850/eBCQyexRfHI53ejKOY1u600651650_01_00eBCQyexRfHI53ejKOY1u.png",
+          "original_path": "data/products/labels/600651650/cd2bff466e5dd903.png",
+          "crops": [
+            {
+              "path": "data/products/review-evidence/84-600651650-cd2bff46-0.png",
+              "x": 0,
+              "y": 23972,
+              "width": 850,
+              "height": 1528
+            }
+          ]
+        }
+      ],
+      "observations": [
+        "해당제품표시표전체판독가능. 100억CFU. 우유대두쇠고기와별도캡슐젤라틴구분."
+      ],
+      "field_values": {
+        "product_name": "비피더스 유한 생유산균 캡슐",
+        "food_type": "건강기능식품",
+        "manufacturer": "(주)메디오젠 충주공장",
+        "distributor": "(주)유한양행",
+        "package": "1.4 g (140 mg × 10캡슐)",
+        "dosage_form": "캡슐",
+        "intake": "1일 1회, 1회 1캡슐을 물과 함께 섭취하십시오.",
+        "allergen": "우유, 대두, 쇠고기 함유"
+      },
+      "reviewed_nutrients": [],
+      "field_dispositions": {},
+      "nutrient_basis": "1일 섭취량당; 섭취방법 1일1회1캡슐(140 mg)",
+      "nutrient_spec": "열량|0|kcal;탄수화물|0|g|0;단백질|0|g|0;지방|0|g|0;나트륨|0|mg|0;프로바이오틱스 수|10000000000|CFU",
+      "reviewed_at": "2026-10-20T00:11:01.167271+09:00",
+      "visual_inspection": true,
+      "source_match": "name_variant_package_matched",
+      "remaining_reasons": [
+        "전체 원재료·기능성·섭취/주의 문구의 완전한 교정 전사 및 정규화 미완료"
+      ]
+    },
+    {
+      "product_number": "600651654",
+      "catalog_index": 85,
+      "review_status": "partial",
+      "evidence": [
+        {
+          "source_id": "label-0134",
+          "source_sha256": "00d7f4c6a19f7f20218b709200c6cc15808537df30794d40d2847667e554c173",
+          "source_url": "https://cdn.daisomall.co.kr/file/resize/PD/20260327/description/850/nsRbx34aM7D3ylLvVpzQ600651654_01_00nsRbx34aM7D3ylLvVpzQ.png",
+          "original_path": "data/products/labels/600651654/00d7f4c6a19f7f20.png",
+          "crops": [
+            {
+              "path": "data/products/review-evidence/85-600651654-00d7f4c6-0.png",
+              "x": 0,
+              "y": 22983,
+              "width": 850,
+              "height": 1415
+            }
+          ]
+        }
+      ],
+      "observations": [
+        "해당제품표시표전체판독가능. 원문자체프로바이오틱스수(수량기재안됨)명시! OCR누락아님. CFU확정보류."
+      ],
+      "field_values": {
+        "product_name": "산뜻해질 유한 생유산균 캡슐",
+        "food_type": "건강기능식품",
+        "manufacturer": "(주)메디오젠 충주공장",
+        "distributor": "(주)유한양행",
+        "package": "2.8 g (140 mg × 20캡슐)",
+        "dosage_form": "캡슐",
+        "intake": "1일 1회, 1회 1캡슐을 물과 함께 섭취하십시오."
+      },
+      "reviewed_nutrients": [],
+      "field_dispositions": {
+        "probiotic_count": {
+          "status": "not_displayed_in_observed_label",
+          "reason": "원문표에 프로바이오틱스 수 (수량 기재 안됨)으로 명시. 다른유산균수치를대입하지않음"
+        }
+      },
+      "nutrient_basis": "1일 섭취량당; 섭취방법 1일1회1캡슐(140 mg)",
+      "nutrient_spec": "열량|0|kcal;탄수화물|0|g|0;단백질|0|g|0;지방|0|g|0;나트륨|0|mg|0",
+      "remaining_reasons": [
+        "공식표에프로바이오틱스수량기재안됨; 실제균수정량근거추가확보필요",
+        "원재료및주의문구정규화전사미완료"
+      ],
+      "reviewed_at": "2026-10-20T00:11:01.167271+09:00",
+      "visual_inspection": true,
+      "source_match": "name_variant_package_matched"
+    },
+    {
+      "product_number": "610910677",
+      "catalog_index": 86,
+      "review_status": "partial",
+      "evidence": [
+        {
+          "source_id": "label-0135",
+          "source_sha256": "1b1924ab3c702277244f068a000abf91b031839247312c190c3d9b9d0647f964",
+          "source_url": "https://cdn.daisomall.co.kr/file/resize/PD/20260420/description/850/71lOtdJ992CQP63OeRei610910677_01_0071lOtdJ992CQP63OeRei.png",
+          "original_path": "data/products/labels/610910677/1b1924ab3c702277.png",
+          "crops": [
+            {
+              "path": "data/products/review-evidence/86-610910677-1b1924ab-0.png",
+              "x": 0,
+              "y": 14541,
+              "width": 850,
+              "height": 1462
+            }
+          ]
+        }
+      ],
+      "observations": [
+        "해당제품표시표전체판독가능. 원료히알루론산/엘라스틴은정량표에없어추가안함."
+      ],
+      "field_values": {
+        "product_name": "이너케어 & 유산균",
+        "food_type": "건강기능식품",
+        "manufacturer": "엠에스바이오텍(주)",
+        "distributor": "동국제약(주)",
+        "package": "7.5 g (250 mg × 30캡슐)",
+        "dosage_form": "캡슐",
+        "intake": "1일 1회, 1회 1캡슐을 충분한 물과 함께 섭취하십시오.",
+        "allergen": "대두, 우유 함유"
+      },
+      "reviewed_nutrients": [],
+      "field_dispositions": {},
+      "nutrient_basis": "1일 섭취량: 1캡슐(250 mg)",
+      "nutrient_spec": "열량|0|kcal;탄수화물|0|g|0;단백질|0|g|0;지방|0|g|0;나트륨|0|mg|0;셀렌|55|μg|100;아연|8.5|mg|100;프로바이오틱스 수|2000000000|CFU",
+      "reviewed_at": "2026-10-20T00:11:01.167271+09:00",
+      "visual_inspection": true,
+      "source_match": "name_variant_package_matched",
+      "remaining_reasons": [
+        "전체 원재료·기능성·섭취/주의 문구의 완전한 교정 전사 및 정규화 미완료"
+      ]
+    },
+    {
+      "product_number": "610910678",
+      "catalog_index": 87,
+      "review_status": "partial",
+      "evidence": [
+        {
+          "source_id": "label-0136",
+          "source_sha256": "1e780440790e633b845eb2e9e26ec2f8ae5307820af9fe157383b93845fd353f",
+          "source_url": "https://cdn.daisomall.co.kr/file/resize/PD/20250829/description/850/BmcSxI5G5YFb1LhoR1mz610910678_01_01BmcSxI5G5YFb1LhoR1mz.png",
+          "original_path": "data/products/labels/610910678/1e780440790e633b.png",
+          "crops": [
+            {
+              "path": "data/products/review-evidence/87-610910678-1e780440-0.png",
+              "x": 0,
+              "y": 16523,
+              "width": 850,
+              "height": 1474
+            }
+          ]
+        }
+      ],
+      "observations": [
+        "해당제품표시표전체판독가능. 어린이임산부수유부피함·용기습기방지제금지표기."
+      ],
+      "field_values": {
+        "product_name": "혈당케어 & 유산균",
+        "food_type": "건강기능식품",
+        "manufacturer": "엠에스바이오텍(주)",
+        "distributor": "동국제약(주)",
+        "package": "7.5 g (250 mg × 30캡슐)",
+        "dosage_form": "캡슐",
+        "intake": "1일 1회, 1회 1캡슐을 충분한 물과 함께 섭취하십시오.",
+        "allergen": "우유 함유"
+      },
+      "reviewed_nutrients": [],
+      "field_dispositions": {},
+      "nutrient_basis": "1일 섭취량: 1캡슐(250 mg)",
+      "nutrient_spec": "열량|0|kcal;탄수화물|0|g|0;당류|0|g|0;단백질|0|g|0;지방|0|g|0;나트륨|0|mg|0;코로솔산|1.3|mg;프로바이오틱스 수|2000000000|CFU",
+      "reviewed_at": "2026-10-20T00:11:01.167271+09:00",
+      "visual_inspection": true,
+      "source_match": "name_variant_package_matched",
+      "remaining_reasons": [
+        "전체 원재료·기능성·섭취/주의 문구의 완전한 교정 전사 및 정규화 미완료"
+      ]
+    }
+  ]
+}

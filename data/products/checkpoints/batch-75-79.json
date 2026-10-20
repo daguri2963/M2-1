@@ -1,0 +1,138 @@
+[
+  {
+    "product_number": "600651647",
+    "detail_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=600651647",
+    "expected_name": "유한양행 프리바이오틱스 스틱 40포 20일분",
+    "status": "label_assets_saved_pending_transcription",
+    "attempts": [
+      {
+        "date": "2026-10-19",
+        "method": "browser_detail_and_page_assets",
+        "source_url": "https://cdn.daisomall.co.kr/file/resize/PD/20260327/description/850/b3tQfWKMxNFMclp38NhR600651647_01_00b3tQfWKMxNFMclp38NhR.png",
+        "result": "label_asset_saved",
+        "detail_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=600651647"
+      },
+      {
+        "date": "2026-10-19",
+        "method": "browser_detail_attempt",
+        "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=600651647",
+        "result": "label_assets_saved",
+        "reason": null
+      }
+    ],
+    "recommendation_eligible": false,
+    "label_assets": [
+      {
+        "source_url": "https://cdn.daisomall.co.kr/file/resize/PD/20260327/description/850/b3tQfWKMxNFMclp38NhR600651647_01_00b3tQfWKMxNFMclp38NhR.png",
+        "local_path": "data/products/labels/600651647/8427b58e995f11d9.png",
+        "sha256": "8427b58e995f11d9b65d8779b8e404708671d99d3043f7b742f3b296132c281c",
+        "method": "official_label_image_saved_pending_visual",
+        "observed_on": "2026-10-19",
+        "published_on": null,
+        "browser_manifest": "/var/folders/yz/kzzkpplj73qbzchy819k7v0m0000gn/T/browser-use/assets/65ca9d5f-ee17-40f2-b8ff-040fa023a63e/manifest.json"
+      }
+    ]
+  },
+  {
+    "product_number": "600651651",
+    "detail_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=600651651",
+    "expected_name": "유한양행 프레쉬츄 생유산균 30정 30일분",
+    "status": "label_assets_saved_pending_transcription",
+    "attempts": [
+      {
+        "date": "2026-10-19",
+        "method": "browser_detail_and_page_assets",
+        "source_url": "https://cdn.daisomall.co.kr/file/resize/PD/20260327/description/850/Z3f5sm91xgIpRxj8a9zi600651651_01_00Z3f5sm91xgIpRxj8a9zi.png",
+        "result": "label_asset_saved",
+        "detail_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=600651651"
+      },
+      {
+        "date": "2026-10-19",
+        "method": "browser_detail_attempt",
+        "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=600651651",
+        "result": "label_assets_saved",
+        "reason": null
+      }
+    ],
+    "recommendation_eligible": false,
+    "label_assets": [
+      {
+        "source_url": "https://cdn.daisomall.co.kr/file/resize/PD/20260327/description/850/Z3f5sm91xgIpRxj8a9zi600651651_01_00Z3f5sm91xgIpRxj8a9zi.png",
+        "local_path": "data/products/labels/600651651/2d5ca8a12b1d72cc.png",
+        "sha256": "2d5ca8a12b1d72ccf34d159bcdd1fe0424e42cfb6d80d6ec565e30f0ed7bb86b",
+        "method": "official_label_image_saved_pending_visual",
+        "observed_on": "2026-10-19",
+        "published_on": null,
+        "browser_manifest": "/var/folders/yz/kzzkpplj73qbzchy819k7v0m0000gn/T/browser-use/assets/e13e7791-12e4-4c6d-8e42-0d3c015a6006/manifest.json"
+      }
+    ]
+  },
+  {
+    "product_number": "600651652",
+    "detail_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=600651652",
+    "expected_name": "유한양행 초코맛 생유산균 스틱 20포 20일분",
+    "status": "retry_needed",
+    "attempts": [
+      {
+        "date": "2026-10-19",
+        "method": "browser_detail_attempt",
+        "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=600651652",
+        "result": "retry_needed",
+        "reason": "CDP operation deadline before label expansion"
+      }
+    ],
+    "recommendation_eligible": false,
+    "failure_reason": "CDP operation deadline before label expansion"
+  },
+  {
+    "product_number": "600651655",
+    "detail_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=600651655",
+    "expected_name": "유한양행 운동부스터 생유산균 스틱 5포 5일분",
+    "status": "label_assets_saved_pending_transcription",
+    "attempts": [
+      {
+        "date": "2026-10-19",
+        "method": "browser_detail_and_page_assets",
+        "source_url": "https://cdn.daisomall.co.kr/file/resize/PD/20260327/description/850/uopEee6z68YyGQU9glAe600651655_01_00uopEee6z68YyGQU9glAe.png",
+        "result": "label_asset_saved",
+        "detail_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=600651655"
+      },
+      {
+        "date": "2026-10-19",
+        "method": "browser_detail_attempt",
+        "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=600651655",
+        "result": "label_assets_saved",
+        "reason": null
+      }
+    ],
+    "recommendation_eligible": false,
+    "label_assets": [
+      {
+        "source_url": "https://cdn.daisomall.co.kr/file/resize/PD/20260327/description/850/uopEee6z68YyGQU9glAe600651655_01_00uopEee6z68YyGQU9glAe.png",
+        "local_path": "data/products/labels/600651655/ef56189b5c2bf342.png",
+        "sha256": "ef56189b5c2bf342e833ef45a9a68ba67d3c81bc7b2a0a45dd62e72a8a7f622c",
+        "method": "official_label_image_saved_pending_visual",
+        "observed_on": "2026-10-19",
+        "published_on": null,
+        "browser_manifest": "/var/folders/yz/kzzkpplj73qbzchy819k7v0m0000gn/T/browser-use/assets/6fa82a51-fdbe-4e21-b920-3f66f86f1474/manifest.json"
+      }
+    ]
+  },
+  {
+    "product_number": "591580521",
+    "detail_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=591580521",
+    "expected_name": "종근당건강 락토핏 골드",
+    "status": "retry_needed",
+    "attempts": [
+      {
+        "date": "2026-10-19",
+        "method": "browser_detail_attempt",
+        "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=591580521",
+        "result": "retry_needed",
+        "reason": "DOM.describeNode timeout"
+      }
+    ],
+    "recommendation_eligible": false,
+    "failure_reason": "DOM.describeNode timeout"
+  }
+]

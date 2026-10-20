@@ -1,0 +1,256 @@
+{
+  "reviewed_at": "2026-10-20T00:04:50.353505+09:00",
+  "products": [
+    {
+      "product_number": "600000128",
+      "catalog_index": 37,
+      "review_status": "partial",
+      "evidence": [
+        {
+          "source_id": "label-0058",
+          "source_sha256": "20c1e4ee0b40eba7c356dee9f0ddd2c308123d420b5e336404922f90fce774cc",
+          "source_url": "https://cdn.daisomall.co.kr/file/resize/PD/20260821/description/850/kRqZjQlUk8iA6h6u0OAT600000128_01_00kRqZjQlUk8iA6h6u0OAT.png",
+          "original_path": "data/products/labels/600000128/20c1e4ee0b40eba7.png",
+          "crops": [
+            {
+              "path": "data/products/review-evidence/37-600000128-20c1e4ee-0.png",
+              "x": 0,
+              "y": 3209,
+              "width": 850,
+              "height": 2000
+            },
+            {
+              "path": "data/products/review-evidence/37-600000128-20c1e4ee-1.png",
+              "x": 0,
+              "y": 5009,
+              "width": 850,
+              "height": 431
+            }
+          ]
+        }
+      ],
+      "observations": [
+        "마그네슘30정 표 전체 확인. 10정SKU와 함량은 같지만 제조원은대웅제약1공장으로 다름. Mg315mg/D10μg 일1정. 우유함유. 이전 일부함량대조값 일치."
+      ],
+      "field_values": {
+        "product_name": "마그네슘",
+        "food_type": "건강기능식품",
+        "manufacturer": "(주)대웅제약 1공장",
+        "distributor": "(주)대웅제약",
+        "package": "30 g (1,000 mg × 30정)",
+        "dosage_form": "정제",
+        "allergen": "우유 함유"
+      },
+      "reviewed_nutrients": [],
+      "field_dispositions": {},
+      "reviewed_at": "2026-10-20T00:04:50.353505+09:00",
+      "visual_inspection": true,
+      "source_match": "name_variant_package_matched",
+      "remaining_reasons": [
+        "전체 원재료·기능성·섭취/주의 문구의 완전한 교정 전사 및 정규화 미완료"
+      ]
+    },
+    {
+      "product_number": "600000129",
+      "catalog_index": 38,
+      "review_status": "partial",
+      "evidence": [
+        {
+          "source_id": "label-0060",
+          "source_sha256": "ee40043395a32e566c23d03be075136ce4d237514c4932412abfcd5d3d8d1c4a",
+          "source_url": "https://cdn.daisomall.co.kr/file/resize/PD/20250618/description/850/yBgTkLj4OyldMqVRzspW600000129_01_00yBgTkLj4OyldMqVRzspW.png",
+          "original_path": "data/products/labels/600000129/ee40043395a32e56.png",
+          "crops": [
+            {
+              "path": "data/products/review-evidence/38-600000129-ee400433-0.png",
+              "x": 0,
+              "y": 3142,
+              "width": 850,
+              "height": 2000
+            },
+            {
+              "path": "data/products/review-evidence/38-600000129-ee400433-1.png",
+              "x": 0,
+              "y": 4942,
+              "width": 850,
+              "height": 779
+            }
+          ]
+        }
+      ],
+      "observations": [
+        "비타민B30정 표전체 확인. 1정500mg B12 2.4μg/엽산400μgDFE; 기존함량대조 일치. 제조원코스맥스바이오이며 광고대웅과 구분. 우유함유·습기제거제금지."
+      ],
+      "field_values": {
+        "product_name": "비타민B",
+        "food_type": "건강기능식품",
+        "manufacturer": "코스맥스바이오(주)",
+        "distributor": "(주)대웅제약",
+        "package": "15 g (500 mg × 30정)",
+        "dosage_form": "정제",
+        "allergen": "우유 함유"
+      },
+      "reviewed_nutrients": [],
+      "field_dispositions": {},
+      "reviewed_at": "2026-10-20T00:04:50.353505+09:00",
+      "visual_inspection": true,
+      "source_match": "name_variant_package_matched",
+      "remaining_reasons": [
+        "전체 원재료·기능성·섭취/주의 문구의 완전한 교정 전사 및 정규화 미완료"
+      ]
+    },
+    {
+      "product_number": "600000133",
+      "catalog_index": 39,
+      "review_status": "partial",
+      "evidence": [
+        {
+          "source_id": "label-0062",
+          "source_sha256": "145c25e569ab008ac583f07883d7f704107160474ff858e71db9f8671f3bfada",
+          "source_url": "https://cdn.daisomall.co.kr/file/resize/PD/20260820/description/850/dQjMGGdaL3Dr7K4mrsgr600000133_01_00dQjMGGdaL3Dr7K4mrsgr.png",
+          "original_path": "data/products/labels/600000133/145c25e569ab008a.png",
+          "crops": [
+            {
+              "path": "data/products/review-evidence/39-600000133-145c25e5-0.png",
+              "x": 0,
+              "y": 3163,
+              "width": 850,
+              "height": 2000
+            },
+            {
+              "path": "data/products/review-evidence/39-600000133-145c25e5-1.png",
+              "x": 0,
+              "y": 4963,
+              "width": 850,
+              "height": 757
+            }
+          ]
+        }
+      ],
+      "observations": [
+        "철분표전체 확인. 1정1000mg당철24mg200%, D10μg400IU100%, 셀렌55μg100%, C100mg100%; 탄수화물1g미만0%. 6세이하/신장질환/고칼슘혈증 경고."
+      ],
+      "field_values": {
+        "product_name": "철분",
+        "food_type": "건강기능식품",
+        "manufacturer": "(주)대웅제약 1공장",
+        "distributor": "(주)대웅제약",
+        "package": "30 g (1,000 mg × 30정)",
+        "dosage_form": "정제",
+        "intake": "1일 1회, 1회 1정을 충분한 물과 함께 섭취하십시오.",
+        "allergen": "우유 함유"
+      },
+      "reviewed_nutrients": [],
+      "field_dispositions": {},
+      "nutrient_basis": "1일 섭취량: 1정(1,000 mg)",
+      "nutrient_spec": "열량|0|kcal;탄수화물|1|g|0|<;단백질|0|g|0;지방|0|g|0;나트륨|0|mg|0;철|24|mg|200;비타민D|10|μg|100;셀렌|55|μg|100;비타민C|100|mg|100",
+      "reviewed_at": "2026-10-20T00:04:50.353505+09:00",
+      "visual_inspection": true,
+      "source_match": "name_variant_package_matched",
+      "remaining_reasons": [
+        "전체 원재료·기능성·섭취/주의 문구의 완전한 교정 전사 및 정규화 미완료"
+      ]
+    },
+    {
+      "product_number": "600000147",
+      "catalog_index": 40,
+      "review_status": "partial",
+      "evidence": [
+        {
+          "source_id": "label-0063",
+          "source_sha256": "0af60e516fa1465ea54ff11c37b513eb125ac6a77f473213ea35ee7e69aea69f",
+          "source_url": "https://cdn.daisomall.co.kr/file/resize/PD/20250409/description/850/iywhS2rNTZciRPKuXQej600000147_01_00iywhS2rNTZciRPKuXQej.png",
+          "original_path": "data/products/labels/600000147/0af60e516fa1465e.png",
+          "crops": [
+            {
+              "path": "data/products/review-evidence/40-600000147-0af60e51-0.png",
+              "x": 0,
+              "y": 3235,
+              "width": 850,
+              "height": 2000
+            },
+            {
+              "path": "data/products/review-evidence/40-600000147-0af60e51-1.png",
+              "x": 0,
+              "y": 5035,
+              "width": 850,
+              "height": 586
+            }
+          ]
+        }
+      ],
+      "observations": [
+        "칼슘108g120정 표 재확인. 영양기준4정3.6g, 섭취법1일2회1회2정. 칼슘700mg 및D10μg400IU는4정량. 제조원이앤에스. 앞선표본값 일치."
+      ],
+      "field_values": {
+        "product_name": "칼슘",
+        "food_type": "건강기능식품",
+        "manufacturer": "이앤에스(주)",
+        "distributor": "(주)대웅제약",
+        "package": "108 g (900 mg × 120정)",
+        "dosage_form": "정제",
+        "allergen": "우유 함유"
+      },
+      "reviewed_nutrients": [],
+      "field_dispositions": {},
+      "reviewed_at": "2026-10-20T00:04:50.353505+09:00",
+      "visual_inspection": true,
+      "source_match": "name_variant_package_matched",
+      "remaining_reasons": [
+        "전체 원재료·기능성·섭취/주의 문구의 완전한 교정 전사 및 정규화 미완료"
+      ]
+    },
+    {
+      "product_number": "600000148",
+      "catalog_index": 41,
+      "review_status": "partial",
+      "evidence": [
+        {
+          "source_id": "label-0064",
+          "source_sha256": "cf1e32ad367d55af69a35224f63a15e20ea2e1056bb5b8bb6e0324374bdc0abf",
+          "source_url": "https://cdn.daisomall.co.kr/file/resize/PD/20260904/description/850/cjjpuHdrg9JICdTztL0P600000148_01_01cjjpuHdrg9JICdTztL0P.png",
+          "original_path": "data/products/labels/600000148/cf1e32ad367d55af.png",
+          "crops": [
+            {
+              "path": "data/products/review-evidence/41-600000148-cf1e32ad-0.png",
+              "x": 0,
+              "y": 3181,
+              "width": 850,
+              "height": 2000
+            },
+            {
+              "path": "data/products/review-evidence/41-600000148-cf1e32ad-1.png",
+              "x": 0,
+              "y": 4981,
+              "width": 850,
+              "height": 592
+            }
+          ]
+        }
+      ],
+      "observations": [
+        "칼마디54g60정 표시 전체 확인. 1일2정1.8g당칼슘210mg30%, Mg105mg33%, D10μg100%. 단일칼슘4정량과다름. 우유함유."
+      ],
+      "field_values": {
+        "product_name": "칼슘 마그네슘 비타민D",
+        "food_type": "건강기능식품",
+        "manufacturer": "(주)대웅제약 1공장",
+        "distributor": "(주)대웅제약",
+        "package": "54 g (900 mg × 60정)",
+        "dosage_form": "정제",
+        "intake": "1일 1회, 1회 2정을 충분한 물과 함께 섭취하십시오.",
+        "allergen": "우유 함유"
+      },
+      "reviewed_nutrients": [],
+      "field_dispositions": {},
+      "nutrient_basis": "1일 섭취량: 2정(1.8 g)",
+      "nutrient_spec": "열량|0|kcal;탄수화물|1|g|0;단백질|0|g|0;지방|0|g|0;나트륨|0|mg|0;칼슘|210|mg|30;마그네슘|105|mg|33;비타민D|10|μg|100",
+      "reviewed_at": "2026-10-20T00:04:50.353505+09:00",
+      "visual_inspection": true,
+      "source_match": "name_variant_package_matched",
+      "remaining_reasons": [
+        "전체 원재료·기능성·섭취/주의 문구의 완전한 교정 전사 및 정규화 미완료"
+      ]
+    }
+  ]
+}

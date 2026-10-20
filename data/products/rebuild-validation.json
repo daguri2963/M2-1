@@ -1,0 +1,11 @@
+{
+  "passed": true,
+  "scope": "offline rebuild produces identical JSON, SQLite, CSV and correction log bytes",
+  "sha256": {
+    "data/products/products-normalized.json": "05e2b28d54370da6031417fc3420dae5d99b2d350bc1040ca716bf86160c780f",
+    "data/products/products.sqlite3": "e0515b51be7a39b8d1deffea614770b076d74c72a2193270bffaa9c7e25b1bcf",
+    "data/products/nutrients-reviewed.csv": "2cac38104a6567f23931873dfe6c60885095a4708a885a639e01e2ba05adc5af",
+    "data/products/nutrient-candidates.csv": "8200d3f82b6f51a7244eee77460d4dfc23a1cb0f2cb1b7e0a786ecfc4458206f",
+    "data/products/label-review-corrections.json": "86ea5db488c7d4d61c5fc7af49fd9c3f9f519a7c73283e569ff6600541061e27"
+  }
+}

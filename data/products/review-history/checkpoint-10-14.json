@@ -1,0 +1,230 @@
+{
+  "reviewed_at": "2026-10-20T00:01:20.198379+09:00",
+  "products": [
+    {
+      "product_number": "610911093",
+      "catalog_index": 10,
+      "review_status": "partial",
+      "evidence": [
+        {
+          "source_id": "label-0023",
+          "source_sha256": "1007f1a52df1c0b9f7ef35c01ea6e34de921c4dd399249087cb83a43e1630552",
+          "source_url": "https://cdn.daisomall.co.kr/file/resize/PD/20260814/description/850/x4FLuivPAI1wfroq6OjQ610911093_01_00x4FLuivPAI1wfroq6OjQ.png",
+          "original_path": "data/products/labels/610911093/1007f1a52df1c0b9.png",
+          "crops": [
+            {
+              "path": "data/products/review-evidence/10-610911093-1007f1a5-0.png",
+              "x": 0,
+              "y": 14698,
+              "width": 850,
+              "height": 1521
+            }
+          ]
+        }
+      ],
+      "observations": [
+        "라벨 전체 판독. 1정1000mg당B1 100mg8333%, B2 100mg7143%, B6 50mg3333%, B12 100μg4167%, 비오틴900μg3000%, 나이아신50mgNE333%, 엽산400μgDFE100%, 판토텐산100mg2000%. 단위와 기준치 비율 분리."
+      ],
+      "field_values": {
+        "product_name": "프라임도스 비타민B 맥스",
+        "food_type": "건강기능식품",
+        "manufacturer": "엠에스바이오텍(주)",
+        "distributor": "동국제약(주)",
+        "package": "30 g (1,000 mg × 30정)",
+        "dosage_form": "정제",
+        "intake": "1일 1회, 1회 1정을 충분한 물과 함께 섭취하십시오.",
+        "allergen": "우유 함유"
+      },
+      "reviewed_nutrients": [],
+      "field_dispositions": {},
+      "nutrient_basis": "1일 섭취량: 1정(1,000 mg)",
+      "nutrient_spec": "열량|5|kcal;탄수화물|1|g|0;단백질|0|g|0;지방|0|g|0;나트륨|0|mg|0;나이아신|50|mgNE|333;비오틴|900|μg|3000;비타민B1|100|mg|8333;비타민B2|100|mg|7143;비타민B6|50|mg|3333;비타민B12|100|μg|4167;엽산|400|μgDFE|100;판토텐산|100|mg|2000",
+      "reviewed_at": "2026-10-20T00:01:20.198379+09:00",
+      "visual_inspection": true,
+      "source_match": "name_variant_package_matched",
+      "remaining_reasons": [
+        "전체 원재료·기능성·섭취/주의 문구의 완전한 교정 전사 및 정규화 미완료"
+      ]
+    },
+    {
+      "product_number": "601678606",
+      "catalog_index": 11,
+      "review_status": "partial",
+      "evidence": [
+        {
+          "source_id": "label-0024",
+          "source_sha256": "e048f5fefdd355f28fc5792a6fca2cd64f84783063d62963f0809b1012d95331",
+          "source_url": "https://cdn.daisomall.co.kr/file/resize/PD/20260909/description/850/eLB8SoQVO4qbh5greKz8601678606_01_00eLB8SoQVO4qbh5greKz8.jpg",
+          "original_path": "data/products/labels/601678606/e048f5fefdd355f2.jpg",
+          "crops": [
+            {
+              "path": "data/products/review-evidence/11-601678606-e048f5fe-0.png",
+              "x": 0,
+              "y": 15172,
+              "width": 850,
+              "height": 1114
+            }
+          ]
+        }
+      ],
+      "observations": [
+        "청포도맛 아연 표 확인. 3정1860mg당아연8.5mg100%. 영양열량5kcal 탄수화물1.6g0%; 정상면역·세포분열 기능. 다른 배러크런치와 원료/맛 다름."
+      ],
+      "field_values": {
+        "product_name": "배러 크런치 아연",
+        "food_type": "건강기능식품/아연 제품",
+        "manufacturer": "코스맥스바이오(주)",
+        "distributor": "동화약품(주)",
+        "package": "620 mg × 30정 (18.6 g)",
+        "dosage_form": "정제(츄어블)",
+        "intake": "1일 1회, 1회 3정을 씹어서 섭취하세요."
+      },
+      "reviewed_nutrients": [],
+      "field_dispositions": {},
+      "nutrient_basis": "1일 섭취량: 3정(1,860 mg)",
+      "nutrient_spec": "열량|5|kcal;탄수화물|1.6|g|0;단백질|0|g|0;지방|0|g|0;나트륨|0|mg|0;아연|8.5|mg|100",
+      "reviewed_at": "2026-10-20T00:01:20.198379+09:00",
+      "visual_inspection": true,
+      "source_match": "name_variant_package_matched",
+      "remaining_reasons": [
+        "전체 원재료·기능성·섭취/주의 문구의 완전한 교정 전사 및 정규화 미완료"
+      ]
+    },
+    {
+      "product_number": "610911095",
+      "catalog_index": 12,
+      "review_status": "partial",
+      "evidence": [
+        {
+          "source_id": "label-0025",
+          "source_sha256": "3f872251d5cf6e7e40f460b95731f3f0764a257c27e669badf4ffa772a33b8cc",
+          "source_url": "https://cdn.daisomall.co.kr/file/resize/PD/20260814/description/850/Q8UvtuxBmmTVMhPzhoKa610911095_01_00Q8UvtuxBmmTVMhPzhoKa.png",
+          "original_path": "data/products/labels/610911095/3f872251d5cf6e7e.png",
+          "crops": [
+            {
+              "path": "data/products/review-evidence/12-610911095-3f872251-0.png",
+              "x": 0,
+              "y": 14201,
+              "width": 850,
+              "height": 1373
+            }
+          ]
+        }
+      ],
+      "observations": [
+        "450mg60정 비타민D3 4000IU 라벨 재확인. 영양표는D100μg1000%, K21μg30%. 4000IU는 제품명이며 변환행을 추가하지 않음. 주의 표에 항응고제 문구가 두 번 반복되어 있음(원문반복)."
+      ],
+      "field_values": {
+        "product_name": "프라임도스 비타민D3 4000IU",
+        "food_type": "건강기능식품",
+        "manufacturer": "엠에스바이오텍(주)",
+        "distributor": "동국제약(주)",
+        "package": "27 g (450 mg × 60정)",
+        "dosage_form": "정제",
+        "intake": "1일 1회, 1회 1정을 충분한 물과 함께 섭취하십시오.",
+        "allergen": "우유 함유"
+      },
+      "reviewed_nutrients": [],
+      "field_dispositions": {},
+      "nutrient_basis": "1일 섭취량: 1정(450 mg)",
+      "nutrient_spec": "열량|0|kcal;탄수화물|0|g|0;단백질|0|g|0;지방|0|g|0;나트륨|0|mg|0;비타민D|100|μg|1000;비타민K|21|μg|30",
+      "reviewed_at": "2026-10-20T00:01:20.198379+09:00",
+      "visual_inspection": true,
+      "source_match": "name_variant_package_matched",
+      "remaining_reasons": [
+        "전체 원재료·기능성·섭취/주의 문구의 완전한 교정 전사 및 정규화 미완료"
+      ]
+    },
+    {
+      "product_number": "610911100",
+      "catalog_index": 13,
+      "review_status": "partial",
+      "evidence": [
+        {
+          "source_id": "label-0026",
+          "source_sha256": "b45c2cbc13234a69c730bf98d3ba4f0f0114f4be3ea6cc6922f5980f371b8a48",
+          "source_url": "https://cdn.daisomall.co.kr/file/resize/PD/20260821/description/850/fydS9nAO9mM0fGqT2XYA610911100_01_00fydS9nAO9mM0fGqT2XYA.png",
+          "original_path": "data/products/labels/610911100/b45c2cbc13234a69.png",
+          "crops": [
+            {
+              "path": "data/products/review-evidence/13-610911100-b45c2cbc-0.png",
+              "x": 0,
+              "y": 14199,
+              "width": 850,
+              "height": 1393
+            }
+          ]
+        }
+      ],
+      "observations": [
+        "판비틴은 효모식품. 영양표가 총내용량42g 기준: 비오틴70000μg·크롬1260μg·판토텐산700mg·B1 168mg. 하루1포 기준으로 잘못 연결하면14배 오류. 일일량 환산 생성하지 않음.",
+        "포화지방0.5g미만3%, 나트륨16mg1%, 당뇨병/신장질환 섭취전상담 문구. 대두·밀함유."
+      ],
+      "field_values": {
+        "product_name": "판비틴 맥주효모 비오틴",
+        "food_type": "효모식품",
+        "manufacturer": "(주)코스팜",
+        "distributor": "동국제약(주)",
+        "package": "3 g × 14포 (42 g / 153 kcal)",
+        "dosage_form": "분말 포",
+        "intake": "1일 1회, 1회 1포를 충분한 물과 함께 섭취하십시오.",
+        "allergen": "대두, 밀 함유"
+      },
+      "reviewed_nutrients": [],
+      "field_dispositions": {},
+      "nutrient_basis": "총 내용량 42 g(3 g × 14포)",
+      "nutrient_spec": "열량|153|kcal;나트륨|16|mg|1;탄수화물|17|g|5;당류|0|g|0;지방|1|g|2;트랜스지방|0|g;포화지방|0.5|g|3|<;콜레스테롤|0|mg|0;단백질|19|g|35;판토텐산|700|mg|14000;비타민C|420|mg|420;비타민B1|168|mg|14000;비오틴|70000|μg|233333;크롬|1260|μg|4200",
+      "reviewed_at": "2026-10-20T00:01:20.198379+09:00",
+      "visual_inspection": true,
+      "source_match": "name_variant_package_matched",
+      "remaining_reasons": [
+        "전체 원재료·기능성·섭취/주의 문구의 완전한 교정 전사 및 정규화 미완료"
+      ]
+    },
+    {
+      "product_number": "985472881",
+      "catalog_index": 14,
+      "review_status": "partial",
+      "evidence": [
+        {
+          "source_id": "label-0027",
+          "source_sha256": "b1ed6639d240a2641881af26014f97fd8c9d63dabfb0addcff709eaccdfbdca8",
+          "source_url": "https://cdn.daisomall.co.kr/file/resize/PD/20260901/description/850/ITSg2fqQTdupX5BiCdl8985472881_01_02ITSg2fqQTdupX5BiCdl8.jpg",
+          "original_path": "data/products/labels/985472881/b1ed6639d240a264.jpg",
+          "crops": [
+            {
+              "path": "data/products/review-evidence/14-985472881-b1ed6639-0.png",
+              "x": 0,
+              "y": 0,
+              "width": 850,
+              "height": 1336
+            }
+          ]
+        }
+      ],
+      "observations": [
+        "뽀로로 유산균 45g1.5g×30포. 표시표 작은 글씨 판독 가능. 프로바이오틱스 수20억CFU/1포1.5g. 대두·우유 함유. 어린이 함부로 섭취 금지와 성인질환 주의 원문 유지."
+      ],
+      "field_values": {
+        "product_name": "뽀로로 유산균",
+        "food_type": "건강기능식품",
+        "manufacturer": "엠에스바이오텍(주)",
+        "distributor": "안국약품(주)",
+        "package": "45 g (1.5 g × 30포)",
+        "dosage_form": "분말 포",
+        "intake": "1일 1회, 1회 1포를 그대로 혹은 충분한 물과 함께 섭취하십시오.",
+        "allergen": "대두, 우유 함유"
+      },
+      "reviewed_nutrients": [],
+      "field_dispositions": {},
+      "nutrient_basis": "1일 섭취량: 1포(1.5 g)",
+      "nutrient_spec": "열량|5|kcal;탄수화물|1|g|0;단백질|0|g|0;지방|0|g|0;나트륨|0|mg|0;프로바이오틱스 수|2000000000|CFU",
+      "reviewed_at": "2026-10-20T00:01:20.198379+09:00",
+      "visual_inspection": true,
+      "source_match": "name_variant_package_matched",
+      "remaining_reasons": [
+        "전체 원재료·기능성·섭취/주의 문구의 완전한 교정 전사 및 정규화 미완료"
+      ]
+    }
+  ]
+}

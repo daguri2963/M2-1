@@ -1,0 +1,247 @@
+{
+  "reviewed_at": "2026-10-20T00:06:08.076166+09:00",
+  "products": [
+    {
+      "product_number": "613602124",
+      "catalog_index": 47,
+      "review_status": "partial",
+      "evidence": [
+        {
+          "source_id": "label-0074",
+          "source_sha256": "72984af9279ed0e26365cb2c5387d76928f425d0716d73402e873f32624a8782",
+          "source_url": "https://cdn.daisomall.co.kr/file/resize/PD/20251210/description/850/GHieZuTSgOsHNtHjL01N613602124_01_01GHieZuTSgOsHNtHjL01N.jpg",
+          "original_path": "data/products/labels/613602124/72984af9279ed0e2.jpg",
+          "crops": [
+            {
+              "path": "data/products/review-evidence/47-613602124-72984af9-0.png",
+              "x": 0,
+              "y": 17406,
+              "width": 850,
+              "height": 2000
+            },
+            {
+              "path": "data/products/review-evidence/47-613602124-72984af9-1.png",
+              "x": 0,
+              "y": 19206,
+              "width": 850,
+              "height": 1794
+            }
+          ]
+        }
+      ],
+      "observations": [
+        "이뮨멀티비타민&미네랄 자연관 병4개 표시표 확인. 액상20g+정제450mg2정/병. 당류1g미만1%, 엽산1360μgDFE340%; 총4병기준아님. 복숭아·아황산류함유. 액상살균제품."
+      ],
+      "field_values": {
+        "product_name": "이뮨 멀티비타민&미네랄",
+        "food_type": "건강기능식품",
+        "manufacturer": "(주)한국코스모",
+        "distributor": "(주)더블유젯",
+        "package": "{액상 20 g + 정제(450 mg × 2정)} × 4병",
+        "dosage_form": "액상+정제 복합 병",
+        "intake": "1일 1회, 1회 1병을 섭취하십시오.",
+        "allergen": "복숭아, 아황산류 함유"
+      },
+      "reviewed_nutrients": [],
+      "field_dispositions": {},
+      "nutrient_basis": "1일 섭취량: 1병 {액상20g+정제450mg×2정}; 섭취방법과 연결",
+      "nutrient_spec": "열량|10|kcal;탄수화물|2|g|1;당류|1|g|1|<;단백질|0|g|0;지방|0|g|0;나트륨|10|mg|1;비타민C|150|mg|150;아연|10|mg|118;나이아신|60|mg NE|400;비타민B1|25|mg|2083;비타민B6|20|mg|1333;철|7.2|mg|60;크롬|30|μg|100;판토텐산|7|mg|140;망간|3|mg|100;구리|0.8|mg|100;비타민A|470|μg RAE|67;비타민D|10|μg|100;비타민K|80|μg|114;엽산|1360|μg DFE|340;요오드|150|μg|100",
+      "reviewed_at": "2026-10-20T00:06:08.076166+09:00",
+      "visual_inspection": true,
+      "source_match": "name_variant_package_matched",
+      "remaining_reasons": [
+        "전체 원재료·기능성·섭취/주의 문구의 완전한 교정 전사 및 정규화 미완료"
+      ]
+    },
+    {
+      "product_number": "968235549",
+      "catalog_index": 48,
+      "review_status": "partial",
+      "evidence": [
+        {
+          "source_id": "label-0076",
+          "source_sha256": "969b6208b69d1b12ed23ce62c2a5fc7998ddee26fff15f66902584f4cfbda27e",
+          "source_url": "https://cdn.daisomall.co.kr/file/resize/PD/20260409/description/850/wqYbxj20hWW7Hraqe9mx968235549_01_02wqYbxj20hWW7Hraqe9mx.jpg",
+          "original_path": "data/products/labels/968235549/969b6208b69d1b12.jpg",
+          "crops": [
+            {
+              "path": "data/products/review-evidence/48-968235549-969b6208-0.png",
+              "x": 0,
+              "y": 0,
+              "width": 850,
+              "height": 1700
+            }
+          ]
+        }
+      ],
+      "observations": [
+        "브이팩다이어트 표 확인. 1포1.3g=450mg2정400mg1캡슐. 카테킨300mg, 프로바이오틱스30억CFU, C100mg, B6 7.5mg500%, B2 7mg500%, 나이아신15mgNE100%, 셀렌55μg100%. 우유·대두·쇠고기함유. 주의12항목존재."
+      ],
+      "field_values": {
+        "product_name": "브이팩 다이어트",
+        "food_type": "건강기능식품",
+        "manufacturer": "(주)코스팜",
+        "distributor": "안국약품(주)",
+        "package": "9.1 g [1.3 g(2정, 1캡슐) × 7포]",
+        "dosage_form": "정제+캡슐 멀티팩",
+        "intake": "1일 1회, 1회 1포(2정, 1캡슐)를 충분한 물과 함께 섭취하십시오.",
+        "allergen": "우유, 대두, 쇠고기 함유"
+      },
+      "reviewed_nutrients": [],
+      "field_dispositions": {},
+      "evidence_source_sha_prefix": "969b6208",
+      "nutrient_basis": "1일 섭취량: 1포(1.3 g) [450 mg × 2정, 400 mg × 1캡슐]",
+      "nutrient_spec": "열량|5|kcal;탄수화물|1.1|g|0;단백질|0.1|g|0;지방|0|g|0;나트륨|1|mg|0;카테킨|300|mg;프로바이오틱스 수|3000000000|CFU;비타민C|100|mg|100;나이아신|15|mg NE|100;비타민B6|7.5|mg|500;비타민B2|7|mg|500;셀렌|55|μg|100",
+      "reviewed_at": "2026-10-20T00:06:08.076166+09:00",
+      "visual_inspection": true,
+      "source_match": "name_variant_package_matched",
+      "remaining_reasons": [
+        "전체 원재료·기능성·섭취/주의 문구의 완전한 교정 전사 및 정규화 미완료"
+      ]
+    },
+    {
+      "product_number": "033991017",
+      "catalog_index": 49,
+      "review_status": "partial",
+      "evidence": [
+        {
+          "source_id": "label-0078",
+          "source_sha256": "17add472ee6574d8af1cee75def08129127c4c86b5226e1bf74c5560ecd5df54",
+          "source_url": "https://cdn.daisomall.co.kr/file/resize/PD/20260807/description/850/7pARQ92UZv3hEqeuqL1x033991017_01_007pARQ92UZv3hEqeuqL1x.png",
+          "original_path": "data/products/labels/033991017/17add472ee6574d8.png",
+          "crops": [
+            {
+              "path": "data/products/review-evidence/49-033991017-17add472-0.png",
+              "x": 0,
+              "y": 13274,
+              "width": 735,
+              "height": 1930
+            },
+            {
+              "path": "data/products/review-evidence/49-033991017-17add472-1.png",
+              "x": 0,
+              "y": 15074,
+              "width": 735,
+              "height": 130
+            }
+          ]
+        }
+      ],
+      "observations": [
+        "기억력건강올인원 원료·주의표 실제확인. 1포1.3g500mg1정800mg1정. 복숭아·조개류(홍합)함유. 어린이임산부수유부피함, 수술전후와 항응고제주의."
+      ],
+      "field_values": {
+        "product_name": "기억력 건강 올인원",
+        "food_type": "건강기능식품",
+        "manufacturer": "광동헬스바이오(주) 2공장",
+        "distributor": "(주)이노셀헬스케어",
+        "package": "19.5 g [(500 mg × 1정, 800 mg × 1정) × 15포]",
+        "dosage_form": "멀티팩 정제",
+        "intake": "1일 1회, 1회 1포를 물과 함께 섭취하십시오.",
+        "allergen": "복숭아, 조개류(홍합) 함유"
+      },
+      "reviewed_nutrients": [],
+      "field_dispositions": {},
+      "reviewed_at": "2026-10-20T00:06:08.076166+09:00",
+      "visual_inspection": true,
+      "source_match": "name_variant_package_matched",
+      "remaining_reasons": [
+        "전체 원재료·기능성·섭취/주의 문구의 완전한 교정 전사 및 정규화 미완료"
+      ]
+    },
+    {
+      "product_number": "033991022",
+      "catalog_index": 50,
+      "review_status": "partial",
+      "evidence": [
+        {
+          "source_id": "label-0079",
+          "source_sha256": "30ff4489e563defad5d8ed0e994da0caa19e055f50470dafa619f2bd9394eee6",
+          "source_url": "https://cdn.daisomall.co.kr/file/resize/PD/20260807/description/850/rMlSJGKB9oWUD8eZzTtY033991022_01_00rMlSJGKB9oWUD8eZzTtY.png",
+          "original_path": "data/products/labels/033991022/30ff4489e563defa.png",
+          "crops": [
+            {
+              "path": "data/products/review-evidence/50-033991022-30ff4489-0.png",
+              "x": 0,
+              "y": 14418,
+              "width": 735,
+              "height": 1962
+            },
+            {
+              "path": "data/products/review-evidence/50-033991022-30ff4489-1.png",
+              "x": 0,
+              "y": 16218,
+              "width": 735,
+              "height": 162
+            }
+          ]
+        }
+      ],
+      "observations": [
+        "스트레스케어올인원 원료·주의표 실제확인. 1포2g1000mg2정. 복숭아함유. 임산부수유부·카페인음료·수술전후·6세이하·고칼슘·B6이상사례주의."
+      ],
+      "field_values": {
+        "product_name": "스트레스케어 올인원",
+        "food_type": "건강기능식품",
+        "manufacturer": "광동헬스바이오(주) 2공장",
+        "distributor": "(주)이노셀헬스케어",
+        "package": "30 g [(1,000 mg × 1정, 1,000 mg × 1정) × 15포]",
+        "dosage_form": "멀티팩 정제",
+        "intake": "1일 1회, 1회 1포를 물과 함께 섭취하십시오.",
+        "allergen": "복숭아 함유"
+      },
+      "reviewed_nutrients": [],
+      "field_dispositions": {},
+      "reviewed_at": "2026-10-20T00:06:08.076166+09:00",
+      "visual_inspection": true,
+      "source_match": "name_variant_package_matched",
+      "remaining_reasons": [
+        "전체 원재료·기능성·섭취/주의 문구의 완전한 교정 전사 및 정규화 미완료"
+      ]
+    },
+    {
+      "product_number": "601678607",
+      "catalog_index": 51,
+      "review_status": "partial",
+      "evidence": [
+        {
+          "source_id": "label-0080",
+          "source_sha256": "1d1edb501ff3feb355e88e9f68a2ca1042653d70cdaef0c3dec844ddee831189",
+          "source_url": "https://cdn.daisomall.co.kr/file/resize/PD/20260909/description/850/3ZdJMTSfN8t4ro49ahx0601678607_01_003ZdJMTSfN8t4ro49ahx0.jpg",
+          "original_path": "data/products/labels/601678607/1d1edb501ff3feb3.jpg",
+          "crops": [
+            {
+              "path": "data/products/review-evidence/51-601678607-1d1edb50-0.png",
+              "x": 0,
+              "y": 16287,
+              "width": 850,
+              "height": 1126
+            }
+          ]
+        }
+      ],
+      "observations": [
+        "사과맛철분3열전체 확인. 3정1860mg당철12mg100%, 열량5kcal 탄수화물1.6g0%. 6세이하과량섭취주의. 피로인산제이철원료와완제품철량구분."
+      ],
+      "field_values": {
+        "product_name": "배러 크런치 철분",
+        "food_type": "건강기능식품/철 제품",
+        "manufacturer": "코스맥스바이오(주)",
+        "distributor": "동화약품(주)",
+        "package": "620 mg × 30정 (18.6 g)",
+        "dosage_form": "정제(츄어블)",
+        "intake": "1일 1회, 1회 3정을 씹어서 섭취하세요."
+      },
+      "reviewed_nutrients": [],
+      "field_dispositions": {},
+      "nutrient_basis": "1일 섭취량: 3정(1,860 mg)",
+      "nutrient_spec": "열량|5|kcal;탄수화물|1.6|g|0;단백질|0|g|0;지방|0|g|0;나트륨|0|mg|0;철|12|mg|100",
+      "reviewed_at": "2026-10-20T00:06:08.076166+09:00",
+      "visual_inspection": true,
+      "source_match": "name_variant_package_matched",
+      "remaining_reasons": [
+        "전체 원재료·기능성·섭취/주의 문구의 완전한 교정 전사 및 정규화 미완료"
+      ]
+    }
+  ]
+}

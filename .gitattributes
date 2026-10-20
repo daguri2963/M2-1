@@ -1,0 +1,4 @@
+# Preserve the exported CSV bytes used by the data audit hashes.
+*.csv -text whitespace=cr-at-eol
+# Markdown uses two trailing spaces for intentional hard line breaks.
+*.md whitespace=-blank-at-eol

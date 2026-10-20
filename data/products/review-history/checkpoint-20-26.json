@@ -1,0 +1,495 @@
+{
+  "reviewed_at": "2026-10-20T00:02:34.838862+09:00",
+  "products": [
+    {
+      "product_number": "600000313",
+      "catalog_index": 20,
+      "review_status": "partial",
+      "evidence": [
+        {
+          "source_id": "label-0033",
+          "source_sha256": "d2ebb2d528774784fb9b1e89368194530234ff5c975c61698c01d3672caabb1b",
+          "source_url": "https://cdn.daisomall.co.kr/file/resize/PD/20261014/description/850/XKxjHml68WxQyMMXSyqt600000313_01_01XKxjHml68WxQyMMXSyqt.jpg",
+          "original_path": "data/products/labels/600000313/d2ebb2d528774784.jpg",
+          "crops": [
+            {
+              "path": "data/products/review-evidence/20-600000313-d2ebb2d5-0.png",
+              "x": 0,
+              "y": 4794,
+              "width": 850,
+              "height": 2000
+            },
+            {
+              "path": "data/products/review-evidence/20-600000313-d2ebb2d5-1.png",
+              "x": 0,
+              "y": 6594,
+              "width": 850,
+              "height": 2000
+            },
+            {
+              "path": "data/products/review-evidence/20-600000313-d2ebb2d5-2.png",
+              "x": 0,
+              "y": 8394,
+              "width": 850,
+              "height": 1194
+            }
+          ]
+        },
+        {
+          "source_id": "label-0034",
+          "source_sha256": "acef3da533eb8208715608f19649d3ff24f5ee4635d024ea81a8e727ed1af4bd",
+          "source_url": "https://cdn.daisomall.co.kr/file/resize/PD/20261014/description/850/sNVQyA6XAIJHUBL3l3FL600000313_01_02sNVQyA6XAIJHUBL3l3FL.png",
+          "original_path": "data/products/labels/600000313/acef3da533eb8208.png",
+          "crops": [
+            {
+              "path": "data/products/review-evidence/20-600000313-acef3da5-0.png",
+              "x": 0,
+              "y": 54,
+              "width": 850,
+              "height": 2000
+            },
+            {
+              "path": "data/products/review-evidence/20-600000313-acef3da5-1.png",
+              "x": 0,
+              "y": 1854,
+              "width": 850,
+              "height": 280
+            }
+          ]
+        }
+      ],
+      "observations": [
+        "별도 PRODUCT INFORMATION 전체 확인. 500mg×30정. 셀레늄200μg364%, 아연8.5mg100%는1정500mg. 대두함유와 교차시설문구 구분."
+      ],
+      "field_values": {
+        "product_name": "셀레늄 아연",
+        "food_type": "건강기능식품",
+        "manufacturer": "코스맥스엔비티(주)",
+        "distributor": "(주)대웅제약",
+        "package": "15 g (500 mg × 30정)",
+        "dosage_form": "정제",
+        "intake": "1일 1회, 1회 1정을 물과 함께 섭취하십시오.",
+        "allergen": "대두 함유"
+      },
+      "reviewed_nutrients": [],
+      "field_dispositions": {},
+      "evidence_source_sha_prefix": "acef3da5",
+      "nutrient_basis": "1일 섭취량: 1정(500 mg)",
+      "nutrient_spec": "열량|0|kcal;탄수화물|0|g|0;단백질|0|g|0;지방|0|g|0;나트륨|0|mg|0;셀레늄|200|μg|364;아연|8.5|mg|100",
+      "reviewed_at": "2026-10-20T00:02:34.838862+09:00",
+      "visual_inspection": true,
+      "source_match": "name_variant_package_matched",
+      "remaining_reasons": [
+        "전체 원재료·기능성·섭취/주의 문구의 완전한 교정 전사 및 정규화 미완료"
+      ]
+    },
+    {
+      "product_number": "610911097",
+      "catalog_index": 21,
+      "review_status": "partial",
+      "evidence": [
+        {
+          "source_id": "label-0035",
+          "source_sha256": "fe79d7771f6e8c1937e57727f6376989aa70ecb835b96b4cb85d69116f6c1175",
+          "source_url": "https://cdn.daisomall.co.kr/file/resize/PD/20260810/description/850/XgwCdZgSVdtHGy1vjyW3610911097_01_00XgwCdZgSVdtHGy1vjyW3.jpg",
+          "original_path": "data/products/labels/610911097/fe79d7771f6e8c19.jpg",
+          "crops": [
+            {
+              "path": "data/products/review-evidence/21-610911097-fe79d777-0.png",
+              "x": 0,
+              "y": 13338,
+              "width": 850,
+              "height": 1121
+            }
+          ]
+        }
+      ],
+      "observations": [
+        "프로폴리스&아연 필름 원문 표 재확인. 일반식품기타가공품으로 영양/기능정보 표 자체 없음. 기존 영양미표시 판정 유지. 1.8282g152.35mg×12매. 섭취법에 일일매수 없음:12일분 광고로부터 일1매를 생성하지 않음."
+      ],
+      "field_values": {
+        "product_name": "프로폴리스 & 아연 필름",
+        "food_type": "기타가공품",
+        "manufacturer": "(주)씨엘팜",
+        "distributor": "동국제약(주)",
+        "package": "1.8282 g (152.35 mg × 12매)",
+        "dosage_form": "필름",
+        "intake": "필름을 입천장에 붙여 천천히 녹여 섭취하십시오.",
+        "cautions": "특이체질 및 알레르기 체질의 경우 성분을 확인하고 섭취하십시오.",
+        "storage": "직사광선을 피해 실온에 보관하시고, 뚜껑 개봉 시 손 등을 다칠 수 있으니 주의하시기 바랍니다."
+      },
+      "reviewed_nutrients": [],
+      "field_dispositions": {
+        "nutrition": {
+          "status": "not_displayed_in_observed_label",
+          "reason": "제품 표시 표 전체를 직접 확인했으나 영양정보 구간이 없음"
+        },
+        "function": {
+          "status": "not_applicable",
+          "reason": "기타가공품 표시이며 관찰 표에 건강기능식품 기능성 표시 없음"
+        }
+      },
+      "reviewed_at": "2026-10-20T00:02:34.838862+09:00",
+      "visual_inspection": true,
+      "source_match": "name_variant_package_matched",
+      "remaining_reasons": [
+        "전체 원재료·기능성·섭취/주의 문구의 완전한 교정 전사 및 정규화 미완료"
+      ]
+    },
+    {
+      "product_number": "610911096",
+      "catalog_index": 22,
+      "review_status": "partial",
+      "evidence": [
+        {
+          "source_id": "label-0036",
+          "source_sha256": "79132f45cf936d55b8cd43c35203d007e7f5994b9ea513fba70044dcea155d11",
+          "source_url": "https://cdn.daisomall.co.kr/file/resize/PD/20260810/description/850/NWz3vOzebGj9TI5aTlN5610911096_01_00NWz3vOzebGj9TI5aTlN5.jpg",
+          "original_path": "data/products/labels/610911096/79132f45cf936d55.jpg",
+          "crops": [
+            {
+              "path": "data/products/review-evidence/22-610911096-79132f45-0.png",
+              "x": 0,
+              "y": 13132,
+              "width": 850,
+              "height": 1239
+            }
+          ]
+        }
+      ],
+      "observations": [
+        "홍삼필름 건강기능식품으로 프로폴리스필름과 다름. 1매240.3mg당진세노사이드Rg1+Rb1+Rg3 3mg. 원료규격23mg/g와 혼동금지. 당뇨치료제·혈액항응고제 주의."
+      ],
+      "field_values": {
+        "product_name": "면역엔 홍삼 필름",
+        "food_type": "건강기능식품",
+        "manufacturer": "(주)씨엘팜",
+        "distributor": "동국제약(주)",
+        "package": "2.403 g (240.3 mg × 10매)",
+        "dosage_form": "필름",
+        "intake": "1일 1회, 1회 1매 필름을 입천장에 붙여 천천히 녹여 섭취하십시오.",
+        "cautions": "당뇨치료제 및 혈액항응고제 복용 시 섭취에 주의하십시오. 알레르기 체질 등은 개인에 따라 과민 반응을 나타낼 수 있습니다. 이상사례 발생 시 섭취를 중단하고 전문가와 상담하십시오.",
+        "storage": "고온다습한 곳이나 직사광선을 피하여 건조하고 서늘한 곳에 실온 보관하십시오."
+      },
+      "reviewed_nutrients": [],
+      "field_dispositions": {},
+      "nutrient_basis": "1일 섭취량: 1매(240.3 mg)",
+      "nutrient_spec": "열량|0|kcal;탄수화물|0|g|0;당류|0|g|0;지방|0|g|0;단백질|0|g|0;나트륨|0|mg|0;진세노사이드 Rg1+Rb1+Rg3|3|mg",
+      "reviewed_at": "2026-10-20T00:02:34.838862+09:00",
+      "visual_inspection": true,
+      "source_match": "name_variant_package_matched",
+      "remaining_reasons": [
+        "전체 원재료·기능성·섭취/주의 문구의 완전한 교정 전사 및 정규화 미완료"
+      ]
+    },
+    {
+      "product_number": "600000312",
+      "catalog_index": 23,
+      "review_status": "partial",
+      "evidence": [
+        {
+          "source_id": "label-0037",
+          "source_sha256": "598c76eecc438c7b26a08bf293c17960b29ffb3ee845e9ef9fc7d9a614d73483",
+          "source_url": "https://cdn.daisomall.co.kr/file/resize/PD/20261014/description/850/Vp4N4CSfbXYXOt5YXvqR600000312_01_01Vp4N4CSfbXYXOt5YXvqR.png",
+          "original_path": "data/products/labels/600000312/598c76eecc438c7b.png",
+          "crops": [
+            {
+              "path": "data/products/review-evidence/23-600000312-598c76ee-0.png",
+              "x": 0,
+              "y": 569,
+              "width": 850,
+              "height": 2000
+            },
+            {
+              "path": "data/products/review-evidence/23-600000312-598c76ee-1.png",
+              "x": 0,
+              "y": 2369,
+              "width": 850,
+              "height": 2000
+            },
+            {
+              "path": "data/products/review-evidence/23-600000312-598c76ee-2.png",
+              "x": 0,
+              "y": 4169,
+              "width": 850,
+              "height": 2000
+            },
+            {
+              "path": "data/products/review-evidence/23-600000312-598c76ee-3.png",
+              "x": 0,
+              "y": 5969,
+              "width": 850,
+              "height": 2000
+            },
+            {
+              "path": "data/products/review-evidence/23-600000312-598c76ee-4.png",
+              "x": 0,
+              "y": 7769,
+              "width": 850,
+              "height": 2000
+            },
+            {
+              "path": "data/products/review-evidence/23-600000312-598c76ee-5.png",
+              "x": 0,
+              "y": 9569,
+              "width": 850,
+              "height": 2000
+            },
+            {
+              "path": "data/products/review-evidence/23-600000312-598c76ee-6.png",
+              "x": 0,
+              "y": 11369,
+              "width": 850,
+              "height": 2000
+            },
+            {
+              "path": "data/products/review-evidence/23-600000312-598c76ee-7.png",
+              "x": 0,
+              "y": 13169,
+              "width": 850,
+              "height": 2000
+            },
+            {
+              "path": "data/products/review-evidence/23-600000312-598c76ee-8.png",
+              "x": 0,
+              "y": 14969,
+              "width": 850,
+              "height": 2000
+            },
+            {
+              "path": "data/products/review-evidence/23-600000312-598c76ee-9.png",
+              "x": 0,
+              "y": 16769,
+              "width": 850,
+              "height": 1353
+            }
+          ]
+        },
+        {
+          "source_id": "label-0038",
+          "source_sha256": "6f55be26995b43d604ff204a74bf369c3d6b8ecd91220d244268fe8499c135f8",
+          "source_url": "https://cdn.daisomall.co.kr/file/resize/PD/20261014/description/850/H9VAjuXqKRdOd2uM2IuS600000312_01_02H9VAjuXqKRdOd2uM2IuS.png",
+          "original_path": "data/products/labels/600000312/6f55be26995b43d6.png",
+          "crops": [
+            {
+              "path": "data/products/review-evidence/23-600000312-6f55be26-0.png",
+              "x": 0,
+              "y": 58,
+              "width": 850,
+              "height": 2000
+            },
+            {
+              "path": "data/products/review-evidence/23-600000312-6f55be26-1.png",
+              "x": 0,
+              "y": 1858,
+              "width": 850,
+              "height": 474
+            }
+          ]
+        }
+      ],
+      "observations": [
+        "감마리놀렌산 별도 표시표 확인. 1캡슐1200mg당감마리놀렌산240mg, 열량11kcal, 지방1.2g2%. 보라지종자유 원료질량1200mg와 기능량240mg 구분. 쇠고기함유. 임산부 및 영유아어린이 상담주의."
+      ],
+      "field_values": {
+        "product_name": "감마리놀렌산",
+        "food_type": "건강기능식품",
+        "manufacturer": "(주)노바렉스 2공장",
+        "distributor": "(주)대웅제약",
+        "package": "36 g (1,200 mg × 30캡슐)",
+        "dosage_form": "캡슐",
+        "intake": "1일 1회, 1회 1캡슐을 물과 함께 섭취하십시오.",
+        "allergen": "쇠고기 함유",
+        "raw_materials": "보라지종자유(영국산). 캡슐기제: 젤라틴(우피), 글리세린, D-소비톨액"
+      },
+      "reviewed_nutrients": [],
+      "field_dispositions": {},
+      "evidence_source_sha_prefix": "6f55be26",
+      "nutrient_basis": "1일 섭취량: 1캡슐(1,200 mg)",
+      "nutrient_spec": "열량|11|kcal;탄수화물|0|g|0;단백질|0|g|0;지방|1.2|g|2;나트륨|0|mg|0;감마리놀렌산|240|mg",
+      "reviewed_at": "2026-10-20T00:02:34.838862+09:00",
+      "visual_inspection": true,
+      "source_match": "name_variant_package_matched",
+      "remaining_reasons": [
+        "전체 원재료·기능성·섭취/주의 문구의 완전한 교정 전사 및 정규화 미완료"
+      ]
+    },
+    {
+      "product_number": "600000314",
+      "catalog_index": 24,
+      "review_status": "partial",
+      "evidence": [
+        {
+          "source_id": "label-0039",
+          "source_sha256": "501feb77e4b55b8d034d2a8b74489499d756e69d504e6f856a1594def1f1c087",
+          "source_url": "https://cdn.daisomall.co.kr/file/resize/PD/20261019/description/850/RWCU4EMMbihyFDnngPEq600000314_01_02RWCU4EMMbihyFDnngPEq.png",
+          "original_path": "data/products/labels/600000314/501feb77e4b55b8d.png",
+          "crops": [
+            {
+              "path": "data/products/review-evidence/24-600000314-501feb77-0.png",
+              "x": 0,
+              "y": 58,
+              "width": 850,
+              "height": 1998
+            },
+            {
+              "path": "data/products/review-evidence/24-600000314-501feb77-1.png",
+              "x": 0,
+              "y": 1858,
+              "width": 850,
+              "height": 198
+            }
+          ]
+        }
+      ],
+      "observations": [
+        "커큐민250 당류가공품 표시. 총내용량21g당79kcal, 탄수화물19g6%, 당류10g10%, 지방0.3g1%, 포화지방0.2g1%, 단백질0g0%, 나트륨8mg0%. 라벨에는 커큐민250mg 기능량 표기 없음; 상품명 숫자를 확정 함량으로 넣지 않음."
+      ],
+      "field_values": {
+        "product_name": "커큐민250",
+        "food_type": "당류가공품",
+        "manufacturer": "코스맥스엔비티(주)",
+        "distributor": "(주)대웅제약",
+        "package": "21 g (700 mg × 30정, 79 kcal)",
+        "dosage_form": "정제",
+        "intake": "1일 1회, 1회 1정을 물과 함께 섭취하십시오.",
+        "raw_materials": "포도당, 강황추출물, 옥수수전분, 히드록시프로필메틸셀룰로스, 이산화규소, 치자황색소, 스테아린산마그네슘, 흑후추추출물분말, 이산화티타늄(착색료), 글리세린"
+      },
+      "reviewed_nutrients": [],
+      "field_dispositions": {},
+      "evidence_source_sha_prefix": "501feb77",
+      "nutrient_basis": "총 내용량 21 g",
+      "nutrient_spec": "열량|79|kcal;탄수화물|19|g|6;당류|10|g|10;지방|0.3|g|1;포화지방|0.2|g|1;단백질|0|g|0;나트륨|8|mg|0",
+      "reviewed_at": "2026-10-20T00:02:34.838862+09:00",
+      "visual_inspection": true,
+      "source_match": "name_variant_package_matched",
+      "remaining_reasons": [
+        "전체 원재료·기능성·섭취/주의 문구의 완전한 교정 전사 및 정규화 미완료"
+      ]
+    },
+    {
+      "product_number": "600000293",
+      "catalog_index": 25,
+      "review_status": "partial",
+      "evidence": [
+        {
+          "source_id": "label-0041",
+          "source_sha256": "42591d432265eb8b0a1a78e7641eeec229ef776543e7029a875d52b911ebc745",
+          "source_url": "https://cdn.daisomall.co.kr/file/resize/PD/20261016/description/850/gOziZHZ5XPceFJFWymiL600000293_01_01gOziZHZ5XPceFJFWymiL.png",
+          "original_path": "data/products/labels/600000293/42591d432265eb8b.png",
+          "crops": [
+            {
+              "path": "data/products/review-evidence/25-600000293-42591d43-0.png",
+              "x": 0,
+              "y": 6420,
+              "width": 850,
+              "height": 2000
+            },
+            {
+              "path": "data/products/review-evidence/25-600000293-42591d43-1.png",
+              "x": 0,
+              "y": 8220,
+              "width": 850,
+              "height": 2000
+            },
+            {
+              "path": "data/products/review-evidence/25-600000293-42591d43-2.png",
+              "x": 0,
+              "y": 10020,
+              "width": 850,
+              "height": 1150
+            }
+          ]
+        },
+        {
+          "source_id": "label-0042",
+          "source_sha256": "cb64aeccb27168dbb39f9213e00bbfb3ba4d093557cca5124d9ffe3e7a93bc6e",
+          "source_url": "https://cdn.daisomall.co.kr/file/resize/PD/20261016/description/850/GhiUJwXuRZcIpw4n71uF600000293_01_02GhiUJwXuRZcIpw4n71uF.png",
+          "original_path": "data/products/labels/600000293/cb64aeccb27168db.png",
+          "crops": [
+            {
+              "path": "data/products/review-evidence/25-600000293-cb64aecc-0.png",
+              "x": 0,
+              "y": 58,
+              "width": 850,
+              "height": 2000
+            },
+            {
+              "path": "data/products/review-evidence/25-600000293-cb64aecc-1.png",
+              "x": 0,
+              "y": 1858,
+              "width": 850,
+              "height": 1366
+            }
+          ]
+        }
+      ],
+      "observations": [
+        "과일야채스틱 캔디류 표시. 원료복합괄호 긴 목록 존재. 영양은 총200g이 아니라1포20g 기준이며22kcal. 자일리톨12% 과량설사 주의 및 토마토함유. 광고만 저장된 상황 아님."
+      ],
+      "field_values": {
+        "product_name": "과일야채 스틱",
+        "food_type": "캔디류",
+        "manufacturer": "(주)노바렉스",
+        "distributor": "(주)대웅제약",
+        "package": "200 g (20 g × 10포) / 223 kcal",
+        "dosage_form": "스틱 젤리",
+        "allergen": "토마토 함유"
+      },
+      "reviewed_nutrients": [],
+      "field_dispositions": {},
+      "evidence_source_sha_prefix": "cb64aecc",
+      "reviewed_at": "2026-10-20T00:02:34.838862+09:00",
+      "visual_inspection": true,
+      "source_match": "name_variant_package_matched",
+      "remaining_reasons": [
+        "전체 원재료·기능성·섭취/주의 문구의 완전한 교정 전사 및 정규화 미완료"
+      ]
+    },
+    {
+      "product_number": "985472880",
+      "catalog_index": 26,
+      "review_status": "partial",
+      "evidence": [
+        {
+          "source_id": "label-0043",
+          "source_sha256": "cb80471200fb3f90ef88aee23322dfc3bc868fb96ce7e161317b0733a18f28f3",
+          "source_url": "https://cdn.daisomall.co.kr/file/resize/PD/20261016/description/850/tWr9MTXIASGn7hltgSNG985472880_01_02tWr9MTXIASGn7hltgSNG.jpg",
+          "original_path": "data/products/labels/985472880/cb80471200fb3f90.jpg",
+          "crops": [
+            {
+              "path": "data/products/review-evidence/26-985472880-cb804712-0.png",
+              "x": 0,
+              "y": 0,
+              "width": 850,
+              "height": 1791
+            }
+          ]
+        }
+      ],
+      "observations": [
+        "뽀로로멀티비타민 표 전체 확인. 1포2g당18행 영양. A450μgRAE64%, E7mgα-TE64%, 엽산220μgDFE55%. 우유함유, 특히6세이하 과량섭취주의. 두 열 영양표 읽기순서 자동혼합 주의."
+      ],
+      "field_values": {
+        "product_name": "뽀로로 멀티비타민",
+        "food_type": "건강기능식품",
+        "manufacturer": "엠에스바이오텍(주)",
+        "distributor": "안국약품(주)",
+        "package": "60 g (2 g × 30포)",
+        "dosage_form": "분말 포",
+        "intake": "1일 1회, 1회 1포를 그대로 혹은 충분한 물과 함께 섭취하십시오.",
+        "allergen": "우유 함유"
+      },
+      "reviewed_nutrients": [],
+      "field_dispositions": {},
+      "nutrient_basis": "1일 섭취량: 1포(2 g)",
+      "nutrient_spec": "열량|10|kcal;탄수화물|2|g|1;단백질|0|g|0;지방|0|g|0;나트륨|0|mg|0;나이아신|9|mg NE|60;망간|2.5|mg|83;몰리브덴|18|μg|72;비오틴|15|μg|50;비타민A|450|μg RAE|64;비타민B1|0.7|mg|58;비타민B2|0.9|mg|64;비타민C|50|mg|50;비타민D|5|μg|50;비타민E|7|mg α-TE|64;비타민K|40|μg|57;아연|5|mg|59;엽산|220|μg DFE|55;철|9|mg|75;판토텐산|3|mg|60",
+      "reviewed_at": "2026-10-20T00:02:34.838862+09:00",
+      "visual_inspection": true,
+      "source_match": "name_variant_package_matched",
+      "remaining_reasons": [
+        "전체 원재료·기능성·섭취/주의 문구의 완전한 교정 전사 및 정규화 미완료"
+      ]
+    }
+  ]
+}

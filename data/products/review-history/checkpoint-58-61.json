@@ -1,0 +1,183 @@
+{
+  "reviewed_at": "2026-10-20T00:07:39.675463+09:00",
+  "products": [
+    {
+      "product_number": "032306200",
+      "catalog_index": 58,
+      "review_status": "partial",
+      "evidence": [
+        {
+          "source_id": "label-0091",
+          "source_sha256": "7fd148916a0b59437795b06e8abe01a06f35544082fc047d8c863d0158d31d0f",
+          "source_url": "https://cdn.daisomall.co.kr/file/resize/PD/20260629/description/850/56LQ46yz5HlbtqAYW6Tf032306200_01_0056LQ46yz5HlbtqAYW6Tf.jpg",
+          "original_path": "data/products/labels/032306200/7fd148916a0b5943.jpg",
+          "crops": [
+            {
+              "path": "data/products/review-evidence/58-032306200-7fd14891-0.png",
+              "x": 0,
+              "y": 6781,
+              "width": 850,
+              "height": 1485
+            }
+          ]
+        }
+      ],
+      "observations": [
+        "실물표시 품번032306200이 이미지에 직접있음. 1정600mg기준25행기존수치일치. 대두함유. 섭취/주의/보관 전체 원문재확인."
+      ],
+      "field_values": {
+        "product_name": "데일리와이즈 멀티비타민 미네랄",
+        "food_type": "건강기능식품",
+        "manufacturer": "코스맥스엔비티(주)",
+        "distributor": "(주)종근당 천안공장",
+        "package": "600 mg × 12정; 카탈로그포장수량과 연결",
+        "dosage_form": "정제",
+        "intake": "1일 1회, 1회 1정을 물과 함께 섭취하십시오.",
+        "allergen": "대두 함유"
+      },
+      "reviewed_nutrients": [],
+      "field_dispositions": {},
+      "reviewed_at": "2026-10-20T00:07:39.675463+09:00",
+      "visual_inspection": true,
+      "source_match": "name_variant_package_matched",
+      "remaining_reasons": [
+        "전체 원재료·기능성·섭취/주의 문구의 완전한 교정 전사 및 정규화 미완료"
+      ]
+    },
+    {
+      "product_number": "610910727",
+      "catalog_index": 59,
+      "review_status": "partial",
+      "evidence": [
+        {
+          "source_id": "label-0093",
+          "source_sha256": "d7cebd1db1a86c10719311ef212f707aa6c1b7a2e5e11046ef6f19ca7f3172f3",
+          "source_url": "https://cdn.daisomall.co.kr/file/resize/PD/20251112/description/850/i5Vl9kXyit8plNhBx9q6610910727_01_01i5Vl9kXyit8plNhBx9q6.png",
+          "original_path": "data/products/labels/610910727/d7cebd1db1a86c10.png",
+          "crops": [
+            {
+              "path": "data/products/review-evidence/59-610910727-d7cebd1d-0.png",
+              "x": 0,
+              "y": 15060,
+              "width": 850,
+              "height": 1194
+            }
+          ]
+        }
+      ],
+      "observations": [
+        "리포좀마그마스피드정 표 확인. 1정800mg당Mg120mg38%; 원료에B1/B2/B6있지만 영양표에 그함량없음. 광고/원재료명의비타민을 확정함량행으로 생성하지않음. 우유·대두함유."
+      ],
+      "field_values": {
+        "product_name": "리포좀 마그마 스피드 정",
+        "food_type": "건강기능식품",
+        "manufacturer": "(주)한미양행",
+        "distributor": "동국제약(주)",
+        "package": "24 g (800 mg × 30정)",
+        "dosage_form": "정제",
+        "intake": "1일 1회, 1회 1정을 충분한 물과 함께 섭취하십시오.",
+        "allergen": "우유, 대두 함유"
+      },
+      "reviewed_nutrients": [],
+      "field_dispositions": {},
+      "nutrient_basis": "1일 섭취량: 1정(800 mg)",
+      "nutrient_spec": "열량|2|kcal;탄수화물|0.6|g|0;단백질|0|g|0;지방|0|g|0;나트륨|0|mg|0;마그네슘|120|mg|38",
+      "reviewed_at": "2026-10-20T00:07:39.675463+09:00",
+      "visual_inspection": true,
+      "source_match": "name_variant_package_matched",
+      "remaining_reasons": [
+        "전체 원재료·기능성·섭취/주의 문구의 완전한 교정 전사 및 정규화 미완료"
+      ]
+    },
+    {
+      "product_number": "610910679",
+      "catalog_index": 60,
+      "review_status": "partial",
+      "evidence": [
+        {
+          "source_id": "label-0094",
+          "source_sha256": "e7e46cc2d36dbba540e2a1baecf05a3e051778147e96a00a0cd921a80d3680d7",
+          "source_url": "https://cdn.daisomall.co.kr/file/resize/PD/20260420/description/850/fPw1DxEhzEXpFr6Pcz8o610910679_01_00fPw1DxEhzEXpFr6Pcz8o.png",
+          "original_path": "data/products/labels/610910679/e7e46cc2d36dbba5.png",
+          "crops": [
+            {
+              "path": "data/products/review-evidence/60-610910679-e7e46cc2-0.png",
+              "x": 0,
+              "y": 14957,
+              "width": 850,
+              "height": 1419
+            }
+          ]
+        }
+      ],
+      "observations": [
+        "리포좀C30g30정 표시 확인. 1정1000mg당C500mg500%. 전체중량과성분량구분. 대두함유."
+      ],
+      "field_values": {
+        "product_name": "리포좀 비타민 C",
+        "food_type": "건강기능식품",
+        "manufacturer": "엠에스바이오텍(주)",
+        "distributor": "동국제약(주)",
+        "package": "30 g (1,000 mg × 30정)",
+        "dosage_form": "정제",
+        "intake": "1일 1회, 1회 1정을 충분한 물과 함께 섭취하십시오.",
+        "allergen": "대두 함유"
+      },
+      "reviewed_nutrients": [],
+      "field_dispositions": {},
+      "nutrient_basis": "1일 섭취량: 1정(1,000 mg)",
+      "nutrient_spec": "열량|0|kcal;탄수화물|0|g|0;단백질|0|g|0;지방|0|g|0;나트륨|0|mg|0;비타민C|500|mg|500",
+      "reviewed_at": "2026-10-20T00:07:39.675463+09:00",
+      "visual_inspection": true,
+      "source_match": "name_variant_package_matched",
+      "remaining_reasons": [
+        "전체 원재료·기능성·섭취/주의 문구의 완전한 교정 전사 및 정규화 미완료"
+      ]
+    },
+    {
+      "product_number": "286314181",
+      "catalog_index": 61,
+      "review_status": "partial",
+      "evidence": [
+        {
+          "source_id": "label-0095",
+          "source_sha256": "752fe5de95757fd04c0c9a571b1dd738d5698431bfc0fefaec1a09e2b127c076",
+          "source_url": "https://cdn.daisomall.co.kr/file/resize/PD/20260310/description/850/jQlfw9PvqoATZykPn8yc286314181_01_00jQlfw9PvqoATZykPn8yc.jpg",
+          "original_path": "data/products/labels/286314181/752fe5de95757fd0.jpg",
+          "crops": [
+            {
+              "path": "data/products/review-evidence/61-286314181-752fe5de-0.png",
+              "x": 0,
+              "y": 15507,
+              "width": 850,
+              "height": 1508
+            }
+          ]
+        }
+      ],
+      "observations": [
+        "영진C츄어블표 확인. 일1정1800mg당C400mg400%, 열량7kcal 탄수화물1.7g1%. 우유함유. D츄어블과원료주의차이확인."
+      ],
+      "field_values": {
+        "product_name": "비타민C 츄어블",
+        "food_type": "건강기능식품",
+        "manufacturer": "(주)한미양행",
+        "distributor": "영진약품(주)",
+        "package": "1,800 mg × 12정",
+        "dosage_form": "정제(츄어블)",
+        "intake": "1일 1회, 1회 1정을 씹어서 섭취하십시오.",
+        "allergen": "우유 함유"
+      },
+      "reviewed_nutrients": [],
+      "field_dispositions": {},
+      "nutrient_basis": "1일 섭취량: 1정(1,800 mg); 섭취방법과 연결",
+      "nutrient_spec": "열량|7|kcal;탄수화물|1.7|g|1;단백질|0|g|0;지방|0|g|0;나트륨|0|mg|0;비타민C|400|mg|400",
+      "reviewed_at": "2026-10-20T00:07:39.675463+09:00",
+      "visual_inspection": true,
+      "source_match": "name_variant_package_matched",
+      "remaining_reasons": [
+        "전체 원재료·기능성·섭취/주의 문구의 완전한 교정 전사 및 정규화 미완료"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,186 @@
+[
+  {
+    "product_number": "610910727",
+    "detail_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=610910727",
+    "expected_name": "동국제약 리포좀 마그마 스피드 30정",
+    "status": "label_assets_saved_pending_transcription",
+    "attempts": [
+      {
+        "date": "2026-10-19",
+        "method": "browser_detail_and_page_assets",
+        "source_url": "https://cdn.daisomall.co.kr/file/resize/PD/20251112/description/850/RdDELIED39P7ilgWHVf1610910727_01_99RdDELIED39P7ilgWHVf1.jpg",
+        "result": "label_asset_saved",
+        "detail_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=610910727"
+      },
+      {
+        "date": "2026-10-19",
+        "method": "browser_detail_and_page_assets",
+        "source_url": "https://cdn.daisomall.co.kr/file/resize/PD/20251112/description/850/i5Vl9kXyit8plNhBx9q6610910727_01_01i5Vl9kXyit8plNhBx9q6.png",
+        "result": "label_asset_saved",
+        "detail_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=610910727"
+      },
+      {
+        "date": "2026-10-19",
+        "method": "browser_detail_attempt",
+        "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=610910727",
+        "result": "label_assets_saved",
+        "reason": null
+      }
+    ],
+    "recommendation_eligible": false,
+    "label_assets": [
+      {
+        "source_url": "https://cdn.daisomall.co.kr/file/resize/PD/20251112/description/850/RdDELIED39P7ilgWHVf1610910727_01_99RdDELIED39P7ilgWHVf1.jpg",
+        "local_path": "data/products/labels/610910727/83b123f0ef1a61fb.jpg",
+        "sha256": "83b123f0ef1a61fb3a1c4ad0576820465ad4b7d1a7d32e7b570beaecec2ba173",
+        "method": "official_label_image_saved_pending_visual",
+        "observed_on": "2026-10-19",
+        "published_on": null,
+        "browser_manifest": "/var/folders/yz/kzzkpplj73qbzchy819k7v0m0000gn/T/browser-use/assets/bfdebbef-7f9d-4417-8731-f3d13ab71304/manifest.json"
+      },
+      {
+        "source_url": "https://cdn.daisomall.co.kr/file/resize/PD/20251112/description/850/i5Vl9kXyit8plNhBx9q6610910727_01_01i5Vl9kXyit8plNhBx9q6.png",
+        "local_path": "data/products/labels/610910727/d7cebd1db1a86c10.png",
+        "sha256": "d7cebd1db1a86c10719311ef212f707aa6c1b7a2e5e11046ef6f19ca7f3172f3",
+        "method": "official_label_image_saved_pending_visual",
+        "observed_on": "2026-10-19",
+        "published_on": null,
+        "browser_manifest": "/var/folders/yz/kzzkpplj73qbzchy819k7v0m0000gn/T/browser-use/assets/bfdebbef-7f9d-4417-8731-f3d13ab71304/manifest.json"
+      }
+    ]
+  },
+  {
+    "product_number": "610910679",
+    "detail_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=610910679",
+    "expected_name": "동국제약 리포좀 비타민C 30정",
+    "status": "label_assets_saved_pending_transcription",
+    "attempts": [
+      {
+        "date": "2026-10-19",
+        "method": "browser_detail_and_page_assets",
+        "source_url": "https://cdn.daisomall.co.kr/file/resize/PD/20260420/description/850/fPw1DxEhzEXpFr6Pcz8o610910679_01_00fPw1DxEhzEXpFr6Pcz8o.png",
+        "result": "label_asset_saved",
+        "detail_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=610910679"
+      },
+      {
+        "date": "2026-10-19",
+        "method": "browser_detail_attempt",
+        "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=610910679",
+        "result": "label_assets_saved",
+        "reason": null
+      }
+    ],
+    "recommendation_eligible": false,
+    "label_assets": [
+      {
+        "source_url": "https://cdn.daisomall.co.kr/file/resize/PD/20260420/description/850/fPw1DxEhzEXpFr6Pcz8o610910679_01_00fPw1DxEhzEXpFr6Pcz8o.png",
+        "local_path": "data/products/labels/610910679/e7e46cc2d36dbba5.png",
+        "sha256": "e7e46cc2d36dbba540e2a1baecf05a3e051778147e96a00a0cd921a80d3680d7",
+        "method": "official_label_image_saved_pending_visual",
+        "observed_on": "2026-10-19",
+        "published_on": null,
+        "browser_manifest": "/var/folders/yz/kzzkpplj73qbzchy819k7v0m0000gn/T/browser-use/assets/026b5eb7-bae4-49dd-83ca-7a069a412f49/manifest.json"
+      }
+    ]
+  },
+  {
+    "product_number": "286314181",
+    "detail_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=286314181",
+    "expected_name": "영진 비타민C 츄어블 12정",
+    "status": "retry_needed",
+    "attempts": [
+      {
+        "date": "2026-10-19",
+        "method": "browser_detail_attempt",
+        "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=286314181",
+        "result": "retry_needed",
+        "reason": "asset inventory not ready"
+      }
+    ],
+    "recommendation_eligible": false,
+    "failure_reason": "asset inventory not ready"
+  },
+  {
+    "product_number": "613602128",
+    "detail_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=613602128",
+    "expected_name": "오브맘 멀티비타민＆미네랄 하루구미 30일분",
+    "status": "label_assets_saved_pending_transcription",
+    "attempts": [
+      {
+        "date": "2026-10-19",
+        "method": "browser_detail_and_page_assets",
+        "source_url": "https://cdn.daisomall.co.kr/file/resize/PD/20260109/description/850/5FVzCo1CYOMm7vgWMQ9K613602128_01_995FVzCo1CYOMm7vgWMQ9K.jpg",
+        "result": "label_asset_saved",
+        "detail_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=613602128"
+      },
+      {
+        "date": "2026-10-19",
+        "method": "browser_detail_and_page_assets",
+        "source_url": "https://cdn.daisomall.co.kr/file/resize/PD/20260109/description/850/TQKNVdVmVawvDE4d8T3C613602128_01_02TQKNVdVmVawvDE4d8T3C.jpg",
+        "result": "label_asset_saved",
+        "detail_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=613602128"
+      },
+      {
+        "date": "2026-10-19",
+        "method": "browser_detail_and_page_assets",
+        "source_url": "https://cdn.daisomall.co.kr/file/resize/PD/20260109/description/850/iXk7ZHsBuUhRj1Skfm18613602128_01_01iXk7ZHsBuUhRj1Skfm18.jpg",
+        "result": "label_asset_saved",
+        "detail_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=613602128"
+      },
+      {
+        "date": "2026-10-19",
+        "method": "browser_detail_attempt",
+        "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=613602128",
+        "result": "label_assets_saved",
+        "reason": null
+      }
+    ],
+    "recommendation_eligible": false,
+    "label_assets": [
+      {
+        "source_url": "https://cdn.daisomall.co.kr/file/resize/PD/20260109/description/850/5FVzCo1CYOMm7vgWMQ9K613602128_01_995FVzCo1CYOMm7vgWMQ9K.jpg",
+        "local_path": "data/products/labels/613602128/83b123f0ef1a61fb.jpg",
+        "sha256": "83b123f0ef1a61fb3a1c4ad0576820465ad4b7d1a7d32e7b570beaecec2ba173",
+        "method": "official_label_image_saved_pending_visual",
+        "observed_on": "2026-10-19",
+        "published_on": null,
+        "browser_manifest": "/var/folders/yz/kzzkpplj73qbzchy819k7v0m0000gn/T/browser-use/assets/887745ab-93b9-438c-bbfb-b4ac5b077bac/manifest.json"
+      },
+      {
+        "source_url": "https://cdn.daisomall.co.kr/file/resize/PD/20260109/description/850/TQKNVdVmVawvDE4d8T3C613602128_01_02TQKNVdVmVawvDE4d8T3C.jpg",
+        "local_path": "data/products/labels/613602128/15103cc656db950d.jpg",
+        "sha256": "15103cc656db950d7532adfbfc69a4f93ae7074e2c2f69127653721fdd3398c5",
+        "method": "official_label_image_saved_pending_visual",
+        "observed_on": "2026-10-19",
+        "published_on": null,
+        "browser_manifest": "/var/folders/yz/kzzkpplj73qbzchy819k7v0m0000gn/T/browser-use/assets/887745ab-93b9-438c-bbfb-b4ac5b077bac/manifest.json"
+      },
+      {
+        "source_url": "https://cdn.daisomall.co.kr/file/resize/PD/20260109/description/850/iXk7ZHsBuUhRj1Skfm18613602128_01_01iXk7ZHsBuUhRj1Skfm18.jpg",
+        "local_path": "data/products/labels/613602128/155ab1eb3a0c270f.jpg",
+        "sha256": "155ab1eb3a0c270f7bc9e5eb038285a2308341afe1d83d98a2d7854f53f9d8dd",
+        "method": "official_label_image_saved_pending_visual",
+        "observed_on": "2026-10-19",
+        "published_on": null,
+        "browser_manifest": "/var/folders/yz/kzzkpplj73qbzchy819k7v0m0000gn/T/browser-use/assets/887745ab-93b9-438c-bbfb-b4ac5b077bac/manifest.json"
+      }
+    ]
+  },
+  {
+    "product_number": "613602129",
+    "detail_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=613602129",
+    "expected_name": "오브맘 면역＆프로폴리스 하루구미 30일분",
+    "status": "retry_needed",
+    "attempts": [
+      {
+        "date": "2026-10-19",
+        "method": "browser_detail_attempt",
+        "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=613602129",
+        "result": "retry_needed",
+        "reason": "Page.getFrameTree timeout"
+      }
+    ],
+    "recommendation_eligible": false,
+    "failure_reason": "Page.getFrameTree timeout"
+  }
+]

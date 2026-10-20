@@ -1,0 +1,223 @@
+{
+  "reviewed_at": "2026-10-19T23:59:53.196631+09:00",
+  "products": [
+    {
+      "product_number": "610911101",
+      "catalog_index": 0,
+      "review_status": "partial",
+      "evidence": [
+        {
+          "source_id": "label-0001",
+          "source_sha256": "0c2c7172b2f0e7c232485e549a8c0cd0dcb0b3dcdc2ede8931f7cfc9e315f55e",
+          "source_url": "https://cdn.daisomall.co.kr/file/resize/CMS/20260907/description/850/610911101_01_00bOloivdSnThtTlVkVSaW.jpg",
+          "original_path": "data/products/labels/610911101/0c2c7172b2f0e7c2.jpg",
+          "crops": [
+            {
+              "path": "data/products/review-evidence/00-610911101-0c2c7172-0.png",
+              "x": 0,
+              "y": 12720,
+              "width": 850,
+              "height": 1289
+            }
+          ]
+        }
+      ],
+      "observations": [
+        "하단 제품표시 표 전체 판독 가능. 스트롱민트와 레몬&민트 병행 광고 중 스트롱민트 표를 사용. 총 내용량 2g 기준이며 1캡슐 기준 아님.",
+        "알레르기 직접 함유 표시는 별도 없고 같은 제조시설 문구 존재. 원료량 0.01794% 등의 광고 수치를 영양표 함량으로 사용하지 않음."
+      ],
+      "field_values": {
+        "product_name": "프로폴리스 프레쉬볼 스트롱민트",
+        "food_type": "기타 식용유지가공품",
+        "manufacturer": "(주)코스팜",
+        "distributor": "동국제약(주)",
+        "package": "2 g(100 mg × 20캡슐)",
+        "dosage_form": "캡슐",
+        "intake": "1일 1회, 1회 1캡슐을 씹어서 삼키거나 충분한 물과 함께 섭취하십시오."
+      },
+      "reviewed_nutrients": [],
+      "field_dispositions": {},
+      "reviewed_at": "2026-10-19T23:59:53.196631+09:00",
+      "visual_inspection": true,
+      "source_match": "name_variant_package_matched",
+      "remaining_reasons": [
+        "전체 원재료·기능성·섭취/주의 문구의 완전한 교정 전사 및 정규화 미완료"
+      ]
+    },
+    {
+      "product_number": "610911102",
+      "catalog_index": 1,
+      "review_status": "partial",
+      "evidence": [
+        {
+          "source_id": "label-0002",
+          "source_sha256": "e5300185fbd764e3f38067808f7616714f6e20901f0750e2950662ae595d6001",
+          "source_url": "https://cdn.daisomall.co.kr/file/resize/CMS/20260907/description/850/610911102_01_00qKg0V1hd1plEsnJTx0ZN.jpg",
+          "original_path": "data/products/labels/610911102/e5300185fbd764e3.jpg",
+          "crops": [
+            {
+              "path": "data/products/review-evidence/01-610911102-e5300185-0.png",
+              "x": 0,
+              "y": 12722,
+              "width": 850,
+              "height": 1307
+            }
+          ]
+        }
+      ],
+      "observations": [
+        "레몬&민트 하단 표시표 판독 가능. 위쪽 병행 스트롱민트 광고와 구분. 캡슐기제에 황색제4호와 카민칼라 혼합제제 존재; 스트롱민트와 동일 원료로 복사하면 안 됨.",
+        "총내용량 2g: 열량13kcal, 나트륨0mg, 탄수화물0g, 당류0g, 지방1.4g(3%), 트랜스지방0g, 포화지방1.1g(7%), 콜레스테롤0mg, 단백질0g."
+      ],
+      "field_values": {
+        "product_name": "프로폴리스 프레쉬볼 레몬&민트",
+        "food_type": "기타 식용유지가공품",
+        "manufacturer": "(주)코스팜",
+        "distributor": "동국제약(주)",
+        "package": "2 g(100 mg × 20캡슐)",
+        "dosage_form": "캡슐",
+        "intake": "1일 1회, 1회 1캡슐을 씹어서 삼키거나 충분한 물과 함께 섭취하십시오."
+      },
+      "reviewed_nutrients": [],
+      "field_dispositions": {},
+      "reviewed_at": "2026-10-19T23:59:53.196631+09:00",
+      "visual_inspection": true,
+      "source_match": "name_variant_package_matched",
+      "remaining_reasons": [
+        "전체 원재료·기능성·섭취/주의 문구의 완전한 교정 전사 및 정규화 미완료"
+      ]
+    },
+    {
+      "product_number": "601678608",
+      "catalog_index": 2,
+      "review_status": "partial",
+      "evidence": [
+        {
+          "source_id": "label-0003",
+          "source_sha256": "ff7f50e4ee14b6ba8da7637dc469828e4365539435f6830e9ffbbb92788ae000",
+          "source_url": "https://cdn.daisomall.co.kr/file/resize/PD/20260909/description/850/SWGWANGUllMVh8zZDZE6601678608_01_00SWGWANGUllMVh8zZDZE6.jpg",
+          "original_path": "data/products/labels/601678608/ff7f50e4ee14b6ba.jpg",
+          "crops": [
+            {
+              "path": "data/products/review-evidence/02-601678608-ff7f50e4-0.png",
+              "x": 0,
+              "y": 14848,
+              "width": 850,
+              "height": 1097
+            }
+          ]
+        }
+      ],
+      "observations": [
+        "3열 라벨 전체 판독 가능. 요구르트맛 620mg×30정(18.6g), 1일3정1860mg. 코로솔산0.45mg; 식후 혈당상승 억제 기능 문구.",
+        "우유 함유와 같은 시설 문구 분리. 위장장애·소화불량·개인상태별 섭취량·알레르기·어린이/임산부/수유부·이상사례·실리카겔 경고와 보관문구를 포함한 전체 원문 보존."
+      ],
+      "field_values": {
+        "product_name": "배러 크런치 바나바",
+        "food_type": "건강기능식품/바나바잎추출물 제품",
+        "manufacturer": "코스맥스바이오(주)",
+        "distributor": "동화약품(주)",
+        "package": "620 mg × 30정 (18.6 g)",
+        "dosage_form": "정제(츄어블)",
+        "intake": "1일 1회, 1회 3정을 씹어서 섭취하세요.",
+        "allergen": "우유 함유"
+      },
+      "reviewed_nutrients": [],
+      "field_dispositions": {},
+      "reviewed_at": "2026-10-19T23:59:53.196631+09:00",
+      "visual_inspection": true,
+      "source_match": "name_variant_package_matched",
+      "remaining_reasons": [
+        "전체 원재료·기능성·섭취/주의 문구의 완전한 교정 전사 및 정규화 미완료"
+      ]
+    },
+    {
+      "product_number": "976195543",
+      "catalog_index": 3,
+      "review_status": "partial",
+      "evidence": [
+        {
+          "source_id": "label-0004",
+          "source_sha256": "aef9548900f7d8bb84b9aa777904862ab0d015f17c9126d70a6b00665481ba6e",
+          "source_url": "https://cdn.daisomall.co.kr/file/resize/PD/20261013/description/850/YjgTry3gfXyzG7aU3bSy976195543_01_00YjgTry3gfXyzG7aU3bSy.jpg",
+          "original_path": "data/products/labels/976195543/aef9548900f7d8bb.jpg",
+          "crops": [
+            {
+              "path": "data/products/review-evidence/03-976195543-aef95489-0.png",
+              "x": 0,
+              "y": 32456,
+              "width": 850,
+              "height": 1576
+            }
+          ]
+        }
+      ],
+      "observations": [
+        "단일 상품정보 패널 판독 가능. 800mg×7정5.6g. 1일1정800mg. 1일량의 미리세틴6.64mg·루테올린3.76mg은 이전 추출 사전에서 빠질 수 있는 성분이므로 추가 필요.",
+        "비타민D10μg, E11mgα-TE, B1 1.2mg, B2 1.4mg, B6 1.5mg, 비오틴30μg, 아연8.5mg. 우유함유. 고칼슘혈증/의약품 및 손발 따끔거림·작열감·저림 주의 확인."
+      ],
+      "field_values": {
+        "product_name": "다이글로핏 다이어트 플러스",
+        "food_type": "건강기능식품",
+        "manufacturer": "(주)한미양행",
+        "distributor": "(주)헬스밸런스",
+        "package": "800 mg × 7정 (5.6 g)",
+        "dosage_form": "정제",
+        "intake": "1일 1회, 1회 1정을 충분한 물과 함께 섭취하십시오.",
+        "allergen": "우유 함유"
+      },
+      "reviewed_nutrients": [],
+      "field_dispositions": {},
+      "reviewed_at": "2026-10-19T23:59:53.196631+09:00",
+      "visual_inspection": true,
+      "source_match": "name_variant_package_matched",
+      "remaining_reasons": [
+        "전체 원재료·기능성·섭취/주의 문구의 완전한 교정 전사 및 정규화 미완료"
+      ]
+    },
+    {
+      "product_number": "610911213",
+      "catalog_index": 4,
+      "review_status": "partial",
+      "evidence": [
+        {
+          "source_id": "label-0005",
+          "source_sha256": "0c3a7ca03612f1c74780754fcf4268c42abde5e4043f34e29a40d32a2a0b30b8",
+          "source_url": "https://cdn.daisomall.co.kr/file/resize/CMS/20260910/description/850/610911213_00GTUEf123uqhhZvzvgEVb.jpg",
+          "original_path": "data/products/labels/610911213/0c3a7ca03612f1c7.jpg",
+          "crops": [
+            {
+              "path": "data/products/review-evidence/04-610911213-0c3a7ca0-0.png",
+              "x": 0,
+              "y": 13667,
+              "width": 850,
+              "height": 1226
+            }
+          ]
+        }
+      ],
+      "observations": [
+        "맛있는 센텔라 공주캔디 표 판독 가능. 일반식품 캔디류, 34g1700mg×20정. 총내용량34g당124kcal·탄수화물31g(10%)·당류18g(18%). 트랜스지방과 콜레스테롤은 '-' 표시이며 0으로 바꾸지 않음.",
+        "우유·대두·돼지고기·복숭아 함유; 교차시설 문구 별도. 이소말트15%, D-소비톨2%와 과량섭취시 설사 문구."
+      ],
+      "field_values": {
+        "product_name": "맛있는 센텔라 공주캔디",
+        "food_type": "캔디류",
+        "manufacturer": "(주)한미양행",
+        "distributor": "동국제약(주)",
+        "package": "34 g (1,700 mg × 20정)",
+        "dosage_form": "캔디 정제",
+        "intake": "1일 1회, 1회 1정을 씹어서 섭취하십시오.",
+        "allergen": "우유, 대두, 돼지고기, 복숭아 함유"
+      },
+      "reviewed_nutrients": [],
+      "field_dispositions": {},
+      "reviewed_at": "2026-10-19T23:59:53.196631+09:00",
+      "visual_inspection": true,
+      "source_match": "name_variant_package_matched",
+      "remaining_reasons": [
+        "전체 원재료·기능성·섭취/주의 문구의 완전한 교정 전사 및 정규화 미완료"
+      ]
+    }
+  ]
+}

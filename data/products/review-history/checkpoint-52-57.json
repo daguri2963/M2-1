@@ -1,0 +1,328 @@
+{
+  "reviewed_at": "2026-10-20T00:07:10.427837+09:00",
+  "products": [
+    {
+      "product_number": "591581091",
+      "catalog_index": 52,
+      "review_status": "partial",
+      "evidence": [
+        {
+          "source_id": "label-0081",
+          "source_sha256": "3d6ee4f12f4e52eacaf446258b4d666b6b800b249f4c2af40813744c7a9a4b6e",
+          "source_url": "https://cdn.daisomall.co.kr/file/resize/PD/20260508/description/850/80mPynAhdNaqtcQesPjh591581091_01_0080mPynAhdNaqtcQesPjh.jpg",
+          "original_path": "data/products/labels/591581091/3d6ee4f12f4e52ea.jpg",
+          "crops": [
+            {
+              "path": "data/products/review-evidence/52-591581091-3d6ee4f1-0.png",
+              "x": 0,
+              "y": 8406,
+              "width": 850,
+              "height": 2000
+            },
+            {
+              "path": "data/products/review-evidence/52-591581091-3d6ee4f1-1.png",
+              "x": 0,
+              "y": 10206,
+              "width": 850,
+              "height": 1013
+            }
+          ]
+        }
+      ],
+      "observations": [
+        "아임비타B2000 SPEC·함량·주의전체 확인. 1정500mg B1 24mg, B2 28mg, B6 30mg, B12 48μg 각각2000%. 제품명2000은mg수치아님. 대두·밀함유."
+      ],
+      "field_values": {
+        "product_name": "비타민B 2000",
+        "food_type": "건강기능식품",
+        "manufacturer": "(주)네추럴웨이",
+        "distributor": "종근당건강(주)",
+        "package": "총 15 g (500 mg × 30정)",
+        "dosage_form": "정제",
+        "intake": "1일 1회, 1회 1정을 물과 함께 섭취하십시오.",
+        "allergen": "대두, 밀 함유"
+      },
+      "reviewed_nutrients": [],
+      "field_dispositions": {},
+      "nutrient_basis": "1일 섭취량: 1정(500 mg)",
+      "nutrient_spec": "열량|0|kcal;탄수화물|0|g|0;단백질|0|g|0;지방|0|g|0;나트륨|0|mg|0;비타민B1|24|mg|2000;비타민B2|28|mg|2000;비타민B6|30|mg|2000;비타민B12|48|μg|2000;판토텐산|25|mg|500;비오틴|150|μg|500;엽산|600|μg DFE|150;비타민A|700|μg RAE|100;비타민D|10|μg|100;비타민E|11|mg α-TE|100;비타민K|70|μg|100;아연|8.5|mg|100;셀렌|55|μg|100;망간|3|mg|100;몰리브덴|25|μg|100;철|12|mg|100;요오드|150|μg|100;구리|0.8|mg|100;크롬|30|μg|100",
+      "reviewed_at": "2026-10-20T00:07:10.427837+09:00",
+      "visual_inspection": true,
+      "source_match": "name_variant_package_matched",
+      "remaining_reasons": [
+        "전체 원재료·기능성·섭취/주의 문구의 완전한 교정 전사 및 정규화 미완료"
+      ]
+    },
+    {
+      "product_number": "600000283",
+      "catalog_index": 53,
+      "review_status": "partial",
+      "evidence": [
+        {
+          "source_id": "label-0082",
+          "source_sha256": "7fd20e25550de804c69f68f6b73beed6e9a6712a66f576bc9a585370a4149e6a",
+          "source_url": "https://cdn.daisomall.co.kr/file/resize/PD/20260504/description/850/5WdLXQ06qXYUmVl570Ue600000283_01_025WdLXQ06qXYUmVl570Ue.png",
+          "original_path": "data/products/labels/600000283/7fd20e25550de804.png",
+          "crops": [
+            {
+              "path": "data/products/review-evidence/53-600000283-7fd20e25-0.png",
+              "x": 0,
+              "y": 57,
+              "width": 850,
+              "height": 2000
+            },
+            {
+              "path": "data/products/review-evidence/53-600000283-7fd20e25-1.png",
+              "x": 0,
+              "y": 1857,
+              "width": 850,
+              "height": 2000
+            },
+            {
+              "path": "data/products/review-evidence/53-600000283-7fd20e25-2.png",
+              "x": 0,
+              "y": 3657,
+              "width": 850,
+              "height": 353
+            }
+          ]
+        }
+      ],
+      "observations": [
+        "6정전용표확인. 500mg×6정3g, 제조원코스맥스엔비티. 30정과 원재료구성/제조원 다르므로 복제하지않음. 우유함유."
+      ],
+      "field_values": {
+        "product_name": "멀티비타민미네랄 6일분",
+        "food_type": "건강기능식품",
+        "manufacturer": "코스맥스엔비티(주)",
+        "distributor": "(주)대웅제약",
+        "package": "3 g (500 mg × 6정)",
+        "dosage_form": "정제",
+        "intake": "1일 1회, 1회 1정을 물과 함께 섭취하십시오.",
+        "allergen": "우유 함유"
+      },
+      "reviewed_nutrients": [],
+      "field_dispositions": {},
+      "nutrient_basis": "1일 섭취량: 1정(500 mg)",
+      "nutrient_spec": "열량|0|kcal;탄수화물|0|g|0;단백질|0|g|0;지방|0|g|0;나트륨|0|mg|0;비타민A|700|μg RAE|100;비타민D|10|μg|100;비타민E|11|mg α-TE|100;비타민B1|1.2|mg|100;비타민B2|1.4|mg|100;나이아신|15|mg NE|100;판토텐산|5|mg|100;비타민B6|1.5|mg|100;엽산|400|μg DFE|100;비타민B12|2.4|μg|100;비오틴|30|μg|100;비타민C|100|mg|100;철|12|mg|100;아연|8.5|mg|100;구리|0.8|mg|100;셀렌|55|μg|100;망간|3|mg|100;몰리브덴|25|μg|100;크롬|30|μg|100",
+      "reviewed_at": "2026-10-20T00:07:10.427837+09:00",
+      "visual_inspection": true,
+      "source_match": "name_variant_package_matched",
+      "remaining_reasons": [
+        "전체 원재료·기능성·섭취/주의 문구의 완전한 교정 전사 및 정규화 미완료"
+      ]
+    },
+    {
+      "product_number": "600000135",
+      "catalog_index": 54,
+      "review_status": "partial",
+      "evidence": [
+        {
+          "source_id": "label-0084",
+          "source_sha256": "1774d64fbe128e5dc99774b2f61ec43059e1ba838e765fe4d59d51d7d1775234",
+          "source_url": "https://cdn.daisomall.co.kr/file/resize/PD/20260904/description/850/L8rcjCjuisPXtGv3sUKa600000135_01_01L8rcjCjuisPXtGv3sUKa.png",
+          "original_path": "data/products/labels/600000135/1774d64fbe128e5d.png",
+          "crops": [
+            {
+              "path": "data/products/review-evidence/54-600000135-1774d64f-0.png",
+              "x": 0,
+              "y": 3337,
+              "width": 850,
+              "height": 2000
+            },
+            {
+              "path": "data/products/review-evidence/54-600000135-1774d64f-1.png",
+              "x": 0,
+              "y": 5137,
+              "width": 850,
+              "height": 2000
+            },
+            {
+              "path": "data/products/review-evidence/54-600000135-1774d64f-2.png",
+              "x": 0,
+              "y": 6937,
+              "width": 850,
+              "height": 385
+            }
+          ]
+        }
+      ],
+      "observations": [
+        "30정15g멀티비타민표 확인. 우유·복숭아함유는6정SKU와다름. 제조원대웅1공장. 1정500mg 영양19성분, 비타민B12의하첨자12와수치2.4를연결한22.4오독주의."
+      ],
+      "field_values": {
+        "product_name": "멀티비타민미네랄",
+        "food_type": "건강기능식품",
+        "manufacturer": "(주)대웅제약 1공장",
+        "distributor": "(주)대웅제약",
+        "package": "15 g (500 mg × 30정)",
+        "dosage_form": "정제",
+        "intake": "1일 1회, 1회 1정을 충분한 물과 함께 섭취하십시오.",
+        "allergen": "우유, 복숭아 함유"
+      },
+      "reviewed_nutrients": [],
+      "field_dispositions": {},
+      "nutrient_basis": "1일 섭취량: 1정(500 mg)",
+      "nutrient_spec": "열량|0|kcal;탄수화물|0|g|0;단백질|0|g|0;지방|0|g|0;나트륨|0|mg|0;비타민A|700|μg RAE|100;비타민D|10|μg|100;비타민E|11|mg α-TE|100;비타민B1|1.2|mg|100;비타민B2|1.4|mg|100;나이아신|15|mg NE|100;판토텐산|5|mg|100;비타민B6|1.5|mg|100;엽산|400|μg DFE|100;비타민B12|2.4|μg|100;비오틴|30|μg|100;비타민C|100|mg|100;철|12|mg|100;아연|8.5|mg|100;구리|0.8|mg|100;셀렌|55|μg|100;망간|3|mg|100;몰리브덴|25|μg|100;크롬|30|μg|100",
+      "reviewed_at": "2026-10-20T00:07:10.427837+09:00",
+      "visual_inspection": true,
+      "source_match": "name_variant_package_matched",
+      "remaining_reasons": [
+        "전체 원재료·기능성·섭취/주의 문구의 완전한 교정 전사 및 정규화 미완료"
+      ]
+    },
+    {
+      "product_number": "600000127",
+      "catalog_index": 55,
+      "review_status": "partial",
+      "evidence": [
+        {
+          "source_id": "label-0085",
+          "source_sha256": "c0f4dee3eee9a17c214fd5ac1308fba84f97fbd7ba868aa4995db17f3fafdffe",
+          "source_url": "https://cdn.daisomall.co.kr/file/resize/PD/20250408/description/850/lmx59mtSaeUVkBhh4CVf600000127_01_00lmx59mtSaeUVkBhh4CVf.png",
+          "original_path": "data/products/labels/600000127/c0f4dee3eee9a17c.png",
+          "crops": [
+            {
+              "path": "data/products/review-evidence/55-600000127-c0f4dee3-0.png",
+              "x": 0,
+              "y": 3238,
+              "width": 850,
+              "height": 2000
+            },
+            {
+              "path": "data/products/review-evidence/55-600000127-c0f4dee3-1.png",
+              "x": 0,
+              "y": 5038,
+              "width": 850,
+              "height": 374
+            }
+          ]
+        }
+      ],
+      "observations": [
+        "대웅C30정33g표 확인. 1정1100mg당C1000mg1000%, 탄수화물1g0%. 전체중량1100mg을C량으로쓰지않음. 어린이보호자관리 문구."
+      ],
+      "field_values": {
+        "product_name": "비타민C",
+        "food_type": "건강기능식품",
+        "manufacturer": "이앤에스(주)",
+        "distributor": "(주)대웅제약",
+        "package": "33 g (1,100 mg × 30정)",
+        "dosage_form": "정제",
+        "intake": "1일 1회, 1회 1정을 충분한 물과 함께 섭취하십시오."
+      },
+      "reviewed_nutrients": [],
+      "field_dispositions": {},
+      "nutrient_basis": "1일 섭취량: 1정(1,100 mg)",
+      "nutrient_spec": "열량|0|kcal;탄수화물|1|g|0;단백질|0|g|0;지방|0|g|0;나트륨|0|mg|0;비타민C|1000|mg|1000",
+      "reviewed_at": "2026-10-20T00:07:10.427837+09:00",
+      "visual_inspection": true,
+      "source_match": "name_variant_package_matched",
+      "remaining_reasons": [
+        "전체 원재료·기능성·섭취/주의 문구의 완전한 교정 전사 및 정규화 미완료"
+      ]
+    },
+    {
+      "product_number": "600000132",
+      "catalog_index": 56,
+      "review_status": "partial",
+      "evidence": [
+        {
+          "source_id": "label-0087",
+          "source_sha256": "89b1c16fcbe3b983b9cd5fff8e6509f4bc5e0d85412845e74e9839f639c95df1",
+          "source_url": "https://cdn.daisomall.co.kr/file/resize/PD/20250618/description/850/Al8JtGyz0tKYZg06tS9k600000132_01_00Al8JtGyz0tKYZg06tS9k.jpg",
+          "original_path": "data/products/labels/600000132/89b1c16fcbe3b983.jpg",
+          "crops": [
+            {
+              "path": "data/products/review-evidence/56-600000132-89b1c16f-0.png",
+              "x": 0,
+              "y": 3399,
+              "width": 850,
+              "height": 2000
+            },
+            {
+              "path": "data/products/review-evidence/56-600000132-89b1c16f-1.png",
+              "x": 0,
+              "y": 5199,
+              "width": 850,
+              "height": 486
+            }
+          ]
+        }
+      ],
+      "observations": [
+        "30정15gD4000IU표 확인. 1정500mg당D100μg(4000IU)1000%. 10정제조원코스맥스엔비티와달리30정은코스맥스바이오."
+      ],
+      "field_values": {
+        "product_name": "비타민D 4000IU",
+        "food_type": "건강기능식품",
+        "manufacturer": "코스맥스바이오(주)",
+        "distributor": "(주)대웅제약",
+        "package": "15 g (500 mg × 30정)",
+        "dosage_form": "정제",
+        "intake": "1일 1회, 1회 1정을 충분한 물과 함께 섭취하십시오."
+      },
+      "reviewed_nutrients": [],
+      "field_dispositions": {},
+      "nutrient_basis": "1일 섭취량: 1정(500 mg)",
+      "nutrient_spec": "열량|0|kcal;탄수화물|0|g|0;단백질|0|g|0;지방|0|g|0;나트륨|0|mg|0;비타민D|100|μg|1000",
+      "reviewed_at": "2026-10-20T00:07:10.427837+09:00",
+      "visual_inspection": true,
+      "source_match": "name_variant_package_matched",
+      "remaining_reasons": [
+        "전체 원재료·기능성·섭취/주의 문구의 완전한 교정 전사 및 정규화 미완료"
+      ]
+    },
+    {
+      "product_number": "600000150",
+      "catalog_index": 57,
+      "review_status": "partial",
+      "evidence": [
+        {
+          "source_id": "label-0089",
+          "source_sha256": "2ea54d5dc084bfc7e5e0fe5dabbda6458055205da781a296d96e64b080b76db0",
+          "source_url": "https://cdn.daisomall.co.kr/file/resize/PD/20251202/description/850/FzuFQIsASchbdTGrFHz1600000150_01_02FzuFQIsASchbdTGrFHz1.png",
+          "original_path": "data/products/labels/600000150/2ea54d5dc084bfc7.png",
+          "crops": [
+            {
+              "path": "data/products/review-evidence/57-600000150-2ea54d5d-0.png",
+              "x": 0,
+              "y": 3233,
+              "width": 850,
+              "height": 2000
+            },
+            {
+              "path": "data/products/review-evidence/57-600000150-2ea54d5d-1.png",
+              "x": 0,
+              "y": 5033,
+              "width": 850,
+              "height": 793
+            }
+          ]
+        }
+      ],
+      "observations": [
+        "프로폴리스츄어블표 확인. 1정500mg당총플라보노이드1mg은광고값과분리된영양표. 아연8.5mg100%, 셀렌55μg100%, D10μg400IU100%. 프로폴리스알레르기경고."
+      ],
+      "field_values": {
+        "product_name": "프로폴리스 츄어블",
+        "food_type": "건강기능식품",
+        "manufacturer": "(주)뉴트리케어",
+        "distributor": "(주)대웅제약",
+        "package": "15 g (500 mg × 30정)",
+        "dosage_form": "정제(츄어블)",
+        "intake": "1일 1회, 1회 1정을 씹어서 섭취하십시오."
+      },
+      "reviewed_nutrients": [],
+      "field_dispositions": {},
+      "nutrient_basis": "1일 섭취량: 1정(500 mg)",
+      "nutrient_spec": "열량|0|kcal;탄수화물|0|g;단백질|0|g|0;지방|0|g|0;나트륨|0|mg|0;아연|8.5|mg|100;셀렌|55|μg|100;비타민D|10|μg|100;총 플라보노이드|1|mg",
+      "reviewed_at": "2026-10-20T00:07:10.427837+09:00",
+      "visual_inspection": true,
+      "source_match": "name_variant_package_matched",
+      "remaining_reasons": [
+        "전체 원재료·기능성·섭취/주의 문구의 완전한 교정 전사 및 정규화 미완료"
+      ]
+    }
+  ]
+}

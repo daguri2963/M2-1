@@ -1,0 +1,138 @@
+{
+  "reviewed_at": "2026-10-20T00:09:49.330057+09:00",
+  "products": [
+    {
+      "product_number": "600651651",
+      "catalog_index": 75,
+      "review_status": "partial",
+      "evidence": [
+        {
+          "source_id": "label-0122",
+          "source_sha256": "2d5ca8a12b1d72ccf34d159bcdd1fe0424e42cfb6d80d6ec565e30f0ed7bb86b",
+          "source_url": "https://cdn.daisomall.co.kr/file/resize/PD/20260327/description/850/Z3f5sm91xgIpRxj8a9zi600651651_01_00Z3f5sm91xgIpRxj8a9zi.png",
+          "original_path": "data/products/labels/600651651/2d5ca8a12b1d72cc.png",
+          "crops": [
+            {
+              "path": "data/products/review-evidence/75-600651651-2d5ca8a1-0.png",
+              "x": 0,
+              "y": 21711,
+              "width": 850,
+              "height": 1577
+            }
+          ]
+        }
+      ],
+      "observations": [
+        "프레쉬츄24g800mg30정 표시 확인. 일1정당프로바이오틱스100000000(1억)CFU와D10μg100%. 운동부스터100억과구분. 주의5항목."
+      ],
+      "field_values": {
+        "product_name": "프레쉬츄 유한 생유산균 정",
+        "food_type": "건강기능식품",
+        "manufacturer": "(주)메디오젠 충주공장",
+        "distributor": "(주)유한양행",
+        "package": "24 g (800 mg × 30정)",
+        "dosage_form": "정제(츄어블)",
+        "intake": "1일 1회, 1회 1정을 씹어서 섭취하십시오."
+      },
+      "reviewed_nutrients": [],
+      "field_dispositions": {},
+      "nutrient_basis": "1일 섭취량당; 섭취방법 1일1회1정(800 mg)",
+      "nutrient_spec": "열량|0|kcal;탄수화물|1|g|0;단백질|0|g|0;지방|0|g|0;나트륨|0|mg|0;프로바이오틱스 수|100000000|CFU;비타민D|10|μg|100",
+      "reviewed_at": "2026-10-20T00:09:49.330057+09:00",
+      "visual_inspection": true,
+      "source_match": "name_variant_package_matched",
+      "remaining_reasons": [
+        "전체 원재료·기능성·섭취/주의 문구의 완전한 교정 전사 및 정규화 미완료"
+      ]
+    },
+    {
+      "product_number": "600651652",
+      "catalog_index": 76,
+      "review_status": "partial",
+      "evidence": [
+        {
+          "source_id": "label-0123",
+          "source_sha256": "8343e07a5431d993aec1c3d86c6298028d7048194689fd5a3ff2526aa6d4cc08",
+          "source_url": "https://cdn.daisomall.co.kr/file/resize/PD/20260327/description/850/Z3gyMvWpvK9NwfpuVTae600651652_01_00Z3gyMvWpvK9NwfpuVTae.png",
+          "original_path": "data/products/labels/600651652/8343e07a5431d993.png",
+          "crops": [
+            {
+              "path": "data/products/review-evidence/76-600651652-8343e07a-0.png",
+              "x": 0,
+              "y": 24518,
+              "width": 850,
+              "height": 1589
+            }
+          ]
+        }
+      ],
+      "observations": [
+        "초코맛40g20포 표시표 확인. 일1포2g당10억CFU 열량8kcal 탄수화물2g1% 나트륨6mg0%. 우유·대두·밀함유. 섭취법'씹어서'가원문이므로분말일반섭취법으로바꾸지않음."
+      ],
+      "field_values": {
+        "product_name": "초코맛 유한 생유산균 스틱",
+        "food_type": "건강기능식품",
+        "manufacturer": "코스맥스엔비티(주)",
+        "distributor": "(주)유한양행",
+        "package": "40 g (2 g × 20포)",
+        "dosage_form": "스틱 과립",
+        "intake": "1일 1회, 1회 1포를 씹어서 섭취하십시오.",
+        "allergen": "우유, 대두, 밀 함유"
+      },
+      "reviewed_nutrients": [],
+      "field_dispositions": {},
+      "nutrient_basis": "1일 섭취량당; 섭취방법 1일1회1포(2 g)",
+      "nutrient_spec": "열량|8|kcal;탄수화물|2|g|1;단백질|0|g|0;지방|0|g|0;나트륨|6|mg|0;프로바이오틱스 수|1000000000|CFU",
+      "reviewed_at": "2026-10-20T00:09:49.330057+09:00",
+      "visual_inspection": true,
+      "source_match": "name_variant_package_matched",
+      "remaining_reasons": [
+        "전체 원재료·기능성·섭취/주의 문구의 완전한 교정 전사 및 정규화 미완료"
+      ]
+    },
+    {
+      "product_number": "600651655",
+      "catalog_index": 77,
+      "review_status": "partial",
+      "evidence": [
+        {
+          "source_id": "label-0124",
+          "source_sha256": "ef56189b5c2bf342e833ef45a9a68ba67d3c81bc7b2a0a45dd62e72a8a7f622c",
+          "source_url": "https://cdn.daisomall.co.kr/file/resize/PD/20260327/description/850/uopEee6z68YyGQU9glAe600651655_01_00uopEee6z68YyGQU9glAe.png",
+          "original_path": "data/products/labels/600651655/ef56189b5c2bf342.png",
+          "crops": [
+            {
+              "path": "data/products/review-evidence/77-600651655-ef56189b-0.png",
+              "x": 0,
+              "y": 31466,
+              "width": 850,
+              "height": 1580
+            }
+          ]
+        }
+      ],
+      "observations": [
+        "운동부스터50g10g5포 전체표 확인. 일1포10g당100억CFU·식이섬유2g8%·알룰로스1.5g·단백질4g7%·나트륨180mg9%·열량26kcal. 500mL물희석. TWK10 기능표시운동수행능력+장건강."
+      ],
+      "field_values": {
+        "product_name": "운동부스터 유한 생유산균 스틱",
+        "food_type": "건강기능식품",
+        "manufacturer": "코스맥스엔비티(주)",
+        "distributor": "(주)유한양행",
+        "package": "50 g (10 g × 5포)",
+        "dosage_form": "분말 포",
+        "intake": "1일 1회, 1회 1포를 물 500 ml에 타서 섭취하십시오."
+      },
+      "reviewed_nutrients": [],
+      "field_dispositions": {},
+      "nutrient_basis": "1일 섭취량당; 섭취방법 1일1회1포(10 g)",
+      "nutrient_spec": "열량|26|kcal;탄수화물|5|g|2;식이섬유|2|g|8;당류|0|g;알룰로스|1.5|g;단백질|4|g|7;지방|0|g|0;나트륨|180|mg|9;프로바이오틱스 수|10000000000|CFU",
+      "reviewed_at": "2026-10-20T00:09:49.330057+09:00",
+      "visual_inspection": true,
+      "source_match": "name_variant_package_matched",
+      "remaining_reasons": [
+        "전체 원재료·기능성·섭취/주의 문구의 완전한 교정 전사 및 정규화 미완료"
+      ]
+    }
+  ]
+}

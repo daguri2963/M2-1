@@ -1,0 +1,23 @@
+.DS_Store
+frontend/node_modules/
+frontend/dist/
+frontend/*.tsbuildinfo
+
+# Local configuration, credentials and caches
+.env
+.env.*
+!.env.example
+!.env.*.example
+.codex/
+.agents/
+.aws/
+__pycache__/
+*.py[cod]
+*.log
+*.tmp
+
+# Superseded OCR failures; successful .ocr.json evidence remains tracked
+*.ocr.error.txt
+# Full accessibility dump contains unrelated public review text.
+# The official screenshot, hash, URL and reviewed packaging facts are retained.
+data/products/review-evidence/58-official-package-screen.txt

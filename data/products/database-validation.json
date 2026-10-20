@@ -1,0 +1,69 @@
+{
+  "passed": true,
+  "validation_scope": "offline integrity/provenance/serialization/regressions; same-agent visual decisions, no independent second reviewer",
+  "checks_passed": 14587,
+  "summary": {
+    "products": 88,
+    "attempted": 88,
+    "label_assets_saved": 88,
+    "ocr_products": 88,
+    "raw_material_blocks_products": 86,
+    "nutrient_candidate_products": 84,
+    "ingredient_candidate_rows": 1238,
+    "nutrient_candidate_rows": 655,
+    "direct_visual_nutrient_rows": 913,
+    "direct_visual_ingredient_rows": 1522,
+    "historical_visual_sample_products": 10,
+    "visual_inspected_products": 88,
+    "prior_nutrient_rows": 12,
+    "full_label_verified": 87,
+    "review_status_counts": {
+      "verified": 87,
+      "on_hold": 1
+    },
+    "recommendation_eligible": 0,
+    "status_counts": {
+      "label_review_verified": 87,
+      "label_review_on_hold": 1
+    }
+  },
+  "table_counts": {
+    "products": 88,
+    "sources": 138,
+    "product_fields": 1218,
+    "label_blocks": 1381,
+    "product_ingredients": 2760,
+    "nutrient_amounts": 1568,
+    "prior_nutrient_evidence": 12,
+    "collection_attempts": 225,
+    "reviews": 10,
+    "label_reviews": 88,
+    "prices": 88
+  },
+  "nutrient_status_counts": {
+    "direct_visual": 913,
+    "ocr_candidate_reviewed_excluded": 655
+  },
+  "units_preserved": [
+    "CFU",
+    "IU",
+    "g",
+    "kcal",
+    "mg",
+    "mg NE",
+    "mg α-TE",
+    "mgNE",
+    "ug",
+    "ug DFE",
+    "µg",
+    "µg DFE",
+    "µgDFE",
+    "μg",
+    "μg DFE",
+    "μg RAE",
+    "μgDFE"
+  ],
+  "held_product_numbers": [
+    "600651654"
+  ]
+}

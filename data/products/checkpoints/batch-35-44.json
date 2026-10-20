@@ -1,0 +1,406 @@
+[
+  {
+    "product_number": "600000204",
+    "detail_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=600000204",
+    "expected_name": "대웅제약 마그네슘 샷 25ml x 5병 5일분",
+    "status": "label_assets_saved_pending_transcription",
+    "attempts": [
+      {
+        "date": "2026-10-19",
+        "method": "browser_detail_and_page_assets",
+        "source_url": "https://cdn.daisomall.co.kr/file/resize/PD/20251121/description/850/CrwjHF8Bj44Cb4lJPnMt600000204_01_99CrwjHF8Bj44Cb4lJPnMt.jpg",
+        "result": "label_asset_saved",
+        "detail_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=600000204"
+      },
+      {
+        "date": "2026-10-19",
+        "method": "browser_detail_attempt",
+        "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=600000204",
+        "result": "label_assets_saved",
+        "reason": null
+      }
+    ],
+    "recommendation_eligible": false,
+    "label_assets": [
+      {
+        "source_url": "https://cdn.daisomall.co.kr/file/resize/PD/20251121/description/850/CrwjHF8Bj44Cb4lJPnMt600000204_01_99CrwjHF8Bj44Cb4lJPnMt.jpg",
+        "local_path": "data/products/labels/600000204/83b123f0ef1a61fb.jpg",
+        "sha256": "83b123f0ef1a61fb3a1c4ad0576820465ad4b7d1a7d32e7b570beaecec2ba173",
+        "method": "official_label_image_saved_pending_visual",
+        "observed_on": "2026-10-19",
+        "published_on": null,
+        "browser_manifest": "/var/folders/yz/kzzkpplj73qbzchy819k7v0m0000gn/T/browser-use/assets/b05bf1d5-2225-4088-bf58-c8ce2512c5a9/manifest.json"
+      }
+    ]
+  },
+  {
+    "product_number": "600000281",
+    "detail_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=600000281",
+    "expected_name": "대웅제약 비타민D 4000IU 10정 10일분",
+    "status": "label_assets_saved_pending_transcription",
+    "attempts": [
+      {
+        "date": "2026-10-19",
+        "method": "browser_detail_and_page_assets",
+        "source_url": "https://cdn.daisomall.co.kr/file/resize/PD/20260504/description/850/BorGl8owZlEFSDLChbQm600000281_01_01BorGl8owZlEFSDLChbQm.png",
+        "result": "label_asset_saved",
+        "detail_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=600000281"
+      },
+      {
+        "date": "2026-10-19",
+        "method": "browser_detail_and_page_assets",
+        "source_url": "https://cdn.daisomall.co.kr/file/resize/PD/20260504/description/850/g2KsQLUwo0YY5nbyKgyl600000281_01_02g2KsQLUwo0YY5nbyKgyl.png",
+        "result": "label_asset_saved",
+        "detail_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=600000281"
+      },
+      {
+        "date": "2026-10-19",
+        "method": "browser_detail_attempt",
+        "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=600000281",
+        "result": "label_assets_saved",
+        "reason": null
+      }
+    ],
+    "recommendation_eligible": false,
+    "label_assets": [
+      {
+        "source_url": "https://cdn.daisomall.co.kr/file/resize/PD/20260504/description/850/BorGl8owZlEFSDLChbQm600000281_01_01BorGl8owZlEFSDLChbQm.png",
+        "local_path": "data/products/labels/600000281/317bbb1e7755440e.png",
+        "sha256": "317bbb1e7755440ed057f294d64061388c197ce135fe8268458f94837d9734d7",
+        "method": "official_label_image_saved_pending_visual",
+        "observed_on": "2026-10-19",
+        "published_on": null,
+        "browser_manifest": "/var/folders/yz/kzzkpplj73qbzchy819k7v0m0000gn/T/browser-use/assets/122e86c9-838c-4644-87ac-4c37b81122da/manifest.json"
+      },
+      {
+        "source_url": "https://cdn.daisomall.co.kr/file/resize/PD/20260504/description/850/g2KsQLUwo0YY5nbyKgyl600000281_01_02g2KsQLUwo0YY5nbyKgyl.png",
+        "local_path": "data/products/labels/600000281/59b054bea803c6f2.png",
+        "sha256": "59b054bea803c6f24cddfa0e225bcedda1002351975c29527c40832b00d97d9f",
+        "method": "official_label_image_saved_pending_visual",
+        "observed_on": "2026-10-19",
+        "published_on": null,
+        "browser_manifest": "/var/folders/yz/kzzkpplj73qbzchy819k7v0m0000gn/T/browser-use/assets/122e86c9-838c-4644-87ac-4c37b81122da/manifest.json"
+      }
+    ]
+  },
+  {
+    "product_number": "600000202",
+    "detail_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=600000202",
+    "expected_name": "대웅제약 활성엽산400 30정 30일분",
+    "status": "label_assets_saved_pending_transcription",
+    "attempts": [
+      {
+        "date": "2026-10-19",
+        "method": "browser_detail_and_page_assets",
+        "source_url": "https://cdn.daisomall.co.kr/file/resize/PD/20260508/description/850/dIWrXGziHOG6lsdTkyDl600000202_01_01dIWrXGziHOG6lsdTkyDl.png",
+        "result": "label_asset_saved",
+        "detail_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=600000202"
+      },
+      {
+        "date": "2026-10-19",
+        "method": "browser_detail_attempt",
+        "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=600000202",
+        "result": "label_assets_saved",
+        "reason": null
+      }
+    ],
+    "recommendation_eligible": false,
+    "label_assets": [
+      {
+        "source_url": "https://cdn.daisomall.co.kr/file/resize/PD/20260508/description/850/dIWrXGziHOG6lsdTkyDl600000202_01_01dIWrXGziHOG6lsdTkyDl.png",
+        "local_path": "data/products/labels/600000202/8598e6932a113e3b.png",
+        "sha256": "8598e6932a113e3b4615a50e9bce7fa55167c99f72246572f94dc348599e5d9f",
+        "method": "official_label_image_saved_pending_visual",
+        "observed_on": "2026-10-19",
+        "published_on": null,
+        "browser_manifest": "/var/folders/yz/kzzkpplj73qbzchy819k7v0m0000gn/T/browser-use/assets/7e2ea348-972e-4b2d-adad-f688ec7750e8/manifest.json"
+      }
+    ]
+  },
+  {
+    "product_number": "600000128",
+    "detail_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=600000128",
+    "expected_name": "대웅제약 마그네슘 30정 30일분",
+    "status": "label_assets_saved_pending_transcription",
+    "attempts": [
+      {
+        "date": "2026-10-19",
+        "method": "browser_detail_and_page_assets",
+        "source_url": "https://cdn.daisomall.co.kr/file/resize/PD/20260821/description/850/kRqZjQlUk8iA6h6u0OAT600000128_01_00kRqZjQlUk8iA6h6u0OAT.png",
+        "result": "label_asset_saved",
+        "detail_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=600000128"
+      },
+      {
+        "date": "2026-10-19",
+        "method": "browser_detail_attempt",
+        "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=600000128",
+        "result": "label_assets_saved",
+        "reason": null
+      }
+    ],
+    "recommendation_eligible": false,
+    "label_assets": [
+      {
+        "source_url": "https://cdn.daisomall.co.kr/file/resize/PD/20260821/description/850/kRqZjQlUk8iA6h6u0OAT600000128_01_00kRqZjQlUk8iA6h6u0OAT.png",
+        "local_path": "data/products/labels/600000128/20c1e4ee0b40eba7.png",
+        "sha256": "20c1e4ee0b40eba7c356dee9f0ddd2c308123d420b5e336404922f90fce774cc",
+        "method": "official_label_image_saved_pending_visual",
+        "observed_on": "2026-10-19",
+        "published_on": null,
+        "browser_manifest": "/var/folders/yz/kzzkpplj73qbzchy819k7v0m0000gn/T/browser-use/assets/3dc9a6d7-f9be-4d8c-b99f-ee798dd488ad/manifest.json"
+      }
+    ]
+  },
+  {
+    "product_number": "600000129",
+    "detail_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=600000129",
+    "expected_name": "대웅제약 비타민B 30정 30일분",
+    "status": "label_assets_saved_pending_transcription",
+    "attempts": [
+      {
+        "date": "2026-10-19",
+        "method": "browser_detail_and_page_assets",
+        "source_url": "https://cdn.daisomall.co.kr/file/resize/PD/20250618/description/850/UlvObN5i0Aovsuhmn0JC600000129_01_99UlvObN5i0Aovsuhmn0JC.jpg",
+        "result": "label_asset_saved",
+        "detail_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=600000129"
+      },
+      {
+        "date": "2026-10-19",
+        "method": "browser_detail_and_page_assets",
+        "source_url": "https://cdn.daisomall.co.kr/file/resize/PD/20250618/description/850/yBgTkLj4OyldMqVRzspW600000129_01_00yBgTkLj4OyldMqVRzspW.png",
+        "result": "label_asset_saved",
+        "detail_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=600000129"
+      },
+      {
+        "date": "2026-10-19",
+        "method": "browser_detail_attempt",
+        "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=600000129",
+        "result": "label_assets_saved",
+        "reason": null
+      }
+    ],
+    "recommendation_eligible": false,
+    "label_assets": [
+      {
+        "source_url": "https://cdn.daisomall.co.kr/file/resize/PD/20250618/description/850/UlvObN5i0Aovsuhmn0JC600000129_01_99UlvObN5i0Aovsuhmn0JC.jpg",
+        "local_path": "data/products/labels/600000129/83b123f0ef1a61fb.jpg",
+        "sha256": "83b123f0ef1a61fb3a1c4ad0576820465ad4b7d1a7d32e7b570beaecec2ba173",
+        "method": "official_label_image_saved_pending_visual",
+        "observed_on": "2026-10-19",
+        "published_on": null,
+        "browser_manifest": "/var/folders/yz/kzzkpplj73qbzchy819k7v0m0000gn/T/browser-use/assets/161f134a-f4fb-4c10-a132-f1dc11e73c6a/manifest.json"
+      },
+      {
+        "source_url": "https://cdn.daisomall.co.kr/file/resize/PD/20250618/description/850/yBgTkLj4OyldMqVRzspW600000129_01_00yBgTkLj4OyldMqVRzspW.png",
+        "local_path": "data/products/labels/600000129/ee40043395a32e56.png",
+        "sha256": "ee40043395a32e566c23d03be075136ce4d237514c4932412abfcd5d3d8d1c4a",
+        "method": "official_label_image_saved_pending_visual",
+        "observed_on": "2026-10-19",
+        "published_on": null,
+        "browser_manifest": "/var/folders/yz/kzzkpplj73qbzchy819k7v0m0000gn/T/browser-use/assets/161f134a-f4fb-4c10-a132-f1dc11e73c6a/manifest.json"
+      }
+    ]
+  },
+  {
+    "product_number": "600000133",
+    "detail_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=600000133",
+    "expected_name": "대웅제약 철분 30정 30일분",
+    "status": "label_assets_saved_pending_transcription",
+    "attempts": [
+      {
+        "date": "2026-10-19",
+        "method": "browser_detail_and_page_assets",
+        "source_url": "https://cdn.daisomall.co.kr/file/resize/PD/20260820/description/850/GpnzT5rzUAKNY89f3KS6600000133_%EC%B2%A0%EB%B6%84_%EC%A0%9C%EC%A1%B0%EC%9B%90%EB%B3%80%EA%B2%BD%EB%B0%B0%EB%84%88GpnzT5rzUAKNY89f3KS6.png",
+        "result": "label_asset_saved",
+        "detail_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=600000133"
+      },
+      {
+        "date": "2026-10-19",
+        "method": "browser_detail_and_page_assets",
+        "source_url": "https://cdn.daisomall.co.kr/file/resize/PD/20260820/description/850/dQjMGGdaL3Dr7K4mrsgr600000133_01_00dQjMGGdaL3Dr7K4mrsgr.png",
+        "result": "label_asset_saved",
+        "detail_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=600000133"
+      },
+      {
+        "date": "2026-10-19",
+        "method": "browser_detail_attempt",
+        "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=600000133",
+        "result": "label_assets_saved",
+        "reason": null
+      }
+    ],
+    "recommendation_eligible": false,
+    "label_assets": [
+      {
+        "source_url": "https://cdn.daisomall.co.kr/file/resize/PD/20260820/description/850/GpnzT5rzUAKNY89f3KS6600000133_%EC%B2%A0%EB%B6%84_%EC%A0%9C%EC%A1%B0%EC%9B%90%EB%B3%80%EA%B2%BD%EB%B0%B0%EB%84%88GpnzT5rzUAKNY89f3KS6.png",
+        "local_path": "data/products/labels/600000133/c0dd9bd8eee3f58a.png",
+        "sha256": "c0dd9bd8eee3f58a70f6e8814e7639a61f8debf2500331b7ca7252e83f3fd01a",
+        "method": "official_label_image_saved_pending_visual",
+        "observed_on": "2026-10-19",
+        "published_on": null,
+        "browser_manifest": "/var/folders/yz/kzzkpplj73qbzchy819k7v0m0000gn/T/browser-use/assets/bbaf1366-414b-4d8f-997c-063d175dcf26/manifest.json"
+      },
+      {
+        "source_url": "https://cdn.daisomall.co.kr/file/resize/PD/20260820/description/850/dQjMGGdaL3Dr7K4mrsgr600000133_01_00dQjMGGdaL3Dr7K4mrsgr.png",
+        "local_path": "data/products/labels/600000133/145c25e569ab008a.png",
+        "sha256": "145c25e569ab008ac583f07883d7f704107160474ff858e71db9f8671f3bfada",
+        "method": "official_label_image_saved_pending_visual",
+        "observed_on": "2026-10-19",
+        "published_on": null,
+        "browser_manifest": "/var/folders/yz/kzzkpplj73qbzchy819k7v0m0000gn/T/browser-use/assets/bbaf1366-414b-4d8f-997c-063d175dcf26/manifest.json"
+      }
+    ]
+  },
+  {
+    "product_number": "600000147",
+    "detail_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=600000147",
+    "expected_name": "대웅제약 칼슘 120정 30일분",
+    "status": "label_assets_saved_pending_transcription",
+    "attempts": [
+      {
+        "date": "2026-10-19",
+        "method": "browser_detail_and_page_assets",
+        "source_url": "https://cdn.daisomall.co.kr/file/resize/PD/20250409/description/850/iywhS2rNTZciRPKuXQej600000147_01_00iywhS2rNTZciRPKuXQej.png",
+        "result": "label_asset_saved",
+        "detail_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=600000147"
+      },
+      {
+        "date": "2026-10-19",
+        "method": "browser_detail_attempt",
+        "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=600000147",
+        "result": "label_assets_saved",
+        "reason": null
+      }
+    ],
+    "recommendation_eligible": false,
+    "label_assets": [
+      {
+        "source_url": "https://cdn.daisomall.co.kr/file/resize/PD/20250409/description/850/iywhS2rNTZciRPKuXQej600000147_01_00iywhS2rNTZciRPKuXQej.png",
+        "local_path": "data/products/labels/600000147/0af60e516fa1465e.png",
+        "sha256": "0af60e516fa1465ea54ff11c37b513eb125ac6a77f473213ea35ee7e69aea69f",
+        "method": "official_label_image_saved_pending_visual",
+        "observed_on": "2026-10-19",
+        "published_on": null,
+        "browser_manifest": "/var/folders/yz/kzzkpplj73qbzchy819k7v0m0000gn/T/browser-use/assets/e7deb81d-0861-499e-a776-2b18c83d109e/manifest.json"
+      }
+    ]
+  },
+  {
+    "product_number": "600000148",
+    "detail_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=600000148",
+    "expected_name": "대웅제약 칼슘 마그네슘 비타민D 60정 30일분",
+    "status": "label_assets_saved_pending_transcription",
+    "attempts": [
+      {
+        "date": "2026-10-19",
+        "method": "browser_detail_and_page_assets",
+        "source_url": "https://cdn.daisomall.co.kr/file/resize/PD/20260904/description/850/cjjpuHdrg9JICdTztL0P600000148_01_01cjjpuHdrg9JICdTztL0P.png",
+        "result": "label_asset_saved",
+        "detail_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=600000148"
+      },
+      {
+        "date": "2026-10-19",
+        "method": "browser_detail_attempt",
+        "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=600000148",
+        "result": "label_assets_saved",
+        "reason": null
+      }
+    ],
+    "recommendation_eligible": false,
+    "label_assets": [
+      {
+        "source_url": "https://cdn.daisomall.co.kr/file/resize/PD/20260904/description/850/cjjpuHdrg9JICdTztL0P600000148_01_01cjjpuHdrg9JICdTztL0P.png",
+        "local_path": "data/products/labels/600000148/cf1e32ad367d55af.png",
+        "sha256": "cf1e32ad367d55af69a35224f63a15e20ea2e1056bb5b8bb6e0324374bdc0abf",
+        "method": "official_label_image_saved_pending_visual",
+        "observed_on": "2026-10-19",
+        "published_on": null,
+        "browser_manifest": "/var/folders/yz/kzzkpplj73qbzchy819k7v0m0000gn/T/browser-use/assets/12acc6ff-a42e-44e1-9dde-964ab4c6ab7d/manifest.json"
+      }
+    ]
+  },
+  {
+    "product_number": "601618643",
+    "detail_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=601618643",
+    "expected_name": "동화 바이마그랩 마그네슘B 30정 30일분",
+    "status": "label_assets_saved_pending_transcription",
+    "attempts": [
+      {
+        "date": "2026-10-19",
+        "method": "browser_detail_and_page_assets",
+        "source_url": "https://cdn.daisomall.co.kr/file/resize/PD/20260406/description/850/eTnCa32Pa0fAq1xJseFw601618643_01_00eTnCa32Pa0fAq1xJseFw.jpg",
+        "result": "label_asset_saved",
+        "detail_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=601618643"
+      },
+      {
+        "date": "2026-10-19",
+        "method": "browser_detail_attempt",
+        "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=601618643",
+        "result": "label_assets_saved",
+        "reason": null
+      }
+    ],
+    "recommendation_eligible": false,
+    "label_assets": [
+      {
+        "source_url": "https://cdn.daisomall.co.kr/file/resize/PD/20260406/description/850/eTnCa32Pa0fAq1xJseFw601618643_01_00eTnCa32Pa0fAq1xJseFw.jpg",
+        "local_path": "data/products/labels/601618643/8ca5d2b02387bd1e.jpg",
+        "sha256": "8ca5d2b02387bd1ea6c57ffcf09c99a7f03684b4efb553a65e1933ef1b7ed5db",
+        "method": "official_label_image_saved_pending_visual",
+        "observed_on": "2026-10-19",
+        "published_on": null,
+        "browser_manifest": "/var/folders/yz/kzzkpplj73qbzchy819k7v0m0000gn/T/browser-use/assets/9211095a-07df-4e7e-8cae-1d041562506c/manifest.json"
+      }
+    ]
+  },
+  {
+    "product_number": "610910777",
+    "detail_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=610910777",
+    "expected_name": "동국제약 비타민D 2000IU 40캡슐 40일분",
+    "status": "label_assets_saved_pending_transcription",
+    "attempts": [
+      {
+        "date": "2026-10-19",
+        "method": "browser_detail_and_page_assets",
+        "source_url": "https://cdn.daisomall.co.kr/file/resize/PD/20251224/description/850/sNJLLZ8fC3chMXgLz1Qq610910777_01_01sNJLLZ8fC3chMXgLz1Qq.png",
+        "result": "label_asset_saved",
+        "detail_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=610910777"
+      },
+      {
+        "date": "2026-10-19",
+        "method": "browser_detail_and_page_assets",
+        "source_url": "https://cdn.daisomall.co.kr/file/resize/PD/20251224/description/850/tGCY1Ea3U8jcEJ9kMKWW610910777_01_99tGCY1Ea3U8jcEJ9kMKWW.jpg",
+        "result": "label_asset_saved",
+        "detail_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=610910777"
+      },
+      {
+        "date": "2026-10-19",
+        "method": "browser_detail_attempt",
+        "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=610910777",
+        "result": "label_assets_saved",
+        "reason": null
+      }
+    ],
+    "recommendation_eligible": false,
+    "label_assets": [
+      {
+        "source_url": "https://cdn.daisomall.co.kr/file/resize/PD/20251224/description/850/sNJLLZ8fC3chMXgLz1Qq610910777_01_01sNJLLZ8fC3chMXgLz1Qq.png",
+        "local_path": "data/products/labels/610910777/87db029186255e26.png",
+        "sha256": "87db029186255e262a290f69becf5b33433e94ae8e168327c6fc2bcd452e33e0",
+        "method": "official_label_image_saved_pending_visual",
+        "observed_on": "2026-10-19",
+        "published_on": null,
+        "browser_manifest": "/var/folders/yz/kzzkpplj73qbzchy819k7v0m0000gn/T/browser-use/assets/afca7857-1ea2-48b1-be9e-fbc35fd0df5a/manifest.json"
+      },
+      {
+        "source_url": "https://cdn.daisomall.co.kr/file/resize/PD/20251224/description/850/tGCY1Ea3U8jcEJ9kMKWW610910777_01_99tGCY1Ea3U8jcEJ9kMKWW.jpg",
+        "local_path": "data/products/labels/610910777/83b123f0ef1a61fb.jpg",
+        "sha256": "83b123f0ef1a61fb3a1c4ad0576820465ad4b7d1a7d32e7b570beaecec2ba173",
+        "method": "official_label_image_saved_pending_visual",
+        "observed_on": "2026-10-19",
+        "published_on": null,
+        "browser_manifest": "/var/folders/yz/kzzkpplj73qbzchy819k7v0m0000gn/T/browser-use/assets/afca7857-1ea2-48b1-be9e-fbc35fd0df5a/manifest.json"
+      }
+    ]
+  }
+]

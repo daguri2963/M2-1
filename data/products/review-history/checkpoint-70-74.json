@@ -1,0 +1,238 @@
+{
+  "reviewed_at": "2026-10-20T00:09:23.274773+09:00",
+  "products": [
+    {
+      "product_number": "994953534",
+      "catalog_index": 70,
+      "review_status": "partial",
+      "evidence": [
+        {
+          "source_id": "label-0115",
+          "source_sha256": "819e0b209f185d798131854cdad8f5220748f08f3543dc9d69a4851fa702cd3f",
+          "source_url": "https://cdn.daisomall.co.kr/file/resize/PD/20260619/description/850/j0BPZGYyAqgEcljVqg4k994953534_01_01j0BPZGYyAqgEcljVqg4k.jpg",
+          "original_path": "data/products/labels/994953534/819e0b209f185d79.jpg",
+          "crops": [
+            {
+              "path": "data/products/review-evidence/70-994953534-819e0b20-0.png",
+              "x": 0,
+              "y": 13575,
+              "width": 643,
+              "height": 1424
+            }
+          ]
+        }
+      ],
+      "observations": [
+        "칼륨밸런스 실제표 전체재확인. 1포10mL당칼륨105mg3%, 나트륨5mg미만0%, 당류0.5g미만0%, 단백질0.5g미만0%. 이전대조일치. 원액그대로금지·100mL이상희석·혈중칼륨약물/신장위장질환주의."
+      ],
+      "field_values": {
+        "product_name": "이너뷰 칼륨 밸런스 전해질 워터",
+        "food_type": "음료베이스",
+        "manufacturer": "(주)다정",
+        "distributor": "(주)엘지생활건강",
+        "package": "100 mL (10 mL × 10포)",
+        "dosage_form": "액상 포"
+      },
+      "reviewed_nutrients": [],
+      "field_dispositions": {},
+      "reviewed_at": "2026-10-20T00:09:23.274773+09:00",
+      "visual_inspection": true,
+      "source_match": "name_variant_package_matched",
+      "remaining_reasons": [
+        "전체 원재료·기능성·섭취/주의 문구의 완전한 교정 전사 및 정규화 미완료"
+      ]
+    },
+    {
+      "product_number": "994953530",
+      "catalog_index": 71,
+      "review_status": "partial",
+      "evidence": [
+        {
+          "source_id": "label-0116",
+          "source_sha256": "d129b47baa45a6f16da5ee3320c79941a8e25e83ee963b7bcf2dec6eb73b4ef0",
+          "source_url": "https://cdn.daisomall.co.kr/file/resize/PD/20250627/description/850/BuNQe86KVi2HlnfoGuVI994953530_01_00BuNQe86KVi2HlnfoGuVI.jpg",
+          "original_path": "data/products/labels/994953530/d129b47baa45a6f1.jpg",
+          "crops": [
+            {
+              "path": "data/products/review-evidence/71-994953530-d129b47b-0.png",
+              "x": 0,
+              "y": 15749,
+              "width": 850,
+              "height": 1813
+            },
+            {
+              "path": "data/products/review-evidence/71-994953530-d129b47b-1.png",
+              "x": 0,
+              "y": 17549,
+              "width": 850,
+              "height": 13
+            }
+          ]
+        }
+      ],
+      "observations": [
+        "레티놀리포좀C 일반식품표전체확인. 영양값총12포24g기준 A12000μgRAE1714%, C1200mg1200%; 하루1포수치로전용금지. 에리스리톨15g표시. 비타민E132mgα-TE1200%, 나이아신180mgNE1200%, 비오틴360μg1200%."
+      ],
+      "field_values": {
+        "product_name": "이너뷰 레티놀 리포좀C",
+        "food_type": "기타가공품",
+        "manufacturer": "(주)한국코스모",
+        "distributor": "(주)엘지생활건강",
+        "package": "24 g (2 g × 12포)",
+        "dosage_form": "분말 포",
+        "intake": "1일 1회, 1회 1포를 섭취하십시오."
+      },
+      "reviewed_nutrients": [],
+      "field_dispositions": {},
+      "nutrient_basis": "총 내용량(12포) 기준 / 24 g",
+      "nutrient_spec": "열량|35|kcal;나트륨|0|mg|0;탄수화물|23|g|7;당류|0.7|g|1;에리스리톨|15|g;지방|0|g|0;포화지방|0|g|0;단백질|1|g|0;비타민A|12000|μg RAE|1714;비타민E|132|mg α-TE|1200;비타민C|1200|mg|1200;나이아신|180|mg NE|1200;비오틴|360|μg|1200",
+      "reviewed_at": "2026-10-20T00:09:23.274773+09:00",
+      "visual_inspection": true,
+      "source_match": "name_variant_package_matched",
+      "remaining_reasons": [
+        "전체 원재료·기능성·섭취/주의 문구의 완전한 교정 전사 및 정규화 미완료"
+      ]
+    },
+    {
+      "product_number": "994953529",
+      "catalog_index": 72,
+      "review_status": "partial",
+      "evidence": [
+        {
+          "source_id": "label-0118",
+          "source_sha256": "6622c3f9f80b01960383d36fd0bacf56a6a1331b15b197dd72bd25c82b272d93",
+          "source_url": "https://cdn.daisomall.co.kr/file/resize/PD/20250627/description/850/lHFlJz79K6ImVPzfPtkT994953529_01_00lHFlJz79K6ImVPzfPtkT.jpg",
+          "original_path": "data/products/labels/994953529/6622c3f9f80b0196.jpg",
+          "crops": [
+            {
+              "path": "data/products/review-evidence/72-994953529-6622c3f9-0.png",
+              "x": 0,
+              "y": 17118,
+              "width": 850,
+              "height": 1809
+            },
+            {
+              "path": "data/products/review-evidence/72-994953529-6622c3f9-1.png",
+              "x": 0,
+              "y": 18918,
+              "width": 850,
+              "height": 9
+            }
+          ]
+        }
+      ],
+      "observations": [
+        "레드석류콜라겐 과채음료 표시표전체확인. 1포8mL당18kcal, 나트륨19mg1%, 탄수화물4g1%, 당류4g4%, 단백질1g미만1%. 석류농축액71%는원재료비율. 홍삼농축액70mg/g는원료규격이며완제품기능량아님."
+      ],
+      "field_values": {
+        "product_name": "이너뷰 진한 레드석류 콜라겐",
+        "food_type": "과·채음료",
+        "manufacturer": "(주)다정",
+        "distributor": "(주)엘지생활건강",
+        "package": "56 mL (8 mL × 7포)",
+        "dosage_form": "액상 포",
+        "intake": "1일 1회, 1회 1포씩 섭취하십시오."
+      },
+      "reviewed_nutrients": [],
+      "field_dispositions": {},
+      "nutrient_basis": "1포당 함량 (8 mL)",
+      "nutrient_spec": "열량|18|kcal;나트륨|19|mg|1;탄수화물|4|g|1;당류|4|g|4;지방|0|g|0;트랜스지방|0|g;포화지방|0|g|0;콜레스테롤|0|mg|0;단백질|1|g|1|<",
+      "reviewed_at": "2026-10-20T00:09:23.274773+09:00",
+      "visual_inspection": true,
+      "source_match": "name_variant_package_matched",
+      "remaining_reasons": [
+        "전체 원재료·기능성·섭취/주의 문구의 완전한 교정 전사 및 정규화 미완료"
+      ]
+    },
+    {
+      "product_number": "032306212",
+      "catalog_index": 73,
+      "review_status": "partial",
+      "evidence": [
+        {
+          "source_id": "label-0120",
+          "source_sha256": "e6d0747d7502bb348f2ec53b6bc4ff283622d96f75212fa2930a69f1dd144b22",
+          "source_url": "https://cdn.daisomall.co.kr/file/resize/PD/20260629/description/850/x4BcIMxY3yjXWdIhIqLT032306212_01_00x4BcIMxY3yjXWdIhIqLT.jpg",
+          "original_path": "data/products/labels/032306212/e6d0747d7502bb34.jpg",
+          "crops": [
+            {
+              "path": "data/products/review-evidence/73-032306212-e6d0747d-0.png",
+              "x": 0,
+              "y": 6778,
+              "width": 850,
+              "height": 1267
+            }
+          ]
+        }
+      ],
+      "observations": [
+        "품번032306212 실물표에존재. 1포1.5g당프로바이오틱스수50억CFU/락토페린54mg. lactoferrin을원료함량으로만누락하면안됨. 영유아어린이임산부수유부/유제품알레르기주의·우유함유."
+      ],
+      "field_values": {
+        "product_name": "데일리와이즈 리스펙타 유산균",
+        "food_type": "건강기능식품",
+        "manufacturer": "코스맥스엔비티(주)",
+        "distributor": "(주)종근당 천안공장",
+        "package": "6포(카탈로그); 1포1.5 g(라벨)",
+        "dosage_form": "분말 포",
+        "intake": "1일 1회, 1회 1포를 직접 섭취하십시오.",
+        "allergen": "우유 함유"
+      },
+      "reviewed_nutrients": [],
+      "field_dispositions": {},
+      "nutrient_basis": "1일 섭취량: 1포(1.5 g)",
+      "nutrient_spec": "열량|5.2|kcal;탄수화물|1.3|g|0;단백질|0|g|0;지방|0|g|0;나트륨|0|mg|0;락토페린|54|mg;프로바이오틱스 수|50억|CFU",
+      "reviewed_at": "2026-10-20T00:09:23.274773+09:00",
+      "visual_inspection": true,
+      "source_match": "name_variant_package_matched",
+      "remaining_reasons": [
+        "전체 원재료·기능성·섭취/주의 문구의 완전한 교정 전사 및 정규화 미완료"
+      ]
+    },
+    {
+      "product_number": "600651647",
+      "catalog_index": 74,
+      "review_status": "partial",
+      "evidence": [
+        {
+          "source_id": "label-0121",
+          "source_sha256": "8427b58e995f11d9b65d8779b8e404708671d99d3043f7b742f3b296132c281c",
+          "source_url": "https://cdn.daisomall.co.kr/file/resize/PD/20260327/description/850/b3tQfWKMxNFMclp38NhR600651647_01_00b3tQfWKMxNFMclp38NhR.png",
+          "original_path": "data/products/labels/600651647/8427b58e995f11d9.png",
+          "crops": [
+            {
+              "path": "data/products/review-evidence/74-600651647-8427b58e-0.png",
+              "x": 0,
+              "y": 20604,
+              "width": 850,
+              "height": 1340
+            }
+          ]
+        }
+      ],
+      "observations": [
+        "프리바이오틱스80g40포표확인. 일2회1포이므로1일2포4g 기준FOS3g, 열량15kcal 탄수화물4g1%. 1포2g기준으로오인금지. 나트륨표시단위g이며mg로임의변환안함. 우유·대두함유."
+      ],
+      "field_values": {
+        "product_name": "유한 프리바이오틱스",
+        "food_type": "건강기능식품",
+        "manufacturer": "퍼멘텍(주) 오송공장",
+        "distributor": "(주)유한양행",
+        "package": "80 g (2 g × 40포)",
+        "dosage_form": "분말 포",
+        "intake": "1일 2회, 1회 1포를 물과 함께 섭취하십시오.",
+        "allergen": "우유, 대두 함유"
+      },
+      "reviewed_nutrients": [],
+      "field_dispositions": {},
+      "nutrient_basis": "1일 섭취량당; 섭취방법 1일2회1포로 2포(4g)에 해당",
+      "nutrient_spec": "열량|15|kcal;탄수화물|4|g|1;단백질|0|g|0;지방|0|g|0;나트륨|0|g|0;프락토올리고당|3|g",
+      "reviewed_at": "2026-10-20T00:09:23.274773+09:00",
+      "visual_inspection": true,
+      "source_match": "name_variant_package_matched",
+      "remaining_reasons": [
+        "전체 원재료·기능성·섭취/주의 문구의 완전한 교정 전사 및 정규화 미완료"
+      ]
+    }
+  ]
+}

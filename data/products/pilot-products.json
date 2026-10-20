@@ -1,0 +1,921 @@
+{
+  "schema_version": "0.1",
+  "accessed_on": "2026-10-19",
+  "timezone": "Asia/Seoul",
+  "purpose": "수집·검수 방식 검증용; 서비스 추천 DB 아님",
+  "products": [
+    {
+      "id": "daiso-600000128",
+      "collection_status": "partial",
+      "observed_on": "2026-10-19",
+      "fields": {
+        "product_name": {
+          "value": "대웅제약 마그네슘 30정 30일분",
+          "raw": "대웅제약 마그네슘 30정 30일분",
+          "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=600000128",
+          "accessed_on": "2026-10-19",
+          "status": "official_observed",
+          "reason": null,
+          "method": "browser_dom"
+        },
+        "label_product_name": {
+          "value": "마그네슘",
+          "raw": "마그네슘 (건강기능식품)",
+          "source_url": "https://cdn.daisomall.co.kr/file/resize/PD/20260821/description/850/kRqZjQlUk8iA6h6u0OAT600000128_01_00kRqZjQlUk8iA6h6u0OAT.png",
+          "accessed_on": "2026-10-19",
+          "status": "official_observed",
+          "reason": null,
+          "method": "browser_image_visual"
+        },
+        "daiso_product_number": {
+          "value": "600000128",
+          "raw": "품번 600000128",
+          "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=600000128",
+          "accessed_on": "2026-10-19",
+          "status": "official_observed",
+          "reason": null,
+          "method": "browser_dom"
+        },
+        "brand": {
+          "value": "닥터베어",
+          "raw": "Dr.Bear+ 닥터베어",
+          "source_url": "https://cdn.daisomall.co.kr/file/resize/PD/20260821/description/850/kRqZjQlUk8iA6h6u0OAT600000128_01_00kRqZjQlUk8iA6h6u0OAT.png",
+          "accessed_on": "2026-10-19",
+          "status": "official_observed",
+          "reason": null,
+          "method": "browser_image_visual"
+        },
+        "manufacturer": {
+          "value": "(주)대웅제약 1공장",
+          "raw": "(주)대웅제약 1공장",
+          "source_url": "https://cdn.daisomall.co.kr/file/resize/PD/20260821/description/850/kRqZjQlUk8iA6h6u0OAT600000128_01_00kRqZjQlUk8iA6h6u0OAT.png",
+          "accessed_on": "2026-10-19",
+          "status": "official_observed",
+          "reason": null,
+          "method": "browser_image_visual"
+        },
+        "distributor": {
+          "value": "(주)대웅제약",
+          "raw": "건강기능식품 유통전문판매원 (주)대웅제약",
+          "source_url": "https://cdn.daisomall.co.kr/file/resize/PD/20260821/description/850/kRqZjQlUk8iA6h6u0OAT600000128_01_00kRqZjQlUk8iA6h6u0OAT.png",
+          "accessed_on": "2026-10-19",
+          "status": "official_observed",
+          "reason": null,
+          "method": "browser_image_visual"
+        },
+        "retail_channel_operator": {
+          "value": "(주)아성다이소",
+          "raw": "상호명 및 호스팅 서비스 제공 : ㈜아성다이소",
+          "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=600000128",
+          "accessed_on": "2026-10-19",
+          "status": "official_observed",
+          "reason": null,
+          "method": "browser_dom"
+        },
+        "price": {
+          "value": {
+            "amount": 3000,
+            "currency": "KRW",
+            "basis": "단품 1개 표시 판매가",
+            "channel": "다이소몰",
+            "includes_shipping": false,
+            "current_price_observed_on": "2026-10-19"
+          },
+          "raw": "3,000 원",
+          "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=600000128",
+          "accessed_on": "2026-10-19",
+          "status": "official_observed",
+          "reason": null,
+          "method": "browser_dom"
+        },
+        "package": {
+          "value": {
+            "tablet_count": 30,
+            "tablet_mass_mg": 1000,
+            "total_mass_g": 30.0
+          },
+          "raw": "30 g (1,000 mg X 30정)",
+          "source_url": "https://cdn.daisomall.co.kr/file/resize/PD/20260821/description/850/kRqZjQlUk8iA6h6u0OAT600000128_01_00kRqZjQlUk8iA6h6u0OAT.png",
+          "accessed_on": "2026-10-19",
+          "status": "official_observed",
+          "reason": null,
+          "method": "browser_image_visual"
+        },
+        "food_type": {
+          "value": "건강기능식품",
+          "raw": "마그네슘 (건강기능식품)",
+          "source_url": "https://cdn.daisomall.co.kr/file/resize/PD/20260821/description/850/kRqZjQlUk8iA6h6u0OAT600000128_01_00kRqZjQlUk8iA6h6u0OAT.png",
+          "accessed_on": "2026-10-19",
+          "status": "official_observed",
+          "reason": null,
+          "method": "browser_image_visual"
+        },
+        "intake": {
+          "value": {
+            "times_per_day": 1,
+            "tablets_per_time": 1,
+            "tablets_per_day": 1
+          },
+          "raw": "1일 1회, 1회 1정을 충분한 물과 함께 섭취하십시오.",
+          "source_url": "https://cdn.daisomall.co.kr/file/resize/PD/20260821/description/850/kRqZjQlUk8iA6h6u0OAT600000128_01_00kRqZjQlUk8iA6h6u0OAT.png",
+          "accessed_on": "2026-10-19",
+          "status": "official_observed",
+          "reason": null,
+          "method": "browser_image_visual"
+        },
+        "cautions": {
+          "value": [
+            "고칼슘혈증이 있거나 의약품 복용 시 전문가와 상담하십시오.",
+            "이상사례 발생 시 섭취를 중단하고 전문가와 상담하십시오.",
+            "특이체질, 알레르기체질인 경우 개인에 따라 과민반응을 나타낼 수 있으므로 원료를 확인 후 섭취하십시오."
+          ],
+          "raw": "고칼슘혈증이 있거나 의약품 복용 시 전문가와 상담하십시오. / 이상사례 발생 시 섭취를 중단하고 전문가와 상담하십시오. / 특이체질, 알레르기체질인 경우 개인에 따라 과민반응을 나타낼 수 있으므로 원료를 확인 후 섭취하십시오.",
+          "source_url": "https://cdn.daisomall.co.kr/file/resize/PD/20260821/description/850/kRqZjQlUk8iA6h6u0OAT600000128_01_00kRqZjQlUk8iA6h6u0OAT.png",
+          "accessed_on": "2026-10-19",
+          "status": "official_observed",
+          "reason": null,
+          "method": "browser_image_visual"
+        },
+        "allergens": {
+          "value": [
+            "우유"
+          ],
+          "raw": "우유 함유",
+          "source_url": "https://cdn.daisomall.co.kr/file/resize/PD/20260821/description/850/kRqZjQlUk8iA6h6u0OAT600000128_01_00kRqZjQlUk8iA6h6u0OAT.png",
+          "accessed_on": "2026-10-19",
+          "status": "official_observed",
+          "reason": null,
+          "method": "browser_image_visual"
+        },
+        "full_raw_material_list": {
+          "value": null,
+          "raw": null,
+          "source_url": "https://cdn.daisomall.co.kr/file/resize/PD/20260821/description/850/kRqZjQlUk8iA6h6u0OAT600000128_01_00kRqZjQlUk8iA6h6u0OAT.png",
+          "accessed_on": "2026-10-19",
+          "status": "unverified",
+          "reason": "전체 원료 전사 및 이미지 재대조 미완료",
+          "method": null
+        },
+        "reported_product_number": {
+          "value": null,
+          "raw": null,
+          "source_url": "https://cdn.daisomall.co.kr/file/resize/PD/20260821/description/850/kRqZjQlUk8iA6h6u0OAT600000128_01_00kRqZjQlUk8iA6h6u0OAT.png",
+          "accessed_on": "2026-10-19",
+          "status": "unverified",
+          "reason": "품목제조신고번호 미확인; 식품이력번호/바코드와 혼동 금지",
+          "method": null
+        },
+        "manufacturer_same_variant_page": {
+          "value": null,
+          "raw": null,
+          "source_url": null,
+          "accessed_on": "2026-10-19",
+          "status": "unverified",
+          "reason": "제조사 자체 사이트에서 동일 품번·포장 자료 연결 미확정",
+          "method": null
+        },
+        "source_published_on": {
+          "value": null,
+          "raw": null,
+          "source_url": "https://cdn.daisomall.co.kr/file/resize/PD/20260821/description/850/kRqZjQlUk8iA6h6u0OAT600000128_01_00kRqZjQlUk8iA6h6u0OAT.png",
+          "accessed_on": "2026-10-19",
+          "status": "unverified",
+          "reason": "게시일 미표시; CDN 경로 날짜를 게시·갱신일로 간주하지 않음",
+          "method": null
+        },
+        "daily_cost": {
+          "value": null,
+          "raw": null,
+          "source_url": null,
+          "accessed_on": "2026-10-19",
+          "status": "unverified",
+          "reason": "검수 전 파생비용 계산 보류",
+          "method": null
+        }
+      },
+      "functional_components": [
+        {
+          "name": "마그네슘",
+          "amount": {
+            "value": {
+              "amount": 315,
+              "unit": "mg",
+              "basis": "1일 섭취량",
+              "daily_tablets": 1
+            },
+            "raw": "마그네슘 315 mg",
+            "source_url": "https://cdn.daisomall.co.kr/file/resize/PD/20260821/description/850/kRqZjQlUk8iA6h6u0OAT600000128_01_00kRqZjQlUk8iA6h6u0OAT.png",
+            "accessed_on": "2026-10-19",
+            "status": "official_observed",
+            "reason": null,
+            "method": "browser_image_visual"
+          },
+          "classification": "영양·기능성분; 원료 배합량과 별도"
+        },
+        {
+          "name": "비타민D",
+          "amount": {
+            "value": {
+              "amount": 10,
+              "unit": "μg",
+              "basis": "1일 섭취량",
+              "daily_tablets": 1
+            },
+            "raw": "비타민D 10 μg",
+            "source_url": "https://cdn.daisomall.co.kr/file/resize/PD/20260821/description/850/kRqZjQlUk8iA6h6u0OAT600000128_01_00kRqZjQlUk8iA6h6u0OAT.png",
+            "accessed_on": "2026-10-19",
+            "status": "official_observed",
+            "reason": null,
+            "method": "browser_image_visual"
+          },
+          "classification": "영양·기능성분; 원료 배합량과 별도"
+        }
+      ],
+      "raw_materials_identified": {
+        "value": [
+          "산화마그네슘",
+          "비타민D3혼합제제분말"
+        ],
+        "raw": "주요 원료명 발췌; 배합량 아님",
+        "source_url": "https://cdn.daisomall.co.kr/file/resize/PD/20260821/description/850/kRqZjQlUk8iA6h6u0OAT600000128_01_00kRqZjQlUk8iA6h6u0OAT.png",
+        "accessed_on": "2026-10-19",
+        "status": "official_observed",
+        "reason": null,
+        "method": "browser_image_visual"
+      },
+      "eligibility": {
+        "daiso_sale_confirmed": true,
+        "daiso_listing_identity_confirmed": true,
+        "manufacturer_cross_source_exact_match": false,
+        "required_fields_verified": false,
+        "recommendation_eligible": false,
+        "reasons": [
+          "제조사 자체 동일 포장 자료 대조 미완료",
+          "전체 원료·알레르기 교차오염·주의사항 원문 전수 대조 및 제2검수 미완료"
+        ]
+      },
+      "review": {
+        "kind": "self_review",
+        "independent_second_reviewer": false,
+        "reviewed_on": "2026-10-19",
+        "result": "partial",
+        "notes": [
+          "검색목록의 묶음판매와 단품 구분",
+          "품번·상품명·정수·가격 연결 확인",
+          "1정 중량과 기능성분 함량 구분",
+          "함량 기준은 1일 섭취량; 임의 1정 환산 없음"
+        ]
+      }
+    },
+    {
+      "id": "daiso-600000129",
+      "collection_status": "partial",
+      "observed_on": "2026-10-19",
+      "fields": {
+        "product_name": {
+          "value": "대웅제약 비타민B 30정 30일분",
+          "raw": "대웅제약 비타민B 30정 30일분",
+          "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=600000129",
+          "accessed_on": "2026-10-19",
+          "status": "official_observed",
+          "reason": null,
+          "method": "browser_dom"
+        },
+        "label_product_name": {
+          "value": "비타민B",
+          "raw": "비타민B (건강기능식품)",
+          "source_url": "https://cdn.daisomall.co.kr/file/resize/PD/20250618/description/850/yBgTkLj4OyldMqVRzspW600000129_01_00yBgTkLj4OyldMqVRzspW.png",
+          "accessed_on": "2026-10-19",
+          "status": "official_alt_pending_visual",
+          "reason": null,
+          "method": "browser_image_alt"
+        },
+        "daiso_product_number": {
+          "value": "600000129",
+          "raw": "품번 600000129",
+          "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=600000129",
+          "accessed_on": "2026-10-19",
+          "status": "official_observed",
+          "reason": null,
+          "method": "browser_dom"
+        },
+        "brand": {
+          "value": "닥터베어",
+          "raw": "Dr.Bear+ 닥터베어",
+          "source_url": "https://cdn.daisomall.co.kr/file/resize/PD/20250618/description/850/yBgTkLj4OyldMqVRzspW600000129_01_00yBgTkLj4OyldMqVRzspW.png",
+          "accessed_on": "2026-10-19",
+          "status": "official_alt_pending_visual",
+          "reason": null,
+          "method": "browser_image_alt"
+        },
+        "manufacturer": {
+          "value": "코스맥스바이오(주)",
+          "raw": "코스맥스바이오(주)",
+          "source_url": "https://cdn.daisomall.co.kr/file/resize/PD/20250618/description/850/yBgTkLj4OyldMqVRzspW600000129_01_00yBgTkLj4OyldMqVRzspW.png",
+          "accessed_on": "2026-10-19",
+          "status": "official_alt_pending_visual",
+          "reason": null,
+          "method": "browser_image_alt"
+        },
+        "distributor": {
+          "value": "(주)대웅제약",
+          "raw": "건강기능식품 유통전문판매원 (주)대웅제약",
+          "source_url": "https://cdn.daisomall.co.kr/file/resize/PD/20250618/description/850/yBgTkLj4OyldMqVRzspW600000129_01_00yBgTkLj4OyldMqVRzspW.png",
+          "accessed_on": "2026-10-19",
+          "status": "official_alt_pending_visual",
+          "reason": null,
+          "method": "browser_image_alt"
+        },
+        "retail_channel_operator": {
+          "value": "(주)아성다이소",
+          "raw": "상호명 및 호스팅 서비스 제공 : ㈜아성다이소",
+          "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=600000129",
+          "accessed_on": "2026-10-19",
+          "status": "official_observed",
+          "reason": null,
+          "method": "browser_dom"
+        },
+        "price": {
+          "value": {
+            "amount": 3000,
+            "currency": "KRW",
+            "basis": "단품 1개 표시 판매가",
+            "channel": "다이소몰",
+            "includes_shipping": false,
+            "current_price_observed_on": "2026-10-19"
+          },
+          "raw": "3,000 원",
+          "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=600000129",
+          "accessed_on": "2026-10-19",
+          "status": "official_observed",
+          "reason": null,
+          "method": "browser_dom"
+        },
+        "package": {
+          "value": {
+            "tablet_count": 30,
+            "tablet_mass_mg": 500,
+            "total_mass_g": 15.0
+          },
+          "raw": "15 g (500 mg X 30정)",
+          "source_url": "https://cdn.daisomall.co.kr/file/resize/PD/20250618/description/850/yBgTkLj4OyldMqVRzspW600000129_01_00yBgTkLj4OyldMqVRzspW.png",
+          "accessed_on": "2026-10-19",
+          "status": "official_alt_pending_visual",
+          "reason": null,
+          "method": "browser_image_alt"
+        },
+        "food_type": {
+          "value": "건강기능식품",
+          "raw": "비타민B (건강기능식품)",
+          "source_url": "https://cdn.daisomall.co.kr/file/resize/PD/20250618/description/850/yBgTkLj4OyldMqVRzspW600000129_01_00yBgTkLj4OyldMqVRzspW.png",
+          "accessed_on": "2026-10-19",
+          "status": "official_alt_pending_visual",
+          "reason": null,
+          "method": "browser_image_alt"
+        },
+        "intake": {
+          "value": {
+            "times_per_day": 1,
+            "tablets_per_time": 1,
+            "tablets_per_day": 1
+          },
+          "raw": "1일 1회, 1회 1정을 충분한 물과 함께 섭취하십시오.",
+          "source_url": "https://cdn.daisomall.co.kr/file/resize/PD/20250618/description/850/yBgTkLj4OyldMqVRzspW600000129_01_00yBgTkLj4OyldMqVRzspW.png",
+          "accessed_on": "2026-10-19",
+          "status": "official_alt_pending_visual",
+          "reason": null,
+          "method": "browser_image_alt"
+        },
+        "cautions": {
+          "value": [
+            "특이체질 또는 알레르기 체질인 경우에는 개인에 따라 과민반응을 나타낼 수 있으므로 원재료를 확인 후 섭취하십시오.",
+            "이상 사례 발생 시 섭취를 중단하고 전문가와 상담하십시오.",
+            "용기 안의 습기제거제는 드시지 마십시오."
+          ],
+          "raw": "특이체질 또는 알레르기 체질인 경우에는 개인에 따라 과민반응을 나타낼 수 있으므로 원재료를 확인 후 섭취하십시오. / 이상 사례 발생 시 섭취를 중단하고 전문가와 상담하십시오. / 용기 안의 습기제거제는 드시지 마십시오.",
+          "source_url": "https://cdn.daisomall.co.kr/file/resize/PD/20250618/description/850/yBgTkLj4OyldMqVRzspW600000129_01_00yBgTkLj4OyldMqVRzspW.png",
+          "accessed_on": "2026-10-19",
+          "status": "official_alt_pending_visual",
+          "reason": null,
+          "method": "browser_image_alt"
+        },
+        "allergens": {
+          "value": [
+            "우유"
+          ],
+          "raw": "우유 함유",
+          "source_url": "https://cdn.daisomall.co.kr/file/resize/PD/20250618/description/850/yBgTkLj4OyldMqVRzspW600000129_01_00yBgTkLj4OyldMqVRzspW.png",
+          "accessed_on": "2026-10-19",
+          "status": "official_alt_pending_visual",
+          "reason": null,
+          "method": "browser_image_alt"
+        },
+        "full_raw_material_list": {
+          "value": null,
+          "raw": null,
+          "source_url": "https://cdn.daisomall.co.kr/file/resize/PD/20250618/description/850/yBgTkLj4OyldMqVRzspW600000129_01_00yBgTkLj4OyldMqVRzspW.png",
+          "accessed_on": "2026-10-19",
+          "status": "unverified",
+          "reason": "전체 원료 전사 및 이미지 재대조 미완료",
+          "method": null
+        },
+        "reported_product_number": {
+          "value": null,
+          "raw": null,
+          "source_url": "https://cdn.daisomall.co.kr/file/resize/PD/20250618/description/850/yBgTkLj4OyldMqVRzspW600000129_01_00yBgTkLj4OyldMqVRzspW.png",
+          "accessed_on": "2026-10-19",
+          "status": "unverified",
+          "reason": "품목제조신고번호 미확인; 식품이력번호/바코드와 혼동 금지",
+          "method": null
+        },
+        "manufacturer_same_variant_page": {
+          "value": null,
+          "raw": null,
+          "source_url": null,
+          "accessed_on": "2026-10-19",
+          "status": "unverified",
+          "reason": "제조사 자체 사이트에서 동일 품번·포장 자료 연결 미확정",
+          "method": null
+        },
+        "source_published_on": {
+          "value": null,
+          "raw": null,
+          "source_url": "https://cdn.daisomall.co.kr/file/resize/PD/20250618/description/850/yBgTkLj4OyldMqVRzspW600000129_01_00yBgTkLj4OyldMqVRzspW.png",
+          "accessed_on": "2026-10-19",
+          "status": "unverified",
+          "reason": "게시일 미표시; CDN 경로 날짜를 게시·갱신일로 간주하지 않음",
+          "method": null
+        },
+        "daily_cost": {
+          "value": null,
+          "raw": null,
+          "source_url": null,
+          "accessed_on": "2026-10-19",
+          "status": "unverified",
+          "reason": "검수 전 파생비용 계산 보류",
+          "method": null
+        }
+      },
+      "functional_components": [
+        {
+          "name": "비타민B1",
+          "amount": {
+            "value": {
+              "amount": 1.2,
+              "unit": "mg",
+              "basis": "1일 섭취량",
+              "daily_tablets": 1
+            },
+            "raw": "비타민B1 1.2 mg",
+            "source_url": "https://cdn.daisomall.co.kr/file/resize/PD/20250618/description/850/yBgTkLj4OyldMqVRzspW600000129_01_00yBgTkLj4OyldMqVRzspW.png",
+            "accessed_on": "2026-10-19",
+            "status": "official_alt_pending_visual",
+            "reason": null,
+            "method": "browser_image_alt"
+          },
+          "classification": "영양·기능성분; 원료 배합량과 별도"
+        },
+        {
+          "name": "비타민B2",
+          "amount": {
+            "value": {
+              "amount": 1.4,
+              "unit": "mg",
+              "basis": "1일 섭취량",
+              "daily_tablets": 1
+            },
+            "raw": "비타민B2 1.4 mg",
+            "source_url": "https://cdn.daisomall.co.kr/file/resize/PD/20250618/description/850/yBgTkLj4OyldMqVRzspW600000129_01_00yBgTkLj4OyldMqVRzspW.png",
+            "accessed_on": "2026-10-19",
+            "status": "official_alt_pending_visual",
+            "reason": null,
+            "method": "browser_image_alt"
+          },
+          "classification": "영양·기능성분; 원료 배합량과 별도"
+        },
+        {
+          "name": "비타민B6",
+          "amount": {
+            "value": {
+              "amount": 1.5,
+              "unit": "mg",
+              "basis": "1일 섭취량",
+              "daily_tablets": 1
+            },
+            "raw": "비타민B6 1.5 mg",
+            "source_url": "https://cdn.daisomall.co.kr/file/resize/PD/20250618/description/850/yBgTkLj4OyldMqVRzspW600000129_01_00yBgTkLj4OyldMqVRzspW.png",
+            "accessed_on": "2026-10-19",
+            "status": "official_alt_pending_visual",
+            "reason": null,
+            "method": "browser_image_alt"
+          },
+          "classification": "영양·기능성분; 원료 배합량과 별도"
+        },
+        {
+          "name": "나이아신",
+          "amount": {
+            "value": {
+              "amount": 15,
+              "unit": "mg NE",
+              "basis": "1일 섭취량",
+              "daily_tablets": 1
+            },
+            "raw": "나이아신 15 mg NE",
+            "source_url": "https://cdn.daisomall.co.kr/file/resize/PD/20250618/description/850/yBgTkLj4OyldMqVRzspW600000129_01_00yBgTkLj4OyldMqVRzspW.png",
+            "accessed_on": "2026-10-19",
+            "status": "official_alt_pending_visual",
+            "reason": null,
+            "method": "browser_image_alt"
+          },
+          "classification": "영양·기능성분; 원료 배합량과 별도"
+        },
+        {
+          "name": "판토텐산",
+          "amount": {
+            "value": {
+              "amount": 5,
+              "unit": "mg",
+              "basis": "1일 섭취량",
+              "daily_tablets": 1
+            },
+            "raw": "판토텐산 5 mg",
+            "source_url": "https://cdn.daisomall.co.kr/file/resize/PD/20250618/description/850/yBgTkLj4OyldMqVRzspW600000129_01_00yBgTkLj4OyldMqVRzspW.png",
+            "accessed_on": "2026-10-19",
+            "status": "official_alt_pending_visual",
+            "reason": null,
+            "method": "browser_image_alt"
+          },
+          "classification": "영양·기능성분; 원료 배합량과 별도"
+        },
+        {
+          "name": "엽산",
+          "amount": {
+            "value": {
+              "amount": 400,
+              "unit": "μg DFE",
+              "basis": "1일 섭취량",
+              "daily_tablets": 1
+            },
+            "raw": "엽산 400 μg DFE",
+            "source_url": "https://cdn.daisomall.co.kr/file/resize/PD/20250618/description/850/yBgTkLj4OyldMqVRzspW600000129_01_00yBgTkLj4OyldMqVRzspW.png",
+            "accessed_on": "2026-10-19",
+            "status": "official_alt_pending_visual",
+            "reason": null,
+            "method": "browser_image_alt"
+          },
+          "classification": "영양·기능성분; 원료 배합량과 별도"
+        },
+        {
+          "name": "비오틴",
+          "amount": {
+            "value": {
+              "amount": 30,
+              "unit": "μg",
+              "basis": "1일 섭취량",
+              "daily_tablets": 1
+            },
+            "raw": "비오틴 30 μg",
+            "source_url": "https://cdn.daisomall.co.kr/file/resize/PD/20250618/description/850/yBgTkLj4OyldMqVRzspW600000129_01_00yBgTkLj4OyldMqVRzspW.png",
+            "accessed_on": "2026-10-19",
+            "status": "official_alt_pending_visual",
+            "reason": null,
+            "method": "browser_image_alt"
+          },
+          "classification": "영양·기능성분; 원료 배합량과 별도"
+        },
+        {
+          "name": "비타민B12",
+          "amount": {
+            "value": {
+              "amount": 2.4,
+              "unit": "μg",
+              "basis": "1일 섭취량",
+              "daily_tablets": 1
+            },
+            "raw": "비타민B12 2.4 μg",
+            "source_url": "https://cdn.daisomall.co.kr/file/resize/PD/20250618/description/850/yBgTkLj4OyldMqVRzspW600000129_01_00yBgTkLj4OyldMqVRzspW.png",
+            "accessed_on": "2026-10-19",
+            "status": "official_alt_pending_visual",
+            "reason": null,
+            "method": "browser_image_alt"
+          },
+          "classification": "영양·기능성분; 원료 배합량과 별도"
+        }
+      ],
+      "raw_materials_identified": {
+        "value": [
+          "니코틴산아미드",
+          "판토텐산칼슘",
+          "비타민B12혼합제제",
+          "비타민B6염산염",
+          "비타민B1염산염",
+          "비타민B2",
+          "엽산",
+          "비오틴"
+        ],
+        "raw": "주요 원료명 발췌; 배합량 아님",
+        "source_url": "https://cdn.daisomall.co.kr/file/resize/PD/20250618/description/850/yBgTkLj4OyldMqVRzspW600000129_01_00yBgTkLj4OyldMqVRzspW.png",
+        "accessed_on": "2026-10-19",
+        "status": "official_alt_pending_visual",
+        "reason": null,
+        "method": "browser_image_alt"
+      },
+      "eligibility": {
+        "daiso_sale_confirmed": true,
+        "daiso_listing_identity_confirmed": true,
+        "manufacturer_cross_source_exact_match": false,
+        "required_fields_verified": false,
+        "recommendation_eligible": false,
+        "reasons": [
+          "제조사 자체 동일 포장 자료 대조 미완료",
+          "전체 원료·알레르기 교차오염·주의사항 원문 전수 대조 및 제2검수 미완료"
+        ]
+      },
+      "review": {
+        "kind": "self_review",
+        "independent_second_reviewer": false,
+        "reviewed_on": "2026-10-19",
+        "result": "partial",
+        "notes": [
+          "검색목록의 묶음판매와 단품 구분",
+          "품번·상품명·정수·가격 연결 확인",
+          "1정 중량과 기능성분 함량 구분",
+          "함량 기준은 1일 섭취량; 임의 1정 환산 없음"
+        ]
+      }
+    },
+    {
+      "id": "daiso-600000147",
+      "collection_status": "partial",
+      "observed_on": "2026-10-19",
+      "fields": {
+        "product_name": {
+          "value": "대웅제약 칼슘 120정 30일분",
+          "raw": "대웅제약 칼슘 120정 30일분",
+          "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=600000147",
+          "accessed_on": "2026-10-19",
+          "status": "official_observed",
+          "reason": null,
+          "method": "browser_dom"
+        },
+        "label_product_name": {
+          "value": "칼슘",
+          "raw": "칼슘 (건강기능식품)",
+          "source_url": "https://cdn.daisomall.co.kr/file/resize/PD/20250409/description/850/iywhS2rNTZciRPKuXQej600000147_01_00iywhS2rNTZciRPKuXQej.png",
+          "accessed_on": "2026-10-19",
+          "status": "official_alt_pending_visual",
+          "reason": null,
+          "method": "browser_image_alt"
+        },
+        "daiso_product_number": {
+          "value": "600000147",
+          "raw": "품번 600000147",
+          "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=600000147",
+          "accessed_on": "2026-10-19",
+          "status": "official_observed",
+          "reason": null,
+          "method": "browser_dom"
+        },
+        "brand": {
+          "value": "닥터베어",
+          "raw": "Dr.Bear+ 닥터베어",
+          "source_url": "https://cdn.daisomall.co.kr/file/resize/PD/20250409/description/850/iywhS2rNTZciRPKuXQej600000147_01_00iywhS2rNTZciRPKuXQej.png",
+          "accessed_on": "2026-10-19",
+          "status": "official_alt_pending_visual",
+          "reason": null,
+          "method": "browser_image_alt"
+        },
+        "manufacturer": {
+          "value": "이앤에스(주)",
+          "raw": "이앤에스(주)",
+          "source_url": "https://cdn.daisomall.co.kr/file/resize/PD/20250409/description/850/iywhS2rNTZciRPKuXQej600000147_01_00iywhS2rNTZciRPKuXQej.png",
+          "accessed_on": "2026-10-19",
+          "status": "official_alt_pending_visual",
+          "reason": null,
+          "method": "browser_image_alt"
+        },
+        "distributor": {
+          "value": "(주)대웅제약",
+          "raw": "건강기능식품 유통전문판매원 (주)대웅제약",
+          "source_url": "https://cdn.daisomall.co.kr/file/resize/PD/20250409/description/850/iywhS2rNTZciRPKuXQej600000147_01_00iywhS2rNTZciRPKuXQej.png",
+          "accessed_on": "2026-10-19",
+          "status": "official_alt_pending_visual",
+          "reason": null,
+          "method": "browser_image_alt"
+        },
+        "retail_channel_operator": {
+          "value": "(주)아성다이소",
+          "raw": "상호명 및 호스팅 서비스 제공 : ㈜아성다이소",
+          "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=600000147",
+          "accessed_on": "2026-10-19",
+          "status": "official_observed",
+          "reason": null,
+          "method": "browser_dom"
+        },
+        "price": {
+          "value": {
+            "amount": 5000,
+            "currency": "KRW",
+            "basis": "단품 1개 표시 판매가",
+            "channel": "다이소몰",
+            "includes_shipping": false,
+            "current_price_observed_on": "2026-10-19"
+          },
+          "raw": "5,000 원",
+          "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=600000147",
+          "accessed_on": "2026-10-19",
+          "status": "official_observed",
+          "reason": null,
+          "method": "browser_dom"
+        },
+        "package": {
+          "value": {
+            "tablet_count": 120,
+            "tablet_mass_mg": 900,
+            "total_mass_g": 108.0
+          },
+          "raw": "108 g (900 mg X 120정)",
+          "source_url": "https://cdn.daisomall.co.kr/file/resize/PD/20250409/description/850/iywhS2rNTZciRPKuXQej600000147_01_00iywhS2rNTZciRPKuXQej.png",
+          "accessed_on": "2026-10-19",
+          "status": "official_alt_pending_visual",
+          "reason": null,
+          "method": "browser_image_alt"
+        },
+        "food_type": {
+          "value": "건강기능식품",
+          "raw": "칼슘 (건강기능식품)",
+          "source_url": "https://cdn.daisomall.co.kr/file/resize/PD/20250409/description/850/iywhS2rNTZciRPKuXQej600000147_01_00iywhS2rNTZciRPKuXQej.png",
+          "accessed_on": "2026-10-19",
+          "status": "official_alt_pending_visual",
+          "reason": null,
+          "method": "browser_image_alt"
+        },
+        "intake": {
+          "value": {
+            "times_per_day": 2,
+            "tablets_per_time": 2,
+            "tablets_per_day": 4
+          },
+          "raw": "1일 2회, 1회 2정을 충분한 물과 함께 섭취하십시오.",
+          "source_url": "https://cdn.daisomall.co.kr/file/resize/PD/20250409/description/850/iywhS2rNTZciRPKuXQej600000147_01_00iywhS2rNTZciRPKuXQej.png",
+          "accessed_on": "2026-10-19",
+          "status": "official_alt_pending_visual",
+          "reason": null,
+          "method": "browser_image_alt"
+        },
+        "cautions": {
+          "value": [
+            "특정질환, 특이체질, 알레르기 체질인 경우 간혹 개인에 따라 과민반응을 나타낼 수 있으므로 원료를 확인 후 섭취하십시오.",
+            "고칼슘혈증이 있거나 의약품 복용 시 전문가와 상담하십시오.",
+            "이상사례 발생 시 섭취를 중단하고 전문가와 상담하십시오.",
+            "제품 개봉 또는 섭취 시 포장재에 의해 상처를 입을 위험이 있으니 주의하십시오.",
+            "용기 안의 습기제거제는 드시지 마십시오."
+          ],
+          "raw": "특정질환, 특이체질, 알레르기 체질인 경우 간혹 개인에 따라 과민반응을 나타낼 수 있으므로 원료를 확인 후 섭취하십시오. / 고칼슘혈증이 있거나 의약품 복용 시 전문가와 상담하십시오. / 이상사례 발생 시 섭취를 중단하고 전문가와 상담하십시오. / 제품 개봉 또는 섭취 시 포장재에 의해 상처를 입을 위험이 있으니 주의하십시오. / 용기 안의 습기제거제는 드시지 마십시오.",
+          "source_url": "https://cdn.daisomall.co.kr/file/resize/PD/20250409/description/850/iywhS2rNTZciRPKuXQej600000147_01_00iywhS2rNTZciRPKuXQej.png",
+          "accessed_on": "2026-10-19",
+          "status": "official_alt_pending_visual",
+          "reason": null,
+          "method": "browser_image_alt"
+        },
+        "allergens": {
+          "value": [
+            "우유"
+          ],
+          "raw": "우유 함유",
+          "source_url": "https://cdn.daisomall.co.kr/file/resize/PD/20250409/description/850/iywhS2rNTZciRPKuXQej600000147_01_00iywhS2rNTZciRPKuXQej.png",
+          "accessed_on": "2026-10-19",
+          "status": "official_alt_pending_visual",
+          "reason": null,
+          "method": "browser_image_alt"
+        },
+        "full_raw_material_list": {
+          "value": null,
+          "raw": null,
+          "source_url": "https://cdn.daisomall.co.kr/file/resize/PD/20250409/description/850/iywhS2rNTZciRPKuXQej600000147_01_00iywhS2rNTZciRPKuXQej.png",
+          "accessed_on": "2026-10-19",
+          "status": "unverified",
+          "reason": "전체 원료 전사 및 이미지 재대조 미완료",
+          "method": null
+        },
+        "reported_product_number": {
+          "value": null,
+          "raw": null,
+          "source_url": "https://cdn.daisomall.co.kr/file/resize/PD/20250409/description/850/iywhS2rNTZciRPKuXQej600000147_01_00iywhS2rNTZciRPKuXQej.png",
+          "accessed_on": "2026-10-19",
+          "status": "unverified",
+          "reason": "품목제조신고번호 미확인; 식품이력번호/바코드와 혼동 금지",
+          "method": null
+        },
+        "manufacturer_same_variant_page": {
+          "value": null,
+          "raw": null,
+          "source_url": null,
+          "accessed_on": "2026-10-19",
+          "status": "unverified",
+          "reason": "제조사 자체 사이트에서 동일 품번·포장 자료 연결 미확정",
+          "method": null
+        },
+        "source_published_on": {
+          "value": null,
+          "raw": null,
+          "source_url": "https://cdn.daisomall.co.kr/file/resize/PD/20250409/description/850/iywhS2rNTZciRPKuXQej600000147_01_00iywhS2rNTZciRPKuXQej.png",
+          "accessed_on": "2026-10-19",
+          "status": "unverified",
+          "reason": "게시일 미표시; CDN 경로 날짜를 게시·갱신일로 간주하지 않음",
+          "method": null
+        },
+        "daily_cost": {
+          "value": null,
+          "raw": null,
+          "source_url": null,
+          "accessed_on": "2026-10-19",
+          "status": "unverified",
+          "reason": "검수 전 파생비용 계산 보류",
+          "method": null
+        }
+      },
+      "functional_components": [
+        {
+          "name": "칼슘",
+          "amount": {
+            "value": {
+              "amount": 700,
+              "unit": "mg",
+              "basis": "1일 섭취량",
+              "daily_tablets": 4
+            },
+            "raw": "칼슘 700 mg",
+            "source_url": "https://cdn.daisomall.co.kr/file/resize/PD/20250409/description/850/iywhS2rNTZciRPKuXQej600000147_01_00iywhS2rNTZciRPKuXQej.png",
+            "accessed_on": "2026-10-19",
+            "status": "official_alt_pending_visual",
+            "reason": null,
+            "method": "browser_image_alt"
+          },
+          "classification": "영양·기능성분; 원료 배합량과 별도"
+        },
+        {
+          "name": "비타민D",
+          "amount": {
+            "value": {
+              "amount": 10,
+              "unit": "μg",
+              "basis": "1일 섭취량",
+              "daily_tablets": 4
+            },
+            "raw": "비타민D 10 μg",
+            "source_url": "https://cdn.daisomall.co.kr/file/resize/PD/20250409/description/850/iywhS2rNTZciRPKuXQej600000147_01_00iywhS2rNTZciRPKuXQej.png",
+            "accessed_on": "2026-10-19",
+            "status": "official_alt_pending_visual",
+            "reason": null,
+            "method": "browser_image_alt"
+          },
+          "classification": "영양·기능성분; 원료 배합량과 별도"
+        }
+      ],
+      "raw_materials_identified": {
+        "value": [
+          "탄산칼슘",
+          "해조칼슘",
+          "분말비타민D3혼합제제"
+        ],
+        "raw": "주요 원료명 발췌; 배합량 아님",
+        "source_url": "https://cdn.daisomall.co.kr/file/resize/PD/20250409/description/850/iywhS2rNTZciRPKuXQej600000147_01_00iywhS2rNTZciRPKuXQej.png",
+        "accessed_on": "2026-10-19",
+        "status": "official_alt_pending_visual",
+        "reason": null,
+        "method": "browser_image_alt"
+      },
+      "eligibility": {
+        "daiso_sale_confirmed": true,
+        "daiso_listing_identity_confirmed": true,
+        "manufacturer_cross_source_exact_match": false,
+        "required_fields_verified": false,
+        "recommendation_eligible": false,
+        "reasons": [
+          "제조사 자체 동일 포장 자료 대조 미완료",
+          "전체 원료·알레르기 교차오염·주의사항 원문 전수 대조 및 제2검수 미완료"
+        ]
+      },
+      "review": {
+        "kind": "self_review",
+        "independent_second_reviewer": false,
+        "reviewed_on": "2026-10-19",
+        "result": "partial",
+        "notes": [
+          "검색목록의 묶음판매와 단품 구분",
+          "품번·상품명·정수·가격 연결 확인",
+          "1정 중량과 기능성분 함량 구분",
+          "함량 기준은 1일 섭취량; 임의 1정 환산 없음"
+        ]
+      }
+    }
+  ],
+  "manufacturer_reference": {
+    "url": "https://www.daewoong.co.kr/ko/newsroom/news/6273",
+    "accessed_on": "2026-10-19",
+    "published_on": null,
+    "status": "title_only_body_unavailable",
+    "finding": "대웅제약과 다이소의 닥터베어 26종 출시 제목 확인; 개별 제품의 현재 가격·표시 근거로 사용하지 않음"
+  }
+}

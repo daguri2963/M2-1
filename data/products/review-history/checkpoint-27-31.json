@@ -1,0 +1,255 @@
+{
+  "reviewed_at": "2026-10-20T00:03:41.339573+09:00",
+  "products": [
+    {
+      "product_number": "033991018",
+      "catalog_index": 27,
+      "review_status": "partial",
+      "evidence": [
+        {
+          "source_id": "label-0045",
+          "source_sha256": "ee260e0fea9a5089dd8df52fd1e2e9a5b795eae76c5901259eaa6c8f8d91cf16",
+          "source_url": "https://cdn.daisomall.co.kr/file/resize/PD/20260807/description/850/bGv1Vu1qUwGjppJjTcsf033991018_01_00bGv1Vu1qUwGjppJjTcsf.png",
+          "original_path": "data/products/labels/033991018/ee260e0fea9a5089.png",
+          "crops": [
+            {
+              "path": "data/products/review-evidence/27-033991018-ee260e0f-0.png",
+              "x": 0,
+              "y": 14917,
+              "width": 735,
+              "height": 2000
+            },
+            {
+              "path": "data/products/review-evidence/27-033991018-ee260e0f-1.png",
+              "x": 0,
+              "y": 16717,
+              "width": 735,
+              "height": 383
+            }
+          ]
+        }
+      ],
+      "observations": [
+        "이뮨건강올인원 원료표·주의·보관·교차시설과 앞쪽 영양표 확인. 1포1.22g=570mg1정+650mg1정. 보령약국은광고이며 제조원광동헬스바이오2공장, 판매원이노셀헬스케어. 복숭아함유."
+      ],
+      "field_values": {
+        "product_name": "이뮨 건강 올인원",
+        "food_type": "건강기능식품",
+        "manufacturer": "광동헬스바이오(주) 2공장",
+        "distributor": "(주)이노셀헬스케어",
+        "package": "18.3 g [(570 mg × 1정, 650 mg × 1정) × 15포]",
+        "dosage_form": "멀티팩 정제",
+        "intake": "1일 1회, 1회 1포를 물과 함께 섭취하십시오.",
+        "allergen": "복숭아 함유"
+      },
+      "reviewed_nutrients": [],
+      "field_dispositions": {},
+      "nutrient_basis": "1일 섭취량: 1포(1.22 g)",
+      "nutrient_spec": "열량|0|kcal;탄수화물|1|g|0|<;단백질|0|g|0;지방|0|g|0;나트륨|0|mg|0;마그네슘|150|mg|48;비타민C|150|mg|150;나이아신|79.95|mg NE|533;셀렌|55|μg|100;비타민E|11|mg α-TE|100;비타민B1|36|mg|3000;판토텐산|15|mg|300;비타민B2|14|mg|1000;몰리브덴|25|μg|100;비오틴|90|μg|300;철|3.6|mg|30;아연|8.5|mg|100;망간|3|mg|100;비타민A|700|μg RAE|100;구리|0.8|mg|100;비타민D|10|μg|100;비타민B12|24|μg|1000;비타민K|70|μg|100;엽산|800|μg DFE|200;비타민B6|15|mg|1000;크롬|30|μg|100",
+      "reviewed_at": "2026-10-20T00:03:41.339573+09:00",
+      "visual_inspection": true,
+      "source_match": "name_variant_package_matched",
+      "remaining_reasons": [
+        "전체 원재료·기능성·섭취/주의 문구의 완전한 교정 전사 및 정규화 미완료"
+      ]
+    },
+    {
+      "product_number": "033991015",
+      "catalog_index": 28,
+      "review_status": "partial",
+      "evidence": [
+        {
+          "source_id": "label-0046",
+          "source_sha256": "5733cad6bb05725185da9ae93b1237a92d32c054e50f169b3ac26e2a6f9e7254",
+          "source_url": "https://cdn.daisomall.co.kr/file/resize/PD/20260807/description/850/VcGCvwTcTMhz6GdbTsgX033991015_01_00VcGCvwTcTMhz6GdbTsgX.png",
+          "original_path": "data/products/labels/033991015/5733cad6bb057251.png",
+          "crops": [
+            {
+              "path": "data/products/review-evidence/28-033991015-5733cad6-0.png",
+              "x": 0,
+              "y": 17039,
+              "width": 735,
+              "height": 2000
+            },
+            {
+              "path": "data/products/review-evidence/28-033991015-5733cad6-1.png",
+              "x": 0,
+              "y": 18839,
+              "width": 735,
+              "height": 421
+            }
+          ]
+        }
+      ],
+      "observations": [
+        "60+원문 영양·원료·주의 표 확인. 바나바잎코로솔산1.3mg은1포2.3g. 900mg2정+500mg1정. 작은 소수점과DFE표시 보존."
+      ],
+      "field_values": {
+        "product_name": "60+ 에너지 올인원",
+        "food_type": "건강기능식품",
+        "manufacturer": "광동헬스바이오(주) 2공장",
+        "distributor": "(주)이노셀헬스케어",
+        "package": "27.6 g [(900 mg × 2정, 500 mg × 1정) × 12포]",
+        "dosage_form": "멀티팩 정제",
+        "intake": "1일 1회, 1회 1포를 물과 함께 섭취하십시오."
+      },
+      "reviewed_nutrients": [],
+      "field_dispositions": {},
+      "nutrient_basis": "1일 섭취량: 1포(2.3 g)",
+      "nutrient_spec": "열량|5|kcal;탄수화물|1|g|0;단백질|0|g|0;지방|0|g|0;나트륨|0|mg|0;칼슘|230|mg|33;마그네슘|95|mg|30;비타민C|150|mg|150;비타민E|11|mg α-TE|100;비타민B12|45|μg|1875;몰리브덴|50|μg|200;철|6|mg|50;크롬|35|μg|117;나이아신|16|mg NE|107;비타민B2|4.6|mg|329;비타민B6|9.8|mg|653;요오드|150|μg|100;아연|11|mg|129;망간|3|mg|100;비타민A|700|μg RAE|100;코로솔산|1.3|mg;판토텐산|13.6|mg|272;비오틴|54|μg|180;셀렌|55|μg|100;비타민B1|3.7|mg|308;비타민D|10|μg|100;구리|0.504|mg|63;비타민K|50|μg|71;엽산|512|μg DFE|128",
+      "reviewed_at": "2026-10-20T00:03:41.339573+09:00",
+      "visual_inspection": true,
+      "source_match": "name_variant_package_matched",
+      "remaining_reasons": [
+        "전체 원재료·기능성·섭취/주의 문구의 완전한 교정 전사 및 정규화 미완료"
+      ]
+    },
+    {
+      "product_number": "033991014",
+      "catalog_index": 29,
+      "review_status": "partial",
+      "evidence": [
+        {
+          "source_id": "label-0047",
+          "source_sha256": "09217319db124eefa68c4edfd404a71dbf5837df8b19c49a9b5c619ec72e7515",
+          "source_url": "https://cdn.daisomall.co.kr/file/resize/PD/20260807/description/850/nrqvesB8W1dLEk5lcpgN033991014_01_00nrqvesB8W1dLEk5lcpgN.png",
+          "original_path": "data/products/labels/033991014/09217319db124eef.png",
+          "crops": [
+            {
+              "path": "data/products/review-evidence/29-033991014-09217319-0.png",
+              "x": 0,
+              "y": 17275,
+              "width": 735,
+              "height": 2000
+            },
+            {
+              "path": "data/products/review-evidence/29-033991014-09217319-1.png",
+              "x": 0,
+              "y": 19075,
+              "width": 735,
+              "height": 465
+            }
+          ]
+        }
+      ],
+      "observations": [
+        "4050 영양표·원료표·주의 확인. 옥타코사놀10mg, 마그네슘94.5mg, B6 4.905mg 등 반올림하지 않음. 라벨3정1포와 카탈로그12포 구분."
+      ],
+      "field_values": {
+        "product_name": "4050 에너지 올인원",
+        "food_type": "건강기능식품",
+        "manufacturer": "광동헬스바이오(주) 2공장",
+        "distributor": "(주)이노셀헬스케어",
+        "package": "27.6 g [(900 mg × 2정, 500 mg × 1정) × 12포]",
+        "dosage_form": "멀티팩 정제",
+        "intake": "1일 1회, 1회 1포를 물과 함께 섭취하십시오."
+      },
+      "reviewed_nutrients": [],
+      "field_dispositions": {},
+      "nutrient_basis": "1일 섭취량: 1포(2.3 g)",
+      "nutrient_spec": "열량|5|kcal;탄수화물|1|g|0;단백질|0|g|0;지방|0|g|0;나트륨|0|mg|0;칼슘|210|mg|30;마그네슘|94.5|mg|30;비타민C|150|mg|150;비타민E|11|mg α-TE|100;비타민B12|25|μg|1042;몰리브덴|50|μg|200;철|5.04|mg|42;크롬|35.1|μg|117;나이아신|16.05|mg NE|107;비타민B2|4.606|mg|329;비타민B6|4.905|mg|327;요오드|150|μg|100;아연|10.965|mg|129;망간|3|mg|100;비타민A|700|μg RAE|100;옥타코사놀|10|mg;판토텐산|13.6|mg|272;비오틴|54|μg|180;셀렌|55|μg|100;비타민B1|3.696|mg|308;비타민D|10|μg|100;구리|0.504|mg|63;비타민K|49.7|μg|71;엽산|400|μg DFE|100",
+      "reviewed_at": "2026-10-20T00:03:41.339573+09:00",
+      "visual_inspection": true,
+      "source_match": "name_variant_package_matched",
+      "remaining_reasons": [
+        "전체 원재료·기능성·섭취/주의 문구의 완전한 교정 전사 및 정규화 미완료"
+      ]
+    },
+    {
+      "product_number": "033991013",
+      "catalog_index": 30,
+      "review_status": "partial",
+      "evidence": [
+        {
+          "source_id": "label-0048",
+          "source_sha256": "a8294428c4010dc939031bb33189789a1308bd19b711f9038f7c53f525794346",
+          "source_url": "https://cdn.daisomall.co.kr/file/resize/PD/20260807/description/850/4bdLr2bwtefkH9siAMUa033991013_01_004bdLr2bwtefkH9siAMUa.png",
+          "original_path": "data/products/labels/033991013/a8294428c4010dc9.png",
+          "crops": [
+            {
+              "path": "data/products/review-evidence/30-033991013-a8294428-0.png",
+              "x": 0,
+              "y": 17682,
+              "width": 735,
+              "height": 2000
+            },
+            {
+              "path": "data/products/review-evidence/30-033991013-a8294428-1.png",
+              "x": 0,
+              "y": 19482,
+              "width": 735,
+              "height": 491
+            }
+          ]
+        }
+      ],
+      "observations": [
+        "2030 영양·원료·주의·보관 확인. 1포2.4g 실리마린130mg. 950mg2정+500mg1정. 주의에 설사위통복부팽만 및 어린이임산부수유부가 추가되어 다른연령팩주의와 복제불가."
+      ],
+      "field_values": {
+        "product_name": "2030 에너지 올인원",
+        "food_type": "건강기능식품",
+        "manufacturer": "광동헬스바이오(주) 2공장",
+        "distributor": "(주)이노셀헬스케어",
+        "package": "28.8 g [(950 mg × 2정, 500 mg × 1정) × 12포]",
+        "dosage_form": "멀티팩 정제",
+        "intake": "1일 1회, 1회 1포를 물과 함께 섭취하십시오."
+      },
+      "reviewed_nutrients": [],
+      "field_dispositions": {},
+      "nutrient_basis": "1일 섭취량: 1포(2.4 g)",
+      "nutrient_spec": "열량|5|kcal;탄수화물|1|g|0;단백질|0|g|0;지방|0|g|0;나트륨|5|mg|0;칼슘|252|mg|36;마그네슘|94.4|mg|30;비타민C|120|mg|120;비타민E|11|mg α-TE|100;비타민B12|22|μg|917;몰리브덴|50|μg|200;철|9.96|mg|83;크롬|35.1|μg|117;나이아신|13.95|mg NE|93;비타민B2|3.906|mg|279;비타민B6|4.905|mg|327;요오드|150|μg|100;아연|7.99|mg|94;망간|3|mg|100;비타민A|700|μg RAE|100;실리마린|130|mg;판토텐산|12|mg|240;비오틴|45|μg|150;셀렌|55|μg|100;비타민B1|3.396|mg|283;비타민D|10|μg|100;구리|0.504|mg|63;비타민K|49.7|μg|71;엽산|680|μg DFE|170",
+      "reviewed_at": "2026-10-20T00:03:41.339573+09:00",
+      "visual_inspection": true,
+      "source_match": "name_variant_package_matched",
+      "remaining_reasons": [
+        "전체 원재료·기능성·섭취/주의 문구의 완전한 교정 전사 및 정규화 미완료"
+      ]
+    },
+    {
+      "product_number": "033991020",
+      "catalog_index": 31,
+      "review_status": "partial",
+      "evidence": [
+        {
+          "source_id": "label-0049",
+          "source_sha256": "d5c08a4ca205824af95b88814470c81ac5e4fbf0904af45f5e32e42d0befd853",
+          "source_url": "https://cdn.daisomall.co.kr/file/resize/PD/20260807/description/850/43mnDQ4O84tM62tb4fE3033991020_01_0043mnDQ4O84tM62tb4fE3.png",
+          "original_path": "data/products/labels/033991020/d5c08a4ca205824a.png",
+          "crops": [
+            {
+              "path": "data/products/review-evidence/31-033991020-d5c08a4c-0.png",
+              "x": 0,
+              "y": 12911,
+              "width": 735,
+              "height": 1793
+            }
+          ]
+        }
+      ],
+      "observations": [
+        "관절올인원 원문표 확인. 1포3.09g=1020mg2정+1050mg1정. 엠에스엠2g·칼슘210mg·마그네슘105mg·D10μg. 조개류(홍합)함유. 신장질환·고칼슘혈증·약물주의."
+      ],
+      "field_values": {
+        "product_name": "관절 건강 올인원",
+        "food_type": "건강기능식품",
+        "manufacturer": "광동헬스바이오(주) 2공장",
+        "distributor": "(주)이노셀헬스케어",
+        "package": "46.35 g [(1,020 mg × 2정, 1,050 mg × 1정) × 15포]",
+        "dosage_form": "멀티팩 정제",
+        "intake": "1일 1회, 1회 1포를 물과 함께 섭취하십시오.",
+        "allergen": "조개류(홍합) 함유"
+      },
+      "reviewed_nutrients": [],
+      "field_dispositions": {},
+      "nutrient_basis": "1일 섭취량: 1포(3.09 g)",
+      "nutrient_spec": "열량|8|kcal;탄수화물|2|g|1;단백질|0|g|0;지방|0|g|0;나트륨|0|mg|0;엠에스엠|2|g;칼슘|210|mg|30;마그네슘|105|mg|33;비타민D|10|μg|100",
+      "reviewed_at": "2026-10-20T00:03:41.339573+09:00",
+      "visual_inspection": true,
+      "source_match": "name_variant_package_matched",
+      "remaining_reasons": [
+        "전체 원재료·기능성·섭취/주의 문구의 완전한 교정 전사 및 정규화 미완료"
+      ]
+    }
+  ]
+}

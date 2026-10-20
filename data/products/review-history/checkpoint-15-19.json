@@ -1,0 +1,239 @@
+{
+  "reviewed_at": "2026-10-20T00:01:46.910699+09:00",
+  "products": [
+    {
+      "product_number": "601678603",
+      "catalog_index": 15,
+      "review_status": "partial",
+      "evidence": [
+        {
+          "source_id": "label-0028",
+          "source_sha256": "7047d5a4bd0f1c2d56911d3e019caf5d411e0a4f05e0bcc9eabdbc20b749c306",
+          "source_url": "https://cdn.daisomall.co.kr/file/resize/PD/20260909/description/850/olUShXvbi3jS6dydI0NQ601678603_01_00olUShXvbi3jS6dydI0NQ.jpg",
+          "original_path": "data/products/labels/601678603/7047d5a4bd0f1c2d.jpg",
+          "crops": [
+            {
+              "path": "data/products/review-evidence/15-601678603-7047d5a4-0.png",
+              "x": 0,
+              "y": 13450,
+              "width": 850,
+              "height": 989
+            }
+          ]
+        }
+      ],
+      "observations": [
+        "오렌지맛B 3열표 전체 확인. 이전 B1 2.4mg B2 2.8mg B6 3mg 각각200% 일치. 3정1860mg. 우유함유. 손발따끔거림·작열감·저림 경고 존재."
+      ],
+      "field_values": {
+        "product_name": "배러 크런치 B",
+        "food_type": "건강기능식품/비타민B1, 비타민B2, 비타민B6 제품",
+        "manufacturer": "코스맥스바이오(주)",
+        "distributor": "동화약품(주)",
+        "package": "620 mg × 30정 (18.6 g)",
+        "dosage_form": "정제(츄어블)"
+      },
+      "reviewed_nutrients": [],
+      "field_dispositions": {},
+      "reviewed_at": "2026-10-20T00:01:46.910699+09:00",
+      "visual_inspection": true,
+      "source_match": "name_variant_package_matched",
+      "remaining_reasons": [
+        "전체 원재료·기능성·섭취/주의 문구의 완전한 교정 전사 및 정규화 미완료"
+      ]
+    },
+    {
+      "product_number": "601678604",
+      "catalog_index": 16,
+      "review_status": "partial",
+      "evidence": [
+        {
+          "source_id": "label-0029",
+          "source_sha256": "946307beff4ce5e221b016e045490322cf9cfd2a046d59d79daa8f59653aecfe",
+          "source_url": "https://cdn.daisomall.co.kr/file/resize/PD/20260909/description/850/gPchQFdh8zV6MjUDUBlb601678604_01_00gPchQFdh8zV6MjUDUBlb.jpg",
+          "original_path": "data/products/labels/601678604/946307beff4ce5e2.jpg",
+          "crops": [
+            {
+              "path": "data/products/review-evidence/16-601678604-946307be-0.png",
+              "x": 0,
+              "y": 15938,
+              "width": 850,
+              "height": 1109
+            }
+          ]
+        }
+      ],
+      "observations": [
+        "레몬맛C3열표 전체 확인. 3정1860mg, C300mg300%, 열량5kcal 탄수화물1.7g1%. 신장질환 및 과량섭취 경고. 우유직접함유 표시는 없고 같은 시설 문구 있음."
+      ],
+      "field_values": {
+        "product_name": "배러 크런치 C",
+        "food_type": "건강기능식품/비타민C 제품",
+        "manufacturer": "코스맥스바이오(주)",
+        "distributor": "동화약품(주)",
+        "package": "620 mg × 30정 (18.6 g)",
+        "dosage_form": "정제(츄어블)",
+        "intake": "1일 1회, 1회 3정을 씹어서 섭취하세요."
+      },
+      "reviewed_nutrients": [],
+      "field_dispositions": {},
+      "nutrient_basis": "1일 섭취량: 3정(1,860 mg)",
+      "nutrient_spec": "열량|5|kcal;탄수화물|1.7|g|1;단백질|0|g|0;지방|0|g|0;나트륨|0|mg|0;비타민C|300|mg|300",
+      "reviewed_at": "2026-10-20T00:01:46.910699+09:00",
+      "visual_inspection": true,
+      "source_match": "name_variant_package_matched",
+      "remaining_reasons": [
+        "전체 원재료·기능성·섭취/주의 문구의 완전한 교정 전사 및 정규화 미완료"
+      ]
+    },
+    {
+      "product_number": "601678605",
+      "catalog_index": 17,
+      "review_status": "partial",
+      "evidence": [
+        {
+          "source_id": "label-0030",
+          "source_sha256": "c322f4305182cb5a04842bdefe986f436433bc13d0fb86138b2a20d15dcc522c",
+          "source_url": "https://cdn.daisomall.co.kr/file/resize/PD/20260909/description/850/ABkjm2kZ9Hj6xCXsYN97601678605_01_00ABkjm2kZ9Hj6xCXsYN97.jpg",
+          "original_path": "data/products/labels/601678605/c322f4305182cb5a.jpg",
+          "crops": [
+            {
+              "path": "data/products/review-evidence/17-601678605-c322f430-0.png",
+              "x": 0,
+              "y": 15457,
+              "width": 850,
+              "height": 1107
+            }
+          ]
+        }
+      ],
+      "observations": [
+        "블루베리맛D3열표 전체 확인. 3정1860mg D10μg100%. 열량5kcal 탄수화물1.7g1%. 고칼슘혈증/약물복용 주의. 원료D3혼합제제와 함량표D 구분."
+      ],
+      "field_values": {
+        "product_name": "배러 크런치 D",
+        "food_type": "건강기능식품/비타민D 제품",
+        "manufacturer": "코스맥스바이오(주)",
+        "distributor": "동화약품(주)",
+        "package": "620 mg × 30정 (18.6 g)",
+        "dosage_form": "정제(츄어블)",
+        "intake": "1일 1회, 1회 3정을 씹어서 섭취하세요."
+      },
+      "reviewed_nutrients": [],
+      "field_dispositions": {},
+      "nutrient_basis": "1일 섭취량: 3정(1,860 mg)",
+      "nutrient_spec": "열량|5|kcal;탄수화물|1.7|g|1;단백질|0|g|0;지방|0|g|0;나트륨|0|mg|0;비타민D|10|μg|100",
+      "reviewed_at": "2026-10-20T00:01:46.910699+09:00",
+      "visual_inspection": true,
+      "source_match": "name_variant_package_matched",
+      "remaining_reasons": [
+        "전체 원재료·기능성·섭취/주의 문구의 완전한 교정 전사 및 정규화 미완료"
+      ]
+    },
+    {
+      "product_number": "610911094",
+      "catalog_index": 18,
+      "review_status": "partial",
+      "evidence": [
+        {
+          "source_id": "label-0031",
+          "source_sha256": "916fe4893ed41f5d6427fcabbd5bd39dff5471c43f08bf12fc03a2410fa2d33b",
+          "source_url": "https://cdn.daisomall.co.kr/file/resize/PD/20260814/description/850/MVEovp0u55aLXJbcNuUs610911094_01_00MVEovp0u55aLXJbcNuUs.png",
+          "original_path": "data/products/labels/610911094/916fe4893ed41f5d.png",
+          "crops": [
+            {
+              "path": "data/products/review-evidence/18-610911094-916fe489-0.png",
+              "x": 0,
+              "y": 13225,
+              "width": 850,
+              "height": 1217
+            }
+          ]
+        }
+      ],
+      "observations": [
+        "비오틴5000 60정27g 표 확인. 1정450mg당비오틴5000μg16667%. 원료가 단일비오틴만이 아니며 우유함유. 피부유색반점 안내와 이상사례/과량주의 존재."
+      ],
+      "field_values": {
+        "product_name": "프라임도스 비오틴 5000",
+        "food_type": "건강기능식품",
+        "manufacturer": "엠에스바이오텍(주)",
+        "distributor": "동국제약(주)",
+        "package": "27 g (450 mg × 60정)",
+        "dosage_form": "정제",
+        "intake": "1일 1회, 1회 1정을 충분한 물과 함께 섭취하십시오.",
+        "allergen": "우유 함유"
+      },
+      "reviewed_nutrients": [],
+      "field_dispositions": {},
+      "nutrient_basis": "1일 섭취량: 1정(450 mg)",
+      "nutrient_spec": "열량|0|kcal;탄수화물|0|g|0;단백질|0|g|0;지방|0|g|0;나트륨|0|mg|0;비오틴|5000|μg|16667",
+      "reviewed_at": "2026-10-20T00:01:46.910699+09:00",
+      "visual_inspection": true,
+      "source_match": "name_variant_package_matched",
+      "remaining_reasons": [
+        "전체 원재료·기능성·섭취/주의 문구의 완전한 교정 전사 및 정규화 미완료"
+      ]
+    },
+    {
+      "product_number": "919157095",
+      "catalog_index": 19,
+      "review_status": "partial",
+      "evidence": [
+        {
+          "source_id": "label-0032",
+          "source_sha256": "a2d33e2cdf7fa3d22e0c9e661cd231f9f1ec0f3b9959e28a2e6a043b908772df",
+          "source_url": "https://cdn.daisomall.co.kr/file/resize/PD/20260828/description/850/4rhluqFLCWxCulUkavyP919157095_01_004rhluqFLCWxCulUkavyP.jpg",
+          "original_path": "data/products/labels/919157095/a2d33e2cdf7fa3d2.jpg",
+          "crops": [
+            {
+              "path": "data/products/review-evidence/19-919157095-a2d33e2c-0.png",
+              "x": 0,
+              "y": 30119,
+              "width": 850,
+              "height": 2000
+            },
+            {
+              "path": "data/products/review-evidence/19-919157095-a2d33e2c-1.png",
+              "x": 0,
+              "y": 31919,
+              "width": 850,
+              "height": 2000
+            },
+            {
+              "path": "data/products/review-evidence/19-919157095-a2d33e2c-2.png",
+              "x": 0,
+              "y": 33719,
+              "width": 850,
+              "height": 722
+            }
+          ]
+        }
+      ],
+      "observations": [
+        "휴럼홍삼환 일반식품기타가공품. 3.7g9환33.3g총량116kcal, 나트륨10mg1%, 탄수화물27g8%, 당류8g8%, 지방0g, 단백질2g4%. 진세노사이드6mg/g는 원료홍삼농축액 규격이지 완제품1일량 아님.",
+        "대두함유·환목걸림/치아손상·같은시설 문구 확인."
+      ],
+      "field_values": {
+        "product_name": "휴럼 하루한알6년근고려홍삼환",
+        "food_type": "기타가공품",
+        "manufacturer": "(주)세움바이오텍",
+        "distributor": "(주)휴럼",
+        "package": "3.7 g × 9환 (33.3 g)",
+        "dosage_form": "환",
+        "intake": "1일 1회, 1회 1환을 충분히 씹어서 물과 함께 섭취하십시오.",
+        "allergen": "대두 함유"
+      },
+      "reviewed_nutrients": [],
+      "field_dispositions": {},
+      "nutrient_basis": "총 내용량 33.3 g(3.7 g × 9환)",
+      "nutrient_spec": "열량|116|kcal;나트륨|10|mg|1;탄수화물|27|g|8;당류|8|g|8;지방|0|g|0;트랜스지방|0|g|0;포화지방|0|g|0;콜레스테롤|0|mg|0;단백질|2|g|4",
+      "reviewed_at": "2026-10-20T00:01:46.910699+09:00",
+      "visual_inspection": true,
+      "source_match": "name_variant_package_matched",
+      "remaining_reasons": [
+        "전체 원재료·기능성·섭취/주의 문구의 완전한 교정 전사 및 정규화 미완료"
+      ]
+    }
+  ]
+}

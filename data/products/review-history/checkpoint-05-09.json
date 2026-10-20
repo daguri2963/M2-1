@@ -1,0 +1,253 @@
+{
+  "reviewed_at": "2026-10-20T00:00:38.590396+09:00",
+  "products": [
+    {
+      "product_number": "919157094",
+      "catalog_index": 5,
+      "review_status": "partial",
+      "evidence": [
+        {
+          "source_id": "label-0006",
+          "source_sha256": "f3a658fafa663f5b637f5b4a0de795e44afe8683c39343d29beb3aa75c799f26",
+          "source_url": "https://cdn.daisomall.co.kr/file/resize/PD/20260904/description/850/lESDq7mFn4lxd5e3qMoC919157094_01_00lESDq7mFn4lxd5e3qMoC.jpg",
+          "original_path": "data/products/labels/919157094/f3a658fafa663f5b.jpg",
+          "crops": [
+            {
+              "path": "data/products/review-evidence/05-919157094-f3a658fa-0.png",
+              "x": 0,
+              "y": 31573,
+              "width": 850,
+              "height": 2000
+            },
+            {
+              "path": "data/products/review-evidence/05-919157094-f3a658fa-1.png",
+              "x": 0,
+              "y": 33373,
+              "width": 850,
+              "height": 2000
+            },
+            {
+              "path": "data/products/review-evidence/05-919157094-f3a658fa-2.png",
+              "x": 0,
+              "y": 35173,
+              "width": 850,
+              "height": 728
+            }
+          ]
+        }
+      ],
+      "observations": [
+        "기타가공품 침향환 3.7g×9환33.3g 라벨과 총내용량117kcal 영양표 확인. 대두함유. 환을 씹을 때 치아손상 및 목걸림 경고."
+      ],
+      "field_values": {
+        "product_name": "휴럼 하루한알침향환",
+        "food_type": "기타가공품",
+        "manufacturer": "(주)세움바이오텍",
+        "distributor": "(주)휴럼",
+        "package": "3.7 g × 9환 (33.3 g)",
+        "dosage_form": "환",
+        "intake": "1일 1회, 1회 1환을 충분히 씹어서 물과 함께 섭취하십시오.",
+        "allergen": "대두 함유",
+        "cautions": "특이체질, 알레르기 체질의 경우 성분을 확인하신 후 섭취하십시오. 이상사례 발생 시 섭취를 중단하고 전문가와 상담하십시오. 환을 씹을 때 치아에 손상을 줄 수 있으니 천천히 씹어 드십시오. 섭취시 환이 목에 걸리지 않도록 주의하십시오.",
+        "storage": "직사광선을 피하여 실온에 보관하십시오. 영·유아 및 어린이의 손이 닿지 않는 곳에 보관하십시오. 개봉 후에는 변질될 수 있으므로 즉시 섭취하십시오."
+      },
+      "reviewed_nutrients": [],
+      "field_dispositions": {},
+      "reviewed_at": "2026-10-20T00:00:38.590396+09:00",
+      "visual_inspection": true,
+      "source_match": "name_variant_package_matched",
+      "remaining_reasons": [
+        "전체 원재료·기능성·섭취/주의 문구의 완전한 교정 전사 및 정규화 미완료"
+      ]
+    },
+    {
+      "product_number": "987253328",
+      "catalog_index": 6,
+      "review_status": "partial",
+      "evidence": [
+        {
+          "source_id": "label-0008",
+          "source_sha256": "62dd6c7f6c9a1a7eb82728e79d4afcae8e6ead28c07fb4b36ef475d93a790f7a",
+          "source_url": "https://cdn.daisomall.co.kr/file/resize/CMS/20260929/description/850/987253328_01_01DCh0NqUqj6jOVDWBfEZu.jpg",
+          "original_path": "data/products/labels/987253328/62dd6c7f6c9a1a7e.jpg",
+          "crops": [
+            {
+              "path": "data/products/review-evidence/06-987253328-62dd6c7f-0.png",
+              "x": 0,
+              "y": 205,
+              "width": 850,
+              "height": 475
+            }
+          ]
+        },
+        {
+          "source_id": "label-0019",
+          "source_sha256": "98c7cc5d567ca335c777abb0e3b4d5afaffb648710c9dac736b26463bd6de74c",
+          "source_url": "https://cdn.daisomall.co.kr/file/resize/CMS/20260929/description/850/987253328_01_127pQYKrjQ07e6Fmn9ynbR.jpg",
+          "original_path": "data/products/labels/987253328/98c7cc5d567ca335.jpg",
+          "crops": [
+            {
+              "path": "data/products/review-evidence/06-987253328-98c7cc5d-0.png",
+              "x": 0,
+              "y": 687,
+              "width": 850,
+              "height": 1283
+            }
+          ]
+        }
+      ],
+      "observations": [
+        "조각형 이미지 중 제품고시정보와 영양표를 실제 대조. 당류가공품이며 기능성 마카 함량800mg으로 오인하면 안 됨. 총내용량51g당190kcal·나트륨10mg(1%)·탄수화물43g(13%)·당류7g(7%)·지방0.9g(2%)·포화지방0.7g(5%)·단백질3g(5%). 트랜스지방/콜레스테롤 '-' 보존."
+      ],
+      "field_values": {
+        "product_name": "익스트림 블랙마카 800+",
+        "food_type": "당류가공품",
+        "manufacturer": "(주)한풍네이처팜",
+        "distributor": "(주)익스트림",
+        "package": "850 mg × 60정 (51 g / 190 kcal)",
+        "dosage_form": "정제",
+        "intake": "1일 1회, 1회 2정을 물과 함께 섭취하십시오.",
+        "raw_materials": "젤라틴화블랙마카분말(페루산), 말토덱스트린, 결정셀룰로스, 히드록시프로필메틸셀룰로스, 스테아린산마그네슘, 숙성흑마늘농축분말[숙성흑마늘농축액(흑마늘:국산)]"
+      },
+      "reviewed_nutrients": [],
+      "field_dispositions": {},
+      "reviewed_at": "2026-10-20T00:00:38.590396+09:00",
+      "visual_inspection": true,
+      "source_match": "name_variant_package_matched",
+      "remaining_reasons": [
+        "전체 원재료·기능성·섭취/주의 문구의 완전한 교정 전사 및 정규화 미완료"
+      ]
+    },
+    {
+      "product_number": "610911092",
+      "catalog_index": 7,
+      "review_status": "partial",
+      "evidence": [
+        {
+          "source_id": "label-0020",
+          "source_sha256": "b72d98131b7f0050267a5491822ad0dd6bf172a8a7bf535cfe6014f428c21784",
+          "source_url": "https://cdn.daisomall.co.kr/file/resize/PD/20260814/description/850/LIMo3uBvY7JglaYLoGzI610911092_01_00LIMo3uBvY7JglaYLoGzI.png",
+          "original_path": "data/products/labels/610911092/b72d98131b7f0050.png",
+          "crops": [
+            {
+              "path": "data/products/review-evidence/07-610911092-b72d9813-0.png",
+              "x": 0,
+              "y": 13823,
+              "width": 850,
+              "height": 1260
+            }
+          ]
+        }
+      ],
+      "observations": [
+        "프라임도스 비타민C2000 60g2g×30포 표 전체 재확인. 1포2g당C2000mg2000%, 열량10kcal, 탄수화물2g1%, 단백질/지방/나트륨0. 이전 함량 대조값 일치.",
+        "기능정보·신장질환·수유/질병치료·소비기한 경과·포장재 주의와 보관, 교차시설 문구 존재."
+      ],
+      "field_values": {
+        "product_name": "프라임도스 비타민C 2000",
+        "dosage_form": "분말 포",
+        "function": "[비타민C] 결합조직 형성과 기능 유지에 필요, 철의 흡수에 필요, 항산화 작용을 하여 유해산소로부터 세포를 보호하는데 필요"
+      },
+      "reviewed_nutrients": [],
+      "field_dispositions": {},
+      "reviewed_at": "2026-10-20T00:00:38.590396+09:00",
+      "visual_inspection": true,
+      "source_match": "name_variant_package_matched",
+      "remaining_reasons": [
+        "전체 원재료·기능성·섭취/주의 문구의 완전한 교정 전사 및 정규화 미완료"
+      ]
+    },
+    {
+      "product_number": "032306284",
+      "catalog_index": 8,
+      "review_status": "partial",
+      "evidence": [
+        {
+          "source_id": "label-0021",
+          "source_sha256": "e5553f18526cb7f069add78ebdb17dab419c0ad9068af216f8a2e337166332aa",
+          "source_url": "https://cdn.daisomall.co.kr/file/resize/PD/20260813/description/850/b3BXYOqvwpKF2S562RTu032306284_01_00b3BXYOqvwpKF2S562RTu.png",
+          "original_path": "data/products/labels/032306284/e5553f18526cb7f0.png",
+          "crops": [
+            {
+              "path": "data/products/review-evidence/08-032306284-e5553f18-0.png",
+              "x": 0,
+              "y": 22815,
+              "width": 850,
+              "height": 2000
+            },
+            {
+              "path": "data/products/review-evidence/08-032306284-e5553f18-1.png",
+              "x": 0,
+              "y": 24615,
+              "width": 850,
+              "height": 424
+            }
+          ]
+        }
+      ],
+      "observations": [
+        "슬립앤버닝 원문 표 전체 확인. 1일2정은600mg1정+650mg1정; 총중량을650mg이나600mg으로 단일화하면 안 됨. 카테킨300mg, Withanoside IV5.664mg. 기존 사전 누락 성분 추가 대상.",
+        "주의사항 8항목: 영유아/어린이/임산부/수유부, 간질환/약물, 카페인 초조불면, 식후, 카페인식품, 이상사례, 알레르기, 신경안정제 병용금지. 교차시설문구 별도."
+      ],
+      "field_values": {
+        "product_name": "닥터블릿 푸응 7 Days 슬립앤버닝",
+        "food_type": "건강기능식품",
+        "manufacturer": "코스맥스엔비티(주)",
+        "distributor": "닥터블릿헬스케어(주)",
+        "dosage_form": "정제(두 종류)",
+        "intake": "1일 1회, 1회 2정(600mg 1정, 650mg 1정)을 물과 함께 섭취하십시오."
+      },
+      "reviewed_nutrients": [],
+      "field_dispositions": {},
+      "reviewed_at": "2026-10-20T00:00:38.590396+09:00",
+      "visual_inspection": true,
+      "source_match": "name_variant_package_matched",
+      "remaining_reasons": [
+        "전체 원재료·기능성·섭취/주의 문구의 완전한 교정 전사 및 정규화 미완료"
+      ]
+    },
+    {
+      "product_number": "286314466",
+      "catalog_index": 9,
+      "review_status": "partial",
+      "evidence": [
+        {
+          "source_id": "label-0022",
+          "source_sha256": "0b11789d86c939cb5c1343e27833fe3cf43dc13fdd0adba560912a029e81a4df",
+          "source_url": "https://cdn.daisomall.co.kr/file/resize/PD/20260813/description/850/awNyhBLryBdZ1fl2XivV286314466_01_00awNyhBLryBdZ1fl2XivV.png",
+          "original_path": "data/products/labels/286314466/0b11789d86c939cb.png",
+          "crops": [
+            {
+              "path": "data/products/review-evidence/09-286314466-0b11789d-0.png",
+              "x": 0,
+              "y": 20806,
+              "width": 850,
+              "height": 1761
+            }
+          ]
+        }
+      ],
+      "observations": [
+        "단일 테아닌 표시패널 전체 확인. 1정800mg 기준L-테아닌220mg(표시명 유지), 나이아신15mgNE100%, B2 1.4mg100%. 탄수화물0.5g0% 열량2kcal.",
+        "우유함유. 임산부/수유부·카페인식품병용·수술전후·이상사례 경고와 교차시설문구 확인."
+      ],
+      "field_values": {
+        "product_name": "닥터블릿 스트레스케어 테아닌",
+        "food_type": "건강기능식품",
+        "manufacturer": "(주)한미양행",
+        "distributor": "닥터블릿헬스케어(주)",
+        "dosage_form": "정제",
+        "intake": "1일 1회, 1회 1정을 충분한 물과 함께 섭취하십시오.",
+        "allergen": "우유 함유"
+      },
+      "reviewed_nutrients": [],
+      "field_dispositions": {},
+      "reviewed_at": "2026-10-20T00:00:38.590396+09:00",
+      "visual_inspection": true,
+      "source_match": "name_variant_package_matched",
+      "remaining_reasons": [
+        "전체 원재료·기능성·섭취/주의 문구의 완전한 교정 전사 및 정규화 미완료"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,405 @@
+[
+  {
+    "product_number": "286314184",
+    "detail_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=286314184",
+    "expected_name": "영진 비타민D 1000IU 아연 츄어블 12정",
+    "status": "label_assets_saved_pending_transcription",
+    "attempts": [
+      {
+        "date": "2026-10-19",
+        "method": "browser_detail_and_page_assets",
+        "source_url": "https://cdn.daisomall.co.kr/file/resize/PD/20260310/description/850/sBaX7CWiychX6uUfQMTT286314184_01_00sBaX7CWiychX6uUfQMTT.jpg",
+        "result": "label_asset_saved",
+        "detail_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=286314184"
+      },
+      {
+        "date": "2026-10-19",
+        "method": "browser_detail_attempt",
+        "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=286314184",
+        "result": "label_assets_saved",
+        "reason": null
+      }
+    ],
+    "recommendation_eligible": false,
+    "label_assets": [
+      {
+        "source_url": "https://cdn.daisomall.co.kr/file/resize/PD/20260310/description/850/sBaX7CWiychX6uUfQMTT286314184_01_00sBaX7CWiychX6uUfQMTT.jpg",
+        "local_path": "data/products/labels/286314184/3fd2357873b106f2.jpg",
+        "sha256": "3fd2357873b106f2dc5262617b86dad443d42a0abfbb40f9b22910eb576eb26d",
+        "method": "official_label_image_saved_pending_visual",
+        "observed_on": "2026-10-19",
+        "published_on": null,
+        "browser_manifest": "/var/folders/yz/kzzkpplj73qbzchy819k7v0m0000gn/T/browser-use/assets/ec4ca01b-11d2-426f-87e2-06f93202cdb6/manifest.json"
+      }
+    ]
+  },
+  {
+    "product_number": "913624074",
+    "detail_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=913624074",
+    "expected_name": "오브맘 비타민C 플러스 톡톡! 30일분",
+    "status": "label_assets_saved_pending_transcription",
+    "attempts": [
+      {
+        "date": "2026-10-19",
+        "method": "browser_detail_and_page_assets",
+        "source_url": "https://cdn.daisomall.co.kr/file/resize/PD/20251027/description/850/4l1Ty4sAypbm9V63Po1b913624074_01_994l1Ty4sAypbm9V63Po1b.jpg",
+        "result": "label_asset_saved",
+        "detail_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=913624074"
+      },
+      {
+        "date": "2026-10-19",
+        "method": "browser_detail_and_page_assets",
+        "source_url": "https://cdn.daisomall.co.kr/file/resize/PD/20251027/description/850/Xllp2G7emG2hyZyOmux1913624074_01_00Xllp2G7emG2hyZyOmux1.jpg",
+        "result": "label_asset_saved",
+        "detail_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=913624074"
+      },
+      {
+        "date": "2026-10-19",
+        "method": "browser_detail_attempt",
+        "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=913624074",
+        "result": "label_assets_saved",
+        "reason": null
+      }
+    ],
+    "recommendation_eligible": false,
+    "label_assets": [
+      {
+        "source_url": "https://cdn.daisomall.co.kr/file/resize/PD/20251027/description/850/4l1Ty4sAypbm9V63Po1b913624074_01_994l1Ty4sAypbm9V63Po1b.jpg",
+        "local_path": "data/products/labels/913624074/83b123f0ef1a61fb.jpg",
+        "sha256": "83b123f0ef1a61fb3a1c4ad0576820465ad4b7d1a7d32e7b570beaecec2ba173",
+        "method": "official_label_image_saved_pending_visual",
+        "observed_on": "2026-10-19",
+        "published_on": null,
+        "browser_manifest": "/var/folders/yz/kzzkpplj73qbzchy819k7v0m0000gn/T/browser-use/assets/34982117-efbc-45ec-837b-017f356b09db/manifest.json"
+      },
+      {
+        "source_url": "https://cdn.daisomall.co.kr/file/resize/PD/20251027/description/850/Xllp2G7emG2hyZyOmux1913624074_01_00Xllp2G7emG2hyZyOmux1.jpg",
+        "local_path": "data/products/labels/913624074/f42c6314dc04c381.jpg",
+        "sha256": "f42c6314dc04c3810290afba28d881d6d46640fa2ae9744b788b8d7f6bd04a30",
+        "method": "official_label_image_saved_pending_visual",
+        "observed_on": "2026-10-19",
+        "published_on": null,
+        "browser_manifest": "/var/folders/yz/kzzkpplj73qbzchy819k7v0m0000gn/T/browser-use/assets/34982117-efbc-45ec-837b-017f356b09db/manifest.json"
+      }
+    ]
+  },
+  {
+    "product_number": "613602131",
+    "detail_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=613602131",
+    "expected_name": "오브맘 비타민C＆E 하루구미 30일분",
+    "status": "label_assets_saved_pending_transcription",
+    "attempts": [
+      {
+        "date": "2026-10-19",
+        "method": "browser_detail_and_page_assets",
+        "source_url": "https://cdn.daisomall.co.kr/file/resize/PD/20260109/description/850/NjtlsflW0VQ1KEBDVD0t613602131_01_01NjtlsflW0VQ1KEBDVD0t.jpg",
+        "result": "label_asset_saved",
+        "detail_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=613602131"
+      },
+      {
+        "date": "2026-10-19",
+        "method": "browser_detail_and_page_assets",
+        "source_url": "https://cdn.daisomall.co.kr/file/resize/PD/20260109/description/850/IPaKB310sjBenPH7MXFx613602131_01_02IPaKB310sjBenPH7MXFx.jpg",
+        "result": "label_asset_saved",
+        "detail_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=613602131"
+      },
+      {
+        "date": "2026-10-19",
+        "method": "browser_detail_and_page_assets",
+        "source_url": "https://cdn.daisomall.co.kr/file/resize/PD/20260109/description/850/ujkCPTsjnVvVjCWQw9Eb613602131_01_99ujkCPTsjnVvVjCWQw9Eb.jpg",
+        "result": "label_asset_saved",
+        "detail_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=613602131"
+      },
+      {
+        "date": "2026-10-19",
+        "method": "browser_detail_attempt",
+        "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=613602131",
+        "result": "label_assets_saved",
+        "reason": null
+      }
+    ],
+    "recommendation_eligible": false,
+    "label_assets": [
+      {
+        "source_url": "https://cdn.daisomall.co.kr/file/resize/PD/20260109/description/850/NjtlsflW0VQ1KEBDVD0t613602131_01_01NjtlsflW0VQ1KEBDVD0t.jpg",
+        "local_path": "data/products/labels/613602131/f1e0c29a2f56c37a.jpg",
+        "sha256": "f1e0c29a2f56c37a0ae5cabdcdcb152926b3e9841a4d8b4a5be640be0d0bae5f",
+        "method": "official_label_image_saved_pending_visual",
+        "observed_on": "2026-10-19",
+        "published_on": null,
+        "browser_manifest": "/var/folders/yz/kzzkpplj73qbzchy819k7v0m0000gn/T/browser-use/assets/0fb14fb5-9636-4c5e-a02b-e01b9e68f36c/manifest.json"
+      },
+      {
+        "source_url": "https://cdn.daisomall.co.kr/file/resize/PD/20260109/description/850/IPaKB310sjBenPH7MXFx613602131_01_02IPaKB310sjBenPH7MXFx.jpg",
+        "local_path": "data/products/labels/613602131/b76dcf516595e05f.jpg",
+        "sha256": "b76dcf516595e05f011c7f3e30ccecda07cf02391493a9d1f6718fbb57244d73",
+        "method": "official_label_image_saved_pending_visual",
+        "observed_on": "2026-10-19",
+        "published_on": null,
+        "browser_manifest": "/var/folders/yz/kzzkpplj73qbzchy819k7v0m0000gn/T/browser-use/assets/0fb14fb5-9636-4c5e-a02b-e01b9e68f36c/manifest.json"
+      },
+      {
+        "source_url": "https://cdn.daisomall.co.kr/file/resize/PD/20260109/description/850/ujkCPTsjnVvVjCWQw9Eb613602131_01_99ujkCPTsjnVvVjCWQw9Eb.jpg",
+        "local_path": "data/products/labels/613602131/83b123f0ef1a61fb.jpg",
+        "sha256": "83b123f0ef1a61fb3a1c4ad0576820465ad4b7d1a7d32e7b570beaecec2ba173",
+        "method": "official_label_image_saved_pending_visual",
+        "observed_on": "2026-10-19",
+        "published_on": null,
+        "browser_manifest": "/var/folders/yz/kzzkpplj73qbzchy819k7v0m0000gn/T/browser-use/assets/0fb14fb5-9636-4c5e-a02b-e01b9e68f36c/manifest.json"
+      }
+    ]
+  },
+  {
+    "product_number": "613602124",
+    "detail_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=613602124",
+    "expected_name": "자연관 이뮨 멀티비타민 미네랄 4병",
+    "status": "retry_needed",
+    "attempts": [
+      {
+        "date": "2026-10-19",
+        "method": "browser_detail_attempt",
+        "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=613602124",
+        "result": "retry_needed",
+        "reason": "Input.dispatchKeyEvent timeout"
+      }
+    ],
+    "recommendation_eligible": false,
+    "failure_reason": "Input.dispatchKeyEvent timeout"
+  },
+  {
+    "product_number": "968235549",
+    "detail_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=968235549",
+    "expected_name": "안국약품 브이팩 다이어트 유산균 올인원 멀티 비타민 7포",
+    "status": "label_assets_saved_pending_transcription",
+    "attempts": [
+      {
+        "date": "2026-10-19",
+        "method": "browser_detail_and_page_assets",
+        "source_url": "https://cdn.daisomall.co.kr/file/resize/PD/20260409/description/850/wqYbxj20hWW7Hraqe9mx968235549_01_02wqYbxj20hWW7Hraqe9mx.jpg",
+        "result": "label_asset_saved",
+        "detail_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=968235549"
+      },
+      {
+        "date": "2026-10-19",
+        "method": "browser_detail_and_page_assets",
+        "source_url": "https://cdn.daisomall.co.kr/file/resize/PD/20260409/description/850/BJwZ6i2ZF17aC514OF0B968235549_01_01BJwZ6i2ZF17aC514OF0B.jpg",
+        "result": "label_asset_saved",
+        "detail_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=968235549"
+      },
+      {
+        "date": "2026-10-19",
+        "method": "browser_detail_attempt",
+        "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=968235549",
+        "result": "label_assets_saved",
+        "reason": null
+      }
+    ],
+    "recommendation_eligible": false,
+    "label_assets": [
+      {
+        "source_url": "https://cdn.daisomall.co.kr/file/resize/PD/20260409/description/850/wqYbxj20hWW7Hraqe9mx968235549_01_02wqYbxj20hWW7Hraqe9mx.jpg",
+        "local_path": "data/products/labels/968235549/969b6208b69d1b12.jpg",
+        "sha256": "969b6208b69d1b12ed23ce62c2a5fc7998ddee26fff15f66902584f4cfbda27e",
+        "method": "official_label_image_saved_pending_visual",
+        "observed_on": "2026-10-19",
+        "published_on": null,
+        "browser_manifest": "/var/folders/yz/kzzkpplj73qbzchy819k7v0m0000gn/T/browser-use/assets/b7c89b64-fe25-4036-8834-f885702766ba/manifest.json"
+      },
+      {
+        "source_url": "https://cdn.daisomall.co.kr/file/resize/PD/20260409/description/850/BJwZ6i2ZF17aC514OF0B968235549_01_01BJwZ6i2ZF17aC514OF0B.jpg",
+        "local_path": "data/products/labels/968235549/63f5d24f5788c01d.jpg",
+        "sha256": "63f5d24f5788c01dc81e43d1a84d59e3d2e5c2dddffa54f8d823280b670275bf",
+        "method": "official_label_image_saved_pending_visual",
+        "observed_on": "2026-10-19",
+        "published_on": null,
+        "browser_manifest": "/var/folders/yz/kzzkpplj73qbzchy819k7v0m0000gn/T/browser-use/assets/b7c89b64-fe25-4036-8834-f885702766ba/manifest.json"
+      }
+    ]
+  },
+  {
+    "product_number": "033991017",
+    "detail_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=033991017",
+    "expected_name": "[보령약국 X Pantio] [인교진 PICK] 기억력 건강 올인원 15포 15일분",
+    "status": "label_assets_saved_pending_transcription",
+    "attempts": [
+      {
+        "date": "2026-10-19",
+        "method": "browser_detail_and_page_assets",
+        "source_url": "https://cdn.daisomall.co.kr/file/resize/PD/20260807/description/850/7pARQ92UZv3hEqeuqL1x033991017_01_007pARQ92UZv3hEqeuqL1x.png",
+        "result": "label_asset_saved",
+        "detail_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=033991017"
+      },
+      {
+        "date": "2026-10-19",
+        "method": "browser_detail_attempt",
+        "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=033991017",
+        "result": "label_assets_saved",
+        "reason": null
+      }
+    ],
+    "recommendation_eligible": false,
+    "label_assets": [
+      {
+        "source_url": "https://cdn.daisomall.co.kr/file/resize/PD/20260807/description/850/7pARQ92UZv3hEqeuqL1x033991017_01_007pARQ92UZv3hEqeuqL1x.png",
+        "local_path": "data/products/labels/033991017/17add472ee6574d8.png",
+        "sha256": "17add472ee6574d8af1cee75def08129127c4c86b5226e1bf74c5560ecd5df54",
+        "method": "official_label_image_saved_pending_visual",
+        "observed_on": "2026-10-19",
+        "published_on": null,
+        "browser_manifest": "/var/folders/yz/kzzkpplj73qbzchy819k7v0m0000gn/T/browser-use/assets/50807e0f-9033-4bab-b280-b3579171075c/manifest.json"
+      }
+    ]
+  },
+  {
+    "product_number": "033991022",
+    "detail_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=033991022",
+    "expected_name": "[보령약국 X Pantio] [인교진 PICK] 스트레스 케어 올인원 15포 15일분",
+    "status": "label_assets_saved_pending_transcription",
+    "attempts": [
+      {
+        "date": "2026-10-19",
+        "method": "browser_detail_and_page_assets",
+        "source_url": "https://cdn.daisomall.co.kr/file/resize/PD/20260807/description/850/rMlSJGKB9oWUD8eZzTtY033991022_01_00rMlSJGKB9oWUD8eZzTtY.png",
+        "result": "label_asset_saved",
+        "detail_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=033991022"
+      },
+      {
+        "date": "2026-10-19",
+        "method": "browser_detail_attempt",
+        "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=033991022",
+        "result": "label_assets_saved",
+        "reason": null
+      }
+    ],
+    "recommendation_eligible": false,
+    "label_assets": [
+      {
+        "source_url": "https://cdn.daisomall.co.kr/file/resize/PD/20260807/description/850/rMlSJGKB9oWUD8eZzTtY033991022_01_00rMlSJGKB9oWUD8eZzTtY.png",
+        "local_path": "data/products/labels/033991022/30ff4489e563defa.png",
+        "sha256": "30ff4489e563defad5d8ed0e994da0caa19e055f50470dafa619f2bd9394eee6",
+        "method": "official_label_image_saved_pending_visual",
+        "observed_on": "2026-10-19",
+        "published_on": null,
+        "browser_manifest": "/var/folders/yz/kzzkpplj73qbzchy819k7v0m0000gn/T/browser-use/assets/dd3966c2-7a55-4939-b136-035dc27cfe65/manifest.json"
+      }
+    ]
+  },
+  {
+    "product_number": "601678607",
+    "detail_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=601678607",
+    "expected_name": "[혈액 생성] 동화약품 배러크런치 철분 사과맛 30정 10일분",
+    "status": "label_assets_saved_pending_transcription",
+    "attempts": [
+      {
+        "date": "2026-10-19",
+        "method": "browser_detail_and_page_assets",
+        "source_url": "https://cdn.daisomall.co.kr/file/resize/PD/20260909/description/850/3ZdJMTSfN8t4ro49ahx0601678607_01_003ZdJMTSfN8t4ro49ahx0.jpg",
+        "result": "label_asset_saved",
+        "detail_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=601678607"
+      },
+      {
+        "date": "2026-10-19",
+        "method": "browser_detail_attempt",
+        "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=601678607",
+        "result": "label_assets_saved",
+        "reason": null
+      }
+    ],
+    "recommendation_eligible": false,
+    "label_assets": [
+      {
+        "source_url": "https://cdn.daisomall.co.kr/file/resize/PD/20260909/description/850/3ZdJMTSfN8t4ro49ahx0601678607_01_003ZdJMTSfN8t4ro49ahx0.jpg",
+        "local_path": "data/products/labels/601678607/1d1edb501ff3feb3.jpg",
+        "sha256": "1d1edb501ff3feb355e88e9f68a2ca1042653d70cdaef0c3dec844ddee831189",
+        "method": "official_label_image_saved_pending_visual",
+        "observed_on": "2026-10-19",
+        "published_on": null,
+        "browser_manifest": "/var/folders/yz/kzzkpplj73qbzchy819k7v0m0000gn/T/browser-use/assets/0034efa5-3f68-4fe9-95eb-fac7b849f614/manifest.json"
+      }
+    ]
+  },
+  {
+    "product_number": "591581091",
+    "detail_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=591581091",
+    "expected_name": "[김우빈 PICK] 종근당건강 아임비타 비타민B 2000 30정 30일분",
+    "status": "label_assets_saved_pending_transcription",
+    "attempts": [
+      {
+        "date": "2026-10-19",
+        "method": "browser_detail_and_page_assets",
+        "source_url": "https://cdn.daisomall.co.kr/file/resize/PD/20260508/description/850/80mPynAhdNaqtcQesPjh591581091_01_0080mPynAhdNaqtcQesPjh.jpg",
+        "result": "label_asset_saved",
+        "detail_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=591581091"
+      },
+      {
+        "date": "2026-10-19",
+        "method": "browser_detail_attempt",
+        "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=591581091",
+        "result": "label_assets_saved",
+        "reason": null
+      }
+    ],
+    "recommendation_eligible": false,
+    "label_assets": [
+      {
+        "source_url": "https://cdn.daisomall.co.kr/file/resize/PD/20260508/description/850/80mPynAhdNaqtcQesPjh591581091_01_0080mPynAhdNaqtcQesPjh.jpg",
+        "local_path": "data/products/labels/591581091/3d6ee4f12f4e52ea.jpg",
+        "sha256": "3d6ee4f12f4e52eacaf446258b4d666b6b800b249f4c2af40813744c7a9a4b6e",
+        "method": "official_label_image_saved_pending_visual",
+        "observed_on": "2026-10-19",
+        "published_on": null,
+        "browser_manifest": "/var/folders/yz/kzzkpplj73qbzchy819k7v0m0000gn/T/browser-use/assets/efb01f1c-de79-46cc-99d3-4dfa33aea11b/manifest.json"
+      }
+    ]
+  },
+  {
+    "product_number": "600000283",
+    "detail_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=600000283",
+    "expected_name": "대웅제약 멀티비타민미네랄 6정 6일분",
+    "status": "label_assets_saved_pending_transcription",
+    "attempts": [
+      {
+        "date": "2026-10-19",
+        "method": "browser_detail_and_page_assets",
+        "source_url": "https://cdn.daisomall.co.kr/file/resize/PD/20260504/description/850/5WdLXQ06qXYUmVl570Ue600000283_01_025WdLXQ06qXYUmVl570Ue.png",
+        "result": "label_asset_saved",
+        "detail_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=600000283"
+      },
+      {
+        "date": "2026-10-19",
+        "method": "browser_detail_and_page_assets",
+        "source_url": "https://cdn.daisomall.co.kr/file/resize/PD/20260504/description/850/dPTRphiui7CgMU9sXbwG600000283_01_01dPTRphiui7CgMU9sXbwG.png",
+        "result": "label_asset_saved",
+        "detail_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=600000283"
+      },
+      {
+        "date": "2026-10-19",
+        "method": "browser_detail_attempt",
+        "source_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=600000283",
+        "result": "label_assets_saved",
+        "reason": null
+      }
+    ],
+    "recommendation_eligible": false,
+    "label_assets": [
+      {
+        "source_url": "https://cdn.daisomall.co.kr/file/resize/PD/20260504/description/850/5WdLXQ06qXYUmVl570Ue600000283_01_025WdLXQ06qXYUmVl570Ue.png",
+        "local_path": "data/products/labels/600000283/7fd20e25550de804.png",
+        "sha256": "7fd20e25550de804c69f68f6b73beed6e9a6712a66f576bc9a585370a4149e6a",
+        "method": "official_label_image_saved_pending_visual",
+        "observed_on": "2026-10-19",
+        "published_on": null,
+        "browser_manifest": "/var/folders/yz/kzzkpplj73qbzchy819k7v0m0000gn/T/browser-use/assets/e84f48b1-adb3-4bab-87f0-f1a19921c6ae/manifest.json"
+      },
+      {
+        "source_url": "https://cdn.daisomall.co.kr/file/resize/PD/20260504/description/850/dPTRphiui7CgMU9sXbwG600000283_01_01dPTRphiui7CgMU9sXbwG.png",
+        "local_path": "data/products/labels/600000283/a96a31e883582e4c.png",
+        "sha256": "a96a31e883582e4c40ab2acb9eec577bc2e7a1759528af6960a8de9258720872",
+        "method": "official_label_image_saved_pending_visual",
+        "observed_on": "2026-10-19",
+        "published_on": null,
+        "browser_manifest": "/var/folders/yz/kzzkpplj73qbzchy819k7v0m0000gn/T/browser-use/assets/e84f48b1-adb3-4bab-87f0-f1a19921c6ae/manifest.json"
+      }
+    ]
+  }
+]
