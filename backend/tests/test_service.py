@@ -185,3 +185,59 @@ def test_no_profile_recommendation_and_personal_identifiers_stay_local(client):
     assert response.json()['mode']=='insufficient'
     response=client.post('/api/chat',json={'question':'제 전화번호는 010-1234-5678 입니다'},headers=h)
     assert response.json()['mode']=='restricted'
+
+@pytest.mark.parametrize('question',[
+    '함량과 기준량의 차이가 궁금해요.',
+    '함량 과 기준량 의 차이 를 알려 주세요',
+    '기준량은 무슨 뜻인가요?',
+    '영양성분 기준치가 무엇인가요?',
+    '영양성분표 읽는 법이 궁금해요.',
+])
+def test_label_concepts_have_official_guides_without_selecting_a_product(question):
+    sources=repo.evidence(question)
+    assert sources and all(e['kind']=='label_guide' for e in sources)
+    assert all(e['productId'] is None and e['productUrl'] is None for e in sources)
+    assert all(e['url'].startswith(('https://www.fda.gov/','https://www.foodsafetykorea.go.kr/')) for e in sources)
+    assert repo.guide_evidence('마그네슘 함량이 얼마인가요?')==[]
+
+def test_guide_with_selected_product_keeps_product_specific_label_evidence():
+    sources=repo.evidence('함량과 기준량의 차이가 궁금해요.',['600000147'])
+    assert any(e.get('kind')=='label_guide' for e in sources)
+    assert {'600000147:nutrition','600000147:intake'}<=set(e['id'] for e in sources)
+    assert all(e['productId'] in (None,'600000147') for e in sources)
+
+def test_starter_question_works_when_model_chooses_an_empty_search():
+    class GuideModels:
+        def __init__(self):self.calls=[]
+        async def generate_content(self,**kwargs):
+            self.calls.append(kwargs)
+            if kwargs['config'].response_mime_type=='application/json':
+                payload=json.loads(kwargs['contents'][-1].parts[0].text)
+                assert any(e['id']=='label-guide:amount-and-basis' for e in payload['evidence'])
+                return SimpleNamespace(text=json.dumps({'text':'함량은 표시된 분량에 들어 있는 성분의 양이고, 기준량은 그 함량을 읽는 분량 기준이에요. 영양성분 기준치는 식품을 비교하기 위한 값이에요.','citationIds':['label-guide:amount-and-basis','label-guide:daily-reference'],'productIds':[]}))
+            part=types.Part.from_function_call(name='search_products',args={'query':'존재하지않는표시용어'})
+            return SimpleNamespace(candidates=[SimpleNamespace(content=types.Content(role='model',parts=[part]))])
+    models=GuideModels()
+    result=asyncio.run(GeminiAgent(SimpleNamespace(aio=SimpleNamespace(models=models))).answer(ChatRequest(question='함량과 기준량의 차이가 궁금해요.')))
+    assert result['mode']=='gemini' and result['productIds']==[]
+    assert result['citations'][0]['kind']=='label_guide' and len(models.calls)==2
+
+def test_missing_evidence_requests_clarification_but_provider_failure_stays_error(client,monkeypatch):
+    import backend.main as main
+    async def no_evidence(*args):raise AIError('AI_NO_EVIDENCE','제품을 선택하거나 질문을 구체적으로 적어 주세요.')
+    monkeypatch.setattr(main.agent,'answer',no_evidence)
+    h=headers(client)
+    response=client.post('/api/chat',json={'question':'근거가 없는 질문'},headers=h)
+    assert response.status_code==200 and response.json()['mode']=='insufficient'
+    assert response.json()['citations']==[] and response.json()['productIds']==[]
+    async def unavailable(*args):raise AIError('AI_UNAVAILABLE','AI 연결 실패')
+    monkeypatch.setattr(main.agent,'answer',unavailable)
+    response=client.post('/api/chat',json={'question':'근거가 없는 질문'},headers=h)
+    assert response.status_code==503 and response.json()['error']['code']=='AI_UNAVAILABLE'
+
+def test_general_guide_is_not_product_recommendation_evidence():
+    sources={e['id']:e for e in repo.guide_evidence('함량과 기준량')}
+    answer=AgentAnswer(text='제품 설명',citationIds=['label-guide:amount-and-basis'],productIds=[])
+    with pytest.raises(AIError) as error:sanitize_answer(answer,sources,{},['600000128'])
+    assert error.value.code=='AI_POLICY_MISMATCH'
+    assert repo.evidence('존재하지않는자료표현')==[]

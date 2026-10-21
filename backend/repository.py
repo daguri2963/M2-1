@@ -4,6 +4,7 @@ import re
 import sqlite3
 from contextlib import contextmanager
 from .config import DATABASE
+from .label_guide import evidence as guide_evidence
 
 GENERAL = {'열량','나트륨','탄수화물','당류','지방','트랜스지방','포화지방','단백질','콜레스테롤','에리스리톨'}
 
@@ -50,6 +51,8 @@ def get_many(ids):
 
 def evidence(query='',product_ids=None,limit=8):
     """Query-specific retrieval over reviewed external-source DB fields, not static prompt text."""
+    guides=guide_evidence(query)
+    if guides and not product_ids:return guides[:limit]
     terms=list(dict.fromkeys(re.findall(r'[가-힣A-Za-z0-9]{2,}',query)))[:8]
     # User phrasing expands into label vocabulary; it never invents a health claim.
     synonyms={'활력':['에너지'],'뼈':['칼슘','뼈'],'근육':['근육'],'장':['배변','유익균'],'눈':['시각','눈'],'중복':['영양'],'섭취':['섭취'],'주의':['주의']}
@@ -67,13 +70,14 @@ def evidence(query='',product_ids=None,limit=8):
     for row in rows:
         text=row['raw_text'] or (json.loads(row['value_json']) if row['value_json'] else '')
         if not isinstance(text,str) or not text.strip():continue
-        score=sum(term.lower() in (text+row['name']).lower() for term in terms)
+        score=sum(term.lower() in (text+row['name']+field_map[row['field_name']][0]).lower() for term in terms)
+        if guides and row['field_name'] in ('nutrition','intake'):score+=5
         if '기능' in query and row['field_name']=='function':score+=5
         if terms and not score:continue
         title=field_map[row['field_name']][0]
         ranked.append((score,{'id':f"{row['product_id']}:{row['field_name']}",'productId':row['product_id'],'title':row['name']+' · '+title,'text':text[:2200],'url':row['source_url'] or row['detail_url'],'productUrl':row['detail_url'],'observedAt':row['observed_on']}))
     ranked.sort(key=lambda v:-v[0])
-    return [r[1] for r in ranked[:limit]]
+    return (guides+[r[1] for r in ranked])[:limit]
 
 def compare(ids):
     ps=get_many(ids)

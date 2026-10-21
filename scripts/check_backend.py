@@ -36,13 +36,17 @@ def main():
             assert restricted.json()['status']=='restricted' and not restricted.json()['products']
             unknown=client.post('/api/recommendations',json={**profile,'existing':'목록에 없어요'},headers=headers)
             assert unknown.json()['status']=='insufficient'
+            started=time.monotonic();response=client.post('/api/chat',json={'question':'함량과 기준량의 차이가 궁금해요.'},headers=headers);response.raise_for_status();guide=response.json()
+            assert guide['mode']=='gemini' and guide['citations'] and guide['productIds']==[]
+            assert all(e.get('kind')=='label_guide' and e['productId'] is None for e in guide['citations'])
+            results['labelReading']={'elapsedSeconds':round(time.monotonic()-started,2),'mode':guide['mode'],'text':guide['text'],'citationIds':[e['id'] for e in guide['citations']],'productIds':guide['productIds']}
             started=time.monotonic();response=client.post('/api/chat',json={'question':'표시 기능과 주의사항을 확인할 곳을 설명해 주세요.','productId':'600000128'},headers=headers);response.raise_for_status();answer=response.json()
             assert answer['mode']=='gemini' and answer['citations']
             results['chat']={'elapsedSeconds':round(time.monotonic()-started,2),'mode':answer['mode'],'model':answer['model'],'toolTrace':answer['toolTrace'],'citationIds':[e['id'] for e in answer['citations']]}
         finally:
             client.delete('/api/sessions/current',headers=headers).raise_for_status()
         assert client.post('/api/chat',json={'question':'표시 설명'},headers=headers).status_code==401
-    report={'passed':True,'checkedAt':datetime.now(timezone.utc).isoformat(),'baseUrl':base_url,'data':'synthetic general-adult choices and public product labels only','publicProducts':87,'checks':['health','consent','review_gate','recommendation_with_live_gemini','comparison','overlap','restricted','insufficient','chat_with_live_gemini','withdrawal'],**results}
+    report={'passed':True,'checkedAt':datetime.now(timezone.utc).isoformat(),'baseUrl':base_url,'data':'synthetic general-adult choices and public product labels only','publicProducts':87,'checks':['health','consent','review_gate','recommendation_with_live_gemini','comparison','overlap','restricted','insufficient','label_reading_without_product','chat_with_live_gemini','withdrawal'],**results}
     args.report.write_text(json.dumps(report,ensure_ascii=False,indent=2)+'\n')
     print(json.dumps(report,ensure_ascii=False,indent=2))
 

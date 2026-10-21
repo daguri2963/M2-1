@@ -1,0 +1,26 @@
+[
+  {
+    "id": "label-guide:amount-and-basis",
+    "kind": "label_guide",
+    "productId": null,
+    "productUrl": null,
+    "title": "FDA · 분량과 성분 함량 읽기 (공식 안내 요약)",
+    "text": "함량은 표시된 분량에 들어 있는 성분의 양이다. 분량은 성분량을 읽는 기준이고, 성분 함량과 구별해서 확인한다. 이 서비스에서 말하는 함량의 기준량은 성분량이 어느 분량에 대한 값인지를 뜻한다. 국내 개별 제품의 기준과 수치는 해당 제품에서 검수한 영양정보·표시 섭취방법을 직접 확인하며, 이 일반 설명으로 특정 제품의 기준을 추정하거나 복용량을 정하지 않는다.",
+    "url": "https://www.fda.gov/consumers/consumer-updates/fda-101-dietary-supplements",
+    "observedAt": "2026-10-21",
+    "sourceExcerpt": "a listing of all dietary ingredients in the product, and the amount per serving of those ingredients.",
+    "scope": "General distinction between serving size and ingredient amount; not US labeling law applied to Korean products."
+  },
+  {
+    "id": "label-guide:daily-reference",
+    "kind": "label_guide",
+    "productId": null,
+    "productUrl": null,
+    "title": "식품안전나라 · 영양성분 기준치 (공식 안내 요약)",
+    "text": "영양성분 기준치는 식품 사이의 영양소를 비교하고 표시를 이해하도록 정한 평균적인 하루 섭취 기준량이다. 함량이 어느 분량에 대한 값인지를 나타내는 표시 기준과, 영양성분 기준치에 대한 비율을 읽는 비교 기준은 서로 구별한다. 영양성분 기준치는 개인의 성별·연령 등을 반영해 산출한 필요량이나 이 서비스의 개인별 복용 지시가 아니다.",
+    "url": "https://www.foodsafetykorea.go.kr/portal/board/boardDetail.do?bbs_no=bbs423&menu_grp=MENU_NEW03&menu_no=3717",
+    "observedAt": "2026-10-21",
+    "sourceExcerpt": "식품표시에서 사용하는 영양소의 평균적인 1일 섭취 기준량을 정해 놓은 것입니다.",
+    "scope": "Terminology only; no legal thresholds or numeric requirements imported from historical FAQ sections."
+  }
+]

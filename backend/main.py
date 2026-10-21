@@ -126,4 +126,8 @@ async def chat(request:ChatRequest,token=Depends(session)):
     recommendation=policy.recommend(request.survey) if request.survey and wants_recommendation else None
     if recommendation and recommendation['status']!='ok':
         return {'mode':recommendation['status'],'text':recommendation['message'],'citations':recommendation['evidence'],'productIds':[],'toolTrace':[]}
-    return await agent.answer(request,recommendation)
+    try:
+        return await agent.answer(request,recommendation)
+    except AIError as error:
+        if error.code!='AI_NO_EVIDENCE':raise
+        return {'mode':'insufficient','text':error.message,'citations':[],'productIds':[],'toolTrace':[]}

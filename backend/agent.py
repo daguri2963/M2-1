@@ -19,6 +19,9 @@ SYSTEM='''너는 영양제 첫걸음의 성인 대상 제품 선택 길잡이다
 진단, 영양 결핍 추정, 의약품 병용 안전 판정, 복용량 변경, 치료·효과 보장을 하지 않는다.
 수치·함량·용량·섭취법은 화면에 표시된 검수 원문으로 안내한다. 생성하는 설명에는 숫자를 쓰지 않는다.
 관련 도구로 조회한 근거만 사용하고 모르면 추가 질문한다. 추측으로 제품·출처를 만들지 않는다.
+표시 읽기 개념은 공식 안내 요약을 사용한다. 함량을 읽는 분량 기준과 영양성분 기준치를 구별한다.
+일반 개념 설명으로 개인별 필요량이나 특정 제품의 섭취량을 추정하지 않는다.
+일반 안내만 조회했으면 특정 제품의 표시를 조회한 것처럼 말하지 말고, 제품 상세에서 수치와 섭취방법을 확인하도록 안내한다.
 질문에 필요한 도구를 스스로 고르고 결과에 따라 다른 도구를 사용한다.
 추천 도구의 restricted/insufficient/empty 상태를 바꾸거나 후보에 없는 제품을 추천하지 않는다.
 일반 상품 검색 결과는 제품 정보 탐색이며 개인 맞춤 추천으로 표현하지 않는다.
@@ -32,7 +35,7 @@ def declaration(name,description,properties,required=()):
 TOOLS=[
     declaration('search_products','검수 제품의 이름·브랜드·성분으로 정보 검색. 개인 추천이 아님.',{'query':{'type':'STRING'}},['query']),
     declaration('get_product_details','한 제품의 검수 표시와 출처 조회.',{'product_id':{'type':'STRING'}},['product_id']),
-    declaration('search_evidence','질문마다 DB의 공식 검수 표시를 검색해 근거와 출처를 가져온다.',{'query':{'type':'STRING'},'product_ids':{'type':'ARRAY','items':{'type':'STRING'}}},['query']),
+    declaration('search_evidence','질문마다 제품의 공식 검수 표시 또는 함량·기준량·기준치에 관한 공식 안내를 검색한다.',{'query':{'type':'STRING'},'product_ids':{'type':'ARRAY','items':{'type':'STRING'}}},['query']),
     declaration('check_overlap','사용자가 등록한 제품의 표시 성분 중복 조회. 병용 안전 판단 아님.',{}),
     declaration('compare_products','사용자가 요청한 두 제품의 표시정보를 비교.',{'product_ids':{'type':'ARRAY','items':{'type':'STRING'}}},['product_ids']),
     declaration('recommend_products','현재 설문에 대해 서버 정책으로 후보 및 제한 확인. 임의 조건 변경 불가.',{}),
@@ -94,13 +97,19 @@ class GeminiAgent:
             for p in ps:product_pool[p['id']]=p
         def retrieve(query,ids=None):
             found=repo.evidence(query,ids)
+            if candidate_ids is not None:found=[e for e in found if e.get('productId') in candidate_ids]
             source_pool.update({e['id']:e for e in found})
-            for e in found:register([repo.get_product(e['productId'])])
+            for e in found:
+                if e.get('productId'):register([repo.get_product(e['productId'])])
             return found
         if recommendation:
             register(recommendation['products'])
             source_pool.update({e['id']:e for e in recommendation['evidence']})
         if request.productId:register([repo.get_product(request.productId)])
+        # The advertised starter question must not depend on a model guessing label synonyms.
+        # General guides are retrieved per question and never admitted to recommendation evidence.
+        guides=repo.guide_evidence(request.question) if recommendation is None else []
+        source_pool.update({e['id']:e for e in guides})
 
         def execute(name,args):
             if name=='search_products' and set(args)=={'query'} and isinstance(args['query'],str):
@@ -145,11 +154,11 @@ class GeminiAgent:
                 trace.append({'tool':call.name,'ok':'error' not in result if isinstance(result,dict) else True})
                 responses.append(types.Part(function_response=types.FunctionResponse(id=call.id,name=call.name,response={'result':result})))
             contents.append(types.Content(role='user',parts=responses))
-            if source_pool and (request.productId or recommendation):break
+            if source_pool and (request.productId or recommendation or guides):break
         if not source_pool:
             retrieve('섭취' if request.productId else request.question,[request.productId] if request.productId else None)
         if not source_pool:raise AIError('AI_NO_EVIDENCE','질문과 연결되는 검수 근거를 찾지 못했어요. 제품을 선택하거나 질문을 구체적으로 적어 주세요.')
-        contents.append(types.Content(role='user',parts=[types.Part.from_text(text=json.dumps({'instruction':'이 근거만 인용해 숫자 없는 짧은 설명을 작성하세요. 후보 밖 추천 금지.','evidence':list(source_pool.values()),'allowedProductIds':candidate_ids if candidate_ids is not None else list(product_pool)},ensure_ascii=False))]))
+        contents.append(types.Content(role='user',parts=[types.Part.from_text(text=json.dumps({'instruction':'이 근거만 인용해 숫자 없는 짧은 설명을 작성하세요. 후보 밖 추천 금지. 일반 안내와 제품 표시를 구별하고, 일반 안내에 제품 수치가 들어 있다고 말하지 마세요.','evidence':list(source_pool.values()),'allowedProductIds':candidate_ids if candidate_ids is not None else list(product_pool)},ensure_ascii=False))]))
         # Gemini's Schema subset does not accept Pydantic extra='forbid' additionalProperties.
         # Send a minimal provider schema; validate the full strict Pydantic model locally.
         schema={'type':'OBJECT','properties':{'text':{'type':'STRING'},'citationIds':{'type':'ARRAY','items':{'type':'STRING'}},'productIds':{'type':'ARRAY','items':{'type':'STRING'}}},'required':['text','citationIds','productIds']}

@@ -3,7 +3,7 @@ import type {Survey} from './domain';
 import {waitUntilReady,type Connection} from './connection';
 export type {Connection} from './connection';
 export type Product=typeof productData[number];
-export type Citation={id:string;productId:string;title:string;text:string;url:string;productUrl:string;observedAt:string};
+export type Citation={id:string;productId:string|null;title:string;text:string;url:string;productUrl:string|null;observedAt:string;kind?:'label_guide'};
 export type ChatReply={text:string;mode:string;citations:Citation[];productIds:string[]};
 export type Overlap={status:string;duplicates:{name:string;items:{productId:string;productName:string;amount:string;operator:string;unit:string;basis:string|null}[];dailyTotal:{amount:string;unit:string}|null;totalStatus:string}[];notice?:string};
 export type Recommendation={status:'ok'|'empty'|'insufficient'|'restricted';message:string;nextStep?:number;policyVersion:string;products:Product[];reasons:Record<string,string[]>;evidence:Citation[];notices:string[];overlap:Overlap;ai:Partial<ChatReply>&{message?:string;code?:string}};
