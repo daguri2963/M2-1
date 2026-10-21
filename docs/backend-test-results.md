@@ -56,4 +56,4 @@ npm run build
 .venv/bin/python scripts/check_backend.py
 ```
 
-외부 배포·실사용자5명 피드백·피드백 반영 및 최종 발표자료는 후속 작업이다. 키·데이터 입력이나 서버가 바뀌면 해당 경로를 다시 확인해야 한다.
+위 로컬 검증 이후 Render 외부 배포와 실제 Gemini 검사를 진행했다. [배포 기록](deployment.md)과 [외부 API 검사 결과](deployment-api-check.json)를 참고한다. 실사용자5명 피드백·피드백 반영 및 최종 발표자료는 후속 작업이다. 키·데이터 입력이나 서버가 바뀌면 해당 경로를 다시 확인해야 한다.

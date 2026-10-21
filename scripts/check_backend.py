@@ -1,12 +1,23 @@
 """End-to-end HTTP smoke test. Uses synthetic choices and never prints session/API keys."""
 import json
+import argparse
 import time
+from datetime import datetime,timezone
 from pathlib import Path
+from urllib.parse import urlsplit
 import httpx
 
 def main():
+    parser=argparse.ArgumentParser(description=__doc__)
+    parser.add_argument('--base-url',default='http://127.0.0.1:8000',help='Backend origin; remote checks require HTTPS.')
+    parser.add_argument('--report',type=Path,default=Path(__file__).resolve().parents[1]/'docs/backend-live-check.json')
+    args=parser.parse_args()
+    origin=urlsplit(args.base_url)
+    if origin.username or origin.password or origin.query or origin.fragment or origin.path not in ('','/') or not origin.hostname or (origin.scheme!='https' and not (origin.scheme=='http' and origin.hostname in ('127.0.0.1','localhost'))):
+        parser.error('Use an HTTPS backend origin or local HTTP origin without credentials, paths or query parameters.')
+    base_url=args.base_url.rstrip('/')
     results={}
-    with httpx.Client(base_url='http://127.0.0.1:8000',timeout=65) as client:
+    with httpx.Client(base_url=base_url,timeout=65) as client:
         health=client.get('/api/health');health.raise_for_status();health=health.json()
         assert health['ready'] and health['aiConfigured']
         catalog=client.get('/api/products');catalog.raise_for_status()
@@ -31,8 +42,8 @@ def main():
         finally:
             client.delete('/api/sessions/current',headers=headers).raise_for_status()
         assert client.post('/api/chat',json={'question':'표시 설명'},headers=headers).status_code==401
-    report={'passed':True,'data':'synthetic general-adult choices and public product labels only','publicProducts':87,'checks':['health','consent','review_gate','recommendation_with_live_gemini','comparison','overlap','restricted','insufficient','chat_with_live_gemini','withdrawal'],**results}
-    (Path(__file__).resolve().parents[1]/'docs/backend-live-check.json').write_text(json.dumps(report,ensure_ascii=False,indent=2)+'\n')
+    report={'passed':True,'checkedAt':datetime.now(timezone.utc).isoformat(),'baseUrl':base_url,'data':'synthetic general-adult choices and public product labels only','publicProducts':87,'checks':['health','consent','review_gate','recommendation_with_live_gemini','comparison','overlap','restricted','insufficient','chat_with_live_gemini','withdrawal'],**results}
+    args.report.write_text(json.dumps(report,ensure_ascii=False,indent=2)+'\n')
     print(json.dumps(report,ensure_ascii=False,indent=2))
 
 if __name__=='__main__':main()

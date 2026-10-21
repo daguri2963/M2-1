@@ -12,7 +12,9 @@
 - Gemini Agent가 여러 도구 중 필요한 도구를 골라 SQLite 표시 근거를 검색하고 출처와 함께 설명합니다. 초기 연결·AI 생성·실패·재시도를 구분합니다.
 - 모바일 중심 홈·설문·결과·상세·비교·AI 대화, 성인·개인정보·AI 전송 동의와 입력 초기화를 제공합니다.
 
-실제 Gemini 키로 도구 호출·근거 검색·응답 검증을 확인했습니다. 외부 공개 배포와 실제 타깃 사용자 5명 피드백·개선은 후속 단계입니다. 초기 기획서·기여 기록·발표 자료는 실제 최종 수행 결과에 맞춰 보완해야 합니다.
+실제 Gemini 키로 도구 호출·근거 검색·응답 검증을 확인했습니다. **[배포된 서비스 열기](https://m2-1-itfc.onrender.com/)** — Render 무료 홈페이지와 백엔드에 배포하고 외부 API에서도 실제 Gemini 추천·대화를 확인했습니다. 실제 타깃 사용자 5명 피드백·개선은 후속 단계입니다. 초기 기획서·기여 기록·발표 자료는 실제 최종 수행 결과에 맞춰 보완해야 합니다.
+
+평가자는 위 홈페이지로 접속하면 됩니다. 별도 로그인 계정은 필요 없으며, 추천·대화 전 이용 안내에 동의해야 합니다. 백엔드가 대기 상태라면 처음 연결에 약 1분이 걸릴 수 있으며 화면의 준비 안내 뒤 자동으로 이어집니다. 과제 결과 안내를 받을 때까지 서비스를 유지합니다.
 
 ## 기술 선택
 
@@ -55,7 +57,7 @@ npm run preview -- --port 4173
 
 [개발 화면](http://127.0.0.1:5173/) · [완성 화면](http://127.0.0.1:4173/) · [API 문서](http://127.0.0.1:8000/docs).
 
-로컬 UI는 기본 8000번 백엔드에 연결합니다. 외부 정적 배포는 `frontend/.env.example`의 공개 `VITE_API_BASE_URL` 설정과 서버 `ALLOWED_ORIGINS`를 맞춥니다. 상품 DB는 배포 파일에 포함하며 Dockerfile도 제공합니다. 현재 외부 배포는 수행하지 않았습니다.
+로컬 UI는 기본 8000번 백엔드에 연결합니다. 외부 정적 배포는 `frontend/.env.example`의 공개 `VITE_API_BASE_URL` 설정과 서버 `ALLOWED_ORIGINS`를 맞춥니다. 상품 DB는 배포 파일에 포함하며 Dockerfile도 제공합니다. 현재 Render 배포 설정·사용량·재현 절차는 [외부 배포 기록](docs/deployment.md)을 참고합니다.
 
 ## 검증
 
@@ -83,6 +85,7 @@ npm run build
 - [핵심8개 기능 요구·평가 재현](docs/functional-requirements.md)
 - [추천 정책·지원 범위·정량 규칙](docs/recommendation-policy.md)
 - [시스템 구조·API·Gemini·RAG·정보 처리](docs/backend-api.md)
+- [외부 배포·평가자 접속·사용량](docs/deployment.md)
 - [화면 설계와 이동 흐름](docs/ui-design.md)
 - [검수 DB와 출처](docs/product-database.md)
 - [표시정보 검수 보고](docs/product-label-review.md)

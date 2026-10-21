@@ -1,0 +1,81 @@
+# Render 외부 배포
+
+배포일: 2026-10-21. 홈페이지·백엔드 모두 Render의 `live` 상태와 실제 외부 응답을 확인했다. GitHub 비공개 저장소 `sayknow/M2-1`의 `main`을 연결했다. 홈페이지 공개와 저장소 공개 여부는 별개다.
+
+## 서비스 구성
+
+| 구분 | 홈페이지 | 백엔드 |
+|---|---|---|
+| 주소 | https://m2-1-itfc.onrender.com | https://m2-1-api.onrender.com |
+| Render ID | `srv-dbc2hmbbc2fs73b29o00` | `srv-dbc2hefavr4c73ekh06g` |
+| 유형 | 무료 Static Site | Free Docker Web Service |
+| 경로 | `frontend` | 저장소 루트 |
+| 빌드 | `npm ci && npm run build` | 루트 `Dockerfile` |
+| 공개 폴더 | `dist` | 해당 없음 |
+| 실행 | 정적 파일 제공 | Dockerfile의 Uvicorn, 워커 1개 |
+| 서버 지역 | 전역 CDN | Singapore |
+| 상태 확인 | 홈페이지 접속 | `/api/health` |
+
+홈페이지는 실제 상품 이미지 87개를 포함한다. 백엔드는 검수 SQLite를 배포 이미지에 포함해 읽기 전용으로 조회한다. 상품 원본 수집·검수는 배포 중 다시 실행하지 않는다. 별도 Postgres·유료 디스크·맞춤 도메인은 생성하지 않았다.
+
+## 환경 설정
+
+홈페이지의 공개 설정:
+
+- `VITE_API_BASE_URL=https://m2-1-api.onrender.com`
+- `NODE_VERSION=24.19.0`
+- `SKIP_INSTALL_DEPS=true` — 빌드 명령의 `npm ci` 한 번으로 설치한다.
+
+백엔드 설정:
+
+- `GEMINI_API_KEY` — 사용자가 별도로 승인한 로컬 키를 Render 서버 환경변수로 등록. 값은 이 문서·Git·프런트·명령행 인자·검사 보고서에 기록하지 않는다.
+- `GEMINI_MODEL=gemini-3.5-flash-lite`
+- `ALLOWED_ORIGINS=https://m2-1-itfc.onrender.com`
+- `PORT` — Render가 제공하는 값을 Dockerfile에서 사용한다.
+
+주소를 바꿀 때 홈페이지 API 주소와 백엔드 허용 출처를 함께 갱신하고 해당 서비스를 다시 배포한다. 키 변경도 백엔드에 다시 적용해야 한다. 로컬 `.env`는 계속 Git 제외 대상이다.
+
+## 갱신과 복구
+
+관련 코드를 `main`에 푸시하면 Render가 해당 서비스를 자동 배포한다. 불필요한 문서 빌드를 줄이도록 다음 경로를 지정했다.
+
+- 홈페이지: `frontend/**`
+- 백엔드: `backend/**`, `data/products/products.sqlite3`, `Dockerfile`, `.dockerignore`
+
+설정 또는 다른 의존 경로를 추가할 때 배포 경로 필터도 함께 검토한다. 문서만 변경하면 실행 중인 앱은 이전 코드 커밋을 유지할 수 있다. 배포 실패 시 해당 서비스의 Deploys·Logs에서 실패한 단계부터 확인하며, 기존 정상 배포가 있는 경우 그 버전 유지 여부를 확인한다.
+
+무료 백엔드는 요청이 없으면 대기 상태가 되며 재기동에 약 1분이 걸릴 수 있다. 홈페이지는 독립적으로 열리고 서버 준비 안내·자동 재시도를 제공한다. 재시작 시 메모리 동의 세션은 만료되므로 다시 동의해야 한다. 사용자의 컴퓨터를 계속 켜둘 필요는 없다.
+
+배포 파일로 제공하는 상품 DB는 재시작 시 복원되지만, 서버가 실행 중에 새로 쓴 파일은 영구 보존되지 않는다. 현재는 사용자 설문·대화를 영구 저장하지 않는다. 향후 피드백 저장 기능은 별도 영구 저장소를 사용해야 한다.
+
+## 무료 이용과 사용량
+
+Free 컴퓨트와 무료 정적 사이트만 생성했다. 기존 `econscope-api`도 같은 워크스페이스에 있어 월 무료 서버 시간·전송량·빌드 분량을 공유한다. 750시간이 M2-1에 따로 배정되는 것은 아니다. Billing 화면에서 남은 사용량을 확인한다. 기존 서비스의 중지나 요금제 변경은 수행하지 않았다.
+
+Gemini 사용량은 Render와 별개다. Gemini 실패 시 규칙 기반 추천 후보는 유지하고 AI 설명 불가를 알리며, 대화는 실패 안내를 제공한다. Render 백엔드 자체가 중지되면 상품 조회·추천 등 서버 기능도 영향을 받는다.
+
+공식 안내: [무료 서비스와 한도](https://render.com/docs/free), [환경변수](https://render.com/docs/configure-environment-variables), [전송량](https://render.com/docs/outbound-bandwidth), [빌드 시간](https://render.com/docs/build-pipeline).
+
+## 외부 검증과 평가자 접속
+
+평가자는 홈페이지 주소로 접속한다. 로그인 계정은 필요 없으며 추천·대화 전 성인·정보 처리·AI 전송 동의가 필요하다. 실제 진단·약 이름·연락처 등 민감한 정보를 입력하지 않는다.
+
+외부 API 검사는 가상 선택지와 공개 상품만 사용한다. 아래 명령은 실제 Gemini 사용량을 소비한다.
+
+```sh
+.venv/bin/python scripts/check_backend.py \
+  --base-url https://m2-1-api.onrender.com \
+  --report docs/deployment-api-check.json
+```
+
+검사 결과는 `deployment-api-check.json`에 기록하고, 브라우저에서 화면·사진·동의·추천·대화·오류 상태를 추가 확인한다. 실제 타깃 사용자 5명의 피드백과 모바일 실기기 검증은 별도 단계이며, 개발자의 가상 입력 검사를 실사용자 테스트로 세지 않는다. 결과 안내를 받을 때까지 배포를 유지하고 한도·키 만료·접속 상태를 확인한다.
+
+## 배포 검증 결과
+
+- 실행 앱 커밋: `fb2cce091f495581ffdb60b7c43117f7a9168f35`. 이후 배포 문서·검사 스크립트 커밋은 경로 필터에 따라 앱 재배포를 생략할 수 있다.
+- 백엔드 최종 배포: `dep-dbc2ip1srm7s739e9gmg` (`live`). 정적 사이트 배포: `dep-dbc2hmrbc2fs73b29p00` (`live`).
+- [외부 API 실행 기록](deployment-api-check.json): 동의·검수 게이트·상품87개·실제 Gemini 추천·비교·중복·추천 제한·정보 부족·실제 대화·철회 확인. 추천+AI 약7.8초, 제품 대화 약5.2초는 단일 사례이며 성능 보장값이 아니다.
+- 홈페이지·제품 사진 HTTP200, 보류 품번404, 홈페이지 출처에 대한 CORS·동의 사전 요청 허용 확인.
+- 실제 공개 홈페이지에서 준비 안내 이후 정상 홈, 이용 동의, 5단계 가상 설문, 장 건강 후보3개·AI 설명·공식 표시 출처, 실제 Gemini 대화를 확인했다.
+- 화면 기록: [홈](screenshots/deployed-home.png), [추천](screenshots/deployed-recommendation.png), [실제 대화](screenshots/deployed-chat.png).
+- 이번 배포 검증에서 실제 사용자 건강정보는 사용하지 않았다. 모바일 실기기·다수 사용자 부하·15분 유휴 후 전체 재기동 시간은 아직 측정하지 않았다.

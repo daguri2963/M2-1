@@ -1,0 +1,55 @@
+{
+  "passed": true,
+  "checkedAt": "2026-10-21T02:55:57.325988+00:00",
+  "baseUrl": "https://m2-1-api.onrender.com",
+  "data": "synthetic general-adult choices and public product labels only",
+  "publicProducts": 87,
+  "checks": [
+    "health",
+    "consent",
+    "review_gate",
+    "recommendation_with_live_gemini",
+    "comparison",
+    "overlap",
+    "restricted",
+    "insufficient",
+    "chat_with_live_gemini",
+    "withdrawal"
+  ],
+  "recommendation": {
+    "elapsedSeconds": 7.81,
+    "productIds": [
+      "034345002",
+      "591580521",
+      "600651647"
+    ],
+    "mode": "gemini",
+    "model": "gemini-3.5-flash-lite",
+    "toolTrace": [
+      {
+        "tool": "search_evidence",
+        "ok": true
+      }
+    ],
+    "citationIds": [
+      "034345002:function",
+      "591580521:function",
+      "600651647:function"
+    ]
+  },
+  "chat": {
+    "elapsedSeconds": 5.21,
+    "mode": "gemini",
+    "model": "gemini-3.5-flash-lite",
+    "toolTrace": [
+      {
+        "tool": "get_product_details",
+        "ok": true
+      }
+    ],
+    "citationIds": [
+      "600000128:function",
+      "600000128:cautions"
+    ]
+  }
+}
