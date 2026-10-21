@@ -1,0 +1,16 @@
+.env
+.env.*
+**/.env
+**/.env.*
+.venv
+.git
+.codex
+.agents
+frontend
+docs
+data/products/labels
+data/products/review-evidence
+data/products/thumbnails
+**/__pycache__
+.pytest_cache
+backend/runtime

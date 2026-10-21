@@ -15,6 +15,9 @@ __pycache__/
 *.py[cod]
 *.log
 *.tmp
+.venv/
+.pytest_cache/
+backend/runtime/
 
 # Superseded OCR failures; successful .ocr.json evidence remains tracked
 *.ocr.error.txt

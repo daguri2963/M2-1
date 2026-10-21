@@ -1,20 +1,62 @@
-import productData from './data/products.json';
+import type productData from './data/products.json';
 import type {Survey} from './domain';
+import {waitUntilReady,type Connection} from './connection';
+export type {Connection} from './connection';
 export type Product=typeof productData[number];
-export type ChatContext={productId?:string;interests:string[]};
-export type ChatReply={text:string;productId?:string};
-export interface SelectionService { examples(survey:Survey):Promise<Product[]>; reply(question:string,context:ChatContext):Promise<ChatReply> }
-export const products:Product[]=productData;
-export const featuredIds=['600000128','600000129','600000147','610911092','600000313','601678603','610911097','032306200'];
-export const featured=featuredIds.map(id=>products.find(p=>p.id===id)!).filter(Boolean);
+export type Citation={id:string;productId:string;title:string;text:string;url:string;productUrl:string;observedAt:string};
+export type ChatReply={text:string;mode:string;citations:Citation[];productIds:string[]};
+export type Overlap={status:string;duplicates:{name:string;items:{productId:string;productName:string;amount:string;operator:string;unit:string;basis:string|null}[];dailyTotal:{amount:string;unit:string}|null;totalStatus:string}[];notice?:string};
+export type Recommendation={status:'ok'|'empty'|'insufficient'|'restricted';message:string;nextStep?:number;policyVersion:string;products:Product[];reasons:Record<string,string[]>;evidence:Citation[];notices:string[];overlap:Overlap;ai:Partial<ChatReply>&{message?:string;code?:string}};
+const local=window.location.hostname==='127.0.0.1'||window.location.hostname==='localhost';
+const base=(import.meta.env.VITE_API_BASE_URL||(local?`http://${window.location.hostname}:8000`:'')).replace(/\/$/,'');
+let token:string|undefined;
+let consentVersion='2026-10-21.1';
+let healthPromise:Promise<void>|undefined;
+let connection:Connection='checking';
+let healthCheckedAt=0;
+const listeners=new Set<(state:Connection)=>void>();
+function setConnection(state:Connection){connection=state;listeners.forEach(f=>f(state));}
+export function subscribeConnection(listener:(state:Connection)=>void){listeners.add(listener);listener(connection);return()=>{listeners.delete(listener);};}
+export class APIError extends Error{constructor(public code:string,message:string,public status=0){super(message);}}
+export async function waitForServer(){
+ if(connection==='ready'&&Date.now()-healthCheckedAt<30000)return;
+ if(healthPromise)return healthPromise;
+ healthPromise=(async()=>{
+  try{const health=await waitUntilReady({onState:setConnection,probe:async()=>{
+   const controller=new AbortController();const timeout=setTimeout(()=>controller.abort(),5000);
+   try{const r=await fetch(base+'/api/health',{signal:controller.signal,cache:'no-store'});if(!r.ok)throw new Error('not ready');return await r.json() as {ready:boolean;consentVersion:string};}finally{clearTimeout(timeout);}
+  }});consentVersion=health.consentVersion;healthCheckedAt=Date.now();}catch{throw new APIError('SERVER_UNAVAILABLE','서버 연결이 지연되고 있어요. 잠시 후 다시 시도해 주세요.');}
+ })().finally(()=>{healthPromise=undefined;});
+ return healthPromise;
+}
+async function request<T>(path:string,body?:unknown,options:{signal?:AbortSignal;personal?:boolean;method?:string;timeout?:number}={}):Promise<T>{
+ await waitForServer();
+ if(options.personal&&!token)throw new APIError('CONSENT_REQUIRED','이용 안내에 먼저 동의해 주세요.',401);
+ const controller=new AbortController();const onAbort=()=>controller.abort();options.signal?.addEventListener('abort',onAbort,{once:true});
+ if(options.signal?.aborted)controller.abort();
+ const timer=setTimeout(()=>controller.abort(),options.timeout??65000);
+ try{
+  const r=await fetch(base+path,{method:options.method||(body===undefined?'GET':'POST'),headers:{...(body===undefined?{}:{'Content-Type':'application/json'}),...(options.personal?{'X-Session-Token':token!}:{})},body:body===undefined?undefined:JSON.stringify(body),signal:controller.signal,cache:'no-store'});
+  const data=await r.json();
+  if(!r.ok){if(r.status===401){token=undefined;window.dispatchEvent(new Event('session-expired'));}throw new APIError(data.error?.code||'REQUEST_ERROR',data.error?.message||'요청을 처리하지 못했어요.',r.status);}
+  return data;
+ }catch(error){
+  if(error instanceof APIError)throw error;
+  if(options.signal?.aborted)throw error;
+  setConnection('offline');healthCheckedAt=0;
+  throw new APIError('NETWORK_ERROR','연결이 끊겼거나 응답이 지연되고 있어요. 다시 시도해 주세요.');
+ }finally{clearTimeout(timer);options.signal?.removeEventListener('abort',onAbort);}
+}
+export let products:Product[]=[];
+const featuredIds=['600000128','600000129','600000147','610911092','600000313','601678603','610911097','032306200'];
+export let featured:Product[]=[];
 export const getProduct=(id:string)=>products.find(p=>p.id===id);
-export const mockService:SelectionService={
- async examples(_survey){return ['032306200','610911092','600000128'].map(id=>getProduct(id)!);},
- async reply(question,context){
-  const p=context.productId?getProduct(context.productId):undefined;
-  if(p)return {text:`‘${p.name}’의 검수된 표시를 함께 볼게요.\n\n표시 섭취방법: ${p.intake||'표시 확인이 필요해요.'}\n\n함량은 각 제품의 기준량과 단위를 함께 읽어야 해요. 개인별 섭취 적합성이나 병용 가능 여부는 이 화면 체험에서 판단하지 않아요. 상세 화면에서 주의사항 전체를 확인해 주세요.`,productId:p.id};
-  if(/차이|비교|함량/.test(question))return {text:'함량 숫자 옆의 단위와 기준량을 먼저 확인해 보세요. ‘1정당’과 ‘하루 4정당’, ‘총내용량당’은 같은 기준이 아니에요.\n\n비교 화면에서 두 제품의 기준을 나란히 확인할 수 있어요. 기준이 다르면 함량을 자동 환산하거나 우열을 정하지 않아요.'};
-  if(/처음|시작|골라/.test(question))return {text:'처음이라면 관심 분야를 정하고, 이미 먹는 제품이 있는지 확인한 뒤 제품 표시를 읽어 보세요.\n\n이 체험에서는 설문을 입력해도 개인에게 맞춘 추천을 계산하지 않아요. 준비된 예시 제품으로 성분·기준량·주의사항을 살펴보고 비교하는 흐름을 체험할 수 있어요.'};
-  return {text:'이 답변은 미리 작성한 화면 체험 안내예요. 실시간 AI와 연결되어 있지 않아 질문에 대한 개인화된 판단은 제공하지 않아요.\n\n제품을 고를 때는 식품유형, 성분의 단위·기준량, 표시 섭취방법과 주의사항을 함께 확인해 주세요. 제품 상세에서 검수된 정보와 공식 출처를 볼 수 있어요.'};
- }
+export async function loadProducts(signal?:AbortSignal){const data=await request<{products:Product[]}>('/api/products',undefined,{signal});products=data.products;featured=featuredIds.map(id=>getProduct(id)!).filter(Boolean);return products;}
+export const api={
+ async consent(){const data=await request<{token:string}>('/api/sessions',{adultConfirmed:true,privacyAccepted:true,aiAccepted:true,version:consentVersion});token=data.token;},
+ async clearSession(){try{if(token)await request('/api/sessions/current',undefined,{personal:true,method:'DELETE'});}finally{token=undefined;}},
+ detail(id:string,signal?:AbortSignal){return request<Product>('/api/products/'+encodeURIComponent(id),undefined,{signal});},
+ compare(productIds:string[],signal?:AbortSignal){return request<{rows:{label:string;values:string[]}[];notice:string}>('/api/compare',{productIds},{signal});},
+ recommend(survey:Survey,signal?:AbortSignal){return request<Recommendation>('/api/recommendations',survey,{personal:true,signal});},
+ reply(question:string,context:{productId?:string;survey?:Survey;history:{role:'user'|'assistant';text:string}[]},signal?:AbortSignal){return request<ChatReply>('/api/chat',{question,...context},{personal:true,signal});}
 };

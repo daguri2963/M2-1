@@ -1,0 +1,8 @@
+{
+  "passed": true,
+  "catalog_products": 88,
+  "available": 88,
+  "public_products": 87,
+  "unique_images": 88,
+  "scope": "official DOM SKU linkage, image bytes/hash, database and public export; no change to label or recommendation gates"
+}

@@ -164,9 +164,14 @@ for item in catalog['products']:
 review_ledger_path=DATA/'label-review-ledger.json'
 review_ledger=json.loads(review_ledger_path.read_text()) if review_ledger_path.exists() else {}
 corrections=apply_reviews(products,review_ledger,split_ingredients)
+thumbnail_manifest_path=DATA/'product-thumbnails.json'
+thumbnail_manifest=json.loads(thumbnail_manifest_path.read_text()) if thumbnail_manifest_path.exists() else {'products':[]}
+thumbnail_map={x['product_number']:x for x in thumbnail_manifest['products']}
+for p in products:
+ p['thumbnail']=thumbnail_map.get(p['product_number'],{'product_number':p['product_number'],'status':'unavailable','missing_reason':'Official thumbnail not collected'})
 dump(DATA/'label-review-corrections.json',{'changes':corrections})
 summary={'products':len(products),'attempted':sum(bool(p['attempts']) for p in products),'label_assets_saved':sum(p['label_assets_saved'] for p in products),'ocr_products':sum(any(s['raw_ocr_text'] for s in p['sources']) for p in products),'raw_material_blocks_products':sum(bool(p['fields']['raw_materials']['candidate_blocks']) for p in products),'nutrient_candidate_products':sum(bool(p['nutrient_candidates']) for p in products),'ingredient_candidate_rows':sum(len(p['ingredient_candidates']) for p in products),'nutrient_candidate_rows':sum(len(p['nutrient_candidates']) for p in products),'direct_visual_nutrient_rows':sum(len(p['reviewed_nutrients']) for p in products),'direct_visual_ingredient_rows':sum(len(p['reviewed_ingredients']) for p in products),'historical_visual_sample_products':sum(bool(p['review']) for p in products),'visual_inspected_products':sum(bool(p.get('label_review',{}).get('visual_inspection')) for p in products),'prior_nutrient_rows':sum(len(p['prior_nutrient_evidence']) for p in products),'full_label_verified':sum(p.get('data_review_status')=='verified' for p in products),'review_status_counts':dict(Counter(p.get('data_review_status','pending') for p in products)),'recommendation_eligible':0,'status_counts':dict(Counter(p['collection_status'] for p in products))}
-normalized={'schema_version':'0.3','observed_on':DATE,'summary':summary,'products':products}
+normalized={'schema_version':'0.4','observed_on':DATE,'summary':summary,'products':products}
 dump(DATA/'products-normalized.json',normalized)
 # SQLite is an actual queryable database; all provisional information carries status.
 schema=(ROOT/'scripts/product_schema.sql').read_text()
@@ -199,6 +204,9 @@ for p in products:
   if f.get('reviewed_at'):con.execute('INSERT INTO field_review_dates VALUES(?,?,?)',(p['product_number'],key,f['reviewed_at']))
 for v in corrections:
  con.execute('INSERT INTO correction_history(product_id,field_name,old_json,new_json,reason,source_id,reviewed_at) VALUES(?,?,?,?,?,?,?)',(v['product_id'],v['field'],json.dumps(v['old'],ensure_ascii=False),json.dumps(v['new'],ensure_ascii=False),v['reason'],v['source_id'],v['reviewed_at']))
+for p in products:
+ image=p['thumbnail']
+ con.execute('INSERT INTO product_thumbnails VALUES(?,?,?,?,?,?,?,?,?,?,?)',(p['product_number'],image['status'],image.get('source_url'),image.get('page_url'),image.get('local_path'),image.get('sha256'),image.get('width'),image.get('height'),image.get('observed_on'),image.get('missing_reason'),json.dumps(image,ensure_ascii=False)))
 con.commit();con.close();tmp.replace(DATA/'products.sqlite3')
 with (DATA/'nutrient-candidates.csv').open('w',encoding='utf-8-sig',newline='') as f:
  cols=['product_number','name_raw','amount','amount_raw','operator','unit_raw','basis_raw','basis_status','nrv_percent_raw','raw_text','status','source_url'];w=csv.DictWriter(f,fieldnames=cols,extrasaction='ignore');w.writeheader()

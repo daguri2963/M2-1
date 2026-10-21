@@ -1,0 +1,38 @@
+"""End-to-end HTTP smoke test. Uses synthetic choices and never prints session/API keys."""
+import json
+import time
+from pathlib import Path
+import httpx
+
+def main():
+    results={}
+    with httpx.Client(base_url='http://127.0.0.1:8000',timeout=65) as client:
+        health=client.get('/api/health');health.raise_for_status();health=health.json()
+        assert health['ready'] and health['aiConfigured']
+        catalog=client.get('/api/products');catalog.raise_for_status()
+        assert len(catalog.json()['products'])==87
+        assert client.get('/api/products/600651654').status_code==404
+        consent=client.post('/api/sessions',json={'adultConfirmed':True,'privacyAccepted':True,'aiAccepted':True,'version':health['consentVersion']})
+        consent.raise_for_status();headers={'X-Session-Token':consent.json()['token']}
+        try:
+            profile={'interests':['장 건강'],'habits':['다양하게 먹는 편이에요'],'existing':'없어요','productIds':[],'cautions':['해당 없어요'],'budget':'5,000원 이하','form':''}
+            started=time.monotonic();response=client.post('/api/recommendations',json=profile,headers=headers);response.raise_for_status();recommendation=response.json()
+            assert recommendation['status']=='ok' and recommendation['ai']['mode']=='gemini'
+            results['recommendation']={'elapsedSeconds':round(time.monotonic()-started,2),'productIds':[p['id'] for p in recommendation['products']],'mode':recommendation['ai']['mode'],'model':recommendation['ai']['model'],'toolTrace':recommendation['ai']['toolTrace'],'citationIds':[e['id'] for e in recommendation['ai']['citations']]}
+            response=client.post('/api/compare',json={'productIds':['600000128','600000147']});response.raise_for_status();assert response.json()['rows']
+            response=client.post('/api/overlap',json={'productIds':['600000128','600000270']},headers=headers);response.raise_for_status();assert response.json()['duplicates']
+            restricted=client.post('/api/recommendations',json={**profile,'cautions':['임신·수유 중이에요']},headers=headers)
+            assert restricted.json()['status']=='restricted' and not restricted.json()['products']
+            unknown=client.post('/api/recommendations',json={**profile,'existing':'목록에 없어요'},headers=headers)
+            assert unknown.json()['status']=='insufficient'
+            started=time.monotonic();response=client.post('/api/chat',json={'question':'표시 기능과 주의사항을 확인할 곳을 설명해 주세요.','productId':'600000128'},headers=headers);response.raise_for_status();answer=response.json()
+            assert answer['mode']=='gemini' and answer['citations']
+            results['chat']={'elapsedSeconds':round(time.monotonic()-started,2),'mode':answer['mode'],'model':answer['model'],'toolTrace':answer['toolTrace'],'citationIds':[e['id'] for e in answer['citations']]}
+        finally:
+            client.delete('/api/sessions/current',headers=headers).raise_for_status()
+        assert client.post('/api/chat',json={'question':'표시 설명'},headers=headers).status_code==401
+    report={'passed':True,'data':'synthetic general-adult choices and public product labels only','publicProducts':87,'checks':['health','consent','review_gate','recommendation_with_live_gemini','comparison','overlap','restricted','insufficient','chat_with_live_gemini','withdrawal'],**results}
+    (Path(__file__).resolve().parents[1]/'docs/backend-live-check.json').write_text(json.dumps(report,ensure_ascii=False,indent=2)+'\n')
+    print(json.dumps(report,ensure_ascii=False,indent=2))
+
+if __name__=='__main__':main()

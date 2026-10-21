@@ -1,5 +1,5 @@
 {
-  "schema_version": "0.3",
+  "schema_version": "0.4",
   "observed_on": "2026-10-19",
   "summary": {
     "products": 88,
@@ -1087,7 +1087,27 @@
         },
         "primary_source_id": "label-0001"
       },
-      "data_review_status": "verified"
+      "data_review_status": "verified",
+      "thumbnail": {
+        "product_number": "610911101",
+        "catalog_name": "[강력한 상쾌함] [신혜선 PICK] 동국제약 프로폴리스 프레쉬볼 스트롱민트 20캡슐 20일분",
+        "status": "available",
+        "missing_reason": null,
+        "source_url": "https://cdn.daisomall.co.kr/file/resize/PD/20260907/thumb/300/BQeSyYNH21gmMrEclYYV610911101_00_01BQeSyYNH21gmMrEclYYV.jpg",
+        "page_url": "https://www.daisomall.co.kr/ds/diy2/C246",
+        "detail_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=610911101&recmYn=N",
+        "displayed_name": "[강력한 상쾌함] [신혜선 PICK] 동국제약 프로폴리스 프레쉬볼 스트롱민트 20캡슐 20일분",
+        "local_path": "data/products/thumbnails/610911101.jpg",
+        "sha256": "ddd11a1839f0fac57a053a3e89630caceec1b87efd4a560e8ce8c64096f768c4",
+        "byte_size": 16954,
+        "width": 300,
+        "height": 398,
+        "content_type": "image/webp",
+        "observed_on": "2026-10-21",
+        "downloaded_at": "2026-10-21T10:13:58+09:00",
+        "method": "official_browser_product_card_dom",
+        "identity_match": "official_product_link_and_image_filename_sku"
+      }
     },
     {
       "product_number": "610911102",
@@ -2343,7 +2363,27 @@
         },
         "primary_source_id": "label-0002"
       },
-      "data_review_status": "verified"
+      "data_review_status": "verified",
+      "thumbnail": {
+        "product_number": "610911102",
+        "catalog_name": "[산뜻한 상쾌함] [신혜선 PICK] 동국제약 프로폴리스 프레쉬볼 레몬＆민트 20캡슐 20일분",
+        "status": "available",
+        "missing_reason": null,
+        "source_url": "https://cdn.daisomall.co.kr/file/resize/PD/20260907/thumb/300/D3MtLfS4wvzyyoiG4ppT610911102_00_01D3MtLfS4wvzyyoiG4ppT.jpg",
+        "page_url": "https://www.daisomall.co.kr/ds/diy2/C246",
+        "detail_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=610911102&recmYn=N",
+        "displayed_name": "[산뜻한 상쾌함] [신혜선 PICK] 동국제약 프로폴리스 프레쉬볼 레몬＆민트 20캡슐 20일분",
+        "local_path": "data/products/thumbnails/610911102.jpg",
+        "sha256": "f9f8468fb2c193168d12f5a959a2e94e7a0b15879c312c40f9629bbc0606bc14",
+        "byte_size": 15758,
+        "width": 300,
+        "height": 398,
+        "content_type": "image/webp",
+        "observed_on": "2026-10-21",
+        "downloaded_at": "2026-10-21T10:13:58+09:00",
+        "method": "official_browser_product_card_dom",
+        "identity_match": "official_product_link_and_image_filename_sku"
+      }
     },
     {
       "product_number": "601678608",
@@ -3268,7 +3308,27 @@
         },
         "primary_source_id": "label-0003"
       },
-      "data_review_status": "verified"
+      "data_review_status": "verified",
+      "thumbnail": {
+        "product_number": "601678608",
+        "catalog_name": "[식후 혈당] 동화 배러크런치 바나바 요구르트맛 30정 10일분",
+        "status": "available",
+        "missing_reason": null,
+        "source_url": "https://cdn.daisomall.co.kr/file/resize/PD/20260825/thumb/300/oxNqPxCfU3Tre5j0PQQk601678608_00_02oxNqPxCfU3Tre5j0PQQk.jpg",
+        "page_url": "https://www.daisomall.co.kr/ds/diy2/C246",
+        "detail_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=601678608&recmYn=N",
+        "displayed_name": "[식후 혈당] 동화 배러크런치 바나바 요구르트맛 30정 10일분",
+        "local_path": "data/products/thumbnails/601678608.jpg",
+        "sha256": "7e1c9fb53f7329851b00b99543b53ae08ff37d5c416b951c2b075c0d422e232f",
+        "byte_size": 17746,
+        "width": 300,
+        "height": 300,
+        "content_type": "image/webp",
+        "observed_on": "2026-10-21",
+        "downloaded_at": "2026-10-21T10:13:58+09:00",
+        "method": "official_browser_product_card_dom",
+        "identity_match": "official_product_link_and_image_filename_sku"
+      }
     },
     {
       "product_number": "976195543",
@@ -5038,7 +5098,27 @@
         },
         "primary_source_id": "label-0004"
       },
-      "data_review_status": "verified"
+      "data_review_status": "verified",
+      "thumbnail": {
+        "product_number": "976195543",
+        "catalog_name": "스키니랩 다이글로핏 다이어트 플러스 7정 7일분",
+        "status": "available",
+        "missing_reason": null,
+        "source_url": "https://cdn.daisomall.co.kr/file/resize/PD/20261013/thumb/300/gVty8q4kjdOzvveGcanw976195543_00_01gVty8q4kjdOzvveGcanw.png",
+        "page_url": "https://www.daisomall.co.kr/ds/diy2/C246",
+        "detail_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=976195543&recmYn=N",
+        "displayed_name": "스키니랩 다이글로핏 다이어트 플러스 7정 7일분",
+        "local_path": "data/products/thumbnails/976195543.png",
+        "sha256": "9bd384e2d533cfe4e5ffc0a233b5f5eacc7f46b7c3ea7e577c31d9e1e35221cd",
+        "byte_size": 17486,
+        "width": 300,
+        "height": 362,
+        "content_type": "image/webp",
+        "observed_on": "2026-10-21",
+        "downloaded_at": "2026-10-21T10:13:58+09:00",
+        "method": "official_browser_product_card_dom",
+        "identity_match": "official_product_link_and_image_filename_sku"
+      }
     },
     {
       "product_number": "610911213",
@@ -6639,7 +6719,27 @@
         },
         "primary_source_id": "label-0005"
       },
-      "data_review_status": "verified"
+      "data_review_status": "verified",
+      "thumbnail": {
+        "product_number": "610911213",
+        "catalog_name": "[옥수수수염＆호박] 동국제약 맛있는 센텔라 공주캔디 20정 20일분",
+        "status": "available",
+        "missing_reason": null,
+        "source_url": "https://cdn.daisomall.co.kr/file/resize/PD/20260907/thumb/300/E3CpURjLLswf9MgzRChF610911213_00_01E3CpURjLLswf9MgzRChF.jpg",
+        "page_url": "https://www.daisomall.co.kr/ds/diy2/C246",
+        "detail_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=610911213&recmYn=N",
+        "displayed_name": "[옥수수수염＆호박] 동국제약 맛있는 센텔라 공주캔디 20정 20일분",
+        "local_path": "data/products/thumbnails/610911213.jpg",
+        "sha256": "909b0a64f76433ff5af74f32e2dffbd7aacde3605a6b655e95b89613bca2d9fb",
+        "byte_size": 21164,
+        "width": 300,
+        "height": 398,
+        "content_type": "image/webp",
+        "observed_on": "2026-10-21",
+        "downloaded_at": "2026-10-21T10:13:58+09:00",
+        "method": "official_browser_product_card_dom",
+        "identity_match": "official_product_link_and_image_filename_sku"
+      }
     },
     {
       "product_number": "919157094",
@@ -7682,7 +7782,27 @@
         },
         "primary_source_id": "label-0006"
       },
-      "data_review_status": "verified"
+      "data_review_status": "verified",
+      "thumbnail": {
+        "product_number": "919157094",
+        "catalog_name": "휴럼 하루한알 침향환 9환 9일분",
+        "status": "available",
+        "missing_reason": null,
+        "source_url": "https://cdn.daisomall.co.kr/file/resize/PD/20260826/thumb/300/o7EiJdX7BYMCuTvEmVmE919157094_00_01o7EiJdX7BYMCuTvEmVmE.jpg",
+        "page_url": "https://www.daisomall.co.kr/ds/diy2/C246",
+        "detail_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=919157094&recmYn=N",
+        "displayed_name": "휴럼 하루한알 침향환 9환 9일분",
+        "local_path": "data/products/thumbnails/919157094.jpg",
+        "sha256": "beaf5a1e2fbeee08c4d647afd45766880d9f7ab4cb9bba21d1587bd45185b09a",
+        "byte_size": 19786,
+        "width": 300,
+        "height": 400,
+        "content_type": "image/webp",
+        "observed_on": "2026-10-21",
+        "downloaded_at": "2026-10-21T10:13:58+09:00",
+        "method": "official_browser_product_card_dom",
+        "identity_match": "official_product_link_and_image_filename_sku"
+      }
     },
     {
       "product_number": "987253328",
@@ -8797,7 +8917,27 @@
         },
         "primary_source_id": "label-0019"
       },
-      "data_review_status": "verified"
+      "data_review_status": "verified",
+      "thumbnail": {
+        "product_number": "987253328",
+        "catalog_name": "[김종국 PICK] 익스트림 블랙마카 800+ 60정 30일분",
+        "status": "available",
+        "missing_reason": null,
+        "source_url": "https://cdn.daisomall.co.kr/file/resize/PD/20260918/thumb/300/uXmoQJssWxHWVCWjDLVM987253328_00_00uXmoQJssWxHWVCWjDLVM.jpg",
+        "page_url": "https://www.daisomall.co.kr/ds/diy2/C246",
+        "detail_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=987253328&recmYn=N",
+        "displayed_name": "[김종국 PICK] 익스트림 블랙마카 800+ 60정 30일분",
+        "local_path": "data/products/thumbnails/987253328.jpg",
+        "sha256": "407cd71b1df2382c79a49c0b953a42c94ec83e98c96422a00b2fc16d70692f44",
+        "byte_size": 18408,
+        "width": 300,
+        "height": 400,
+        "content_type": "image/webp",
+        "observed_on": "2026-10-21",
+        "downloaded_at": "2026-10-21T10:13:58+09:00",
+        "method": "official_browser_product_card_dom",
+        "identity_match": "official_product_link_and_image_filename_sku"
+      }
     },
     {
       "product_number": "610911092",
@@ -9559,7 +9699,27 @@
         },
         "primary_source_id": "label-0020"
       },
-      "data_review_status": "verified"
+      "data_review_status": "verified",
+      "thumbnail": {
+        "product_number": "610911092",
+        "catalog_name": "[신혜선 PICK] 동국제약 프라임도스 비타민C 2000 30포 30일분",
+        "status": "available",
+        "missing_reason": null,
+        "source_url": "https://cdn.daisomall.co.kr/file/resize/PD/20260814/thumb/300/qU3FUPerTqzVYxrqf7Lx610911092_00_01qU3FUPerTqzVYxrqf7Lx.jpg",
+        "page_url": "https://www.daisomall.co.kr/ds/diy2/C246",
+        "detail_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=610911092&recmYn=N",
+        "displayed_name": "[신혜선 PICK] 동국제약 프라임도스 비타민C 2000 30포 30일분",
+        "local_path": "data/products/thumbnails/610911092.jpg",
+        "sha256": "90743a48576783f8a3070c811972cee7e3eea666c949d33c2961473074310eff",
+        "byte_size": 16432,
+        "width": 300,
+        "height": 398,
+        "content_type": "image/webp",
+        "observed_on": "2026-10-21",
+        "downloaded_at": "2026-10-21T10:13:58+09:00",
+        "method": "official_browser_product_card_dom",
+        "identity_match": "official_product_link_and_image_filename_sku"
+      }
     },
     {
       "product_number": "032306284",
@@ -10827,7 +10987,27 @@
         },
         "primary_source_id": "label-0021"
       },
-      "data_review_status": "verified"
+      "data_review_status": "verified",
+      "thumbnail": {
+        "product_number": "032306284",
+        "catalog_name": "닥터블릿 푸응 7 Days 슬립앤버닝 14정 7일분",
+        "status": "available",
+        "missing_reason": null,
+        "source_url": "https://cdn.daisomall.co.kr/file/resize/PD/20260805/thumb/300/e483TrUWUwCko9CBv1Da032306284_00_00e483TrUWUwCko9CBv1Da.png",
+        "page_url": "https://www.daisomall.co.kr/ds/diy2/C246",
+        "detail_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=032306284&recmYn=N",
+        "displayed_name": "닥터블릿 푸응 7 Days 슬립앤버닝 14정 7일분",
+        "local_path": "data/products/thumbnails/032306284.png",
+        "sha256": "da306810c539106f726f614cf9598ab2d733500db06a12333a837be0e0eefac8",
+        "byte_size": 20116,
+        "width": 300,
+        "height": 400,
+        "content_type": "image/webp",
+        "observed_on": "2026-10-21",
+        "downloaded_at": "2026-10-21T10:13:58+09:00",
+        "method": "official_browser_product_card_dom",
+        "identity_match": "official_product_link_and_image_filename_sku"
+      }
     },
     {
       "product_number": "286314466",
@@ -12153,7 +12333,27 @@
         },
         "primary_source_id": "label-0022"
       },
-      "data_review_status": "verified"
+      "data_review_status": "verified",
+      "thumbnail": {
+        "product_number": "286314466",
+        "catalog_name": "닥터블릿 스트레스 케어 테아닌 30정 30일분",
+        "status": "available",
+        "missing_reason": null,
+        "source_url": "https://cdn.daisomall.co.kr/file/resize/PD/20260805/thumb/300/2bO6NPfrJW4dB8O5FDEz286314466_00_002bO6NPfrJW4dB8O5FDEz.png",
+        "page_url": "https://www.daisomall.co.kr/ds/diy2/C246",
+        "detail_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=286314466&recmYn=N",
+        "displayed_name": "닥터블릿 스트레스 케어 테아닌 30정 30일분",
+        "local_path": "data/products/thumbnails/286314466.png",
+        "sha256": "5e724739842e83d80e3afc99241c0984a8167f25fd7a0b84a54c6daec0566c51",
+        "byte_size": 20502,
+        "width": 300,
+        "height": 400,
+        "content_type": "image/webp",
+        "observed_on": "2026-10-21",
+        "downloaded_at": "2026-10-21T10:13:58+09:00",
+        "method": "official_browser_product_card_dom",
+        "identity_match": "official_product_link_and_image_filename_sku"
+      }
     },
     {
       "product_number": "610911093",
@@ -13593,7 +13793,27 @@
         },
         "primary_source_id": "label-0023"
       },
-      "data_review_status": "verified"
+      "data_review_status": "verified",
+      "thumbnail": {
+        "product_number": "610911093",
+        "catalog_name": "[신혜선 PICK] 동국제약 프라임도스 비타민B 맥스 30정 30일분",
+        "status": "available",
+        "missing_reason": null,
+        "source_url": "https://cdn.daisomall.co.kr/file/resize/PD/20260814/thumb/300/Q823T3m7aYDYd4gzOILy610911093_00_01Q823T3m7aYDYd4gzOILy.jpg",
+        "page_url": "https://www.daisomall.co.kr/ds/diy2/C246",
+        "detail_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=610911093&recmYn=N",
+        "displayed_name": "[신혜선 PICK] 동국제약  프라임도스 비타민B 맥스 30정 30일분",
+        "local_path": "data/products/thumbnails/610911093.jpg",
+        "sha256": "2eab9e2d86d41372799c99c9be5367a97c11a43733d60e2a3bedafee4069f9e3",
+        "byte_size": 16950,
+        "width": 300,
+        "height": 398,
+        "content_type": "image/webp",
+        "observed_on": "2026-10-21",
+        "downloaded_at": "2026-10-21T10:13:58+09:00",
+        "method": "official_browser_product_card_dom",
+        "identity_match": "official_product_link_and_image_filename_sku"
+      }
     },
     {
       "product_number": "601678606",
@@ -14549,7 +14769,27 @@
         },
         "primary_source_id": "label-0024"
       },
-      "data_review_status": "verified"
+      "data_review_status": "verified",
+      "thumbnail": {
+        "product_number": "601678606",
+        "catalog_name": "[정상 면역] 동화약품 배러크런치 아연 청포도맛 30정 10일분",
+        "status": "available",
+        "missing_reason": null,
+        "source_url": "https://cdn.daisomall.co.kr/file/resize/PD/20260825/thumb/300/9arKLwQMyanllW5dsWAc601678606_00_029arKLwQMyanllW5dsWAc.jpg",
+        "page_url": "https://www.daisomall.co.kr/ds/diy2/C246",
+        "detail_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=601678606&recmYn=N",
+        "displayed_name": "[정상 면역] 동화약품 배러크런치 아연 청포도맛 30정 10일분",
+        "local_path": "data/products/thumbnails/601678606.jpg",
+        "sha256": "d8603da47a0465a5ce0817c952fd37853e0960c94e96775c4877c9b75b054063",
+        "byte_size": 23434,
+        "width": 300,
+        "height": 300,
+        "content_type": "image/webp",
+        "observed_on": "2026-10-21",
+        "downloaded_at": "2026-10-21T10:13:58+09:00",
+        "method": "official_browser_product_card_dom",
+        "identity_match": "official_product_link_and_image_filename_sku"
+      }
     },
     {
       "product_number": "610911095",
@@ -15571,7 +15811,27 @@
         },
         "primary_source_id": "label-0025"
       },
-      "data_review_status": "verified"
+      "data_review_status": "verified",
+      "thumbnail": {
+        "product_number": "610911095",
+        "catalog_name": "[신혜선 PICK] 동국제약 프라임도스 비타민D3 4000IU 60정 60일분",
+        "status": "available",
+        "missing_reason": null,
+        "source_url": "https://cdn.daisomall.co.kr/file/resize/PD/20260814/thumb/300/OCdRZHWMgR1UGDUjFQp4610911095_00_01OCdRZHWMgR1UGDUjFQp4.jpg",
+        "page_url": "https://www.daisomall.co.kr/ds/diy2/C246",
+        "detail_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=610911095&recmYn=N",
+        "displayed_name": "[신혜선 PICK] 동국제약  프라임도스 비타민D3 4000IU 60정 60일분",
+        "local_path": "data/products/thumbnails/610911095.jpg",
+        "sha256": "7b22ab3e2ba3f78043f305ea1e869a84a866d4ec3d73a7d1fa920d4538b8aaaa",
+        "byte_size": 16244,
+        "width": 300,
+        "height": 398,
+        "content_type": "image/webp",
+        "observed_on": "2026-10-21",
+        "downloaded_at": "2026-10-21T10:13:58+09:00",
+        "method": "official_browser_product_card_dom",
+        "identity_match": "official_product_link_and_image_filename_sku"
+      }
     },
     {
       "product_number": "610911100",
@@ -17028,7 +17288,27 @@
         },
         "primary_source_id": "label-0026"
       },
-      "data_review_status": "verified"
+      "data_review_status": "verified",
+      "thumbnail": {
+        "product_number": "610911100",
+        "catalog_name": "[신혜선 PICK] 동국제약 판비틴 맥주효모 비오틴 14포 14일분",
+        "status": "available",
+        "missing_reason": null,
+        "source_url": "https://cdn.daisomall.co.kr/file/resize/PD/20260812/thumb/300/gu25Tm6cSMq795ZE5KWj610911100_00_01gu25Tm6cSMq795ZE5KWj.jpg",
+        "page_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=610911100",
+        "detail_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=610911100",
+        "displayed_name": "[신혜선 PICK] 동국제약 판비틴 맥주효모 비오틴 14포 14일분",
+        "local_path": "data/products/thumbnails/610911100.jpg",
+        "sha256": "df2ce15f7a1f19ab45ffa812148850be03c1c0c17127862b565804d994ed67fb",
+        "byte_size": 14956,
+        "width": 300,
+        "height": 398,
+        "content_type": "image/webp",
+        "observed_on": "2026-10-21",
+        "downloaded_at": "2026-10-21T10:13:58+09:00",
+        "method": "official_browser_product_detail_thumbnail",
+        "identity_match": "official_product_link_and_image_filename_sku"
+      }
     },
     {
       "product_number": "985472881",
@@ -18152,7 +18432,27 @@
         },
         "primary_source_id": "label-0027"
       },
-      "data_review_status": "verified"
+      "data_review_status": "verified",
+      "thumbnail": {
+        "product_number": "985472881",
+        "catalog_name": "[보장균수 20억 CFU] 안국약품 뽀로로 유산균 요구르트맛 30포 30일분",
+        "status": "available",
+        "missing_reason": null,
+        "source_url": "https://cdn.daisomall.co.kr/file/resize/PD/20260828/thumb/300/2kboGsdLsIgwj2Bruuuv985472881_00_012kboGsdLsIgwj2Bruuuv.jpg",
+        "page_url": "https://www.daisomall.co.kr/ds/diy2/C246",
+        "detail_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=985472881&recmYn=N",
+        "displayed_name": "[보장균수 20억 CFU] 안국약품 뽀로로 유산균 요구르트맛 30포 30일분",
+        "local_path": "data/products/thumbnails/985472881.jpg",
+        "sha256": "30dd2e13a8a6cea26ee690cdbd649e3d5f13ae1421125bfa338cf264a7996846",
+        "byte_size": 34088,
+        "width": 300,
+        "height": 400,
+        "content_type": "image/webp",
+        "observed_on": "2026-10-21",
+        "downloaded_at": "2026-10-21T10:13:58+09:00",
+        "method": "official_browser_product_card_dom",
+        "identity_match": "official_product_link_and_image_filename_sku"
+      }
     },
     {
       "product_number": "601678603",
@@ -19026,7 +19326,27 @@
         },
         "primary_source_id": "label-0028"
       },
-      "data_review_status": "verified"
+      "data_review_status": "verified",
+      "thumbnail": {
+        "product_number": "601678603",
+        "catalog_name": "[에너지] 동화약품 배러크런치B 오렌지맛 30정 10일분",
+        "status": "available",
+        "missing_reason": null,
+        "source_url": "https://cdn.daisomall.co.kr/file/resize/PD/20260825/thumb/300/1iaDXDZs14qWRuWOkuNr601678603_00_021iaDXDZs14qWRuWOkuNr.jpg",
+        "page_url": "https://www.daisomall.co.kr/ds/diy2/C246",
+        "detail_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=601678603&recmYn=N",
+        "displayed_name": "[에너지] 동화약품 배러크런치B 오렌지맛 30정 10일분",
+        "local_path": "data/products/thumbnails/601678603.jpg",
+        "sha256": "f882d946e9901a847414fbd8a6aa8e0189e73505a62ecd1ff5b6089126c9846a",
+        "byte_size": 18796,
+        "width": 300,
+        "height": 300,
+        "content_type": "image/webp",
+        "observed_on": "2026-10-21",
+        "downloaded_at": "2026-10-21T10:13:58+09:00",
+        "method": "official_browser_product_card_dom",
+        "identity_match": "official_product_link_and_image_filename_sku"
+      }
     },
     {
       "product_number": "601678604",
@@ -19974,7 +20294,27 @@
         },
         "primary_source_id": "label-0029"
       },
-      "data_review_status": "verified"
+      "data_review_status": "verified",
+      "thumbnail": {
+        "product_number": "601678604",
+        "catalog_name": "[항산화] 동화약품 배러크런치C 레몬맛 30정 10일분",
+        "status": "available",
+        "missing_reason": null,
+        "source_url": "https://cdn.daisomall.co.kr/file/resize/PD/20260825/thumb/300/GVr6GsoojIJO6UtcBMHG601678604_00_02GVr6GsoojIJO6UtcBMHG.jpg",
+        "page_url": "https://www.daisomall.co.kr/ds/diy2/C246",
+        "detail_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=601678604&recmYn=N",
+        "displayed_name": "[항산화] 동화약품 배러크런치C 레몬맛 30정 10일분",
+        "local_path": "data/products/thumbnails/601678604.jpg",
+        "sha256": "95ebf26ebb956420f4dd5146d2402ccb6cf8afe2e3dd3c1a914bf8a8d200a14a",
+        "byte_size": 19462,
+        "width": 300,
+        "height": 300,
+        "content_type": "image/webp",
+        "observed_on": "2026-10-21",
+        "downloaded_at": "2026-10-21T10:13:58+09:00",
+        "method": "official_browser_product_card_dom",
+        "identity_match": "official_product_link_and_image_filename_sku"
+      }
     },
     {
       "product_number": "601678605",
@@ -20862,7 +21202,27 @@
         },
         "primary_source_id": "label-0030"
       },
-      "data_review_status": "verified"
+      "data_review_status": "verified",
+      "thumbnail": {
+        "product_number": "601678605",
+        "catalog_name": "[뼈건강] 동화약품 배러크런치D 블루베리맛 30정 10일분",
+        "status": "available",
+        "missing_reason": null,
+        "source_url": "https://cdn.daisomall.co.kr/file/resize/PD/20260825/thumb/300/7MsbLqZDKF4lyLv3ucON601678605_00_027MsbLqZDKF4lyLv3ucON.jpg",
+        "page_url": "https://www.daisomall.co.kr/ds/diy2/C246",
+        "detail_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=601678605&recmYn=N",
+        "displayed_name": "[뼈건강] 동화약품 배러크런치D 블루베리맛 30정 10일분",
+        "local_path": "data/products/thumbnails/601678605.jpg",
+        "sha256": "36653b81d674e52906f22571f5ee61a684692598e8008f45cda9982442599ab2",
+        "byte_size": 21266,
+        "width": 300,
+        "height": 300,
+        "content_type": "image/webp",
+        "observed_on": "2026-10-21",
+        "downloaded_at": "2026-10-21T10:13:58+09:00",
+        "method": "official_browser_product_card_dom",
+        "identity_match": "official_product_link_and_image_filename_sku"
+      }
     },
     {
       "product_number": "610911094",
@@ -21811,7 +22171,27 @@
         },
         "primary_source_id": "label-0031"
       },
-      "data_review_status": "verified"
+      "data_review_status": "verified",
+      "thumbnail": {
+        "product_number": "610911094",
+        "catalog_name": "[신혜선 PICK] 동국제약 프라임도스 비오틴 5000 60정 60일분",
+        "status": "available",
+        "missing_reason": null,
+        "source_url": "https://cdn.daisomall.co.kr/file/resize/PD/20260814/thumb/300/pgiWPPVQ81EjmmAhiAIj610911094_00_01pgiWPPVQ81EjmmAhiAIj.jpg",
+        "page_url": "https://www.daisomall.co.kr/ds/diy2/C246",
+        "detail_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=610911094&recmYn=N",
+        "displayed_name": "[신혜선 PICK] 동국제약  프라임도스 비오틴 5000 60정 60일분",
+        "local_path": "data/products/thumbnails/610911094.jpg",
+        "sha256": "c21155bfa326fd3ce018417d0f58b9dfae38d293e01108d85d71bfe5f3f652c8",
+        "byte_size": 15774,
+        "width": 300,
+        "height": 398,
+        "content_type": "image/webp",
+        "observed_on": "2026-10-21",
+        "downloaded_at": "2026-10-21T10:13:58+09:00",
+        "method": "official_browser_product_card_dom",
+        "identity_match": "official_product_link_and_image_filename_sku"
+      }
     },
     {
       "product_number": "919157095",
@@ -22755,7 +23135,27 @@
         },
         "primary_source_id": "label-0032"
       },
-      "data_review_status": "verified"
+      "data_review_status": "verified",
+      "thumbnail": {
+        "product_number": "919157095",
+        "catalog_name": "휴럼 하루한알 6년근 고려 홍삼환 9환 9일분",
+        "status": "available",
+        "missing_reason": null,
+        "source_url": "https://cdn.daisomall.co.kr/file/resize/PD/20260826/thumb/300/gxSEg0bfLulOAScPenvi919157095_00_01gxSEg0bfLulOAScPenvi.jpg",
+        "page_url": "https://www.daisomall.co.kr/ds/diy2/C246",
+        "detail_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=919157095&recmYn=N",
+        "displayed_name": "휴럼 하루한알 6년근 고려 홍삼환 9환 9일분",
+        "local_path": "data/products/thumbnails/919157095.jpg",
+        "sha256": "a50528eedd2f1300618882a1876c79e7331f40bc8b363019636dcd5d49825a29",
+        "byte_size": 18252,
+        "width": 300,
+        "height": 400,
+        "content_type": "image/webp",
+        "observed_on": "2026-10-21",
+        "downloaded_at": "2026-10-21T10:13:58+09:00",
+        "method": "official_browser_product_card_dom",
+        "identity_match": "official_product_link_and_image_filename_sku"
+      }
     },
     {
       "product_number": "600000313",
@@ -23756,7 +24156,27 @@
         },
         "primary_source_id": "label-0034"
       },
-      "data_review_status": "verified"
+      "data_review_status": "verified",
+      "thumbnail": {
+        "product_number": "600000313",
+        "catalog_name": "대웅제약 셀레늄 아연 30정 30일분",
+        "status": "available",
+        "missing_reason": null,
+        "source_url": "https://cdn.daisomall.co.kr/file/resize/PD/20260918/thumb/300/50R6fV0ggfDyr4qZgnfy600000313_00_0150R6fV0ggfDyr4qZgnfy.png",
+        "page_url": "https://www.daisomall.co.kr/ds/diy2/C246",
+        "detail_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=600000313&recmYn=N",
+        "displayed_name": "대웅제약 셀레늄 아연 30정 30일분",
+        "local_path": "data/products/thumbnails/600000313.png",
+        "sha256": "f8d88e464a336ca8cd308e18bdaf78f67a969f4ba6219eb5f2406c11ed9727c1",
+        "byte_size": 11298,
+        "width": 300,
+        "height": 362,
+        "content_type": "image/webp",
+        "observed_on": "2026-10-21",
+        "downloaded_at": "2026-10-21T10:13:58+09:00",
+        "method": "official_browser_product_card_dom",
+        "identity_match": "official_product_link_and_image_filename_sku"
+      }
     },
     {
       "product_number": "610911097",
@@ -24448,7 +24868,27 @@
         },
         "primary_source_id": "label-0035"
       },
-      "data_review_status": "verified"
+      "data_review_status": "verified",
+      "thumbnail": {
+        "product_number": "610911097",
+        "catalog_name": "[신혜선 PICK] 동국제약 프로폴리스＆아연 필름 12매 12일분",
+        "status": "available",
+        "missing_reason": null,
+        "source_url": "https://cdn.daisomall.co.kr/file/resize/PD/20260805/thumb/300/WQN2sdlFQlgUeYP1OzCA610911097_00_01WQN2sdlFQlgUeYP1OzCA.jpg",
+        "page_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=610911097",
+        "detail_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=610911097",
+        "displayed_name": "[신혜선 PICK] 동국제약 프로폴리스＆아연 필름 12매 12일분",
+        "local_path": "data/products/thumbnails/610911097.jpg",
+        "sha256": "74fb287ec5d90d2826972b25aca197ca19e72820389da64a4ff365961484e88e",
+        "byte_size": 20206,
+        "width": 300,
+        "height": 400,
+        "content_type": "image/webp",
+        "observed_on": "2026-10-21",
+        "downloaded_at": "2026-10-21T10:13:58+09:00",
+        "method": "official_browser_product_detail_thumbnail",
+        "identity_match": "official_product_link_and_image_filename_sku"
+      }
     },
     {
       "product_number": "610911096",
@@ -25353,7 +25793,27 @@
         },
         "primary_source_id": "label-0036"
       },
-      "data_review_status": "verified"
+      "data_review_status": "verified",
+      "thumbnail": {
+        "product_number": "610911096",
+        "catalog_name": "[신혜선 PICK] 동국제약 면역엔 홍삼 필름 10매 10일분",
+        "status": "available",
+        "missing_reason": null,
+        "source_url": "https://cdn.daisomall.co.kr/file/resize/PD/20260805/thumb/300/X3lfEnRBZWFGAzpNcACh610911096_00_01X3lfEnRBZWFGAzpNcACh.jpg",
+        "page_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=610911096",
+        "detail_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=610911096",
+        "displayed_name": "[신혜선 PICK] 동국제약 면역엔 홍삼 필름 10매 10일분",
+        "local_path": "data/products/thumbnails/610911096.jpg",
+        "sha256": "b60e3e229222871145fd01b3fcc1508a64b30104051dc67fa244adbe5379db6c",
+        "byte_size": 20928,
+        "width": 300,
+        "height": 400,
+        "content_type": "image/webp",
+        "observed_on": "2026-10-21",
+        "downloaded_at": "2026-10-21T10:13:58+09:00",
+        "method": "official_browser_product_detail_thumbnail",
+        "identity_match": "official_product_link_and_image_filename_sku"
+      }
     },
     {
       "product_number": "600000312",
@@ -26336,7 +26796,27 @@
         },
         "primary_source_id": "label-0038"
       },
-      "data_review_status": "verified"
+      "data_review_status": "verified",
+      "thumbnail": {
+        "product_number": "600000312",
+        "catalog_name": "[월경 전 불편함 케어] 대웅제약 감마리놀렌산 30캡슐 30일분",
+        "status": "available",
+        "missing_reason": null,
+        "source_url": "https://cdn.daisomall.co.kr/file/resize/PD/20260918/thumb/300/zHSzORINsxBCGH6q5I9C600000312_00_01zHSzORINsxBCGH6q5I9C.png",
+        "page_url": "https://www.daisomall.co.kr/ds/diy2/C246",
+        "detail_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=600000312&recmYn=N",
+        "displayed_name": "[월경 전 불편함 케어] 대웅제약 감마리놀렌산 30캡슐 30일분",
+        "local_path": "data/products/thumbnails/600000312.png",
+        "sha256": "76a677701f2586493dd0f44acd6834382264b69440f718f67838b8d70b2db6ba",
+        "byte_size": 12296,
+        "width": 300,
+        "height": 362,
+        "content_type": "image/webp",
+        "observed_on": "2026-10-21",
+        "downloaded_at": "2026-10-21T10:13:58+09:00",
+        "method": "official_browser_product_card_dom",
+        "identity_match": "official_product_link_and_image_filename_sku"
+      }
     },
     {
       "product_number": "600000314",
@@ -27489,7 +27969,27 @@
         },
         "primary_source_id": "label-0039"
       },
-      "data_review_status": "verified"
+      "data_review_status": "verified",
+      "thumbnail": {
+        "product_number": "600000314",
+        "catalog_name": "대웅제약 커큐민250 30정 30일분",
+        "status": "available",
+        "missing_reason": null,
+        "source_url": "https://cdn.daisomall.co.kr/file/resize/PD/20261014/thumb/300/S54HFdVe7PjmJDiYnLDM600000314_00_01S54HFdVe7PjmJDiYnLDM.png",
+        "page_url": "https://www.daisomall.co.kr/ds/diy2/C246",
+        "detail_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=600000314&recmYn=N",
+        "displayed_name": "대웅제약 커큐민250 30정 30일분",
+        "local_path": "data/products/thumbnails/600000314.png",
+        "sha256": "63ca5c3864828e4eee786b8e69ed1f4cbf8d246bc4a818ad4dee549b4f76530c",
+        "byte_size": 12764,
+        "width": 300,
+        "height": 362,
+        "content_type": "image/webp",
+        "observed_on": "2026-10-21",
+        "downloaded_at": "2026-10-21T10:13:58+09:00",
+        "method": "official_browser_product_card_dom",
+        "identity_match": "official_product_link_and_image_filename_sku"
+      }
     },
     {
       "product_number": "600000293",
@@ -29076,7 +29576,27 @@
         },
         "primary_source_id": "label-0042"
       },
-      "data_review_status": "verified"
+      "data_review_status": "verified",
+      "thumbnail": {
+        "product_number": "600000293",
+        "catalog_name": "대웅제약 Kids 과일야채 스틱 10포 10일분",
+        "status": "available",
+        "missing_reason": null,
+        "source_url": "https://cdn.daisomall.co.kr/file/resize/PD/20261016/thumb/300/CyDZ6YGKuy7TuEh6P5Xi600000293_00_01CyDZ6YGKuy7TuEh6P5Xi.png",
+        "page_url": "https://www.daisomall.co.kr/ds/diy2/C246",
+        "detail_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=600000293&recmYn=N",
+        "displayed_name": "대웅제약 Kids 과일야채 스틱 10포 10일분",
+        "local_path": "data/products/thumbnails/600000293.png",
+        "sha256": "6b8accb341e8368c684cf542748d4c7c80f727590830e29d689442f6ba954a80",
+        "byte_size": 15014,
+        "width": 300,
+        "height": 362,
+        "content_type": "image/webp",
+        "observed_on": "2026-10-21",
+        "downloaded_at": "2026-10-21T10:13:58+09:00",
+        "method": "official_browser_product_card_dom",
+        "identity_match": "official_product_link_and_image_filename_sku"
+      }
     },
     {
       "product_number": "985472880",
@@ -30678,7 +31198,27 @@
         },
         "primary_source_id": "label-0043"
       },
-      "data_review_status": "verified"
+      "data_review_status": "verified",
+      "thumbnail": {
+        "product_number": "985472880",
+        "catalog_name": "안국약품 뽀로로 멀티비타민 30포 30일",
+        "status": "available",
+        "missing_reason": null,
+        "source_url": "https://cdn.daisomall.co.kr/file/resize/PD/20261016/thumb/300/Lr2cmVGrfN4Y0fNi7ZXB985472880_00_02Lr2cmVGrfN4Y0fNi7ZXB.jpg",
+        "page_url": "https://www.daisomall.co.kr/ds/diy2/C246",
+        "detail_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=985472880&recmYn=N",
+        "displayed_name": "안국약품 뽀로로 멀티비타민 30포 30일",
+        "local_path": "data/products/thumbnails/985472880.jpg",
+        "sha256": "5d7b64bf37a9d5e7c8211667329da552db79bb602d91d87d05432cb3d96efc00",
+        "byte_size": 41188,
+        "width": 300,
+        "height": 400,
+        "content_type": "image/webp",
+        "observed_on": "2026-10-21",
+        "downloaded_at": "2026-10-21T10:13:58+09:00",
+        "method": "official_browser_product_card_dom",
+        "identity_match": "official_product_link_and_image_filename_sku"
+      }
     },
     {
       "product_number": "033991018",
@@ -33300,7 +33840,27 @@
         },
         "primary_source_id": "label-0045"
       },
-      "data_review_status": "verified"
+      "data_review_status": "verified",
+      "thumbnail": {
+        "product_number": "033991018",
+        "catalog_name": "[보령약국 X Pantio] [인교진 PICK] 이뮨 건강 올인원 15포 15일분",
+        "status": "available",
+        "missing_reason": null,
+        "source_url": "https://cdn.daisomall.co.kr/file/resize/PD/20260928/thumb/300/7MEuCmJA0gsrHOTCITM6033991018_00_007MEuCmJA0gsrHOTCITM6.jpg",
+        "page_url": "https://www.daisomall.co.kr/ds/diy2/C246",
+        "detail_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=033991018&recmYn=N",
+        "displayed_name": "[보령약국 X Pantio] [인교진 PICK] 이뮨 건강 올인원 15포 15일분",
+        "local_path": "data/products/thumbnails/033991018.jpg",
+        "sha256": "c8103d349803eac84c1fba100ead0b3520d9b1ca1b0fe63f96de7268e65bcd15",
+        "byte_size": 22918,
+        "width": 300,
+        "height": 400,
+        "content_type": "image/webp",
+        "observed_on": "2026-10-21",
+        "downloaded_at": "2026-10-21T10:13:58+09:00",
+        "method": "official_browser_product_card_dom",
+        "identity_match": "official_product_link_and_image_filename_sku"
+      }
     },
     {
       "product_number": "033991015",
@@ -36158,7 +36718,27 @@
         },
         "primary_source_id": "label-0046"
       },
-      "data_review_status": "verified"
+      "data_review_status": "verified",
+      "thumbnail": {
+        "product_number": "033991015",
+        "catalog_name": "[보령약국 X Pantio] [인교진 PICK] 60+ 에너지 올인원 12포 12일분",
+        "status": "available",
+        "missing_reason": null,
+        "source_url": "https://cdn.daisomall.co.kr/file/resize/PD/20260928/thumb/300/l1oJEpcMW3zJ6WbPQVx3033991015_00_00l1oJEpcMW3zJ6WbPQVx3.jpg",
+        "page_url": "https://www.daisomall.co.kr/ds/diy2/C246",
+        "detail_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=033991015&recmYn=N",
+        "displayed_name": "[보령약국 X Pantio] [인교진 PICK] 60+ 에너지 올인원 12포 12일분",
+        "local_path": "data/products/thumbnails/033991015.jpg",
+        "sha256": "a06a1f25f3b7be43db0b1f086a964257563885cee1c4764f3eaba87c881f1d6e",
+        "byte_size": 22404,
+        "width": 300,
+        "height": 400,
+        "content_type": "image/webp",
+        "observed_on": "2026-10-21",
+        "downloaded_at": "2026-10-21T10:13:58+09:00",
+        "method": "official_browser_product_card_dom",
+        "identity_match": "official_product_link_and_image_filename_sku"
+      }
     },
     {
       "product_number": "033991014",
@@ -39173,7 +39753,27 @@
         },
         "primary_source_id": "label-0047"
       },
-      "data_review_status": "verified"
+      "data_review_status": "verified",
+      "thumbnail": {
+        "product_number": "033991014",
+        "catalog_name": "[보령약국 X Pantio] [인교진 PICK] 4050 에너지 올인원 12포 12일분",
+        "status": "available",
+        "missing_reason": null,
+        "source_url": "https://cdn.daisomall.co.kr/file/resize/PD/20260928/thumb/300/9dKu4CSr7wlPKdnms5Ta033991014_00_009dKu4CSr7wlPKdnms5Ta.jpg",
+        "page_url": "https://www.daisomall.co.kr/ds/diy2/C246",
+        "detail_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=033991014&recmYn=N",
+        "displayed_name": "[보령약국 X Pantio] [인교진 PICK] 4050 에너지 올인원 12포 12일분",
+        "local_path": "data/products/thumbnails/033991014.jpg",
+        "sha256": "df9482d0ddeeb4f962763b8812e5e584f51e8bcb4067c774263745fc93b17c32",
+        "byte_size": 22838,
+        "width": 300,
+        "height": 400,
+        "content_type": "image/webp",
+        "observed_on": "2026-10-21",
+        "downloaded_at": "2026-10-21T10:13:58+09:00",
+        "method": "official_browser_product_card_dom",
+        "identity_match": "official_product_link_and_image_filename_sku"
+      }
     },
     {
       "product_number": "033991013",
@@ -42038,7 +42638,27 @@
         },
         "primary_source_id": "label-0048"
       },
-      "data_review_status": "verified"
+      "data_review_status": "verified",
+      "thumbnail": {
+        "product_number": "033991013",
+        "catalog_name": "[보령약국 X Pantio] [인교진 PICK] 2030 에너지 올인원 12포 12일분",
+        "status": "available",
+        "missing_reason": null,
+        "source_url": "https://cdn.daisomall.co.kr/file/resize/PD/20260928/thumb/300/CROjOpoYbf9XR8YuXycI033991013_00_00CROjOpoYbf9XR8YuXycI.jpg",
+        "page_url": "https://www.daisomall.co.kr/ds/diy2/C246",
+        "detail_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=033991013&recmYn=N",
+        "displayed_name": "[보령약국 X Pantio] [인교진 PICK] 2030 에너지 올인원 12포 12일분",
+        "local_path": "data/products/thumbnails/033991013.jpg",
+        "sha256": "04553106a625041ad42f214c47238438ae2a41b17675acfcb550ce46e7617965",
+        "byte_size": 24166,
+        "width": 300,
+        "height": 400,
+        "content_type": "image/webp",
+        "observed_on": "2026-10-21",
+        "downloaded_at": "2026-10-21T10:13:58+09:00",
+        "method": "official_browser_product_card_dom",
+        "identity_match": "official_product_link_and_image_filename_sku"
+      }
     },
     {
       "product_number": "033991020",
@@ -43296,7 +43916,27 @@
         },
         "primary_source_id": "label-0049"
       },
-      "data_review_status": "verified"
+      "data_review_status": "verified",
+      "thumbnail": {
+        "product_number": "033991020",
+        "catalog_name": "[보령약국 X Pantio] [인교진 PICK] 관절 건강 올인원 15포 15일분",
+        "status": "available",
+        "missing_reason": null,
+        "source_url": "https://cdn.daisomall.co.kr/file/resize/PD/20260928/thumb/300/y2YbEGf16i13DKittcWV033991020_00_00y2YbEGf16i13DKittcWV.jpg",
+        "page_url": "https://www.daisomall.co.kr/ds/diy2/C246",
+        "detail_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=033991020&recmYn=N",
+        "displayed_name": "[보령약국 X Pantio] [인교진 PICK] 관절 건강 올인원 15포 15일분",
+        "local_path": "data/products/thumbnails/033991020.jpg",
+        "sha256": "6ffbca7f47f15c733884803a125e40036cb6dc3356e42e77a86c1d5249c4706e",
+        "byte_size": 23002,
+        "width": 300,
+        "height": 400,
+        "content_type": "image/webp",
+        "observed_on": "2026-10-21",
+        "downloaded_at": "2026-10-21T10:13:58+09:00",
+        "method": "official_browser_product_card_dom",
+        "identity_match": "official_product_link_and_image_filename_sku"
+      }
     },
     {
       "product_number": "591581101",
@@ -45364,7 +46004,27 @@
         },
         "primary_source_id": "label-0050"
       },
-      "data_review_status": "verified"
+      "data_review_status": "verified",
+      "thumbnail": {
+        "product_number": "591581101",
+        "catalog_name": "[김우빈 PICK] 종근당건강 아임비타 멀티비타민 컴팩트 30정 30일분",
+        "status": "available",
+        "missing_reason": null,
+        "source_url": "https://cdn.daisomall.co.kr/file/resize/PD/20260601/thumb/300/nkEyZw9TcKRMHbTvSy6D591581101_00_00nkEyZw9TcKRMHbTvSy6D.jpg",
+        "page_url": "https://www.daisomall.co.kr/ds/diy2/C246",
+        "detail_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=591581101&recmYn=N",
+        "displayed_name": "[김우빈 PICK] 종근당건강 아임비타 멀티비타민 컴팩트 30정 30일분",
+        "local_path": "data/products/thumbnails/591581101.jpg",
+        "sha256": "5a1bae33064e95cdd4ccd983777359b8672fb0489ab1949f66ea68e88064e9a2",
+        "byte_size": 22028,
+        "width": 300,
+        "height": 400,
+        "content_type": "image/webp",
+        "observed_on": "2026-10-21",
+        "downloaded_at": "2026-10-21T10:13:58+09:00",
+        "method": "official_browser_product_card_dom",
+        "identity_match": "official_product_link_and_image_filename_sku"
+      }
     },
     {
       "product_number": "600000270",
@@ -46420,7 +47080,27 @@
         },
         "primary_source_id": "label-0052"
       },
-      "data_review_status": "verified"
+      "data_review_status": "verified",
+      "thumbnail": {
+        "product_number": "600000270",
+        "catalog_name": "대웅제약 마그네슘 10정 10일분",
+        "status": "available",
+        "missing_reason": null,
+        "source_url": "https://cdn.daisomall.co.kr/file/resize/PD/20260504/thumb/300/rjUOcdF4xff4PIy7VUYT600000270_00_01rjUOcdF4xff4PIy7VUYT.png",
+        "page_url": "https://www.daisomall.co.kr/ds/diy2/C246",
+        "detail_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=600000270&recmYn=N",
+        "displayed_name": "대웅제약 마그네슘 10정 10일분",
+        "local_path": "data/products/thumbnails/600000270.png",
+        "sha256": "0aa5c5844112442e422dc63de7dde4349e373302c647b2c67c51e84c203be396",
+        "byte_size": 7826,
+        "width": 300,
+        "height": 362,
+        "content_type": "image/webp",
+        "observed_on": "2026-10-21",
+        "downloaded_at": "2026-10-21T10:13:58+09:00",
+        "method": "official_browser_product_card_dom",
+        "identity_match": "official_product_link_and_image_filename_sku"
+      }
     },
     {
       "product_number": "600000204",
@@ -47797,7 +48477,27 @@
         },
         "primary_source_id": "label-0054"
       },
-      "data_review_status": "verified"
+      "data_review_status": "verified",
+      "thumbnail": {
+        "product_number": "600000204",
+        "catalog_name": "대웅제약 마그네슘 샷 25ml x 5병 5일분",
+        "status": "available",
+        "missing_reason": null,
+        "source_url": "https://cdn.daisomall.co.kr/file/resize/PD/20251121/thumb/300/aHjoRwP9ejVVuu8M0Td4600000204_00_01aHjoRwP9ejVVuu8M0Td4.png",
+        "page_url": "https://www.daisomall.co.kr/ds/diy2/C246",
+        "detail_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=600000204&recmYn=N",
+        "displayed_name": "대웅제약 마그네슘 샷 25ml x 5병 5일분",
+        "local_path": "data/products/thumbnails/600000204.png",
+        "sha256": "2cec3d9aeb84446239ea4188238cb842c29ed5bf04e73f80ae0b079bf9fe1393",
+        "byte_size": 7938,
+        "width": 300,
+        "height": 362,
+        "content_type": "image/webp",
+        "observed_on": "2026-10-21",
+        "downloaded_at": "2026-10-21T10:13:58+09:00",
+        "method": "official_browser_product_card_dom",
+        "identity_match": "official_product_link_and_image_filename_sku"
+      }
     },
     {
       "product_number": "600000281",
@@ -48699,7 +49399,27 @@
         },
         "primary_source_id": "label-0056"
       },
-      "data_review_status": "verified"
+      "data_review_status": "verified",
+      "thumbnail": {
+        "product_number": "600000281",
+        "catalog_name": "대웅제약 비타민D 4000IU 10정 10일분",
+        "status": "available",
+        "missing_reason": null,
+        "source_url": "https://cdn.daisomall.co.kr/file/resize/PD/20260504/thumb/300/H44oDYbaAQPekxvnTd9T600000281_00_01H44oDYbaAQPekxvnTd9T.png",
+        "page_url": "https://www.daisomall.co.kr/ds/diy2/C246",
+        "detail_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=600000281&recmYn=N",
+        "displayed_name": "대웅제약 비타민D 4000IU 10정 10일분",
+        "local_path": "data/products/thumbnails/600000281.png",
+        "sha256": "43446a7d5693a741bfc7fba0873e476635fd05e109af51b9c7ee7d53c8d53b79",
+        "byte_size": 8840,
+        "width": 300,
+        "height": 362,
+        "content_type": "image/webp",
+        "observed_on": "2026-10-21",
+        "downloaded_at": "2026-10-21T10:13:58+09:00",
+        "method": "official_browser_product_card_dom",
+        "identity_match": "official_product_link_and_image_filename_sku"
+      }
     },
     {
       "product_number": "600000202",
@@ -49986,7 +50706,27 @@
         },
         "primary_source_id": "label-0057"
       },
-      "data_review_status": "verified"
+      "data_review_status": "verified",
+      "thumbnail": {
+        "product_number": "600000202",
+        "catalog_name": "대웅제약 활성엽산400 30정 30일분",
+        "status": "available",
+        "missing_reason": null,
+        "source_url": "https://cdn.daisomall.co.kr/file/resize/PD/20251121/thumb/300/vNZekx45iLI6pl2rDCzm600000202_00_01vNZekx45iLI6pl2rDCzm.png",
+        "page_url": "https://www.daisomall.co.kr/ds/diy2/C246",
+        "detail_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=600000202&recmYn=N",
+        "displayed_name": "대웅제약 활성엽산400 30정 30일분",
+        "local_path": "data/products/thumbnails/600000202.png",
+        "sha256": "a5b5cadf229f27fa9ca341fc75c9d3636535247eb313eb6206fcd33167b210fd",
+        "byte_size": 7712,
+        "width": 300,
+        "height": 362,
+        "content_type": "image/webp",
+        "observed_on": "2026-10-21",
+        "downloaded_at": "2026-10-21T10:13:58+09:00",
+        "method": "official_browser_product_card_dom",
+        "identity_match": "official_product_link_and_image_filename_sku"
+      }
     },
     {
       "product_number": "600000128",
@@ -51037,7 +51777,27 @@
         },
         "primary_source_id": "label-0058"
       },
-      "data_review_status": "verified"
+      "data_review_status": "verified",
+      "thumbnail": {
+        "product_number": "600000128",
+        "catalog_name": "대웅제약 마그네슘 30정 30일분",
+        "status": "available",
+        "missing_reason": null,
+        "source_url": "https://cdn.daisomall.co.kr/file/resize/PD/20250408/thumb/300/DZz3h5SxY2J2FqaEB9qZ600000128_00_00DZz3h5SxY2J2FqaEB9qZ.png",
+        "page_url": "https://www.daisomall.co.kr/ds/diy2/C246",
+        "detail_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=600000128&recmYn=N",
+        "displayed_name": "대웅제약 마그네슘 30정 30일분",
+        "local_path": "data/products/thumbnails/600000128.png",
+        "sha256": "ba0e5057f02d0eb24d412e1ace0464b5da95095bc5afd43e7be2d92bcd9dbcf9",
+        "byte_size": 8518,
+        "width": 300,
+        "height": 362,
+        "content_type": "image/webp",
+        "observed_on": "2026-10-21",
+        "downloaded_at": "2026-10-21T10:13:58+09:00",
+        "method": "official_browser_product_card_dom",
+        "identity_match": "official_product_link_and_image_filename_sku"
+      }
     },
     {
       "product_number": "600000129",
@@ -52580,7 +53340,27 @@
         },
         "primary_source_id": "label-0060"
       },
-      "data_review_status": "verified"
+      "data_review_status": "verified",
+      "thumbnail": {
+        "product_number": "600000129",
+        "catalog_name": "대웅제약 비타민B 30정 30일분",
+        "status": "available",
+        "missing_reason": null,
+        "source_url": "https://cdn.daisomall.co.kr/file/resize/PD/20250408/thumb/300/5QghHD5oyZssCfnGZbzA600000129_00_005QghHD5oyZssCfnGZbzA.png",
+        "page_url": "https://www.daisomall.co.kr/ds/diy2/C246",
+        "detail_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=600000129&recmYn=N",
+        "displayed_name": "대웅제약 비타민B 30정 30일분",
+        "local_path": "data/products/thumbnails/600000129.png",
+        "sha256": "ffc13cf5ca06c02a09b0a34027ec307cc3a8d639f9fd3790598ade9a542c2df0",
+        "byte_size": 8486,
+        "width": 300,
+        "height": 362,
+        "content_type": "image/webp",
+        "observed_on": "2026-10-21",
+        "downloaded_at": "2026-10-21T10:13:58+09:00",
+        "method": "official_browser_product_card_dom",
+        "identity_match": "official_product_link_and_image_filename_sku"
+      }
     },
     {
       "product_number": "600000133",
@@ -53797,7 +54577,27 @@
         },
         "primary_source_id": "label-0062"
       },
-      "data_review_status": "verified"
+      "data_review_status": "verified",
+      "thumbnail": {
+        "product_number": "600000133",
+        "catalog_name": "대웅제약 철분 30정 30일분",
+        "status": "available",
+        "missing_reason": null,
+        "source_url": "https://cdn.daisomall.co.kr/file/resize/PD/20260820/thumb/300/ahWGJ6KpupAlwxw7p3xm600000133_00_00ahWGJ6KpupAlwxw7p3xm.png",
+        "page_url": "https://www.daisomall.co.kr/ds/diy2/C246",
+        "detail_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=600000133&recmYn=N",
+        "displayed_name": "대웅제약 철분 30정 30일분",
+        "local_path": "data/products/thumbnails/600000133.png",
+        "sha256": "08333f1d8fc66338a7dd74cfffa706eca34f83bad0edf737d96882274c318931",
+        "byte_size": 12546,
+        "width": 300,
+        "height": 362,
+        "content_type": "image/webp",
+        "observed_on": "2026-10-21",
+        "downloaded_at": "2026-10-21T10:13:58+09:00",
+        "method": "official_browser_product_card_dom",
+        "identity_match": "official_product_link_and_image_filename_sku"
+      }
     },
     {
       "product_number": "600000147",
@@ -54875,7 +55675,27 @@
         },
         "primary_source_id": "label-0063"
       },
-      "data_review_status": "verified"
+      "data_review_status": "verified",
+      "thumbnail": {
+        "product_number": "600000147",
+        "catalog_name": "대웅제약 칼슘 120정 30일분",
+        "status": "available",
+        "missing_reason": null,
+        "source_url": "https://cdn.daisomall.co.kr/file/resize/PD/20250409/thumb/300/7vBQfmyyR1zN9NfVg993600000147_00_007vBQfmyyR1zN9NfVg993.png",
+        "page_url": "https://www.daisomall.co.kr/ds/diy2/C246",
+        "detail_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=600000147&recmYn=N",
+        "displayed_name": "대웅제약 칼슘 120정 30일분",
+        "local_path": "data/products/thumbnails/600000147.png",
+        "sha256": "3ff481ef6d80e3323668c56ee433486b53ee8df0227822a7ba31557e5fc411eb",
+        "byte_size": 6936,
+        "width": 300,
+        "height": 362,
+        "content_type": "image/webp",
+        "observed_on": "2026-10-21",
+        "downloaded_at": "2026-10-21T10:13:58+09:00",
+        "method": "official_browser_product_card_dom",
+        "identity_match": "official_product_link_and_image_filename_sku"
+      }
     },
     {
       "product_number": "600000148",
@@ -55973,7 +56793,27 @@
         },
         "primary_source_id": "label-0064"
       },
-      "data_review_status": "verified"
+      "data_review_status": "verified",
+      "thumbnail": {
+        "product_number": "600000148",
+        "catalog_name": "대웅제약 칼슘 마그네슘 비타민D 60정 30일분",
+        "status": "available",
+        "missing_reason": null,
+        "source_url": "https://cdn.daisomall.co.kr/file/resize/PD/20250408/thumb/300/a7ohwSe3ShJimhwztOOK600000148_00_00a7ohwSe3ShJimhwztOOK.png",
+        "page_url": "https://www.daisomall.co.kr/ds/diy2/C246",
+        "detail_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=600000148&recmYn=N",
+        "displayed_name": "대웅제약 칼슘 마그네슘 비타민D 60정 30일분",
+        "local_path": "data/products/thumbnails/600000148.png",
+        "sha256": "ac64c75b59b1c4ad467cb1036172537856f3c85c76f81937372180bbdfa2272a",
+        "byte_size": 8918,
+        "width": 300,
+        "height": 362,
+        "content_type": "image/webp",
+        "observed_on": "2026-10-21",
+        "downloaded_at": "2026-10-21T10:13:58+09:00",
+        "method": "official_browser_product_card_dom",
+        "identity_match": "official_product_link_and_image_filename_sku"
+      }
     },
     {
       "product_number": "601618643",
@@ -56806,7 +57646,27 @@
         },
         "primary_source_id": "label-0065"
       },
-      "data_review_status": "verified"
+      "data_review_status": "verified",
+      "thumbnail": {
+        "product_number": "601618643",
+        "catalog_name": "동화 바이마그랩 마그네슘B 30정 30일분",
+        "status": "available",
+        "missing_reason": null,
+        "source_url": "https://cdn.daisomall.co.kr/file/resize/PD/20260406/thumb/300/yaxFSMtpTnhrztKNOjGw601618643_00_00yaxFSMtpTnhrztKNOjGw.jpg",
+        "page_url": "https://www.daisomall.co.kr/ds/diy2/C246",
+        "detail_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=601618643&recmYn=N",
+        "displayed_name": "동화 바이마그랩 마그네슘B 30정 30일분",
+        "local_path": "data/products/thumbnails/601618643.jpg",
+        "sha256": "acb7ffa10d4422853d0a7fd63c229326ab68a3323d26b80fe742960845af7a2b",
+        "byte_size": 10838,
+        "width": 300,
+        "height": 362,
+        "content_type": "image/webp",
+        "observed_on": "2026-10-21",
+        "downloaded_at": "2026-10-21T10:13:58+09:00",
+        "method": "official_browser_product_card_dom",
+        "identity_match": "official_product_link_and_image_filename_sku"
+      }
     },
     {
       "product_number": "610910777",
@@ -57766,7 +58626,27 @@
         },
         "primary_source_id": "label-0066"
       },
-      "data_review_status": "verified"
+      "data_review_status": "verified",
+      "thumbnail": {
+        "product_number": "610910777",
+        "catalog_name": "동국제약 비타민D 2000IU 40캡슐 40일분",
+        "status": "available",
+        "missing_reason": null,
+        "source_url": "https://cdn.daisomall.co.kr/file/resize/PD/20251229/thumb/300/5qFLremik89lsUa72Yqy610910777_00_005qFLremik89lsUa72Yqy.jpg",
+        "page_url": "https://www.daisomall.co.kr/ds/diy2/C246",
+        "detail_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=610910777&recmYn=N",
+        "displayed_name": "동국제약 비타민D 2000IU 40캡슐 40일분",
+        "local_path": "data/products/thumbnails/610910777.jpg",
+        "sha256": "da09b8bf6c5d0353f2024ae5163af494dcc16c3c6f17f2ff8512035e3e517c1e",
+        "byte_size": 9714,
+        "width": 300,
+        "height": 400,
+        "content_type": "image/webp",
+        "observed_on": "2026-10-21",
+        "downloaded_at": "2026-10-21T10:13:58+09:00",
+        "method": "official_browser_product_card_dom",
+        "identity_match": "official_product_link_and_image_filename_sku"
+      }
     },
     {
       "product_number": "286314184",
@@ -59044,7 +59924,27 @@
         },
         "primary_source_id": "label-0068"
       },
-      "data_review_status": "verified"
+      "data_review_status": "verified",
+      "thumbnail": {
+        "product_number": "286314184",
+        "catalog_name": "영진 비타민D 1000IU 아연 츄어블 12정",
+        "status": "available",
+        "missing_reason": null,
+        "source_url": "https://cdn.daisomall.co.kr/file/resize/PD/20260310/thumb/300/KC1U8zhHXeeJFHKQB2Hr286314184_00_01KC1U8zhHXeeJFHKQB2Hr.jpg",
+        "page_url": "https://www.daisomall.co.kr/ds/diy2/C246",
+        "detail_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=286314184&recmYn=N",
+        "displayed_name": "영진 비타민D 1000IU 아연 츄어블 12정",
+        "local_path": "data/products/thumbnails/286314184.jpg",
+        "sha256": "a4c9e964683aa86ffb7c90732f8cdf4410d05af8c7cfa82e96312f3a04bce488",
+        "byte_size": 9764,
+        "width": 300,
+        "height": 400,
+        "content_type": "image/webp",
+        "observed_on": "2026-10-21",
+        "downloaded_at": "2026-10-21T10:13:58+09:00",
+        "method": "official_browser_product_card_dom",
+        "identity_match": "official_product_link_and_image_filename_sku"
+      }
     },
     {
       "product_number": "913624074",
@@ -60127,7 +61027,27 @@
         },
         "primary_source_id": "label-0070"
       },
-      "data_review_status": "verified"
+      "data_review_status": "verified",
+      "thumbnail": {
+        "product_number": "913624074",
+        "catalog_name": "오브맘 비타민C 플러스 톡톡! 30일분",
+        "status": "available",
+        "missing_reason": null,
+        "source_url": "https://cdn.daisomall.co.kr/file/resize/PD/20250519/thumb/300/jA6WTiVVoTzCt6OpBqnj913624074_00_00jA6WTiVVoTzCt6OpBqnj.jpg",
+        "page_url": "https://www.daisomall.co.kr/ds/diy2/C246",
+        "detail_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=913624074&recmYn=N",
+        "displayed_name": "오브맘 비타민C 플러스 톡톡! 30일분",
+        "local_path": "data/products/thumbnails/913624074.jpg",
+        "sha256": "6b684eb48f1715162a117072dd4e98f6ec9b0a6df411e09c5dba57e921245854",
+        "byte_size": 9814,
+        "width": 300,
+        "height": 400,
+        "content_type": "image/webp",
+        "observed_on": "2026-10-21",
+        "downloaded_at": "2026-10-21T10:13:58+09:00",
+        "method": "official_browser_product_card_dom",
+        "identity_match": "official_product_link_and_image_filename_sku"
+      }
     },
     {
       "product_number": "613602131",
@@ -61415,7 +62335,27 @@
         },
         "primary_source_id": "label-0072"
       },
-      "data_review_status": "verified"
+      "data_review_status": "verified",
+      "thumbnail": {
+        "product_number": "613602131",
+        "catalog_name": "오브맘 비타민C＆E 하루구미 30일분",
+        "status": "available",
+        "missing_reason": null,
+        "source_url": "https://cdn.daisomall.co.kr/file/resize/PD/20250922/thumb/300/jrLxfLkWCczsCAsnqLoJ613602131_00_01jrLxfLkWCczsCAsnqLoJ.jpg",
+        "page_url": "https://www.daisomall.co.kr/ds/diy2/C246",
+        "detail_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=613602131&recmYn=N",
+        "displayed_name": "오브맘 비타민C＆E 하루구미 30일분",
+        "local_path": "data/products/thumbnails/613602131.jpg",
+        "sha256": "bae43770ccb370cd881f0951617d5ff8d7f691000676ecdd43269ca7fb9d9a34",
+        "byte_size": 11532,
+        "width": 300,
+        "height": 400,
+        "content_type": "image/webp",
+        "observed_on": "2026-10-21",
+        "downloaded_at": "2026-10-21T10:13:58+09:00",
+        "method": "official_browser_product_card_dom",
+        "identity_match": "official_product_link_and_image_filename_sku"
+      }
     },
     {
       "product_number": "613602124",
@@ -63783,7 +64723,27 @@
         },
         "primary_source_id": "label-0074"
       },
-      "data_review_status": "verified"
+      "data_review_status": "verified",
+      "thumbnail": {
+        "product_number": "613602124",
+        "catalog_name": "자연관 이뮨 멀티비타민 미네랄 4병",
+        "status": "available",
+        "missing_reason": null,
+        "source_url": "https://cdn.daisomall.co.kr/file/resize/PD/20251216/thumb/300/mSQXyRQCV8ORV8edPm4n613602124_00_01mSQXyRQCV8ORV8edPm4n.jpg",
+        "page_url": "https://www.daisomall.co.kr/ds/diy2/C246",
+        "detail_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=613602124&recmYn=N",
+        "displayed_name": "자연관 이뮨 멀티비타민 미네랄 4병",
+        "local_path": "data/products/thumbnails/613602124.jpg",
+        "sha256": "68d17d81ec2a8f5277cecac173415420b76f7d95c29b66c1633ae5b3035ae88d",
+        "byte_size": 10932,
+        "width": 300,
+        "height": 400,
+        "content_type": "image/webp",
+        "observed_on": "2026-10-21",
+        "downloaded_at": "2026-10-21T10:13:58+09:00",
+        "method": "official_browser_product_card_dom",
+        "identity_match": "official_product_link_and_image_filename_sku"
+      }
     },
     {
       "product_number": "968235549",
@@ -65240,7 +66200,27 @@
         },
         "primary_source_id": "label-0076"
       },
-      "data_review_status": "verified"
+      "data_review_status": "verified",
+      "thumbnail": {
+        "product_number": "968235549",
+        "catalog_name": "안국약품 브이팩 다이어트 유산균 올인원 멀티 비타민 7포",
+        "status": "available",
+        "missing_reason": null,
+        "source_url": "https://cdn.daisomall.co.kr/file/resize/PD/20250623/thumb/300/kQh0cYBVEEUhZLYsuKrQ968235549_00_00kQh0cYBVEEUhZLYsuKrQ.jpg",
+        "page_url": "https://www.daisomall.co.kr/ds/diy2/C246",
+        "detail_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=968235549&recmYn=N",
+        "displayed_name": "안국약품 브이팩 다이어트 유산균 올인원 멀티 비타민 7포",
+        "local_path": "data/products/thumbnails/968235549.jpg",
+        "sha256": "6701f3293d5cb5dd4e7cfc60e8eb1ef907fa2eccdbef6259d8a570f73d6c4abd",
+        "byte_size": 7068,
+        "width": 300,
+        "height": 362,
+        "content_type": "image/webp",
+        "observed_on": "2026-10-21",
+        "downloaded_at": "2026-10-21T10:13:58+09:00",
+        "method": "official_browser_product_card_dom",
+        "identity_match": "official_product_link_and_image_filename_sku"
+      }
     },
     {
       "product_number": "033991017",
@@ -66965,7 +67945,27 @@
         },
         "primary_source_id": "label-0078"
       },
-      "data_review_status": "verified"
+      "data_review_status": "verified",
+      "thumbnail": {
+        "product_number": "033991017",
+        "catalog_name": "[보령약국 X Pantio] [인교진 PICK] 기억력 건강 올인원 15포 15일분",
+        "status": "available",
+        "missing_reason": null,
+        "source_url": "https://cdn.daisomall.co.kr/file/resize/PD/20260928/thumb/300/S7HdATle74UMTysUx3Dz033991017_00_00S7HdATle74UMTysUx3Dz.jpg",
+        "page_url": "https://www.daisomall.co.kr/ds/diy2/C246",
+        "detail_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=033991017&recmYn=N",
+        "displayed_name": "[보령약국 X Pantio] [인교진 PICK] 기억력 건강 올인원 15포 15일분",
+        "local_path": "data/products/thumbnails/033991017.jpg",
+        "sha256": "38e2145b2978f052a2c7bec6b94af4ebbc097f0d7701c16cc12a3a57b3bd25d5",
+        "byte_size": 23862,
+        "width": 300,
+        "height": 400,
+        "content_type": "image/webp",
+        "observed_on": "2026-10-21",
+        "downloaded_at": "2026-10-21T10:13:58+09:00",
+        "method": "official_browser_product_card_dom",
+        "identity_match": "official_product_link_and_image_filename_sku"
+      }
     },
     {
       "product_number": "033991022",
@@ -68474,7 +69474,27 @@
         },
         "primary_source_id": "label-0079"
       },
-      "data_review_status": "verified"
+      "data_review_status": "verified",
+      "thumbnail": {
+        "product_number": "033991022",
+        "catalog_name": "[보령약국 X Pantio] [인교진 PICK] 스트레스 케어 올인원 15포 15일분",
+        "status": "available",
+        "missing_reason": null,
+        "source_url": "https://cdn.daisomall.co.kr/file/resize/PD/20260928/thumb/300/lj0OQ0BySSR6nkU7Tv8A033991022_00_00lj0OQ0BySSR6nkU7Tv8A.jpg",
+        "page_url": "https://www.daisomall.co.kr/ds/diy2/C246",
+        "detail_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=033991022&recmYn=N",
+        "displayed_name": "[보령약국 X Pantio] [인교진 PICK] 스트레스 케어 올인원 15포 15일분",
+        "local_path": "data/products/thumbnails/033991022.jpg",
+        "sha256": "df9f55e7d6dde41f3f01e3494854bf46a8a34aa37ac6d2901b17c2b61675bb56",
+        "byte_size": 22560,
+        "width": 300,
+        "height": 400,
+        "content_type": "image/webp",
+        "observed_on": "2026-10-21",
+        "downloaded_at": "2026-10-21T10:13:58+09:00",
+        "method": "official_browser_product_card_dom",
+        "identity_match": "official_product_link_and_image_filename_sku"
+      }
     },
     {
       "product_number": "601678607",
@@ -69416,7 +70436,27 @@
         },
         "primary_source_id": "label-0080"
       },
-      "data_review_status": "verified"
+      "data_review_status": "verified",
+      "thumbnail": {
+        "product_number": "601678607",
+        "catalog_name": "[혈액 생성] 동화약품 배러크런치 철분 사과맛 30정 10일분",
+        "status": "available",
+        "missing_reason": null,
+        "source_url": "https://cdn.daisomall.co.kr/file/resize/PD/20260825/thumb/300/1a3CLvRrBJMActwA3NW5601678607_00_021a3CLvRrBJMActwA3NW5.jpg",
+        "page_url": "https://www.daisomall.co.kr/ds/diy2/C246",
+        "detail_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=601678607&recmYn=N",
+        "displayed_name": "[혈액 생성] 동화약품 배러크런치 철분 사과맛 30정 10일분",
+        "local_path": "data/products/thumbnails/601678607.jpg",
+        "sha256": "f8391a6caca1feae592f01eb2e6b8b9293a3d4da83219eccdf790c3a5602ea7c",
+        "byte_size": 19194,
+        "width": 300,
+        "height": 300,
+        "content_type": "image/webp",
+        "observed_on": "2026-10-21",
+        "downloaded_at": "2026-10-21T10:13:58+09:00",
+        "method": "official_browser_product_card_dom",
+        "identity_match": "official_product_link_and_image_filename_sku"
+      }
     },
     {
       "product_number": "591581091",
@@ -71545,7 +72585,27 @@
         },
         "primary_source_id": "label-0081"
       },
-      "data_review_status": "verified"
+      "data_review_status": "verified",
+      "thumbnail": {
+        "product_number": "591581091",
+        "catalog_name": "[김우빈 PICK] 종근당건강 아임비타 비타민B 2000 30정 30일분",
+        "status": "available",
+        "missing_reason": null,
+        "source_url": "https://cdn.daisomall.co.kr/file/resize/PD/20260601/thumb/300/30NEHOm4dIOnmUVwUKLJ591581091_00_0030NEHOm4dIOnmUVwUKLJ.jpg",
+        "page_url": "https://www.daisomall.co.kr/ds/diy2/C246",
+        "detail_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=591581091&recmYn=N",
+        "displayed_name": "[김우빈 PICK] 종근당건강 아임비타 비타민B 2000 30정 30일분",
+        "local_path": "data/products/thumbnails/591581091.jpg",
+        "sha256": "2993fa37a6309611c485de1e627127be47b1638b186227bf795cfa720790086d",
+        "byte_size": 21836,
+        "width": 300,
+        "height": 400,
+        "content_type": "image/webp",
+        "observed_on": "2026-10-21",
+        "downloaded_at": "2026-10-21T10:13:58+09:00",
+        "method": "official_browser_product_card_dom",
+        "identity_match": "official_product_link_and_image_filename_sku"
+      }
     },
     {
       "product_number": "600000283",
@@ -73839,7 +74899,27 @@
         },
         "primary_source_id": "label-0082"
       },
-      "data_review_status": "verified"
+      "data_review_status": "verified",
+      "thumbnail": {
+        "product_number": "600000283",
+        "catalog_name": "대웅제약 멀티비타민미네랄 6정 6일분",
+        "status": "available",
+        "missing_reason": null,
+        "source_url": "https://cdn.daisomall.co.kr/file/resize/PD/20260504/thumb/300/zIbSOpTi3yHSeYULrLdY600000283_00_01zIbSOpTi3yHSeYULrLdY.png",
+        "page_url": "https://www.daisomall.co.kr/ds/diy2/C246",
+        "detail_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=600000283&recmYn=N",
+        "displayed_name": "대웅제약 멀티비타민미네랄 6정 6일분",
+        "local_path": "data/products/thumbnails/600000283.png",
+        "sha256": "683d39196c48ab2dde4e4d6b604ee83a0c805cba8c805b4d2c3d18457ae32d51",
+        "byte_size": 10056,
+        "width": 300,
+        "height": 362,
+        "content_type": "image/webp",
+        "observed_on": "2026-10-21",
+        "downloaded_at": "2026-10-21T10:13:58+09:00",
+        "method": "official_browser_product_card_dom",
+        "identity_match": "official_product_link_and_image_filename_sku"
+      }
     },
     {
       "product_number": "600000135",
@@ -76050,7 +77130,27 @@
         },
         "primary_source_id": "label-0084"
       },
-      "data_review_status": "verified"
+      "data_review_status": "verified",
+      "thumbnail": {
+        "product_number": "600000135",
+        "catalog_name": "대웅제약 멀티비타민 미네랄 30정 30일분",
+        "status": "available",
+        "missing_reason": null,
+        "source_url": "https://cdn.daisomall.co.kr/file/resize/PD/20250408/thumb/300/2ijoJLmHVT94XXIOZnda600000135_00_002ijoJLmHVT94XXIOZnda.png",
+        "page_url": "https://www.daisomall.co.kr/ds/diy2/C246",
+        "detail_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=600000135&recmYn=N",
+        "displayed_name": "대웅제약 멀티비타민 미네랄 30정 30일분",
+        "local_path": "data/products/thumbnails/600000135.png",
+        "sha256": "0f1dd47832428c8b18baa2315c1bf0166e3cb6f79e24bc7badaf1177aeba7ac5",
+        "byte_size": 9320,
+        "width": 300,
+        "height": 362,
+        "content_type": "image/webp",
+        "observed_on": "2026-10-21",
+        "downloaded_at": "2026-10-21T10:13:58+09:00",
+        "method": "official_browser_product_card_dom",
+        "identity_match": "official_product_link_and_image_filename_sku"
+      }
     },
     {
       "product_number": "600000127",
@@ -76917,7 +78017,27 @@
         },
         "primary_source_id": "label-0085"
       },
-      "data_review_status": "verified"
+      "data_review_status": "verified",
+      "thumbnail": {
+        "product_number": "600000127",
+        "catalog_name": "대웅제약 비타민C 30정 30일분",
+        "status": "available",
+        "missing_reason": null,
+        "source_url": "https://cdn.daisomall.co.kr/file/resize/PD/20250408/thumb/300/V0qSVbLLgSaCWbYWEu73600000127_00_00V0qSVbLLgSaCWbYWEu73.png",
+        "page_url": "https://www.daisomall.co.kr/ds/diy2/C246",
+        "detail_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=600000127&recmYn=N",
+        "displayed_name": "대웅제약 비타민C 30정 30일분",
+        "local_path": "data/products/thumbnails/600000127.png",
+        "sha256": "628ca9792911c98ff315b2580d2e8cfb375edb3061c22f403e35f8e9b09f5acb",
+        "byte_size": 8728,
+        "width": 300,
+        "height": 362,
+        "content_type": "image/webp",
+        "observed_on": "2026-10-21",
+        "downloaded_at": "2026-10-21T10:13:58+09:00",
+        "method": "official_browser_product_card_dom",
+        "identity_match": "official_product_link_and_image_filename_sku"
+      }
     },
     {
       "product_number": "600000132",
@@ -77745,7 +78865,27 @@
         },
         "primary_source_id": "label-0087"
       },
-      "data_review_status": "verified"
+      "data_review_status": "verified",
+      "thumbnail": {
+        "product_number": "600000132",
+        "catalog_name": "대웅제약 비타민D 4000IU 30정 30일분",
+        "status": "available",
+        "missing_reason": null,
+        "source_url": "https://cdn.daisomall.co.kr/file/resize/PD/20250408/thumb/300/SvY5chCvz0QZIyP7AdTc600000132_00_00SvY5chCvz0QZIyP7AdTc.png",
+        "page_url": "https://www.daisomall.co.kr/ds/diy2/C246",
+        "detail_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=600000132&recmYn=N",
+        "displayed_name": "대웅제약 비타민D 4000IU 30정 30일분",
+        "local_path": "data/products/thumbnails/600000132.png",
+        "sha256": "4d22ffa7fc10f7a3ca9763ae1fd7a1179e337b8a23c0920cf9c44ccc00948c13",
+        "byte_size": 8586,
+        "width": 300,
+        "height": 362,
+        "content_type": "image/webp",
+        "observed_on": "2026-10-21",
+        "downloaded_at": "2026-10-21T10:13:58+09:00",
+        "method": "official_browser_product_card_dom",
+        "identity_match": "official_product_link_and_image_filename_sku"
+      }
     },
     {
       "product_number": "600000150",
@@ -78950,7 +80090,27 @@
         },
         "primary_source_id": "label-0089"
       },
-      "data_review_status": "verified"
+      "data_review_status": "verified",
+      "thumbnail": {
+        "product_number": "600000150",
+        "catalog_name": "대웅제약 프로폴리스 츄어블 30정 30일분",
+        "status": "available",
+        "missing_reason": null,
+        "source_url": "https://cdn.daisomall.co.kr/file/resize/PD/20250409/thumb/300/Kpov6WvmW02F4pW9qB4z600000150_00_00Kpov6WvmW02F4pW9qB4z.png",
+        "page_url": "https://www.daisomall.co.kr/ds/diy2/C246",
+        "detail_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=600000150&recmYn=N",
+        "displayed_name": "대웅제약 프로폴리스 츄어블 30정 30일분",
+        "local_path": "data/products/thumbnails/600000150.png",
+        "sha256": "8180b8e9172924e6b283915e3563f63eb99e78d51a2ccd916f8f3ce01dd7b152",
+        "byte_size": 8966,
+        "width": 300,
+        "height": 362,
+        "content_type": "image/webp",
+        "observed_on": "2026-10-21",
+        "downloaded_at": "2026-10-21T10:13:58+09:00",
+        "method": "official_browser_product_card_dom",
+        "identity_match": "official_product_link_and_image_filename_sku"
+      }
     },
     {
       "product_number": "032306200",
@@ -80705,7 +81865,27 @@
         },
         "primary_source_id": "label-0091"
       },
-      "data_review_status": "verified"
+      "data_review_status": "verified",
+      "thumbnail": {
+        "product_number": "032306200",
+        "catalog_name": "종근당 데일리와이즈 멀티비타민 미네랄 12정 12일분",
+        "status": "available",
+        "missing_reason": null,
+        "source_url": "https://cdn.daisomall.co.kr/file/resize/PD/20260406/thumb/300/wa1QGrY4qd0U0wkjcq99032306200_00_01wa1QGrY4qd0U0wkjcq99.jpg",
+        "page_url": "https://www.daisomall.co.kr/ds/diy2/C246",
+        "detail_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=032306200&recmYn=N",
+        "displayed_name": "종근당 데일리와이즈 멀티비타민 미네랄 12정 12일분",
+        "local_path": "data/products/thumbnails/032306200.jpg",
+        "sha256": "cdb1df1686cc113d2a17fc9c47f0018b32c3bb95da25fe45eb282cc5f82a4fcc",
+        "byte_size": 9134,
+        "width": 300,
+        "height": 400,
+        "content_type": "image/webp",
+        "observed_on": "2026-10-21",
+        "downloaded_at": "2026-10-21T10:13:58+09:00",
+        "method": "official_browser_product_card_dom",
+        "identity_match": "official_product_link_and_image_filename_sku"
+      }
     },
     {
       "product_number": "610910727",
@@ -81864,7 +83044,27 @@
         },
         "primary_source_id": "label-0093"
       },
-      "data_review_status": "verified"
+      "data_review_status": "verified",
+      "thumbnail": {
+        "product_number": "610910727",
+        "catalog_name": "동국제약 리포좀 마그마 스피드 30정",
+        "status": "available",
+        "missing_reason": null,
+        "source_url": "https://cdn.daisomall.co.kr/file/resize/PD/20251111/thumb/300/69fT92p91uLANMODpyck610910727_00_0069fT92p91uLANMODpyck.png",
+        "page_url": "https://www.daisomall.co.kr/ds/diy2/C246",
+        "detail_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=610910727&recmYn=N",
+        "displayed_name": "동국제약 리포좀 마그마 스피드 30정",
+        "local_path": "data/products/thumbnails/610910727.png",
+        "sha256": "54976a188f4fdded121aa503c04c36ca005683852cd6514a38d38aaf0a0d3f80",
+        "byte_size": 14730,
+        "width": 300,
+        "height": 375,
+        "content_type": "image/webp",
+        "observed_on": "2026-10-21",
+        "downloaded_at": "2026-10-21T10:13:58+09:00",
+        "method": "official_browser_product_card_dom",
+        "identity_match": "official_product_link_and_image_filename_sku"
+      }
     },
     {
       "product_number": "610910679",
@@ -82899,7 +84099,27 @@
         },
         "primary_source_id": "label-0094"
       },
-      "data_review_status": "verified"
+      "data_review_status": "verified",
+      "thumbnail": {
+        "product_number": "610910679",
+        "catalog_name": "동국제약 리포좀 비타민C 30정",
+        "status": "available",
+        "missing_reason": null,
+        "source_url": "https://cdn.daisomall.co.kr/file/resize/PD/20250829/thumb/300/3zNHA2Xp859SKsazXUwt610910679_00_003zNHA2Xp859SKsazXUwt.png",
+        "page_url": "https://www.daisomall.co.kr/ds/diy2/C246",
+        "detail_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=610910679&recmYn=N",
+        "displayed_name": "동국제약 리포좀 비타민C 30정",
+        "local_path": "data/products/thumbnails/610910679.png",
+        "sha256": "825305157d0ab26ae88ffb487915446937c646fbbfb32cbdd3f489363343997b",
+        "byte_size": 10768,
+        "width": 300,
+        "height": 429,
+        "content_type": "image/webp",
+        "observed_on": "2026-10-21",
+        "downloaded_at": "2026-10-21T10:14:53+09:00",
+        "method": "official_browser_product_card_dom",
+        "identity_match": "official_product_link_and_image_filename_sku"
+      }
     },
     {
       "product_number": "286314181",
@@ -84142,7 +85362,27 @@
         },
         "primary_source_id": "label-0095"
       },
-      "data_review_status": "verified"
+      "data_review_status": "verified",
+      "thumbnail": {
+        "product_number": "286314181",
+        "catalog_name": "영진 비타민C 츄어블 12정",
+        "status": "available",
+        "missing_reason": null,
+        "source_url": "https://cdn.daisomall.co.kr/file/resize/PD/20260310/thumb/300/OAO3HGgecCtu4XcRrckd286314181_00_01OAO3HGgecCtu4XcRrckd.jpg",
+        "page_url": "https://www.daisomall.co.kr/ds/diy2/C246",
+        "detail_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=286314181&recmYn=N",
+        "displayed_name": "영진 비타민C 츄어블 12정",
+        "local_path": "data/products/thumbnails/286314181.jpg",
+        "sha256": "ac6ef36ee3b8051fbdb63a758d9e69681ed1809b3856e7c3d7ad4015510e5e0c",
+        "byte_size": 8534,
+        "width": 300,
+        "height": 400,
+        "content_type": "image/webp",
+        "observed_on": "2026-10-21",
+        "downloaded_at": "2026-10-21T10:13:58+09:00",
+        "method": "official_browser_product_card_dom",
+        "identity_match": "official_product_link_and_image_filename_sku"
+      }
     },
     {
       "product_number": "613602128",
@@ -85786,7 +87026,27 @@
         },
         "primary_source_id": "label-0097"
       },
-      "data_review_status": "verified"
+      "data_review_status": "verified",
+      "thumbnail": {
+        "product_number": "613602128",
+        "catalog_name": "오브맘 멀티비타민＆미네랄 하루구미 30일분",
+        "status": "available",
+        "missing_reason": null,
+        "source_url": "https://cdn.daisomall.co.kr/file/resize/PD/20250922/thumb/300/8husYxWOSsou1qKUi5IE613602128_00_018husYxWOSsou1qKUi5IE.jpg",
+        "page_url": "https://www.daisomall.co.kr/ds/diy2/C246",
+        "detail_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=613602128&recmYn=N",
+        "displayed_name": "오브맘 멀티비타민＆미네랄 하루구미 30일분",
+        "local_path": "data/products/thumbnails/613602128.jpg",
+        "sha256": "172c72ecbb7e2c045413df5f9837cf8462058e906b62b57e39c2e7951177203e",
+        "byte_size": 10826,
+        "width": 300,
+        "height": 400,
+        "content_type": "image/webp",
+        "observed_on": "2026-10-21",
+        "downloaded_at": "2026-10-21T10:13:58+09:00",
+        "method": "official_browser_product_card_dom",
+        "identity_match": "official_product_link_and_image_filename_sku"
+      }
     },
     {
       "product_number": "613602129",
@@ -87019,7 +88279,27 @@
         },
         "primary_source_id": "label-0101"
       },
-      "data_review_status": "verified"
+      "data_review_status": "verified",
+      "thumbnail": {
+        "product_number": "613602129",
+        "catalog_name": "오브맘 면역＆프로폴리스 하루구미 30일분",
+        "status": "available",
+        "missing_reason": null,
+        "source_url": "https://cdn.daisomall.co.kr/file/resize/PD/20250922/thumb/300/XgyvZV5zt5ig9XLyfDOS613602129_00_01XgyvZV5zt5ig9XLyfDOS.jpg",
+        "page_url": "https://www.daisomall.co.kr/ds/diy2/C246",
+        "detail_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=613602129&recmYn=N",
+        "displayed_name": "오브맘 면역＆프로폴리스 하루구미 30일분",
+        "local_path": "data/products/thumbnails/613602129.jpg",
+        "sha256": "7549d85484737b03384f716081aa0711d9e5a887418563a0146fef08f473684c",
+        "byte_size": 9940,
+        "width": 300,
+        "height": 400,
+        "content_type": "image/webp",
+        "observed_on": "2026-10-21",
+        "downloaded_at": "2026-10-21T10:13:58+09:00",
+        "method": "official_browser_product_card_dom",
+        "identity_match": "official_product_link_and_image_filename_sku"
+      }
     },
     {
       "product_number": "613602130",
@@ -88290,7 +89570,27 @@
         },
         "primary_source_id": "label-0104"
       },
-      "data_review_status": "verified"
+      "data_review_status": "verified",
+      "thumbnail": {
+        "product_number": "613602130",
+        "catalog_name": "오브맘 비타민D＆아연 하루구미 30일분",
+        "status": "available",
+        "missing_reason": null,
+        "source_url": "https://cdn.daisomall.co.kr/file/resize/PD/20250922/thumb/300/dxtu28UFPhWKbi5IG3n8613602130_00_01dxtu28UFPhWKbi5IG3n8.jpg",
+        "page_url": "https://www.daisomall.co.kr/ds/diy2/C246",
+        "detail_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=613602130&recmYn=N",
+        "displayed_name": "오브맘 비타민D＆아연 하루구미 30일분",
+        "local_path": "data/products/thumbnails/613602130.jpg",
+        "sha256": "d362614e47a7d15dd010bd10c730b5dd0951b3ec4970d1f934599a6fa6bf0e78",
+        "byte_size": 10360,
+        "width": 300,
+        "height": 400,
+        "content_type": "image/webp",
+        "observed_on": "2026-10-21",
+        "downloaded_at": "2026-10-21T10:13:58+09:00",
+        "method": "official_browser_product_card_dom",
+        "identity_match": "official_product_link_and_image_filename_sku"
+      }
     },
     {
       "product_number": "613602132",
@@ -89626,7 +90926,27 @@
         },
         "primary_source_id": "label-0107"
       },
-      "data_review_status": "verified"
+      "data_review_status": "verified",
+      "thumbnail": {
+        "product_number": "613602132",
+        "catalog_name": "오브맘 활력에너지B 하루구미 30일분",
+        "status": "available",
+        "missing_reason": null,
+        "source_url": "https://cdn.daisomall.co.kr/file/resize/PD/20250922/thumb/300/FWBWePRv27KbgtvBHof6613602132_00_01FWBWePRv27KbgtvBHof6.jpg",
+        "page_url": "https://www.daisomall.co.kr/ds/diy2/C246",
+        "detail_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=613602132&recmYn=N",
+        "displayed_name": "오브맘 활력에너지B 하루구미 30일분",
+        "local_path": "data/products/thumbnails/613602132.jpg",
+        "sha256": "679e5091ad1edc03154a4d8ef5eb2b8f514babf6771c1eb4475fd922521491c3",
+        "byte_size": 10180,
+        "width": 300,
+        "height": 400,
+        "content_type": "image/webp",
+        "observed_on": "2026-10-21",
+        "downloaded_at": "2026-10-21T10:13:58+09:00",
+        "method": "official_browser_product_card_dom",
+        "identity_match": "official_product_link_and_image_filename_sku"
+      }
     },
     {
       "product_number": "032627142",
@@ -91397,7 +92717,27 @@
         },
         "primary_source_id": "label-0108"
       },
-      "data_review_status": "verified"
+      "data_review_status": "verified",
+      "thumbnail": {
+        "product_number": "032627142",
+        "catalog_name": "자연관 리프레쉬 마그네슘＆L-테아닌 4병 4일분",
+        "status": "available",
+        "missing_reason": null,
+        "source_url": "https://cdn.daisomall.co.kr/file/resize/PD/20260612/thumb/300/IiBr1SI0rlUycwbkaeGq032627142_00_01IiBr1SI0rlUycwbkaeGq.jpg",
+        "page_url": "https://www.daisomall.co.kr/ds/diy2/C246",
+        "detail_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=032627142&recmYn=N",
+        "displayed_name": "자연관 리프레쉬 마그네슘＆L-테아닌 4병 4일분",
+        "local_path": "data/products/thumbnails/032627142.jpg",
+        "sha256": "d5e71033eb004beb2d13627a8018e55a04c67cb7922d6f771c28ba03eaf46a5a",
+        "byte_size": 13946,
+        "width": 300,
+        "height": 400,
+        "content_type": "image/webp",
+        "observed_on": "2026-10-21",
+        "downloaded_at": "2026-10-21T10:13:58+09:00",
+        "method": "official_browser_product_card_dom",
+        "identity_match": "official_product_link_and_image_filename_sku"
+      }
     },
     {
       "product_number": "968235547",
@@ -93126,7 +94466,27 @@
         },
         "primary_source_id": "label-0110"
       },
-      "data_review_status": "verified"
+      "data_review_status": "verified",
+      "thumbnail": {
+        "product_number": "968235547",
+        "catalog_name": "안국약품 브이팩 남성용 올인원 멀티 비타민 7포",
+        "status": "available",
+        "missing_reason": null,
+        "source_url": "https://cdn.daisomall.co.kr/file/resize/PD/20250623/thumb/300/jgM8z9lj7cP7W5etxeXM968235547_00_00jgM8z9lj7cP7W5etxeXM.jpg",
+        "page_url": "https://www.daisomall.co.kr/ds/diy2/C246",
+        "detail_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=968235547&recmYn=N",
+        "displayed_name": "안국약품 브이팩 남성용 올인원 멀티 비타민 7포",
+        "local_path": "data/products/thumbnails/968235547.jpg",
+        "sha256": "be21a4ac795dd9436a749a0320e7e14118460da34c6053a38be37d52fa2676e7",
+        "byte_size": 8270,
+        "width": 300,
+        "height": 362,
+        "content_type": "image/webp",
+        "observed_on": "2026-10-21",
+        "downloaded_at": "2026-10-21T10:13:58+09:00",
+        "method": "official_browser_product_card_dom",
+        "identity_match": "official_product_link_and_image_filename_sku"
+      }
     },
     {
       "product_number": "968235548",
@@ -94615,7 +95975,27 @@
         },
         "primary_source_id": "label-0112"
       },
-      "data_review_status": "verified"
+      "data_review_status": "verified",
+      "thumbnail": {
+        "product_number": "968235548",
+        "catalog_name": "안국약품 브이팩 여성용 올인원 멀티 비타민 7포",
+        "status": "available",
+        "missing_reason": null,
+        "source_url": "https://cdn.daisomall.co.kr/file/resize/PD/20260402/thumb/300/05kyKLN3QpKvymmVHajT968235548_00_0005kyKLN3QpKvymmVHajT.jpg",
+        "page_url": "https://www.daisomall.co.kr/ds/diy2/C246",
+        "detail_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=968235548&recmYn=N",
+        "displayed_name": "안국약품 브이팩 여성용 올인원 멀티 비타민 7포",
+        "local_path": "data/products/thumbnails/968235548.jpg",
+        "sha256": "6cd33ac2ea4460c5df5b2b1472572a22874e9cf8b3b373261274201d9e70092a",
+        "byte_size": 8530,
+        "width": 300,
+        "height": 400,
+        "content_type": "image/webp",
+        "observed_on": "2026-10-21",
+        "downloaded_at": "2026-10-21T10:13:58+09:00",
+        "method": "official_browser_product_card_dom",
+        "identity_match": "official_product_link_and_image_filename_sku"
+      }
     },
     {
       "product_number": "994953532",
@@ -95791,7 +97171,27 @@
         },
         "primary_source_id": "label-0113"
       },
-      "data_review_status": "verified"
+      "data_review_status": "verified",
+      "thumbnail": {
+        "product_number": "994953532",
+        "catalog_name": "LG생활건강 이너뷰 비눌린 워터믹스 10포",
+        "status": "available",
+        "missing_reason": null,
+        "source_url": "https://cdn.daisomall.co.kr/file/resize/PD/20250627/thumb/300/K8TCkwlN7kOaniMN8wZv994953532_00_00K8TCkwlN7kOaniMN8wZv.jpg",
+        "page_url": "https://www.daisomall.co.kr/ds/diy2/C246",
+        "detail_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=994953532&recmYn=N",
+        "displayed_name": "LG생활건강 이너뷰 비눌린 워터믹스 10포",
+        "local_path": "data/products/thumbnails/994953532.jpg",
+        "sha256": "02f389e2503e8ea55463823a9ea9906daa6a4ed3a01dd741375822ef78bd553f",
+        "byte_size": 9068,
+        "width": 300,
+        "height": 400,
+        "content_type": "image/webp",
+        "observed_on": "2026-10-21",
+        "downloaded_at": "2026-10-21T10:13:58+09:00",
+        "method": "official_browser_product_card_dom",
+        "identity_match": "official_product_link_and_image_filename_sku"
+      }
     },
     {
       "product_number": "994953534",
@@ -96896,7 +98296,27 @@
         },
         "primary_source_id": "label-0115"
       },
-      "data_review_status": "verified"
+      "data_review_status": "verified",
+      "thumbnail": {
+        "product_number": "994953534",
+        "catalog_name": "LG생활건강 이너뷰 칼륨밸런스 전해질워터 10포",
+        "status": "available",
+        "missing_reason": null,
+        "source_url": "https://cdn.daisomall.co.kr/file/resize/PD/20250627/thumb/300/7ii4aNyp1XbM6AH8HjHT994953534_00_007ii4aNyp1XbM6AH8HjHT.jpg",
+        "page_url": "https://www.daisomall.co.kr/ds/diy2/C246",
+        "detail_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=994953534&recmYn=N",
+        "displayed_name": "LG생활건강 이너뷰 칼륨밸런스 전해질워터 10포",
+        "local_path": "data/products/thumbnails/994953534.jpg",
+        "sha256": "0c074021252e6c700d2e1cc548d9588fa5ff57af71d2eb240901b212680ad36c",
+        "byte_size": 10164,
+        "width": 300,
+        "height": 400,
+        "content_type": "image/webp",
+        "observed_on": "2026-10-21",
+        "downloaded_at": "2026-10-21T10:13:58+09:00",
+        "method": "official_browser_product_card_dom",
+        "identity_match": "official_product_link_and_image_filename_sku"
+      }
     },
     {
       "product_number": "994953530",
@@ -98188,7 +99608,27 @@
         },
         "primary_source_id": "label-0116"
       },
-      "data_review_status": "verified"
+      "data_review_status": "verified",
+      "thumbnail": {
+        "product_number": "994953530",
+        "catalog_name": "LG생활건강 이너뷰 레티놀 리포좀C 12포",
+        "status": "available",
+        "missing_reason": null,
+        "source_url": "https://cdn.daisomall.co.kr/file/resize/PD/20250627/thumb/300/j2jn8GpSpWpVPin1SKu2994953530_00_00j2jn8GpSpWpVPin1SKu2.jpg",
+        "page_url": "https://www.daisomall.co.kr/ds/diy2/C246",
+        "detail_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=994953530&recmYn=N",
+        "displayed_name": "LG생활건강 이너뷰 레티놀 리포좀C 12포",
+        "local_path": "data/products/thumbnails/994953530.jpg",
+        "sha256": "5cf86d1d1c8651d5c021e736178ccde24df6f3350675390e2c623f46900c6330",
+        "byte_size": 11034,
+        "width": 300,
+        "height": 400,
+        "content_type": "image/webp",
+        "observed_on": "2026-10-21",
+        "downloaded_at": "2026-10-21T10:13:58+09:00",
+        "method": "official_browser_product_card_dom",
+        "identity_match": "official_product_link_and_image_filename_sku"
+      }
     },
     {
       "product_number": "994953529",
@@ -99327,7 +100767,27 @@
         },
         "primary_source_id": "label-0118"
       },
-      "data_review_status": "verified"
+      "data_review_status": "verified",
+      "thumbnail": {
+        "product_number": "994953529",
+        "catalog_name": "LG생활건강 이너뷰 진한 레드 석류 콜라겐 7포",
+        "status": "available",
+        "missing_reason": null,
+        "source_url": "https://cdn.daisomall.co.kr/file/resize/PD/20250627/thumb/300/vXg1N5D0xbSNweDPvvl2994953529_00_00vXg1N5D0xbSNweDPvvl2.jpg",
+        "page_url": "https://www.daisomall.co.kr/ds/diy2/C246",
+        "detail_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=994953529&recmYn=N",
+        "displayed_name": "LG생활건강 이너뷰 진한 레드 석류 콜라겐 7포",
+        "local_path": "data/products/thumbnails/994953529.jpg",
+        "sha256": "e40ec53bb3f2a9c6cf4cc27fc54086c0a1847992815114dbd84474b3d3b3102f",
+        "byte_size": 9206,
+        "width": 300,
+        "height": 400,
+        "content_type": "image/webp",
+        "observed_on": "2026-10-21",
+        "downloaded_at": "2026-10-21T10:13:58+09:00",
+        "method": "official_browser_product_card_dom",
+        "identity_match": "official_product_link_and_image_filename_sku"
+      }
     },
     {
       "product_number": "032306212",
@@ -100123,7 +101583,27 @@
         },
         "primary_source_id": "label-0120"
       },
-      "data_review_status": "verified"
+      "data_review_status": "verified",
+      "thumbnail": {
+        "product_number": "032306212",
+        "catalog_name": "[여성건강] 종근당 데일리와이즈 리스펙타 유산균 6포 6일분",
+        "status": "available",
+        "missing_reason": null,
+        "source_url": "https://cdn.daisomall.co.kr/file/resize/PD/20260406/thumb/300/LLM8nTqqNcWSJRgwJpaM032306212_00_01LLM8nTqqNcWSJRgwJpaM.jpg",
+        "page_url": "https://www.daisomall.co.kr/ds/diy2/C246",
+        "detail_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=032306212&recmYn=N",
+        "displayed_name": "[여성건강] 종근당 데일리와이즈 리스펙타 유산균 6포 6일분",
+        "local_path": "data/products/thumbnails/032306212.jpg",
+        "sha256": "b70baac9f300d9300f08459269ea3d3d68e0ef2179bf1ca91a7061a3aaac4bf9",
+        "byte_size": 9884,
+        "width": 300,
+        "height": 400,
+        "content_type": "image/webp",
+        "observed_on": "2026-10-21",
+        "downloaded_at": "2026-10-21T10:13:58+09:00",
+        "method": "official_browser_product_card_dom",
+        "identity_match": "official_product_link_and_image_filename_sku"
+      }
     },
     {
       "product_number": "600651647",
@@ -101112,7 +102592,27 @@
         },
         "primary_source_id": "label-0121"
       },
-      "data_review_status": "verified"
+      "data_review_status": "verified",
+      "thumbnail": {
+        "product_number": "600651647",
+        "catalog_name": "유한양행 프리바이오틱스 스틱 40포 20일분",
+        "status": "available",
+        "missing_reason": null,
+        "source_url": "https://cdn.daisomall.co.kr/file/resize/PD/20260325/thumb/300/3lk29dAMMktUiVesbwgQ600651647_00_003lk29dAMMktUiVesbwgQ.jpg",
+        "page_url": "https://www.daisomall.co.kr/ds/diy2/C246",
+        "detail_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=600651647&recmYn=N",
+        "displayed_name": "유한양행 프리바이오틱스 스틱 40포 20일분",
+        "local_path": "data/products/thumbnails/600651647.jpg",
+        "sha256": "c1fad3920d07f01aa97b6afba5d56292f1a72b2f710b9d4640b1bf70ca6cbf1f",
+        "byte_size": 14722,
+        "width": 300,
+        "height": 399,
+        "content_type": "image/webp",
+        "observed_on": "2026-10-21",
+        "downloaded_at": "2026-10-21T10:13:58+09:00",
+        "method": "official_browser_product_card_dom",
+        "identity_match": "official_product_link_and_image_filename_sku"
+      }
     },
     {
       "product_number": "600651651",
@@ -102352,7 +103852,27 @@
         },
         "primary_source_id": "label-0122"
       },
-      "data_review_status": "verified"
+      "data_review_status": "verified",
+      "thumbnail": {
+        "product_number": "600651651",
+        "catalog_name": "유한양행 프레쉬츄 생유산균 30정 30일분",
+        "status": "available",
+        "missing_reason": null,
+        "source_url": "https://cdn.daisomall.co.kr/file/resize/PD/20260325/thumb/300/Mz4AWbpywwVFSrdyow4Z600651651_00_00Mz4AWbpywwVFSrdyow4Z.jpg",
+        "page_url": "https://www.daisomall.co.kr/ds/diy2/C246",
+        "detail_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=600651651&recmYn=N",
+        "displayed_name": "유한양행 프레쉬츄 생유산균 30정 30일분",
+        "local_path": "data/products/thumbnails/600651651.jpg",
+        "sha256": "0f1803404de6e8ec4684be8fcd77cf24cc85d089232783fdb0690fa666f10cce",
+        "byte_size": 14488,
+        "width": 300,
+        "height": 399,
+        "content_type": "image/webp",
+        "observed_on": "2026-10-21",
+        "downloaded_at": "2026-10-21T10:13:58+09:00",
+        "method": "official_browser_product_card_dom",
+        "identity_match": "official_product_link_and_image_filename_sku"
+      }
     },
     {
       "product_number": "600651652",
@@ -103525,7 +105045,27 @@
         },
         "primary_source_id": "label-0123"
       },
-      "data_review_status": "verified"
+      "data_review_status": "verified",
+      "thumbnail": {
+        "product_number": "600651652",
+        "catalog_name": "유한양행 초코맛 생유산균 스틱 20포 20일분",
+        "status": "available",
+        "missing_reason": null,
+        "source_url": "https://cdn.daisomall.co.kr/file/resize/PD/20260325/thumb/300/dj7lmBMZiAKAXlm5drGt600651652_00_00dj7lmBMZiAKAXlm5drGt.jpg",
+        "page_url": "https://www.daisomall.co.kr/ds/diy2/C246",
+        "detail_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=600651652&recmYn=N",
+        "displayed_name": "유한양행 초코맛 생유산균 스틱 20포 20일분",
+        "local_path": "data/products/thumbnails/600651652.jpg",
+        "sha256": "4dffc8404deebb7de07bb6851fb8bf885b4a68ee57d88c8f90e8d0e0f605f81d",
+        "byte_size": 11858,
+        "width": 300,
+        "height": 399,
+        "content_type": "image/webp",
+        "observed_on": "2026-10-21",
+        "downloaded_at": "2026-10-21T10:13:58+09:00",
+        "method": "official_browser_product_card_dom",
+        "identity_match": "official_product_link_and_image_filename_sku"
+      }
     },
     {
       "product_number": "600651655",
@@ -104782,7 +106322,27 @@
         },
         "primary_source_id": "label-0124"
       },
-      "data_review_status": "verified"
+      "data_review_status": "verified",
+      "thumbnail": {
+        "product_number": "600651655",
+        "catalog_name": "유한양행 운동부스터 생유산균 스틱 5포 5일분",
+        "status": "available",
+        "missing_reason": null,
+        "source_url": "https://cdn.daisomall.co.kr/file/resize/PD/20260325/thumb/300/CxT93DcA0d824G3UBlAN600651655_00_00CxT93DcA0d824G3UBlAN.jpg",
+        "page_url": "https://www.daisomall.co.kr/ds/diy2/C246",
+        "detail_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=600651655&recmYn=N",
+        "displayed_name": "유한양행 운동부스터 생유산균 스틱 5포 5일분",
+        "local_path": "data/products/thumbnails/600651655.jpg",
+        "sha256": "db8f593d4f00dc066f3f58c91646f20de0ac0db76962277cfeb336e62327db2b",
+        "byte_size": 11964,
+        "width": 300,
+        "height": 399,
+        "content_type": "image/webp",
+        "observed_on": "2026-10-21",
+        "downloaded_at": "2026-10-21T10:13:58+09:00",
+        "method": "official_browser_product_card_dom",
+        "identity_match": "official_product_link_and_image_filename_sku"
+      }
     },
     {
       "product_number": "591580521",
@@ -105955,7 +107515,27 @@
         },
         "primary_source_id": "label-0125"
       },
-      "data_review_status": "verified"
+      "data_review_status": "verified",
+      "thumbnail": {
+        "product_number": "591580521",
+        "catalog_name": "종근당건강 락토핏 골드",
+        "status": "available",
+        "missing_reason": null,
+        "source_url": "https://cdn.daisomall.co.kr/file/resize/PD/20260522/thumb/300/0jgRGoNZEcwwrbTgrqVw591580521_00_000jgRGoNZEcwwrbTgrqVw.jpg",
+        "page_url": "https://www.daisomall.co.kr/ds/diy2/C246",
+        "detail_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=591580521&recmYn=N",
+        "displayed_name": "종근당건강 락토핏 골드",
+        "local_path": "data/products/thumbnails/591580521.jpg",
+        "sha256": "b1153c7aeac35c34a211a45df33f670f743d4fd45ac440bd561837dbafa40b04",
+        "byte_size": 19938,
+        "width": 300,
+        "height": 400,
+        "content_type": "image/webp",
+        "observed_on": "2026-10-21",
+        "downloaded_at": "2026-10-21T10:13:58+09:00",
+        "method": "official_browser_product_card_dom",
+        "identity_match": "official_product_link_and_image_filename_sku"
+      }
     },
     {
       "product_number": "591580891",
@@ -107519,7 +109099,27 @@
         },
         "primary_source_id": "label-0126"
       },
-      "data_review_status": "verified"
+      "data_review_status": "verified",
+      "thumbnail": {
+        "product_number": "591580891",
+        "catalog_name": "종근당건강 락토핏 간케어 20포",
+        "status": "available",
+        "missing_reason": null,
+        "source_url": "https://cdn.daisomall.co.kr/file/resize/PD/20251015/thumb/300/nR3zXDtjAX4U4oB5HSV3591580891_00_00nR3zXDtjAX4U4oB5HSV3.jpg",
+        "page_url": "https://www.daisomall.co.kr/ds/diy2/C246",
+        "detail_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=591580891&recmYn=N",
+        "displayed_name": "종근당건강 락토핏 간케어 20포",
+        "local_path": "data/products/thumbnails/591580891.jpg",
+        "sha256": "5ecbdb9a06e7abd26001b5ff82b979cd97eb211ab619385d56ca11334a95e2ad",
+        "byte_size": 6474,
+        "width": 300,
+        "height": 400,
+        "content_type": "image/webp",
+        "observed_on": "2026-10-21",
+        "downloaded_at": "2026-10-21T10:13:58+09:00",
+        "method": "official_browser_product_card_dom",
+        "identity_match": "official_product_link_and_image_filename_sku"
+      }
     },
     {
       "product_number": "591580761",
@@ -109002,7 +110602,27 @@
         },
         "primary_source_id": "label-0129"
       },
-      "data_review_status": "verified"
+      "data_review_status": "verified",
+      "thumbnail": {
+        "product_number": "591580761",
+        "catalog_name": "종근당건강 락토핏 당케어",
+        "status": "available",
+        "missing_reason": null,
+        "source_url": "https://cdn.daisomall.co.kr/file/resize/PD/20250610/thumb/300/qUVshiLfS5KUSiQ9T3cu591580761_00_05qUVshiLfS5KUSiQ9T3cu.jpg",
+        "page_url": "https://www.daisomall.co.kr/ds/diy2/C246",
+        "detail_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=591580761&recmYn=N",
+        "displayed_name": "종근당건강 락토핏 당케어",
+        "local_path": "data/products/thumbnails/591580761.jpg",
+        "sha256": "f944cbaa2491c573c663ef110e73f8832f9149275fdee68034f922dc6a6a4879",
+        "byte_size": 5298,
+        "width": 300,
+        "height": 300,
+        "content_type": "image/webp",
+        "observed_on": "2026-10-21",
+        "downloaded_at": "2026-10-21T10:13:58+09:00",
+        "method": "official_browser_product_card_dom",
+        "identity_match": "official_product_link_and_image_filename_sku"
+      }
     },
     {
       "product_number": "034345002",
@@ -110142,7 +111762,27 @@
         },
         "primary_source_id": "label-0130"
       },
-      "data_review_status": "verified"
+      "data_review_status": "verified",
+      "thumbnail": {
+        "product_number": "034345002",
+        "catalog_name": "올비텐 유산균 30포",
+        "status": "available",
+        "missing_reason": null,
+        "source_url": "https://cdn.daisomall.co.kr/file/resize/PD/20260310/thumb/300/T4loWDiI8pGLQV9NaP56034345002_00_09T4loWDiI8pGLQV9NaP56.jpg",
+        "page_url": "https://www.daisomall.co.kr/ds/diy2/C246",
+        "detail_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=034345002&recmYn=N",
+        "displayed_name": "올비텐 유산균 30포",
+        "local_path": "data/products/thumbnails/034345002.jpg",
+        "sha256": "c6708e5c6de413267bfd0a1042a4a674b6717b9c98cbf027f4f80b3da6a1dfa3",
+        "byte_size": 13042,
+        "width": 300,
+        "height": 400,
+        "content_type": "image/webp",
+        "observed_on": "2026-10-21",
+        "downloaded_at": "2026-10-21T10:13:58+09:00",
+        "method": "official_browser_product_card_dom",
+        "identity_match": "official_product_link_and_image_filename_sku"
+      }
     },
     {
       "product_number": "600651648",
@@ -111131,7 +112771,27 @@
         },
         "primary_source_id": "label-0131"
       },
-      "data_review_status": "verified"
+      "data_review_status": "verified",
+      "thumbnail": {
+        "product_number": "600651648",
+        "catalog_name": "유한양행 장건강 생유산균 스틱 30포 30일분",
+        "status": "available",
+        "missing_reason": null,
+        "source_url": "https://cdn.daisomall.co.kr/file/resize/PD/20260325/thumb/300/Cmq9TRKeNeM85vAvoB9e600651648_00_00Cmq9TRKeNeM85vAvoB9e.jpg",
+        "page_url": "https://www.daisomall.co.kr/ds/diy2/C246",
+        "detail_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=600651648&recmYn=N",
+        "displayed_name": "유한양행 장건강 생유산균 스틱 30포 30일분",
+        "local_path": "data/products/thumbnails/600651648.jpg",
+        "sha256": "bdcbd49894de96141c0e1072a39e4c581585364c5bf2f35fc7e9699c6886a10b",
+        "byte_size": 13948,
+        "width": 300,
+        "height": 399,
+        "content_type": "image/webp",
+        "observed_on": "2026-10-21",
+        "downloaded_at": "2026-10-21T10:13:58+09:00",
+        "method": "official_browser_product_card_dom",
+        "identity_match": "official_product_link_and_image_filename_sku"
+      }
     },
     {
       "product_number": "600651649",
@@ -112073,7 +113733,27 @@
         },
         "primary_source_id": "label-0132"
       },
-      "data_review_status": "verified"
+      "data_review_status": "verified",
+      "thumbnail": {
+        "product_number": "600651649",
+        "catalog_name": "유한양행 장건강 생유산균 30캡슐 30일분",
+        "status": "available",
+        "missing_reason": null,
+        "source_url": "https://cdn.daisomall.co.kr/file/resize/PD/20260325/thumb/300/RN6BLb2wWdxkL0nu9aVK600651649_00_00RN6BLb2wWdxkL0nu9aVK.jpg",
+        "page_url": "https://www.daisomall.co.kr/ds/diy2/C246",
+        "detail_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=600651649&recmYn=N",
+        "displayed_name": "유한양행 장건강 생유산균 30캡슐 30일분",
+        "local_path": "data/products/thumbnails/600651649.jpg",
+        "sha256": "7c2d038dbc68a3c2fae11de37bb086cb03024cdc541d4da5af7cc1db901cca13",
+        "byte_size": 12462,
+        "width": 300,
+        "height": 399,
+        "content_type": "image/webp",
+        "observed_on": "2026-10-21",
+        "downloaded_at": "2026-10-21T10:13:58+09:00",
+        "method": "official_browser_product_card_dom",
+        "identity_match": "official_product_link_and_image_filename_sku"
+      }
     },
     {
       "product_number": "600651650",
@@ -113030,7 +114710,27 @@
         },
         "primary_source_id": "label-0133"
       },
-      "data_review_status": "verified"
+      "data_review_status": "verified",
+      "thumbnail": {
+        "product_number": "600651650",
+        "catalog_name": "유한양행 비피더스 생유산균 10캡슐 10일분",
+        "status": "available",
+        "missing_reason": null,
+        "source_url": "https://cdn.daisomall.co.kr/file/resize/PD/20260325/thumb/300/wjBYMQTwSs5Uxawy8JxO600651650_00_00wjBYMQTwSs5Uxawy8JxO.jpg",
+        "page_url": "https://www.daisomall.co.kr/ds/diy2/C246",
+        "detail_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=600651650&recmYn=N",
+        "displayed_name": "유한양행 비피더스 생유산균 10캡슐 10일분",
+        "local_path": "data/products/thumbnails/600651650.jpg",
+        "sha256": "2b141a44f5fe284d8f130ffbceee7ff18d1634a5bab7904f7377bd9e8fd6a137",
+        "byte_size": 15592,
+        "width": 300,
+        "height": 399,
+        "content_type": "image/webp",
+        "observed_on": "2026-10-21",
+        "downloaded_at": "2026-10-21T10:13:58+09:00",
+        "method": "official_browser_product_card_dom",
+        "identity_match": "official_product_link_and_image_filename_sku"
+      }
     },
     {
       "product_number": "600651654",
@@ -113989,7 +115689,27 @@
         },
         "primary_source_id": "label-0134"
       },
-      "data_review_status": "on_hold"
+      "data_review_status": "on_hold",
+      "thumbnail": {
+        "product_number": "600651654",
+        "catalog_name": "유한양행 산뜻해질 생유산균 20캡슐 20일분",
+        "status": "available",
+        "missing_reason": null,
+        "source_url": "https://cdn.daisomall.co.kr/file/resize/PD/20260325/thumb/300/BJcWNz19ajlLYaMbOK0e600651654_00_00BJcWNz19ajlLYaMbOK0e.jpg",
+        "page_url": "https://www.daisomall.co.kr/ds/diy2/C246",
+        "detail_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=600651654&recmYn=N",
+        "displayed_name": "유한양행 산뜻해질 생유산균 20캡슐 20일분",
+        "local_path": "data/products/thumbnails/600651654.jpg",
+        "sha256": "be99c8824a27c9011dcff65c985951f2c059afa46691f3296a298521274d963e",
+        "byte_size": 13586,
+        "width": 300,
+        "height": 399,
+        "content_type": "image/webp",
+        "observed_on": "2026-10-21",
+        "downloaded_at": "2026-10-21T10:13:58+09:00",
+        "method": "official_browser_product_card_dom",
+        "identity_match": "official_product_link_and_image_filename_sku"
+      }
     },
     {
       "product_number": "610910677",
@@ -115403,7 +117123,27 @@
         },
         "primary_source_id": "label-0135"
       },
-      "data_review_status": "verified"
+      "data_review_status": "verified",
+      "thumbnail": {
+        "product_number": "610910677",
+        "catalog_name": "동국제약 이너케어＆유산균 30캡슐",
+        "status": "available",
+        "missing_reason": null,
+        "source_url": "https://cdn.daisomall.co.kr/file/resize/PD/20250829/thumb/300/mBCVgsNacUdX2MZDROO3610910677_00_00mBCVgsNacUdX2MZDROO3.png",
+        "page_url": "https://www.daisomall.co.kr/ds/diy2/C246",
+        "detail_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=610910677&recmYn=N",
+        "displayed_name": "동국제약 이너케어＆유산균 30캡슐",
+        "local_path": "data/products/thumbnails/610910677.png",
+        "sha256": "c5d5af91a0926ba3c6ea6f35b644319914a01315fbfd19a4f567dda664fa6cec",
+        "byte_size": 9692,
+        "width": 300,
+        "height": 429,
+        "content_type": "image/webp",
+        "observed_on": "2026-10-21",
+        "downloaded_at": "2026-10-21T10:14:53+09:00",
+        "method": "official_browser_product_card_dom",
+        "identity_match": "official_product_link_and_image_filename_sku"
+      }
     },
     {
       "product_number": "610910678",
@@ -116538,7 +118278,27 @@
         },
         "primary_source_id": "label-0136"
       },
-      "data_review_status": "verified"
+      "data_review_status": "verified",
+      "thumbnail": {
+        "product_number": "610910678",
+        "catalog_name": "동국제약 혈당케어＆유산균 30캡슐",
+        "status": "available",
+        "missing_reason": null,
+        "source_url": "https://cdn.daisomall.co.kr/file/resize/PD/20250829/thumb/300/y6DqUAmlgLsAXGUrvbmN610910678_00_00y6DqUAmlgLsAXGUrvbmN.png",
+        "page_url": "https://www.daisomall.co.kr/ds/diy2/C246",
+        "detail_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=610910678&recmYn=N",
+        "displayed_name": "동국제약 혈당케어＆유산균 30캡슐",
+        "local_path": "data/products/thumbnails/610910678.png",
+        "sha256": "293c4f49f7eb10061e811ac337daf526b0e346809352cc8324a7400bf0a6d2d3",
+        "byte_size": 11730,
+        "width": 300,
+        "height": 429,
+        "content_type": "image/webp",
+        "observed_on": "2026-10-21",
+        "downloaded_at": "2026-10-21T10:14:53+09:00",
+        "method": "official_browser_product_card_dom",
+        "identity_match": "official_product_link_and_image_filename_sku"
+      }
     }
   ]
 }

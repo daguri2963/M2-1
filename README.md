@@ -1,66 +1,111 @@
 # 영양제 첫걸음
 
-다이소 영양제를 처음 고르는 사람을 위한 제품 정보·설문·비교·대화 프런트엔드입니다. 빨강과 흰색을 중심으로 한 독립적인 브랜드 UI이며, 다이소의 공식 서비스가 아닌 학습 프로젝트입니다.
+다이소 영양제를 처음 고르는 성인을 위한 공식 제품 정보·설문 기반 후보 추천·비교·AI 대화 서비스입니다. 다이소와 제휴한 공식 서비스가 아닌 학습 프로젝트입니다. 질환 진단·치료·개인별 용량 처방은 제공하지 않습니다.
+
+## 현재 구현
+
+- 공식 표시 검수 완료 **87개**를 SQLite에서 조회합니다. 전체 수집 88개 중 보류 1개는 공개 목록에서 제외합니다.
+- 다이소몰 공식 썸네일 88개를 확보하고 공개 제품 87개의 실제 사진을 연결했습니다.
+- 관심 분야·기존 제품·주의조건·예산·제형을 반영해 최대 3개 후보와 표시 근거를 제시합니다. 조건 부족·추천 제한·빈 결과를 구분합니다.
+- 기존 제품의 표시 성분 중복을 검사하고, 확인 가능한 하루 기준·단위에서만 합산합니다. 병용 안전성 판정은 하지 않습니다.
+- 두 제품의 가격·성분·기준량·섭취방법·주의사항을 실제 서버에서 비교합니다.
+- Gemini Agent가 여러 도구 중 필요한 도구를 골라 SQLite 표시 근거를 검색하고 출처와 함께 설명합니다. 초기 연결·AI 생성·실패·재시도를 구분합니다.
+- 모바일 중심 홈·설문·결과·상세·비교·AI 대화, 성인·개인정보·AI 전송 동의와 입력 초기화를 제공합니다.
+
+실제 Gemini 키로 도구 호출·근거 검색·응답 검증을 확인했습니다. 외부 공개 배포와 실제 타깃 사용자 5명 피드백·개선은 후속 단계입니다. 초기 기획서·기여 기록·발표 자료는 실제 최종 수행 결과에 맞춰 보완해야 합니다.
+
+## 기술 선택
+
+| 구성 | 선택 이유 |
+|---|---|
+| React·TypeScript·Vite | 기존 모바일 UI 유지, 입력·응답 형식 검사, 정적 배포 가능 |
+| Python·FastAPI | 기존 데이터 작업과 언어 통일, 입력 검증·비동기 AI 연결·API 문서 |
+| SQLite | 88개 규모의 검수 DB 재사용, 별도 DB 서버 없이 읽기 전용 배포 |
+| Google GenAI SDK | 공식 Gemini 함수 호출과 구조화 출력 연결 |
+| Gemini 3.5 Flash Lite | 실제 계정에서 도구·출처 검증을 확인하고 상품 설명 응답 지연을 줄이기 위해 선택 |
 
 ## 로컬 실행
 
-Node.js 22.12 이상(개발 확인: Node 24), npm, 데이터 재추출 시 Python 3가 필요합니다.
+Python 3.11 이상(검증: 3.13), Node.js 22.12 이상(검증: 24)이 필요합니다.
 
 ```sh
+# 저장소 루트에서 최초 한 번
+python3 -m venv .venv
+.venv/bin/python -m pip install -r backend/requirements.lock
+# .env가 없는 경우에만 예시를 복사하고 서버용 Gemini 키를 직접 입력
+cp -n .env.example .env
+```
+
+키는 루트 `.env`의 `GEMINI_API_KEY`에 저장합니다. 값은 대화·로그·소스에 복사하지 않습니다. `.env`는 Git 제외 대상이며 프런트의 `VITE_` 변수에 비밀키를 넣지 않습니다. 모델은 `GEMINI_MODEL`로 설정합니다. 키를 변경하면 백엔드를 다시 실행합니다.
+
+```sh
+# 터미널 1: 백엔드
+.venv/bin/python -m uvicorn backend.main:app --host 127.0.0.1 --port 8000 --no-access-log
+```
+
+```sh
+# 터미널 2: 프런트엔드
 cd frontend
 npm ci
 npm run dev -- --port 5173
-```
-
-[개발 미리보기](http://127.0.0.1:5173/)에서 엽니다. 최종 정적 빌드는 `npm run build` 후 `npm run preview -- --port 4173`으로 실행해 [완성 화면 미리보기](http://127.0.0.1:4173/)에서 확인합니다. 서버가 종료되어 있으면 위 명령으로 실행하세요. 현재 진행 결과는 [비공개 GitHub 저장소](https://github.com/sayknow/M2-1)의 `main`에 저장했습니다. 공개 배포는 수행하지 않았습니다.
-
-```sh
-# frontend/에서 실행
-npm test
+# 완성 빌드 미리보기
 npm run build
 npm run preview -- --port 4173
-# 원본 검수 데이터가 변경되었을 때만 재추출
-npm run data
 ```
 
-`frontend/dist/`가 정적 빌드 결과입니다. API 키나 백엔드 서버 없이 실행됩니다. 건강 관련 설문과 대화는 React 메모리 상태에만 보관하며 새로고침하면 삭제합니다. localStorage·서버·외부 AI 전송을 사용하지 않습니다. 폰트는 Google Fonts에서 불러오며 연결되지 않으면 시스템 한글 폰트를 사용합니다.
+[개발 화면](http://127.0.0.1:5173/) · [완성 화면](http://127.0.0.1:4173/) · [API 문서](http://127.0.0.1:8000/docs).
 
-## 완성한 화면과 동작
+로컬 UI는 기본 8000번 백엔드에 연결합니다. 외부 정적 배포는 `frontend/.env.example`의 공개 `VITE_API_BASE_URL` 설정과 서버 `ALLOWED_ORIGINS`를 맞춥니다. 상품 DB는 배포 파일에 포함하며 Dockerfile도 제공합니다. 현재 외부 배포는 수행하지 않았습니다.
 
-- **홈**: 설문 시작, 제품 탐색, 비교·대화 진입. 검수 제품 예시 카드와 명확한 화면 체험 안내.
-- **설문**: 이용 안내·동의 후 5단계. 필수값 검사, 이전·다음·값 유지, 모름·목록에 없음, 기존 제품 검색, 예산·제형 건너뛰기.
-- **추천 결과**: 입력 요약·수정, 고정 예시 후보 3개, 비교·상세·대화 연결. 로딩·결과 없음·자료 부족·제한·오류 체험.
-- **제품 상세**: 검수된 유형·포장·가격·성분·기준량·표시 섭취법·주의·알레르기·보관·공식 출처. 긴 원재료와 출처는 펼침.
-- **제품 비교**: 두 개 선택·해제·교체, 차이만 보기. 모바일에서 같은 항목의 두 값을 함께 표시. 기준·단위 자동 환산이나 우열 판단 없음.
-- **AI 대화**: 준비된 체험 답변, 질문 칩, 입력·진행·재시도·초기화, 제품/설문 맥락, 제품 표시 근거 연결.
+## 검증
 
-추가 제품 라이브러리에서 검수 완료 87개를 이름·브랜드·유형으로 탐색할 수 있습니다. 작은 제품 그림은 직접 만든 CSS 일러스트이며 실물 포장 사진이 아닙니다.
+```sh
+# 저장소 루트: 키 없이 실행 가능한 자동 검사
+.venv/bin/python -m pytest -q
+python3 scripts/validate_product_database.py
+python3 scripts/validate_product_thumbnails.py
+cd frontend
+npm test
+npm run build
+```
 
-## 다음 백엔드 단계
+```sh
+# 저장소 루트: 실제 Gemini 호출 (API 사용량 발생)
+.venv/bin/python scripts/check_gemini_connection.py
+# 로컬 백엔드를 켠 상태의 전체 HTTP 검사
+.venv/bin/python scripts/check_backend.py
+```
 
-현재 설문 답변은 **요약만** 하며 후보 선정에 사용하지 않습니다. 준비된 동일 제품 3개를 보여줍니다. Gemini/실시간 AI, 개인화 추천, 의약품·질환별 제한 규칙, 성분 중복·병용 판단, 하루 비용 계산, 로그인·영구 저장은 연결하지 않았습니다. 대화는 미리 작성된 안내문을 불러옵니다.
+실제 사용자 건강정보 대신 가상 선택지와 공개 상품으로 확인합니다. 자동 검사는 영양학·임상 검증이나 독립 제2검수를 의미하지 않습니다. 결과와 재현 방법은 [백엔드 검증 기록](docs/backend-test-results.md)에 있습니다.
 
-`frontend/src/services.ts`의 `SelectionService`와 `mockService`가 후속 FastAPI 연결 경계입니다. API 연결 시 서버에서 검수 상태·제품 근거·추천 제한을 다시 검증하고 동의·개인정보 처리 안내를 실제 전송 범위에 맞게 변경해야 합니다. 프런트에 API 키를 넣지 않습니다.
+## 문서와 데이터
 
-## 데이터와 문서
-
-- [화면 설계·상태·이동·API 경계](docs/ui-design.md)
+- [핵심8개 기능 요구·평가 재현](docs/functional-requirements.md)
+- [추천 정책·지원 범위·정량 규칙](docs/recommendation-policy.md)
+- [시스템 구조·API·Gemini·RAG·정보 처리](docs/backend-api.md)
+- [화면 설계와 이동 흐름](docs/ui-design.md)
+- [검수 DB와 출처](docs/product-database.md)
+- [표시정보 검수 보고](docs/product-label-review.md)
+- [공식 썸네일 수집·검증](docs/product-thumbnails.md)
 - [프런트 검증 기록](docs/frontend-test-results.md)
-- [원본 데이터베이스 설명](docs/product-database.md)
-- [88개 표시정보 검수 보고](docs/product-label-review.md)
-- [초기 기획서](docs/project-plan.md) — 초안의 제안 스택·미완료 데이터 설명은 당시 기록입니다. 현재 프런트는 React·TypeScript·Vite로 구현했습니다.
+- [초기 기획서](docs/project-plan.md) — 초기 제안·이전 진행 상태는 당시 기록입니다.
 
-제품 표시는 검수 완료 87개만 `frontend/scripts/export_products.py`로 작게 추출합니다. 보류 SKU `600651654`, 원본 이미지·OCR 후보·검수 대장은 번들에 포함하지 않습니다. 일반식품도 실제 유형으로 구분합니다. 가격은 2026-10-19 관찰값이며 실시간 재고·가격이 아닙니다. 실제 제품 데이터 검수는 같은 수행자의 자체 검수이며 독립 제2검수는 수행하지 않았습니다.
+공식 표시·가격 관찰은 주로 2026-10-19, 표시 검수는 2026-10-19~20, 사진 확인은 2026-10-21입니다. 실시간 가격·재고가 아니며 자료 날짜를 일괄 현재 날짜로 바꾸지 않습니다. 사진 수집과 표시 검수, 추천 정책의 후보 평가는 서로 구분합니다.
 
 ## 소스 구조
 
 ```text
-frontend/src/App.tsx            화면·공유 세션 상태·해시 경로
-frontend/src/styles.css        모바일/데스크톱 디자인
-frontend/src/domain.ts         설문 검증·선택·비교 동작
-frontend/src/services.ts       정적 제품 어댑터·후속 API 인터페이스·체험 응답
-frontend/src/data/products.json 검수 완료 제품의 화면용 정보
-frontend/tests/domain.test.mjs 의미 있는 동작·데이터 경계 검사
+backend/main.py             API·동의·임시 연결·오류 처리
+backend/repository.py       읽기 전용 검수 SQLite 조회·비교·근거 검색
+backend/policy.py           후보 선정·제한·성분 중복·정량 기준
+backend/agent.py            Gemini 도구 실행 루프·인용/응답 검증
+backend/privacy.py          제공자 전송 최소화·로컬 입력 제한
+backend/tests/              규칙·API·Agent·개인정보 경계 검사
+frontend/src/App.tsx        화면·설문·결과·비교·대화·철회
+frontend/src/services.ts    실제 HTTP 연결·메모리 세션
+frontend/src/connection.ts  최초 서버 기동 대기·재시도
+frontend/public/            검수 완료 상품의 공식 썸네일
+scripts/                   원본 수집·DB 재생성·무결성·실제 연결 검사
 ```
 
-검증용 상태 선택기는 기본 화면에서 숨겼습니다. 재현이 필요하면 `#/results?state=example&preview=1`, `#/chat?preview=1`을 사용합니다. 설문·대화 중에는 고정 비교 바를 숨겨 입력에 집중하도록 했습니다.
+설문·대화는 브라우저 메모리에 두며 새로고침·입력 초기화로 삭제합니다. 서버는 건강 입력·대화 원문을 영구 저장하지 않습니다. Google의 처리 범위는 서비스 서버와 다르므로 이용 전 동의 안내를 확인해야 합니다. Gemini가 없거나 실패해도 정적 예시를 실제 AI 응답으로 보여주지 않습니다.

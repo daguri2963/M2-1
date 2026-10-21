@@ -1,0 +1,20 @@
+{
+  "passed": true,
+  "mode": "gemini",
+  "model": "gemini-3.5-flash-lite",
+  "elapsedSeconds": 2.58,
+  "toolTrace": [
+    {
+      "tool": "get_product_details",
+      "ok": true
+    }
+  ],
+  "citationIds": [
+    "600000128:function",
+    "600000128:cautions"
+  ],
+  "productIds": [
+    "600000128"
+  ],
+  "testData": "public product only; no personal health data"
+}

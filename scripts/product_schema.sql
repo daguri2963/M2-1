@@ -28,3 +28,12 @@ CREATE VIEW verified_product_nutrients AS SELECT n.* FROM reviewed_nutrients n J
 CREATE VIEW verified_product_fields AS SELECT f.* FROM reviewed_fields f JOIN label_reviews r ON r.product_id=f.product_id WHERE r.data_review_status='verified';
 CREATE VIEW reviewed_intake_instructions AS SELECT * FROM reviewed_fields WHERE field_name='intake';
 CREATE VIEW reviewed_cautions AS SELECT * FROM reviewed_fields WHERE field_name IN ('cautions','storage','allergen_or_cross_contact');
+
+-- Product photography has independent provenance; it does not change label review or recommendation eligibility.
+CREATE TABLE product_thumbnails(
+ product_id TEXT PRIMARY KEY REFERENCES products(product_number),
+ status TEXT NOT NULL CHECK(status IN ('available','unavailable')),
+ source_url TEXT,page_url TEXT,local_path TEXT,sha256 TEXT,
+ width INTEGER,height INTEGER,observed_on TEXT,missing_reason TEXT,
+ image_json TEXT NOT NULL
+);

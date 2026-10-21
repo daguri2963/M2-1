@@ -1,0 +1,955 @@
+{
+  "observed_on": "2026-10-21",
+  "page_url": "https://www.daisomall.co.kr/ds/diy2/C246",
+  "method": "official_browser_product_card_dom",
+  "candidates": [
+    {
+      "detail_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=610911102&recmYn=N",
+      "lazy": null,
+      "name": "[산뜻한 상쾌함] [신혜선 PICK] 동국제약 프로폴리스 프레쉬볼 레몬＆민트 20캡슐 20일분",
+      "src": "https://cdn.daisomall.co.kr/file/resize/PD/20260907/thumb/300/D3MtLfS4wvzyyoiG4ppT610911102_00_01D3MtLfS4wvzyyoiG4ppT.jpg"
+    },
+    {
+      "detail_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=610911101&recmYn=N",
+      "lazy": null,
+      "name": "[강력한 상쾌함] [신혜선 PICK] 동국제약 프로폴리스 프레쉬볼 스트롱민트 20캡슐 20일분",
+      "src": "https://cdn.daisomall.co.kr/file/resize/PD/20260907/thumb/300/BQeSyYNH21gmMrEclYYV610911101_00_01BQeSyYNH21gmMrEclYYV.jpg"
+    },
+    {
+      "detail_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=601678608&recmYn=N",
+      "lazy": null,
+      "name": "[식후 혈당] 동화 배러크런치 바나바 요구르트맛 30정 10일분",
+      "src": "https://cdn.daisomall.co.kr/file/resize/PD/20260825/thumb/300/oxNqPxCfU3Tre5j0PQQk601678608_00_02oxNqPxCfU3Tre5j0PQQk.jpg"
+    },
+    {
+      "detail_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=600000293&recmYn=N",
+      "lazy": null,
+      "name": "대웅제약 Kids 과일야채 스틱 10포 10일분",
+      "src": "https://cdn.daisomall.co.kr/file/resize/PD/20261016/thumb/300/CyDZ6YGKuy7TuEh6P5Xi600000293_00_01CyDZ6YGKuy7TuEh6P5Xi.png"
+    },
+    {
+      "detail_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=976195543&recmYn=N",
+      "lazy": null,
+      "name": "스키니랩 다이글로핏 다이어트 플러스 7정 7일분",
+      "src": "https://cdn.daisomall.co.kr/file/resize/PD/20261013/thumb/300/gVty8q4kjdOzvveGcanw976195543_00_01gVty8q4kjdOzvveGcanw.png"
+    },
+    {
+      "detail_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=919157094&recmYn=N",
+      "lazy": null,
+      "name": "휴럼 하루한알 침향환 9환 9일분",
+      "src": "https://cdn.daisomall.co.kr/file/resize/PD/20260826/thumb/300/o7EiJdX7BYMCuTvEmVmE919157094_00_01o7EiJdX7BYMCuTvEmVmE.jpg"
+    },
+    {
+      "detail_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=610911213&recmYn=N",
+      "lazy": null,
+      "name": "[옥수수수염＆호박] 동국제약 맛있는 센텔라 공주캔디 20정 20일분",
+      "src": "https://cdn.daisomall.co.kr/file/resize/PD/20260907/thumb/300/E3CpURjLLswf9MgzRChF610911213_00_01E3CpURjLLswf9MgzRChF.jpg"
+    },
+    {
+      "detail_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=610911092&recmYn=N",
+      "lazy": "https://cdn.daisomall.co.kr/file/resize/PD/20260814/thumb/300/qU3FUPerTqzVYxrqf7Lx610911092_00_01qU3FUPerTqzVYxrqf7Lx.jpg",
+      "name": "[신혜선 PICK] 동국제약 프라임도스 비타민C 2000 30포 30일분",
+      "src": "/images/tempLy/noimage.png"
+    },
+    {
+      "detail_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=987253328&recmYn=N",
+      "lazy": "https://cdn.daisomall.co.kr/file/resize/PD/20260918/thumb/300/uXmoQJssWxHWVCWjDLVM987253328_00_00uXmoQJssWxHWVCWjDLVM.jpg",
+      "name": "[김종국 PICK] 익스트림 블랙마카 800+ 60정 30일분",
+      "src": "/images/tempLy/noimage.png"
+    },
+    {
+      "detail_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=032306284&recmYn=N",
+      "lazy": "https://cdn.daisomall.co.kr/file/resize/PD/20260805/thumb/300/e483TrUWUwCko9CBv1Da032306284_00_00e483TrUWUwCko9CBv1Da.png",
+      "name": "닥터블릿 푸응 7 Days 슬립앤버닝 14정 7일분",
+      "src": "/images/tempLy/noimage.png"
+    },
+    {
+      "detail_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=600000312&recmYn=N",
+      "lazy": "https://cdn.daisomall.co.kr/file/resize/PD/20260918/thumb/300/zHSzORINsxBCGH6q5I9C600000312_00_01zHSzORINsxBCGH6q5I9C.png",
+      "name": "[월경 전 불편함 케어] 대웅제약 감마리놀렌산 30캡슐 30일분",
+      "src": "/images/tempLy/noimage.png"
+    },
+    {
+      "detail_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=286314466&recmYn=N",
+      "lazy": "https://cdn.daisomall.co.kr/file/resize/PD/20260805/thumb/300/2bO6NPfrJW4dB8O5FDEz286314466_00_002bO6NPfrJW4dB8O5FDEz.png",
+      "name": "닥터블릿 스트레스 케어 테아닌 30정 30일분",
+      "src": "/images/tempLy/noimage.png"
+    },
+    {
+      "detail_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=610911095&recmYn=N",
+      "lazy": "https://cdn.daisomall.co.kr/file/resize/PD/20260814/thumb/300/OCdRZHWMgR1UGDUjFQp4610911095_00_01OCdRZHWMgR1UGDUjFQp4.jpg",
+      "name": "[신혜선 PICK] 동국제약  프라임도스 비타민D3 4000IU 60정 60일분",
+      "src": "/images/tempLy/noimage.png"
+    },
+    {
+      "detail_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=600000313&recmYn=N",
+      "lazy": "https://cdn.daisomall.co.kr/file/resize/PD/20260918/thumb/300/50R6fV0ggfDyr4qZgnfy600000313_00_0150R6fV0ggfDyr4qZgnfy.png",
+      "name": "대웅제약 셀레늄 아연 30정 30일분",
+      "src": "/images/tempLy/noimage.png"
+    },
+    {
+      "detail_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=601678606&recmYn=N",
+      "lazy": "https://cdn.daisomall.co.kr/file/resize/PD/20260825/thumb/300/9arKLwQMyanllW5dsWAc601678606_00_029arKLwQMyanllW5dsWAc.jpg",
+      "name": "[정상 면역] 동화약품 배러크런치 아연 청포도맛 30정 10일분",
+      "src": "/images/tempLy/noimage.png"
+    },
+    {
+      "detail_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=610911093&recmYn=N",
+      "lazy": "https://cdn.daisomall.co.kr/file/resize/PD/20260814/thumb/300/Q823T3m7aYDYd4gzOILy610911093_00_01Q823T3m7aYDYd4gzOILy.jpg",
+      "name": "[신혜선 PICK] 동국제약  프라임도스 비타민B 맥스 30정 30일분",
+      "src": "/images/tempLy/noimage.png"
+    },
+    {
+      "detail_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=600000314&recmYn=N",
+      "lazy": "https://cdn.daisomall.co.kr/file/resize/PD/20261014/thumb/300/S54HFdVe7PjmJDiYnLDM600000314_00_01S54HFdVe7PjmJDiYnLDM.png",
+      "name": "대웅제약 커큐민250 30정 30일분",
+      "src": "/images/tempLy/noimage.png"
+    },
+    {
+      "detail_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=610911094&recmYn=N",
+      "lazy": "https://cdn.daisomall.co.kr/file/resize/PD/20260814/thumb/300/pgiWPPVQ81EjmmAhiAIj610911094_00_01pgiWPPVQ81EjmmAhiAIj.jpg",
+      "name": "[신혜선 PICK] 동국제약  프라임도스 비오틴 5000 60정 60일분",
+      "src": "/images/tempLy/noimage.png"
+    },
+    {
+      "detail_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=601678604&recmYn=N",
+      "lazy": "https://cdn.daisomall.co.kr/file/resize/PD/20260825/thumb/300/GVr6GsoojIJO6UtcBMHG601678604_00_02GVr6GsoojIJO6UtcBMHG.jpg",
+      "name": "\t[항산화] 동화약품 배러크런치C 레몬맛 30정 10일분",
+      "src": "/images/tempLy/noimage.png"
+    },
+    {
+      "detail_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=919157095&recmYn=N",
+      "lazy": "https://cdn.daisomall.co.kr/file/resize/PD/20260826/thumb/300/gxSEg0bfLulOAScPenvi919157095_00_01gxSEg0bfLulOAScPenvi.jpg",
+      "name": "휴럼 하루한알 6년근 고려 홍삼환 9환 9일분",
+      "src": "/images/tempLy/noimage.png"
+    },
+    {
+      "detail_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=601678603&recmYn=N",
+      "lazy": "https://cdn.daisomall.co.kr/file/resize/PD/20260825/thumb/300/1iaDXDZs14qWRuWOkuNr601678603_00_021iaDXDZs14qWRuWOkuNr.jpg",
+      "name": "\t[에너지] 동화약품 배러크런치B 오렌지맛 30정 10일분",
+      "src": "/images/tempLy/noimage.png"
+    },
+    {
+      "detail_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=601678605&recmYn=N",
+      "lazy": "https://cdn.daisomall.co.kr/file/resize/PD/20260825/thumb/300/7MsbLqZDKF4lyLv3ucON601678605_00_027MsbLqZDKF4lyLv3ucON.jpg",
+      "name": "[뼈건강] 동화약품 배러크런치D 블루베리맛 30정 10일분",
+      "src": "/images/tempLy/noimage.png"
+    },
+    {
+      "detail_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=985472881&recmYn=N",
+      "lazy": "https://cdn.daisomall.co.kr/file/resize/PD/20260828/thumb/300/2kboGsdLsIgwj2Bruuuv985472881_00_012kboGsdLsIgwj2Bruuuv.jpg",
+      "name": "[보장균수 20억 CFU] 안국약품 뽀로로 유산균 요구르트맛 30포 30일분",
+      "src": "/images/tempLy/noimage.png"
+    },
+    {
+      "detail_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=985472880&recmYn=N",
+      "lazy": "https://cdn.daisomall.co.kr/file/resize/PD/20261016/thumb/300/Lr2cmVGrfN4Y0fNi7ZXB985472880_00_02Lr2cmVGrfN4Y0fNi7ZXB.jpg",
+      "name": "안국약품 뽀로로 멀티비타민 30포 30일",
+      "src": "/images/tempLy/noimage.png"
+    },
+    {
+      "detail_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=610911102&recmYn=N",
+      "lazy": null,
+      "name": "[산뜻한 상쾌함] [신혜선 PICK] 동국제약 프로폴리스 프레쉬볼 레몬＆민트 20캡슐 20일분",
+      "src": "https://cdn.daisomall.co.kr/file/resize/PD/20260907/thumb/300/D3MtLfS4wvzyyoiG4ppT610911102_00_01D3MtLfS4wvzyyoiG4ppT.jpg"
+    },
+    {
+      "detail_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=610911101&recmYn=N",
+      "lazy": null,
+      "name": "[강력한 상쾌함] [신혜선 PICK] 동국제약 프로폴리스 프레쉬볼 스트롱민트 20캡슐 20일분",
+      "src": "https://cdn.daisomall.co.kr/file/resize/PD/20260907/thumb/300/BQeSyYNH21gmMrEclYYV610911101_00_01BQeSyYNH21gmMrEclYYV.jpg"
+    },
+    {
+      "detail_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=601678608&recmYn=N",
+      "lazy": null,
+      "name": "[식후 혈당] 동화 배러크런치 바나바 요구르트맛 30정 10일분",
+      "src": "https://cdn.daisomall.co.kr/file/resize/PD/20260825/thumb/300/oxNqPxCfU3Tre5j0PQQk601678608_00_02oxNqPxCfU3Tre5j0PQQk.jpg"
+    },
+    {
+      "detail_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=600000293&recmYn=N",
+      "lazy": null,
+      "name": "대웅제약 Kids 과일야채 스틱 10포 10일분",
+      "src": "https://cdn.daisomall.co.kr/file/resize/PD/20261016/thumb/300/CyDZ6YGKuy7TuEh6P5Xi600000293_00_01CyDZ6YGKuy7TuEh6P5Xi.png"
+    },
+    {
+      "detail_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=976195543&recmYn=N",
+      "lazy": null,
+      "name": "스키니랩 다이글로핏 다이어트 플러스 7정 7일분",
+      "src": "https://cdn.daisomall.co.kr/file/resize/PD/20261013/thumb/300/gVty8q4kjdOzvveGcanw976195543_00_01gVty8q4kjdOzvveGcanw.png"
+    },
+    {
+      "detail_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=919157094&recmYn=N",
+      "lazy": null,
+      "name": "휴럼 하루한알 침향환 9환 9일분",
+      "src": "https://cdn.daisomall.co.kr/file/resize/PD/20260826/thumb/300/o7EiJdX7BYMCuTvEmVmE919157094_00_01o7EiJdX7BYMCuTvEmVmE.jpg"
+    },
+    {
+      "detail_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=610911213&recmYn=N",
+      "lazy": null,
+      "name": "[옥수수수염＆호박] 동국제약 맛있는 센텔라 공주캔디 20정 20일분",
+      "src": "https://cdn.daisomall.co.kr/file/resize/PD/20260907/thumb/300/E3CpURjLLswf9MgzRChF610911213_00_01E3CpURjLLswf9MgzRChF.jpg"
+    },
+    {
+      "detail_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=610911092&recmYn=N",
+      "lazy": "https://cdn.daisomall.co.kr/file/resize/PD/20260814/thumb/300/qU3FUPerTqzVYxrqf7Lx610911092_00_01qU3FUPerTqzVYxrqf7Lx.jpg",
+      "name": "[신혜선 PICK] 동국제약 프라임도스 비타민C 2000 30포 30일분",
+      "src": "/images/tempLy/noimage.png"
+    },
+    {
+      "detail_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=987253328&recmYn=N",
+      "lazy": "https://cdn.daisomall.co.kr/file/resize/PD/20260918/thumb/300/uXmoQJssWxHWVCWjDLVM987253328_00_00uXmoQJssWxHWVCWjDLVM.jpg",
+      "name": "[김종국 PICK] 익스트림 블랙마카 800+ 60정 30일분",
+      "src": "/images/tempLy/noimage.png"
+    },
+    {
+      "detail_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=032306284&recmYn=N",
+      "lazy": "https://cdn.daisomall.co.kr/file/resize/PD/20260805/thumb/300/e483TrUWUwCko9CBv1Da032306284_00_00e483TrUWUwCko9CBv1Da.png",
+      "name": "닥터블릿 푸응 7 Days 슬립앤버닝 14정 7일분",
+      "src": "/images/tempLy/noimage.png"
+    },
+    {
+      "detail_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=600000312&recmYn=N",
+      "lazy": "https://cdn.daisomall.co.kr/file/resize/PD/20260918/thumb/300/zHSzORINsxBCGH6q5I9C600000312_00_01zHSzORINsxBCGH6q5I9C.png",
+      "name": "[월경 전 불편함 케어] 대웅제약 감마리놀렌산 30캡슐 30일분",
+      "src": "/images/tempLy/noimage.png"
+    },
+    {
+      "detail_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=286314466&recmYn=N",
+      "lazy": "https://cdn.daisomall.co.kr/file/resize/PD/20260805/thumb/300/2bO6NPfrJW4dB8O5FDEz286314466_00_002bO6NPfrJW4dB8O5FDEz.png",
+      "name": "닥터블릿 스트레스 케어 테아닌 30정 30일분",
+      "src": "/images/tempLy/noimage.png"
+    },
+    {
+      "detail_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=610911095&recmYn=N",
+      "lazy": "https://cdn.daisomall.co.kr/file/resize/PD/20260814/thumb/300/OCdRZHWMgR1UGDUjFQp4610911095_00_01OCdRZHWMgR1UGDUjFQp4.jpg",
+      "name": "[신혜선 PICK] 동국제약  프라임도스 비타민D3 4000IU 60정 60일분",
+      "src": "/images/tempLy/noimage.png"
+    },
+    {
+      "detail_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=600000313&recmYn=N",
+      "lazy": "https://cdn.daisomall.co.kr/file/resize/PD/20260918/thumb/300/50R6fV0ggfDyr4qZgnfy600000313_00_0150R6fV0ggfDyr4qZgnfy.png",
+      "name": "대웅제약 셀레늄 아연 30정 30일분",
+      "src": "/images/tempLy/noimage.png"
+    },
+    {
+      "detail_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=601678606&recmYn=N",
+      "lazy": "https://cdn.daisomall.co.kr/file/resize/PD/20260825/thumb/300/9arKLwQMyanllW5dsWAc601678606_00_029arKLwQMyanllW5dsWAc.jpg",
+      "name": "[정상 면역] 동화약품 배러크런치 아연 청포도맛 30정 10일분",
+      "src": "/images/tempLy/noimage.png"
+    },
+    {
+      "detail_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=610911093&recmYn=N",
+      "lazy": "https://cdn.daisomall.co.kr/file/resize/PD/20260814/thumb/300/Q823T3m7aYDYd4gzOILy610911093_00_01Q823T3m7aYDYd4gzOILy.jpg",
+      "name": "[신혜선 PICK] 동국제약  프라임도스 비타민B 맥스 30정 30일분",
+      "src": "/images/tempLy/noimage.png"
+    },
+    {
+      "detail_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=600000314&recmYn=N",
+      "lazy": "https://cdn.daisomall.co.kr/file/resize/PD/20261014/thumb/300/S54HFdVe7PjmJDiYnLDM600000314_00_01S54HFdVe7PjmJDiYnLDM.png",
+      "name": "대웅제약 커큐민250 30정 30일분",
+      "src": "/images/tempLy/noimage.png"
+    },
+    {
+      "detail_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=610911094&recmYn=N",
+      "lazy": "https://cdn.daisomall.co.kr/file/resize/PD/20260814/thumb/300/pgiWPPVQ81EjmmAhiAIj610911094_00_01pgiWPPVQ81EjmmAhiAIj.jpg",
+      "name": "[신혜선 PICK] 동국제약  프라임도스 비오틴 5000 60정 60일분",
+      "src": "/images/tempLy/noimage.png"
+    },
+    {
+      "detail_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=601678604&recmYn=N",
+      "lazy": "https://cdn.daisomall.co.kr/file/resize/PD/20260825/thumb/300/GVr6GsoojIJO6UtcBMHG601678604_00_02GVr6GsoojIJO6UtcBMHG.jpg",
+      "name": "\t[항산화] 동화약품 배러크런치C 레몬맛 30정 10일분",
+      "src": "/images/tempLy/noimage.png"
+    },
+    {
+      "detail_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=919157095&recmYn=N",
+      "lazy": "https://cdn.daisomall.co.kr/file/resize/PD/20260826/thumb/300/gxSEg0bfLulOAScPenvi919157095_00_01gxSEg0bfLulOAScPenvi.jpg",
+      "name": "휴럼 하루한알 6년근 고려 홍삼환 9환 9일분",
+      "src": "/images/tempLy/noimage.png"
+    },
+    {
+      "detail_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=601678603&recmYn=N",
+      "lazy": "https://cdn.daisomall.co.kr/file/resize/PD/20260825/thumb/300/1iaDXDZs14qWRuWOkuNr601678603_00_021iaDXDZs14qWRuWOkuNr.jpg",
+      "name": "\t[에너지] 동화약품 배러크런치B 오렌지맛 30정 10일분",
+      "src": "/images/tempLy/noimage.png"
+    },
+    {
+      "detail_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=601678605&recmYn=N",
+      "lazy": "https://cdn.daisomall.co.kr/file/resize/PD/20260825/thumb/300/7MsbLqZDKF4lyLv3ucON601678605_00_027MsbLqZDKF4lyLv3ucON.jpg",
+      "name": "[뼈건강] 동화약품 배러크런치D 블루베리맛 30정 10일분",
+      "src": "/images/tempLy/noimage.png"
+    },
+    {
+      "detail_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=985472881&recmYn=N",
+      "lazy": "https://cdn.daisomall.co.kr/file/resize/PD/20260828/thumb/300/2kboGsdLsIgwj2Bruuuv985472881_00_012kboGsdLsIgwj2Bruuuv.jpg",
+      "name": "[보장균수 20억 CFU] 안국약품 뽀로로 유산균 요구르트맛 30포 30일분",
+      "src": "/images/tempLy/noimage.png"
+    },
+    {
+      "detail_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=985472880&recmYn=N",
+      "lazy": "https://cdn.daisomall.co.kr/file/resize/PD/20261016/thumb/300/Lr2cmVGrfN4Y0fNi7ZXB985472880_00_02Lr2cmVGrfN4Y0fNi7ZXB.jpg",
+      "name": "안국약품 뽀로로 멀티비타민 30포 30일",
+      "src": "/images/tempLy/noimage.png"
+    },
+    {
+      "detail_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=600000314&recmYn=N",
+      "lazy": null,
+      "name": "대웅제약 커큐민250 30정 30일분",
+      "src": "https://cdn.daisomall.co.kr/file/resize/PD/20261014/thumb/300/S54HFdVe7PjmJDiYnLDM600000314_00_01S54HFdVe7PjmJDiYnLDM.png"
+    },
+    {
+      "detail_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=600000293&recmYn=N",
+      "lazy": null,
+      "name": "대웅제약 Kids 과일야채 스틱 10포 10일분",
+      "src": "https://cdn.daisomall.co.kr/file/resize/PD/20261016/thumb/300/CyDZ6YGKuy7TuEh6P5Xi600000293_00_01CyDZ6YGKuy7TuEh6P5Xi.png"
+    },
+    {
+      "detail_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=985472880&recmYn=N",
+      "lazy": null,
+      "name": "안국약품 뽀로로 멀티비타민 30포 30일",
+      "src": "https://cdn.daisomall.co.kr/file/resize/PD/20261016/thumb/300/Lr2cmVGrfN4Y0fNi7ZXB985472880_00_02Lr2cmVGrfN4Y0fNi7ZXB.jpg"
+    },
+    {
+      "detail_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=985472881&recmYn=N",
+      "lazy": null,
+      "name": "[보장균수 20억 CFU] 안국약품 뽀로로 유산균 요구르트맛 30포 30일분",
+      "src": "https://cdn.daisomall.co.kr/file/resize/PD/20260828/thumb/300/2kboGsdLsIgwj2Bruuuv985472881_00_012kboGsdLsIgwj2Bruuuv.jpg"
+    },
+    {
+      "detail_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=610911101&recmYn=N",
+      "lazy": null,
+      "name": "[강력한 상쾌함] [신혜선 PICK] 동국제약 프로폴리스 프레쉬볼 스트롱민트 20캡슐 20일분",
+      "src": "https://cdn.daisomall.co.kr/file/resize/PD/20260907/thumb/300/BQeSyYNH21gmMrEclYYV610911101_00_01BQeSyYNH21gmMrEclYYV.jpg"
+    },
+    {
+      "detail_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=610911213&recmYn=N",
+      "lazy": null,
+      "name": "[옥수수수염＆호박] 동국제약 맛있는 센텔라 공주캔디 20정 20일분",
+      "src": "https://cdn.daisomall.co.kr/file/resize/PD/20260907/thumb/300/E3CpURjLLswf9MgzRChF610911213_00_01E3CpURjLLswf9MgzRChF.jpg"
+    },
+    {
+      "detail_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=919157094&recmYn=N",
+      "lazy": null,
+      "name": "휴럼 하루한알 침향환 9환 9일분",
+      "src": "https://cdn.daisomall.co.kr/file/resize/PD/20260826/thumb/300/o7EiJdX7BYMCuTvEmVmE919157094_00_01o7EiJdX7BYMCuTvEmVmE.jpg"
+    },
+    {
+      "detail_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=919157095&recmYn=N",
+      "lazy": null,
+      "name": "휴럼 하루한알 6년근 고려 홍삼환 9환 9일분",
+      "src": "https://cdn.daisomall.co.kr/file/resize/PD/20260826/thumb/300/gxSEg0bfLulOAScPenvi919157095_00_01gxSEg0bfLulOAScPenvi.jpg"
+    },
+    {
+      "detail_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=601678604&recmYn=N",
+      "lazy": null,
+      "name": "\t[항산화] 동화약품 배러크런치C 레몬맛 30정 10일분",
+      "src": "https://cdn.daisomall.co.kr/file/resize/PD/20260825/thumb/300/GVr6GsoojIJO6UtcBMHG601678604_00_02GVr6GsoojIJO6UtcBMHG.jpg"
+    },
+    {
+      "detail_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=601678605&recmYn=N",
+      "lazy": null,
+      "name": "[뼈건강] 동화약품 배러크런치D 블루베리맛 30정 10일분",
+      "src": "https://cdn.daisomall.co.kr/file/resize/PD/20260825/thumb/300/7MsbLqZDKF4lyLv3ucON601678605_00_027MsbLqZDKF4lyLv3ucON.jpg"
+    },
+    {
+      "detail_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=286314466&recmYn=N",
+      "lazy": null,
+      "name": "닥터블릿 스트레스 케어 테아닌 30정 30일분",
+      "src": "https://cdn.daisomall.co.kr/file/resize/PD/20260805/thumb/300/2bO6NPfrJW4dB8O5FDEz286314466_00_002bO6NPfrJW4dB8O5FDEz.png"
+    },
+    {
+      "detail_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=032306284&recmYn=N",
+      "lazy": null,
+      "name": "닥터블릿 푸응 7 Days 슬립앤버닝 14정 7일분",
+      "src": "https://cdn.daisomall.co.kr/file/resize/PD/20260805/thumb/300/e483TrUWUwCko9CBv1Da032306284_00_00e483TrUWUwCko9CBv1Da.png"
+    },
+    {
+      "detail_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=901762105",
+      "lazy": null,
+      "name": "6년근홍삼정에너타임스탠다드 14포",
+      "src": "https://cdn.daisomall.co.kr/file/resize/PD/20260612/banner/300/6YtHsleJV0YMOtFdtOAk901762105_00_016YtHsleJV0YMOtFdtOAk.jpg"
+    },
+    {
+      "detail_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=B202606174688",
+      "lazy": null,
+      "name": "[홍삼입문자] 자연관 6년근 홍삼정 에너타임 스탠다드 14포 14일분",
+      "src": "https://cdn.daisomall.co.kr/file/resize/PD/20260612/banner/300/6YtHsleJV0YMOtFdtOAk901762105_00_016YtHsleJV0YMOtFdtOAk.jpg"
+    },
+    {
+      "detail_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=901762104",
+      "lazy": null,
+      "name": "자연관 홍삼정에너타임망고맛 14포",
+      "src": "https://cdn.daisomall.co.kr/file/resize/PD/20260612/banner/300/M1nlLjjHeflYgIz5zIxp901762104_00_01M1nlLjjHeflYgIz5zIxp.jpg"
+    },
+    {
+      "detail_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=B202606174687",
+      "lazy": null,
+      "name": "자연관 홍삼정 에너타임 망고맛 14포 14일분",
+      "src": "https://cdn.daisomall.co.kr/file/resize/PD/20260612/banner/300/M1nlLjjHeflYgIz5zIxp901762104_00_01M1nlLjjHeflYgIz5zIxp.jpg"
+    },
+    {
+      "detail_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=600000312",
+      "lazy": null,
+      "name": "대웅제약 감마리놀렌산",
+      "src": "https://cdn.daisomall.co.kr/file/resize/PD/20260918/banner/300/zHSzORINsxBCGH6q5I9C600000312_00_01zHSzORINsxBCGH6q5I9C.png"
+    },
+    {
+      "detail_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=B202610141137",
+      "lazy": null,
+      "name": "대웅제약 감마리놀렌산 30캡슐 30일분",
+      "src": "https://cdn.daisomall.co.kr/file/resize/PD/20260918/banner/300/zHSzORINsxBCGH6q5I9C600000312_00_01zHSzORINsxBCGH6q5I9C.png"
+    },
+    {
+      "detail_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=600000313",
+      "lazy": null,
+      "name": "대웅제약 셀레늄아연",
+      "src": "https://cdn.daisomall.co.kr/file/resize/PD/20260918/banner/300/50R6fV0ggfDyr4qZgnfy600000313_00_0150R6fV0ggfDyr4qZgnfy.png"
+    },
+    {
+      "detail_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=B202610141147",
+      "lazy": null,
+      "name": "대웅제약 셀레늄 아연 30정 30일분",
+      "src": "https://cdn.daisomall.co.kr/file/resize/PD/20260918/banner/300/50R6fV0ggfDyr4qZgnfy600000313_00_0150R6fV0ggfDyr4qZgnfy.png"
+    },
+    {
+      "detail_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=033991018&recmYn=N",
+      "lazy": null,
+      "name": "[보령약국 X Pantio] [인교진 PICK] 이뮨 건강 올인원 15포 15일분",
+      "src": "https://cdn.daisomall.co.kr/file/resize/PD/20260928/thumb/300/7MEuCmJA0gsrHOTCITM6033991018_00_007MEuCmJA0gsrHOTCITM6.jpg"
+    },
+    {
+      "detail_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=033991015&recmYn=N",
+      "lazy": null,
+      "name": "[보령약국 X Pantio] [인교진 PICK] 60+ 에너지 올인원 12포 12일분",
+      "src": "https://cdn.daisomall.co.kr/file/resize/PD/20260928/thumb/300/l1oJEpcMW3zJ6WbPQVx3033991015_00_00l1oJEpcMW3zJ6WbPQVx3.jpg"
+    },
+    {
+      "detail_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=033991014&recmYn=N",
+      "lazy": null,
+      "name": "[보령약국 X Pantio] [인교진 PICK] 4050 에너지 올인원 12포 12일분",
+      "src": "https://cdn.daisomall.co.kr/file/resize/PD/20260928/thumb/300/9dKu4CSr7wlPKdnms5Ta033991014_00_009dKu4CSr7wlPKdnms5Ta.jpg"
+    },
+    {
+      "detail_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=033991013&recmYn=N",
+      "lazy": null,
+      "name": "[보령약국 X Pantio] [인교진 PICK] 2030 에너지 올인원 12포 12일분",
+      "src": "https://cdn.daisomall.co.kr/file/resize/PD/20260928/thumb/300/CROjOpoYbf9XR8YuXycI033991013_00_00CROjOpoYbf9XR8YuXycI.jpg"
+    },
+    {
+      "detail_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=033991020&recmYn=N",
+      "lazy": null,
+      "name": "[보령약국 X Pantio] [인교진 PICK] 관절 건강 올인원 15포 15일분",
+      "src": "https://cdn.daisomall.co.kr/file/resize/PD/20260928/thumb/300/y2YbEGf16i13DKittcWV033991020_00_00y2YbEGf16i13DKittcWV.jpg"
+    },
+    {
+      "detail_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=033991017&recmYn=N",
+      "lazy": null,
+      "name": "[보령약국 X Pantio] [인교진 PICK] 기억력 건강 올인원 15포 15일분",
+      "src": "https://cdn.daisomall.co.kr/file/resize/PD/20260928/thumb/300/S7HdATle74UMTysUx3Dz033991017_00_00S7HdATle74UMTysUx3Dz.jpg"
+    },
+    {
+      "detail_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=033991022&recmYn=N",
+      "lazy": "https://cdn.daisomall.co.kr/file/resize/PD/20260928/thumb/300/lj0OQ0BySSR6nkU7Tv8A033991022_00_00lj0OQ0BySSR6nkU7Tv8A.jpg",
+      "name": "[보령약국 X Pantio] [인교진 PICK] 스트레스 케어 올인원 15포 15일분",
+      "src": "/images/tempLy/noimage.png"
+    },
+    {
+      "detail_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=610911092&recmYn=N",
+      "lazy": "https://cdn.daisomall.co.kr/file/resize/PD/20260814/thumb/300/qU3FUPerTqzVYxrqf7Lx610911092_00_01qU3FUPerTqzVYxrqf7Lx.jpg",
+      "name": "[신혜선 PICK] 동국제약 프라임도스 비타민C 2000 30포 30일분",
+      "src": "/images/tempLy/noimage.png"
+    },
+    {
+      "detail_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=610911095&recmYn=N",
+      "lazy": "https://cdn.daisomall.co.kr/file/resize/PD/20260814/thumb/300/OCdRZHWMgR1UGDUjFQp4610911095_00_01OCdRZHWMgR1UGDUjFQp4.jpg",
+      "name": "[신혜선 PICK] 동국제약  프라임도스 비타민D3 4000IU 60정 60일분",
+      "src": "/images/tempLy/noimage.png"
+    },
+    {
+      "detail_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=610911093&recmYn=N",
+      "lazy": "https://cdn.daisomall.co.kr/file/resize/PD/20260814/thumb/300/Q823T3m7aYDYd4gzOILy610911093_00_01Q823T3m7aYDYd4gzOILy.jpg",
+      "name": "[신혜선 PICK] 동국제약  프라임도스 비타민B 맥스 30정 30일분",
+      "src": "/images/tempLy/noimage.png"
+    },
+    {
+      "detail_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=610911094&recmYn=N",
+      "lazy": "https://cdn.daisomall.co.kr/file/resize/PD/20260814/thumb/300/pgiWPPVQ81EjmmAhiAIj610911094_00_01pgiWPPVQ81EjmmAhiAIj.jpg",
+      "name": "[신혜선 PICK] 동국제약  프라임도스 비오틴 5000 60정 60일분",
+      "src": "/images/tempLy/noimage.png"
+    },
+    {
+      "detail_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=601678603&recmYn=N",
+      "lazy": "https://cdn.daisomall.co.kr/file/resize/PD/20260825/thumb/300/1iaDXDZs14qWRuWOkuNr601678603_00_021iaDXDZs14qWRuWOkuNr.jpg",
+      "name": "\t[에너지] 동화약품 배러크런치B 오렌지맛 30정 10일분",
+      "src": "/images/tempLy/noimage.png"
+    },
+    {
+      "detail_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=601678604&recmYn=N",
+      "lazy": "https://cdn.daisomall.co.kr/file/resize/PD/20260825/thumb/300/GVr6GsoojIJO6UtcBMHG601678604_00_02GVr6GsoojIJO6UtcBMHG.jpg",
+      "name": "\t[항산화] 동화약품 배러크런치C 레몬맛 30정 10일분",
+      "src": "/images/tempLy/noimage.png"
+    },
+    {
+      "detail_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=601678605&recmYn=N",
+      "lazy": "https://cdn.daisomall.co.kr/file/resize/PD/20260825/thumb/300/7MsbLqZDKF4lyLv3ucON601678605_00_027MsbLqZDKF4lyLv3ucON.jpg",
+      "name": "[뼈건강] 동화약품 배러크런치D 블루베리맛 30정 10일분",
+      "src": "/images/tempLy/noimage.png"
+    },
+    {
+      "detail_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=601678606&recmYn=N",
+      "lazy": "https://cdn.daisomall.co.kr/file/resize/PD/20260825/thumb/300/9arKLwQMyanllW5dsWAc601678606_00_029arKLwQMyanllW5dsWAc.jpg",
+      "name": "[정상 면역] 동화약품 배러크런치 아연 청포도맛 30정 10일분",
+      "src": "/images/tempLy/noimage.png"
+    },
+    {
+      "detail_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=591581101&recmYn=N",
+      "lazy": "https://cdn.daisomall.co.kr/file/resize/PD/20260601/thumb/300/nkEyZw9TcKRMHbTvSy6D591581101_00_00nkEyZw9TcKRMHbTvSy6D.jpg",
+      "name": "[김우빈 PICK] 종근당건강 아임비타 멀티비타민 컴팩트 30정 30일분",
+      "src": "/images/tempLy/noimage.png"
+    },
+    {
+      "detail_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=600000270&recmYn=N",
+      "lazy": "https://cdn.daisomall.co.kr/file/resize/PD/20260504/thumb/300/rjUOcdF4xff4PIy7VUYT600000270_00_01rjUOcdF4xff4PIy7VUYT.png",
+      "name": "대웅제약 마그네슘 10정 10일분",
+      "src": "/images/tempLy/noimage.png"
+    },
+    {
+      "detail_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=600000204&recmYn=N",
+      "lazy": "https://cdn.daisomall.co.kr/file/resize/PD/20251121/thumb/300/aHjoRwP9ejVVuu8M0Td4600000204_00_01aHjoRwP9ejVVuu8M0Td4.png",
+      "name": "대웅제약 마그네슘 샷 25ml x 5병 5일분",
+      "src": "/images/tempLy/noimage.png"
+    },
+    {
+      "detail_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=600000283&recmYn=N",
+      "lazy": "https://cdn.daisomall.co.kr/file/resize/PD/20260504/thumb/300/zIbSOpTi3yHSeYULrLdY600000283_00_01zIbSOpTi3yHSeYULrLdY.png",
+      "name": "대웅제약 멀티비타민미네랄 6정 6일분",
+      "src": "/images/tempLy/noimage.png"
+    },
+    {
+      "detail_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=600000202&recmYn=N",
+      "lazy": "https://cdn.daisomall.co.kr/file/resize/PD/20251121/thumb/300/vNZekx45iLI6pl2rDCzm600000202_00_01vNZekx45iLI6pl2rDCzm.png",
+      "name": "대웅제약 활성엽산400 30정 30일분",
+      "src": "/images/tempLy/noimage.png"
+    },
+    {
+      "detail_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=600000128&recmYn=N",
+      "lazy": "https://cdn.daisomall.co.kr/file/resize/PD/20250408/thumb/300/DZz3h5SxY2J2FqaEB9qZ600000128_00_00DZz3h5SxY2J2FqaEB9qZ.png",
+      "name": "대웅제약 마그네슘 30정 30일분",
+      "src": "/images/tempLy/noimage.png"
+    },
+    {
+      "detail_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=600000129&recmYn=N",
+      "lazy": "https://cdn.daisomall.co.kr/file/resize/PD/20250408/thumb/300/5QghHD5oyZssCfnGZbzA600000129_00_005QghHD5oyZssCfnGZbzA.png",
+      "name": "대웅제약 비타민B 30정 30일분",
+      "src": "/images/tempLy/noimage.png"
+    },
+    {
+      "detail_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=600000127&recmYn=N",
+      "lazy": "https://cdn.daisomall.co.kr/file/resize/PD/20250408/thumb/300/V0qSVbLLgSaCWbYWEu73600000127_00_00V0qSVbLLgSaCWbYWEu73.png",
+      "name": "대웅제약 비타민C 30정 30일분",
+      "src": "/images/tempLy/noimage.png"
+    },
+    {
+      "detail_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=600000133&recmYn=N",
+      "lazy": "https://cdn.daisomall.co.kr/file/resize/PD/20260820/thumb/300/ahWGJ6KpupAlwxw7p3xm600000133_00_00ahWGJ6KpupAlwxw7p3xm.png",
+      "name": "대웅제약 철분 30정 30일분",
+      "src": "/images/tempLy/noimage.png"
+    },
+    {
+      "detail_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=600000147&recmYn=N",
+      "lazy": "https://cdn.daisomall.co.kr/file/resize/PD/20250409/thumb/300/7vBQfmyyR1zN9NfVg993600000147_00_007vBQfmyyR1zN9NfVg993.png",
+      "name": "대웅제약 칼슘 120정 30일분",
+      "src": "/images/tempLy/noimage.png"
+    },
+    {
+      "detail_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=600000148&recmYn=N",
+      "lazy": "https://cdn.daisomall.co.kr/file/resize/PD/20250408/thumb/300/a7ohwSe3ShJimhwztOOK600000148_00_00a7ohwSe3ShJimhwztOOK.png",
+      "name": "대웅제약 칼슘 마그네슘 비타민D 60정 30일분",
+      "src": "/images/tempLy/noimage.png"
+    },
+    {
+      "detail_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=600000150&recmYn=N",
+      "lazy": "https://cdn.daisomall.co.kr/file/resize/PD/20250409/thumb/300/Kpov6WvmW02F4pW9qB4z600000150_00_00Kpov6WvmW02F4pW9qB4z.png",
+      "name": "대웅제약 프로폴리스 츄어블 30정 30일분",
+      "src": "/images/tempLy/noimage.png"
+    },
+    {
+      "detail_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=032306200&recmYn=N",
+      "lazy": "https://cdn.daisomall.co.kr/file/resize/PD/20260406/thumb/300/wa1QGrY4qd0U0wkjcq99032306200_00_01wa1QGrY4qd0U0wkjcq99.jpg",
+      "name": "종근당 데일리와이즈 멀티비타민 미네랄 12정 12일분",
+      "src": "/images/tempLy/noimage.png"
+    },
+    {
+      "detail_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=610910727&recmYn=N",
+      "lazy": "https://cdn.daisomall.co.kr/file/resize/PD/20251111/thumb/300/69fT92p91uLANMODpyck610910727_00_0069fT92p91uLANMODpyck.png",
+      "name": "동국제약 리포좀 마그마 스피드 30정",
+      "src": "/images/tempLy/noimage.png"
+    },
+    {
+      "detail_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=601618643&recmYn=N",
+      "lazy": "https://cdn.daisomall.co.kr/file/resize/PD/20260406/thumb/300/yaxFSMtpTnhrztKNOjGw601618643_00_00yaxFSMtpTnhrztKNOjGw.jpg",
+      "name": "동화 바이마그랩 마그네슘B 30정 30일분",
+      "src": "/images/tempLy/noimage.png"
+    },
+    {
+      "detail_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=286314181&recmYn=N",
+      "lazy": "https://cdn.daisomall.co.kr/file/resize/PD/20260310/thumb/300/OAO3HGgecCtu4XcRrckd286314181_00_01OAO3HGgecCtu4XcRrckd.jpg",
+      "name": "영진 비타민C 츄어블 12정",
+      "src": "/images/tempLy/noimage.png"
+    },
+    {
+      "detail_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=613602128&recmYn=N",
+      "lazy": "https://cdn.daisomall.co.kr/file/resize/PD/20250922/thumb/300/8husYxWOSsou1qKUi5IE613602128_00_018husYxWOSsou1qKUi5IE.jpg",
+      "name": "오브맘 멀티비타민＆미네랄 하루구미 30일분",
+      "src": "/images/tempLy/noimage.png"
+    },
+    {
+      "detail_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=613602129&recmYn=N",
+      "lazy": "https://cdn.daisomall.co.kr/file/resize/PD/20250922/thumb/300/XgyvZV5zt5ig9XLyfDOS613602129_00_01XgyvZV5zt5ig9XLyfDOS.jpg",
+      "name": "오브맘 면역＆프로폴리스 하루구미 30일분",
+      "src": "/images/tempLy/noimage.png"
+    },
+    {
+      "detail_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=613602130&recmYn=N",
+      "lazy": "https://cdn.daisomall.co.kr/file/resize/PD/20250922/thumb/300/dxtu28UFPhWKbi5IG3n8613602130_00_01dxtu28UFPhWKbi5IG3n8.jpg",
+      "name": "오브맘 비타민D＆아연 하루구미 30일분",
+      "src": "/images/tempLy/noimage.png"
+    },
+    {
+      "detail_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=613602131&recmYn=N",
+      "lazy": "https://cdn.daisomall.co.kr/file/resize/PD/20250922/thumb/300/jrLxfLkWCczsCAsnqLoJ613602131_00_01jrLxfLkWCczsCAsnqLoJ.jpg",
+      "name": "오브맘 비타민C＆E 하루구미 30일분",
+      "src": "/images/tempLy/noimage.png"
+    },
+    {
+      "detail_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=613602132&recmYn=N",
+      "lazy": "https://cdn.daisomall.co.kr/file/resize/PD/20250922/thumb/300/FWBWePRv27KbgtvBHof6613602132_00_01FWBWePRv27KbgtvBHof6.jpg",
+      "name": "오브맘 활력에너지B 하루구미 30일분",
+      "src": "/images/tempLy/noimage.png"
+    },
+    {
+      "detail_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=032627142&recmYn=N",
+      "lazy": "https://cdn.daisomall.co.kr/file/resize/PD/20260612/thumb/300/IiBr1SI0rlUycwbkaeGq032627142_00_01IiBr1SI0rlUycwbkaeGq.jpg",
+      "name": "자연관 리프레쉬 마그네슘＆L-테아닌 4병 4일분",
+      "src": "/images/tempLy/noimage.png"
+    },
+    {
+      "detail_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=968235549&recmYn=N",
+      "lazy": "https://cdn.daisomall.co.kr/file/resize/PD/20250623/thumb/300/kQh0cYBVEEUhZLYsuKrQ968235549_00_00kQh0cYBVEEUhZLYsuKrQ.jpg",
+      "name": "안국약품 브이팩 다이어트 유산균 올인원 멀티 비타민 7포",
+      "src": "/images/tempLy/noimage.png"
+    },
+    {
+      "detail_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=968235547&recmYn=N",
+      "lazy": "https://cdn.daisomall.co.kr/file/resize/PD/20250623/thumb/300/jgM8z9lj7cP7W5etxeXM968235547_00_00jgM8z9lj7cP7W5etxeXM.jpg",
+      "name": "안국약품 브이팩 남성용 올인원 멀티 비타민 7포",
+      "src": "/images/tempLy/noimage.png"
+    },
+    {
+      "detail_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=968235548&recmYn=N",
+      "lazy": "https://cdn.daisomall.co.kr/file/resize/PD/20260402/thumb/300/05kyKLN3QpKvymmVHajT968235548_00_0005kyKLN3QpKvymmVHajT.jpg",
+      "name": "안국약품 브이팩 여성용 올인원 멀티 비타민 7포",
+      "src": "/images/tempLy/noimage.png"
+    },
+    {
+      "detail_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=601678607&recmYn=N",
+      "lazy": "https://cdn.daisomall.co.kr/file/resize/PD/20260825/thumb/300/1a3CLvRrBJMActwA3NW5601678607_00_021a3CLvRrBJMActwA3NW5.jpg",
+      "name": "[혈액 생성] 동화약품 배러크런치 철분 사과맛 30정 10일분",
+      "src": "/images/tempLy/noimage.png"
+    },
+    {
+      "detail_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=591581091&recmYn=N",
+      "lazy": "https://cdn.daisomall.co.kr/file/resize/PD/20260601/thumb/300/30NEHOm4dIOnmUVwUKLJ591581091_00_0030NEHOm4dIOnmUVwUKLJ.jpg",
+      "name": "[김우빈 PICK] 종근당건강 아임비타 비타민B 2000 30정 30일분",
+      "src": "/images/tempLy/noimage.png"
+    },
+    {
+      "detail_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=600000281&recmYn=N",
+      "lazy": "https://cdn.daisomall.co.kr/file/resize/PD/20260504/thumb/300/H44oDYbaAQPekxvnTd9T600000281_00_01H44oDYbaAQPekxvnTd9T.png",
+      "name": "대웅제약 비타민D 4000IU 10정 10일분",
+      "src": "/images/tempLy/noimage.png"
+    },
+    {
+      "detail_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=600000135&recmYn=N",
+      "lazy": "https://cdn.daisomall.co.kr/file/resize/PD/20250408/thumb/300/2ijoJLmHVT94XXIOZnda600000135_00_002ijoJLmHVT94XXIOZnda.png",
+      "name": "대웅제약 멀티비타민 미네랄 30정 30일분",
+      "src": "/images/tempLy/noimage.png"
+    },
+    {
+      "detail_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=600000132&recmYn=N",
+      "lazy": "https://cdn.daisomall.co.kr/file/resize/PD/20250408/thumb/300/SvY5chCvz0QZIyP7AdTc600000132_00_00SvY5chCvz0QZIyP7AdTc.png",
+      "name": "대웅제약 비타민D 4000IU 30정 30일분",
+      "src": "/images/tempLy/noimage.png"
+    },
+    {
+      "detail_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=610910679&recmYn=N",
+      "lazy": "https://cdn.daisomall.co.kr/file/resize/PD/20250829/thumb/300/3zNHA2Xp859SKsazXUwt610910679_00_003zNHA2Xp859SKsazXUwt.png",
+      "name": "동국제약 리포좀 비타민C 30정",
+      "src": "/images/tempLy/noimage.png"
+    },
+    {
+      "detail_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=610910777&recmYn=N",
+      "lazy": "https://cdn.daisomall.co.kr/file/resize/PD/20251229/thumb/300/5qFLremik89lsUa72Yqy610910777_00_005qFLremik89lsUa72Yqy.jpg",
+      "name": "동국제약 비타민D 2000IU 40캡슐 40일분",
+      "src": "/images/tempLy/noimage.png"
+    },
+    {
+      "detail_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=286314184&recmYn=N",
+      "lazy": "https://cdn.daisomall.co.kr/file/resize/PD/20260310/thumb/300/KC1U8zhHXeeJFHKQB2Hr286314184_00_01KC1U8zhHXeeJFHKQB2Hr.jpg",
+      "name": "영진 비타민D 1000IU 아연 츄어블 12정",
+      "src": "/images/tempLy/noimage.png"
+    },
+    {
+      "detail_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=913624074&recmYn=N",
+      "lazy": "https://cdn.daisomall.co.kr/file/resize/PD/20250519/thumb/300/jA6WTiVVoTzCt6OpBqnj913624074_00_00jA6WTiVVoTzCt6OpBqnj.jpg",
+      "name": "오브맘 비타민C 플러스 톡톡! 30일분",
+      "src": "/images/tempLy/noimage.png"
+    },
+    {
+      "detail_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=613602124&recmYn=N",
+      "lazy": "https://cdn.daisomall.co.kr/file/resize/PD/20251216/thumb/300/mSQXyRQCV8ORV8edPm4n613602124_00_01mSQXyRQCV8ORV8edPm4n.jpg",
+      "name": "자연관 이뮨 멀티비타민 미네랄 4병",
+      "src": "/images/tempLy/noimage.png"
+    },
+    {
+      "detail_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=994953532&recmYn=N",
+      "lazy": null,
+      "name": "LG생활건강 이너뷰 비눌린 워터믹스 10포",
+      "src": "https://cdn.daisomall.co.kr/file/resize/PD/20250627/thumb/300/K8TCkwlN7kOaniMN8wZv994953532_00_00K8TCkwlN7kOaniMN8wZv.jpg"
+    },
+    {
+      "detail_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=919157056&recmYn=N",
+      "lazy": null,
+      "name": "휴럼 하루한포 유기농 야채분말 15포 15일분",
+      "src": "https://cdn.daisomall.co.kr/file/resize/PD/20260706/thumb/300/z42ScLP7B6TWURzgDPY0919157056_00_01z42ScLP7B6TWURzgDPY0.jpg"
+    },
+    {
+      "detail_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=965923434&recmYn=N",
+      "lazy": null,
+      "name": "홀베리 유기농 레몬즙 10포",
+      "src": "https://cdn.daisomall.co.kr/file/resize/PD/20260305/thumb/300/6AQS4j3WbfucTbhmJ4ur965923434_00_006AQS4j3WbfucTbhmJ4ur.jpg"
+    },
+    {
+      "detail_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=901762093&recmYn=N",
+      "lazy": null,
+      "name": "프로모션",
+      "src": "https://cdn.daisomall.co.kr/file/resize/DS/20260508/badge/60/dxBv5XJzpw6U5ADiDhBH%EC%97%A0%EB%B8%94%EB%9F%BC01dxBv5XJzpw6U5ADiDhBH.png"
+    },
+    {
+      "detail_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=601618635&recmYn=N",
+      "lazy": null,
+      "name": "[의약외품] 동화 퀵앤써액 샤인머스캣 12ml 5포",
+      "src": "https://cdn.daisomall.co.kr/file/resize/PD/20260424/thumb/300/KoucQ3ocL5x28bXaWKvV601618635_00_00KoucQ3ocL5x28bXaWKvV.jpg"
+    },
+    {
+      "detail_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=919157057&recmYn=N",
+      "lazy": null,
+      "name": "휴럼 하루한포 유기농 컬리케일 15포 15일분",
+      "src": "https://cdn.daisomall.co.kr/file/resize/PD/20260706/thumb/300/4dOlrrhIAJM53YybYlxV919157057_00_014dOlrrhIAJM53YybYlxV.jpg"
+    },
+    {
+      "detail_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=994953534&recmYn=N",
+      "lazy": "https://cdn.daisomall.co.kr/file/resize/PD/20250627/thumb/300/7ii4aNyp1XbM6AH8HjHT994953534_00_007ii4aNyp1XbM6AH8HjHT.jpg",
+      "name": "LG생활건강 이너뷰 칼륨밸런스 전해질워터 10포",
+      "src": "/images/tempLy/noimage.png"
+    },
+    {
+      "detail_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=032640075&recmYn=N",
+      "lazy": "https://cdn.daisomall.co.kr/file/resize/PD/20260312/thumb/300/0RECqyOK2V8qTztn2K7E032640075_00_000RECqyOK2V8qTztn2K7E.jpg",
+      "name": "홀베리 유기농 엑스트라버진 올리브유 10포",
+      "src": "/images/tempLy/noimage.png"
+    },
+    {
+      "detail_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=601618634&recmYn=N",
+      "lazy": "https://cdn.daisomall.co.kr/file/resize/PD/20260424/thumb/300/G3OpB4vFrKk7H6gBBjO3601618634_00_00G3OpB4vFrKk7H6gBBjO3.jpg",
+      "name": "[의약외품] 동화 퀵앤써액 복숭아 12ml 5포 ",
+      "src": "/images/tempLy/noimage.png"
+    },
+    {
+      "detail_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=965923424&recmYn=N",
+      "lazy": "https://cdn.daisomall.co.kr/file/resize/PD/20260904/thumb/300/TyBV46Gp3x0VYWqJvrvs965923424_00_00TyBV46Gp3x0VYWqJvrvs.jpg",
+      "name": "홀베리 유기농 레몬생강즙 10포",
+      "src": "/images/tempLy/noimage.png"
+    },
+    {
+      "detail_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=994953530&recmYn=N",
+      "lazy": "https://cdn.daisomall.co.kr/file/resize/PD/20250627/thumb/300/j2jn8GpSpWpVPin1SKu2994953530_00_00j2jn8GpSpWpVPin1SKu2.jpg",
+      "name": "LG생활건강 이너뷰 레티놀 리포좀C 12포",
+      "src": "/images/tempLy/noimage.png"
+    },
+    {
+      "detail_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=919157058&recmYn=N",
+      "lazy": "https://cdn.daisomall.co.kr/file/resize/PD/20260706/thumb/300/7ivzhVU9jk8zl5gsOS7L919157058_00_017ivzhVU9jk8zl5gsOS7L.jpg",
+      "name": "휴럼 하루한포 유기농 양배추분말 15포 15일분",
+      "src": "/images/tempLy/noimage.png"
+    },
+    {
+      "detail_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=965923433&recmYn=N",
+      "lazy": "https://cdn.daisomall.co.kr/file/resize/PD/20260904/thumb/300/CHKuI8IOm2jKkPhjWAjw965923433_00_00CHKuI8IOm2jKkPhjWAjw.jpg",
+      "name": "홀베리 유기농 레몬자몽즙 10포",
+      "src": "/images/tempLy/noimage.png"
+    },
+    {
+      "detail_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=601618638&recmYn=N",
+      "lazy": "https://cdn.daisomall.co.kr/file/resize/PD/20260406/thumb/300/Y6IWZmJPJUULa5uR5Xrr601618638_00_00Y6IWZmJPJUULa5uR5Xrr.jpg",
+      "name": "동화 부채표쌍화 5포 5일분",
+      "src": "/images/tempLy/noimage.png"
+    },
+    {
+      "detail_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=919157054&recmYn=N",
+      "lazy": "https://cdn.daisomall.co.kr/file/resize/PD/20260327/thumb/300/zJhcupvR4JWL5xMXOnRP919157054_00_01zJhcupvR4JWL5xMXOnRP.jpg",
+      "name": "휴럼 하루한포 구증구포 흑삼제로 5포 5일분",
+      "src": "/images/tempLy/noimage.png"
+    },
+    {
+      "detail_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=919157055&recmYn=N",
+      "lazy": null,
+      "name": "프로모션",
+      "src": "https://cdn.daisomall.co.kr/file/resize/DS/20260508/badge/60/dxBv5XJzpw6U5ADiDhBH%EC%97%A0%EB%B8%94%EB%9F%BC01dxBv5XJzpw6U5ADiDhBH.png"
+    },
+    {
+      "detail_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=994953529&recmYn=N",
+      "lazy": "https://cdn.daisomall.co.kr/file/resize/PD/20250627/thumb/300/vXg1N5D0xbSNweDPvvl2994953529_00_00vXg1N5D0xbSNweDPvvl2.jpg",
+      "name": "LG생활건강 이너뷰 진한 레드 석류 콜라겐 7포",
+      "src": "/images/tempLy/noimage.png"
+    },
+    {
+      "detail_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=601618637&recmYn=N",
+      "lazy": "https://cdn.daisomall.co.kr/file/resize/PD/20260406/thumb/300/xHnNEgPvPnLilc6RIN7P601618637_00_00xHnNEgPvPnLilc6RIN7P.jpg",
+      "name": "동화 부채표 배도라지쌍화 5포 5일분",
+      "src": "/images/tempLy/noimage.png"
+    },
+    {
+      "detail_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=591591570&recmYn=N",
+      "lazy": "https://cdn.daisomall.co.kr/file/resize/PD/20250804/thumb/300/ogLgV2iBHUeZSWfNRaYk591591570_00_00ogLgV2iBHUeZSWfNRaYk.jpg",
+      "name": "종근당건강 브이퍼센트 멀티비타민 애사비샷 5포",
+      "src": "/images/tempLy/noimage.png"
+    },
+    {
+      "detail_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=032306212&recmYn=N",
+      "lazy": null,
+      "name": "[여성건강] 종근당 데일리와이즈 리스펙타 유산균 6포 6일분",
+      "src": "https://cdn.daisomall.co.kr/file/resize/PD/20260406/thumb/300/LLM8nTqqNcWSJRgwJpaM032306212_00_01LLM8nTqqNcWSJRgwJpaM.jpg"
+    },
+    {
+      "detail_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=600651647&recmYn=N",
+      "lazy": null,
+      "name": "유한양행 프리바이오틱스 스틱 40포 20일분",
+      "src": "https://cdn.daisomall.co.kr/file/resize/PD/20260325/thumb/300/3lk29dAMMktUiVesbwgQ600651647_00_003lk29dAMMktUiVesbwgQ.jpg"
+    },
+    {
+      "detail_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=600651654&recmYn=N",
+      "lazy": null,
+      "name": "유한양행 산뜻해질 생유산균 20캡슐 20일분",
+      "src": "https://cdn.daisomall.co.kr/file/resize/PD/20260325/thumb/300/BJcWNz19ajlLYaMbOK0e600651654_00_00BJcWNz19ajlLYaMbOK0e.jpg"
+    },
+    {
+      "detail_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=600651655&recmYn=N",
+      "lazy": null,
+      "name": "유한양행 운동부스터 생유산균 스틱 5포 5일분",
+      "src": "https://cdn.daisomall.co.kr/file/resize/PD/20260325/thumb/300/CxT93DcA0d824G3UBlAN600651655_00_00CxT93DcA0d824G3UBlAN.jpg"
+    },
+    {
+      "detail_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=985472881&recmYn=N",
+      "lazy": null,
+      "name": "[보장균수 20억 CFU] 안국약품 뽀로로 유산균 요구르트맛 30포 30일분",
+      "src": "https://cdn.daisomall.co.kr/file/resize/PD/20260828/thumb/300/2kboGsdLsIgwj2Bruuuv985472881_00_012kboGsdLsIgwj2Bruuuv.jpg"
+    },
+    {
+      "detail_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=610910677&recmYn=N",
+      "lazy": null,
+      "name": "동국제약 이너케어＆유산균 30캡슐",
+      "src": "https://cdn.daisomall.co.kr/file/resize/PD/20250829/thumb/300/mBCVgsNacUdX2MZDROO3610910677_00_00mBCVgsNacUdX2MZDROO3.png"
+    },
+    {
+      "detail_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=610910678&recmYn=N",
+      "lazy": "https://cdn.daisomall.co.kr/file/resize/PD/20250829/thumb/300/y6DqUAmlgLsAXGUrvbmN610910678_00_00y6DqUAmlgLsAXGUrvbmN.png",
+      "name": "동국제약 혈당케어＆유산균 30캡슐",
+      "src": "/images/tempLy/noimage.png"
+    },
+    {
+      "detail_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=591580521&recmYn=N",
+      "lazy": "https://cdn.daisomall.co.kr/file/resize/PD/20260522/thumb/300/0jgRGoNZEcwwrbTgrqVw591580521_00_000jgRGoNZEcwwrbTgrqVw.jpg",
+      "name": "종근당건강 락토핏 골드",
+      "src": "/images/tempLy/noimage.png"
+    },
+    {
+      "detail_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=591580891&recmYn=N",
+      "lazy": "https://cdn.daisomall.co.kr/file/resize/PD/20251015/thumb/300/nR3zXDtjAX4U4oB5HSV3591580891_00_00nR3zXDtjAX4U4oB5HSV3.jpg",
+      "name": "종근당건강 락토핏 간케어 20포",
+      "src": "/images/tempLy/noimage.png"
+    },
+    {
+      "detail_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=591580761&recmYn=N",
+      "lazy": "https://cdn.daisomall.co.kr/file/resize/PD/20250610/thumb/300/qUVshiLfS5KUSiQ9T3cu591580761_00_05qUVshiLfS5KUSiQ9T3cu.jpg",
+      "name": "종근당건강 락토핏 당케어",
+      "src": "/images/tempLy/noimage.png"
+    },
+    {
+      "detail_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=968235549&recmYn=N",
+      "lazy": "https://cdn.daisomall.co.kr/file/resize/PD/20250623/thumb/300/kQh0cYBVEEUhZLYsuKrQ968235549_00_00kQh0cYBVEEUhZLYsuKrQ.jpg",
+      "name": "안국약품 브이팩 다이어트 유산균 올인원 멀티 비타민 7포",
+      "src": "/images/tempLy/noimage.png"
+    },
+    {
+      "detail_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=034345002&recmYn=N",
+      "lazy": "https://cdn.daisomall.co.kr/file/resize/PD/20260310/thumb/300/T4loWDiI8pGLQV9NaP56034345002_00_09T4loWDiI8pGLQV9NaP56.jpg",
+      "name": "올비텐 유산균 30포",
+      "src": "/images/tempLy/noimage.png"
+    },
+    {
+      "detail_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=600651648&recmYn=N",
+      "lazy": "https://cdn.daisomall.co.kr/file/resize/PD/20260325/thumb/300/Cmq9TRKeNeM85vAvoB9e600651648_00_00Cmq9TRKeNeM85vAvoB9e.jpg",
+      "name": "유한양행 장건강 생유산균 스틱 30포 30일분",
+      "src": "/images/tempLy/noimage.png"
+    },
+    {
+      "detail_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=600651649&recmYn=N",
+      "lazy": "https://cdn.daisomall.co.kr/file/resize/PD/20260325/thumb/300/RN6BLb2wWdxkL0nu9aVK600651649_00_00RN6BLb2wWdxkL0nu9aVK.jpg",
+      "name": "유한양행 장건강 생유산균 30캡슐 30일분",
+      "src": "/images/tempLy/noimage.png"
+    },
+    {
+      "detail_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=600651650&recmYn=N",
+      "lazy": "https://cdn.daisomall.co.kr/file/resize/PD/20260325/thumb/300/wjBYMQTwSs5Uxawy8JxO600651650_00_00wjBYMQTwSs5Uxawy8JxO.jpg",
+      "name": "유한양행 비피더스 생유산균 10캡슐 10일분",
+      "src": "/images/tempLy/noimage.png"
+    },
+    {
+      "detail_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=600651651&recmYn=N",
+      "lazy": "https://cdn.daisomall.co.kr/file/resize/PD/20260325/thumb/300/Mz4AWbpywwVFSrdyow4Z600651651_00_00Mz4AWbpywwVFSrdyow4Z.jpg",
+      "name": "유한양행 프레쉬츄 생유산균 30정 30일분",
+      "src": "/images/tempLy/noimage.png"
+    },
+    {
+      "detail_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=600651652&recmYn=N",
+      "lazy": "https://cdn.daisomall.co.kr/file/resize/PD/20260325/thumb/300/dj7lmBMZiAKAXlm5drGt600651652_00_00dj7lmBMZiAKAXlm5drGt.jpg",
+      "name": "유한양행 초코맛 생유산균 스틱 20포 20일분",
+      "src": "/images/tempLy/noimage.png"
+    },
+    {
+      "detail_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=610911100",
+      "lazy": null,
+      "method": "official_browser_product_detail_thumbnail",
+      "name": "[신혜선 PICK] 동국제약 판비틴 맥주효모 비오틴 14포 14일분",
+      "page_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=610911100",
+      "src": "https://cdn.daisomall.co.kr/file/resize/PD/20260812/thumb/300/gu25Tm6cSMq795ZE5KWj610911100_00_01gu25Tm6cSMq795ZE5KWj.jpg"
+    },
+    {
+      "detail_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=610911097",
+      "lazy": null,
+      "method": "official_browser_product_detail_thumbnail",
+      "name": "[신혜선 PICK] 동국제약 프로폴리스＆아연 필름 12매 12일분",
+      "page_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=610911097",
+      "src": "https://cdn.daisomall.co.kr/file/resize/PD/20260805/thumb/300/WQN2sdlFQlgUeYP1OzCA610911097_00_01WQN2sdlFQlgUeYP1OzCA.jpg"
+    },
+    {
+      "detail_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=610911096",
+      "lazy": null,
+      "method": "official_browser_product_detail_thumbnail",
+      "name": "[신혜선 PICK] 동국제약 면역엔 홍삼 필름 10매 10일분",
+      "page_url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=610911096",
+      "src": "https://cdn.daisomall.co.kr/file/resize/PD/20260805/thumb/300/X3lfEnRBZWFGAzpNcACh610911096_00_01X3lfEnRBZWFGAzpNcACh.jpg"
+    }
+  ]
+}
