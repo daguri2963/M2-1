@@ -1,0 +1,71 @@
+{
+  "passed": true,
+  "checkedAt": "2026-10-21T12:09:20.322420+00:00",
+  "baseUrl": "https://m2-1-api.onrender.com",
+  "data": "synthetic general-adult choices and public product labels only",
+  "publicProducts": 87,
+  "checks": [
+    "health",
+    "consent",
+    "review_gate",
+    "recommendation_with_live_gemini",
+    "comparison",
+    "overlap",
+    "restricted",
+    "insufficient",
+    "label_reading_without_product",
+    "chat_with_live_gemini",
+    "withdrawal"
+  ],
+  "recommendation": {
+    "elapsedSeconds": 6.89,
+    "productIds": [
+      "034345002",
+      "591580521",
+      "600651647"
+    ],
+    "mode": "gemini",
+    "model": "gemini-3.5-flash-lite",
+    "toolTrace": [
+      {
+        "tool": "search_evidence",
+        "ok": true
+      }
+    ],
+    "citationIds": [
+      "034345002:function",
+      "591580521:function",
+      "600651647:function"
+    ]
+  },
+  "labelReading": {
+    "elapsedSeconds": 2.25,
+    "mode": "gemini",
+    "text": "함량은 제품의 특정 분량 안에 들어 있는 성분의 양을 뜻하고, 기준량은 그 성분 함량이 어떤 분량을 기준으로 측정된 것인지 알려주는 기준입니다. 반면 영양성분 기준치는 여러 식품을 비교하거나 표시를 이해하기 쉽게 정한 평균적인 하루 섭취 기준량을 말합니다. 성분 함량의 기준이 되는 분량과, 하루 섭취 기준을 비교하는 영양성분 기준치는 서로 구별해서 이해해야 합니다.",
+    "citationIds": [
+      "label-guide:amount-and-basis",
+      "label-guide:daily-reference"
+    ],
+    "productIds": []
+  },
+  "chat": {
+    "elapsedSeconds": 5.41,
+    "mode": "gemini",
+    "model": "gemini-3.5-flash-lite",
+    "toolTrace": [
+      {
+        "tool": "get_product_details",
+        "ok": true
+      },
+      {
+        "tool": "search_nutrition_knowledge",
+        "ok": true
+      }
+    ],
+    "citationIds": [
+      "knowledge:consult",
+      "600000128:cautions",
+      "600000128:function"
+    ]
+  }
+}
