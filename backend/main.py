@@ -10,7 +10,7 @@ from fastapi.responses import JSONResponse
 from . import config,policy,repository as repo
 from .agent import GeminiAgent,AIError
 from .models import Consent,Survey,Selection,OverlapRequest,ChatRequest
-from .privacy import sensitive_text
+from .privacy import question_kind,local_reply
 
 agent=GeminiAgent()
 sessions={}
@@ -116,11 +116,9 @@ async def chat(request:ChatRequest,token=Depends(session)):
     rate_limit(token)
     if request.productId:repo.get_product(request.productId)
     if request.survey:repo.get_many(request.survey.productIds)
-    restricted=request.survey and any(c not in ('해당 없어요','잘 모르겠어요') for c in request.survey.cautions)
-    sensitive=sensitive_text(request.question) or any(h.role=='user' and sensitive_text(h.text) for h in request.history)
-    if restricted or sensitive:
-        return {'mode':'restricted','text':'개인의 질환·의약품·임신·수유·알레르기 또는 용량 변경에 관한 적합성은 이 서비스에서 판단하지 않아요. 의사·약사에게 확인해 주세요. 제품 상세의 표시 섭취방법과 주의사항을 참고할 수 있어요.','citations':[],'productIds':[],'toolTrace':[]}
-    wants_recommendation=re.search(r'추천|골라|선택해|찾아',request.question)
+    kind=question_kind(request.question)
+    if kind!='general':return local_reply(kind)
+    wants_recommendation=re.search(r'(?:추천|골라|선택해).*(?:줘|주세요)|(?:저|나)(?:에게|한테|는).*(?:추천|골라)|^\s*추천(?:해|요|부탁)?[.!?\s]*$',request.question)
     if wants_recommendation and not request.survey:
         return {'mode':'insufficient','text':'추천받기 설문에서 관심 분야·기존 제품·주의조건을 먼저 확인해 주세요. 확인하지 않은 조건으로 개인 후보를 고르지 않습니다.','citations':[],'productIds':[],'toolTrace':[]}
     recommendation=policy.recommend(request.survey) if request.survey and wants_recommendation else None

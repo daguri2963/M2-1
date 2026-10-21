@@ -58,8 +58,8 @@ def evidence(query='',product_ids=None,limit=8):
     synonyms={'활력':['에너지'],'뼈':['칼슘','뼈'],'근육':['근육'],'장':['배변','유익균'],'눈':['시각','눈'],'중복':['영양'],'섭취':['섭취'],'주의':['주의']}
     for word,values in synonyms.items():
         if word in query:terms.extend(values)
-    field_map={'function':('기능정보','function'),'nutrition':('영양정보','nutrition'),'intake':('표시 섭취방법','intake'),'cautions':('주의사항','cautions'),'allergen_or_cross_contact':('알레르기·교차오염','allergen_or_cross_contact')}
-    clauses=["r.data_review_status='verified'","f.status='direct_visual'","f.field_name IN ('function','nutrition','intake','cautions','allergen_or_cross_contact')"]
+    field_map={'function':('기능정보','function'),'nutrition':('영양정보','nutrition'),'intake':('표시 섭취방법','intake'),'cautions':('주의사항','cautions'),'allergen_or_cross_contact':('알레르기·교차오염','allergen_or_cross_contact'),'storage':('표시 보관방법','storage')}
+    clauses=["r.data_review_status='verified'","f.status='direct_visual'","f.field_name IN ('function','nutrition','intake','cautions','allergen_or_cross_contact','storage')"]
     args=[]
     if product_ids:
         get_many(product_ids)

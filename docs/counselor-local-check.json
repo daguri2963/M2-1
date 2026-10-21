@@ -1,0 +1,68 @@
+{
+  "passed": true,
+  "checkedAt": "2026-10-21T11:59:13.642718+00:00",
+  "baseUrl": "local_agent",
+  "data": "Public educational questions; guard inputs are fictitious and must stay local.",
+  "results": [
+    {
+      "case": "meal",
+      "question": "비타민D와 식사의 관계가 궁금해요.",
+      "mode": "gemini",
+      "elapsedSeconds": 2.51,
+      "text": "비타민D는 지방을 조금 포함한 식사나 간식과 함께 섭취할 때 흡수가 더 잘 됩니다. 비타민D는 지용성 성분이기 때문입니다. 평소 식단에서 기름기가 있는 음식을 곁들이면 흡수에 도움을 줄 수 있습니다.",
+      "citationIds": [
+        "knowledge:d-meal"
+      ]
+    },
+    {
+      "case": "allergy",
+      "question": "영양제에도 알레르기 표시가 있나요?",
+      "mode": "gemini",
+      "elapsedSeconds": 2.15,
+      "text": "영양제에도 원재료와 알레르기 유발 물질 표시가 있습니다. 제품에 사용된 원료의 특성이나 알레르기 등으로 섭취 시 주의가 필요한 경우가 있기 때문에 표시되어 있습니다. 다만 표시 일부만으로 개인의 알레르기 안전성을 완전히 확정할 수는 없으므로, 원재료명과 주의사항을 꼼꼼히 확인하는 것이 좋습니다.",
+      "citationIds": [
+        "knowledge:allergy"
+      ]
+    },
+    {
+      "case": "interaction",
+      "question": "약과 영양제의 상호작용은 무엇인가요?",
+      "mode": "gemini",
+      "elapsedSeconds": 2.15,
+      "text": "약과 영양제의 상호작용은 특정 성분이 의약품의 흡수나 작용 등에 영향을 줄 수 있는 현상을 말합니다. 예를 들어 비타민K는 특정 의약품의 작용에 영향을 미칠 수 있습니다. 이는 일반적인 원리 설명이며 개인의 병용 가능 여부를 직접 판단하지는 않습니다.",
+      "citationIds": [
+        "knowledge:interaction"
+      ]
+    },
+    {
+      "case": "storage",
+      "question": "유산균은 무조건 냉장 보관해야 하나요?",
+      "mode": "gemini",
+      "elapsedSeconds": 2.26,
+      "text": "유산균은 무조건 냉장 보관해야 하는 것은 아닙니다.\n\n프로바이오틱스는 제품에 따라 냉장이 필요한 것과 실온 보관이 가능한 것으로 나뉩니다.\n\n따라서 가지고 계신 제품의 겉면이나 상세 설명에 적힌 보관 방법을 확인하시는 것이 좋습니다.",
+      "citationIds": [
+        "knowledge:pro-storage"
+      ]
+    },
+    {
+      "case": "b12",
+      "question": "비타민B12는 무슨 역할을 하나요?",
+      "mode": "gemini",
+      "elapsedSeconds": 2.12,
+      "text": "비타민B12는 혈액과 신경 세포의 건강을 유지하고 우리 몸의 DNA를 형성하는 데 중요한 역할을 합니다. 동물성 식품과 일부 강화식품을 통해 주로 섭취할 수 있습니다.\n\n다만 평소 식사로 비타민B12를 충분히 섭취하고 있는 사람에게 보충제가 곧바로 에너지나 지구력을 높여준다는 근거는 없습니다. 따라서 단순히 피로감이 느껴진다고 해서 이를 비타민B12 부족 때문이라고 단정하기는 어렵습니다.\n\n피로의 원인은 다양하므로 생활 습관을 함께 살펴보는 것이 좋습니다.",
+      "citationIds": [
+        "knowledge:b12-energy",
+        "knowledge:b12-role"
+      ]
+    },
+    {
+      "case": "followup",
+      "mode": "gemini",
+      "text": "비타민D는 지방을 포함한 식사와 함께 섭취할 때 흡수가 더 유리해요.\n\n비타민D는 기름에 녹는 지용성 성분이기 때문이에요. 식사 때 지방이 함께 있으면 몸에 더 잘 흡수될 수 있어요.\n\n구체적인 섭취 시간이나 방법은 가지고 계신 제품의 표시 사항을 확인해 보세요.",
+      "citationIds": [
+        "knowledge:d-meal",
+        "knowledge:timing"
+      ]
+    }
+  ]
+}
