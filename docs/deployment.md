@@ -1,13 +1,13 @@
 # Render 외부 배포
 
-배포일: 2026-10-21. 홈페이지·백엔드 모두 Render의 `live` 상태와 실제 외부 응답을 확인했다. GitHub 비공개 저장소 `sayknow/M2-1`의 `main`을 연결했다. 홈페이지 공개와 저장소 공개 여부는 별개다.
+최초 배포일: 2026-10-21. 기본 홈페이지 주소 변경: 2026-10-22. 홈페이지·백엔드 모두 Render의 `live` 상태와 실제 외부 응답을 확인했다. GitHub 비공개 저장소 `sayknow/M2-1`의 `main`을 연결했다. 홈페이지 공개와 저장소 공개 여부는 별개다.
 
 ## 서비스 구성
 
 | 구분 | 홈페이지 | 백엔드 |
 |---|---|---|
-| 주소 | https://m2-1-itfc.onrender.com | https://m2-1-api.onrender.com |
-| Render ID | `srv-dbc2hmbbc2fs73b29o00` | `srv-dbc2hefavr4c73ekh06g` |
+| 주소 | https://vitastep-guide.onrender.com | https://m2-1-api.onrender.com |
+| Render ID | `srv-dbcsntavcj2c73fofdpg` | `srv-dbc2hefavr4c73ekh06g` |
 | 유형 | 무료 Static Site | Free Docker Web Service |
 | 경로 | `frontend` | 저장소 루트 |
 | 빌드 | `npm ci && npm run build` | 루트 `Dockerfile` |
@@ -30,10 +30,10 @@
 
 - `GEMINI_API_KEY` — 사용자가 별도로 승인한 로컬 키를 Render 서버 환경변수로 등록. 값은 이 문서·Git·프런트·명령행 인자·검사 보고서에 기록하지 않는다.
 - `GEMINI_MODEL=gemini-3.5-flash-lite`
-- `ALLOWED_ORIGINS=https://m2-1-itfc.onrender.com`
+- `ALLOWED_ORIGINS=https://vitastep-guide.onrender.com,https://m2-1-itfc.onrender.com`
 - `PORT` — Render가 제공하는 값을 Dockerfile에서 사용한다.
 
-주소를 바꿀 때 홈페이지 API 주소와 백엔드 허용 출처를 함께 갱신하고 해당 서비스를 다시 배포한다. 키 변경도 백엔드에 다시 적용해야 한다. 로컬 `.env`는 계속 Git 제외 대상이다.
+홈페이지 주소를 바꿀 때 백엔드 허용 출처와 문서 링크를 갱신한다. 백엔드 주소가 그대로라면 홈페이지의 API 주소는 유지한다. 환경 설정을 바꾼 서비스는 다시 배포한다. 키 변경도 백엔드에 다시 적용해야 한다. 로컬 `.env`는 계속 Git 제외 대상이다.
 
 ## 갱신과 복구
 
@@ -81,3 +81,15 @@ Gemini 사용량은 Render와 별개다. Gemini 실패 시 규칙 기반 추천 
 - 이번 배포 검증에서 실제 사용자 건강정보는 사용하지 않았다. 모바일 실기기·다수 사용자 부하·15분 유휴 후 전체 재기동 시간은 아직 측정하지 않았다.
 - 후속 수정: 첫 질문의 함량·기준량 개념 설명 누락을 수정한 `c8fa914`를 재배포했다. [최신 수정·외부 검증](chat-label-reading-fix.md)을 참고한다.
 - 상담가 확장: `b1185bf` 백엔드 배포 `dep-dbcalltg1s2s738kfppg`와 홈페이지 배포 `dep-dbcalltg1s2s738kfpt0`가 `live`임을 확인했다. 공식 일반 지식 검색·후속 대화·서버 안내·기존 기능 회귀와 화면을 확인했다. [상담가 구현·최신 검증](ai-counselor.md)을 참고한다.
+
+## 2026-10-22 홈페이지 주소 이전
+
+- 새 대표 주소: **https://vitastep-guide.onrender.com/**. Render에서 정확한 `vitastep-guide` 서브도메인을 확보했다.
+- 새 무료 Static Site: `srv-dbcsntavcj2c73fofdpg`, 서비스 이름 `vitastep-guide`. 초기 배포 `dep-dbcsntivcj2c73foff90`는 `795a23c`로 배포했다.
+- 기존 홈페이지 `srv-dbc2hmbbc2fs73b29o00`와 https://m2-1-itfc.onrender.com/ 은 이전 링크의 접속을 위해 유지한다. 자동 이동은 설정하지 않았다. 두 홈페이지는 같은 `main`과 기존 백엔드를 사용한다.
+- 새로운 홈페이지에도 기존과 같은 `frontend` 경로, 빌드·공개 폴더, 공개 환경변수3개, `frontend/**` 배포 필터를 적용했다. 저장소·사이트 한글 이름·추천 정책·상품 DB·Gemini 키는 변경하지 않았다.
+- 백엔드 `ALLOWED_ORIGINS`에 새 주소를 추가하고 기존 주소도 유지했다. `dep-dbcso9mq1p3s73d6qha0`로 설정을 재배포했다. 백엔드 URL은 https://m2-1-api.onrender.com 그대로다.
+- 별도 유료 도메인·백엔드·디스크를 추가하지 않았다. 새 정적 사이트도 워크스페이스의 빌드·전송량을 공유한다.
+- 주소를 되돌릴 경우 기존 홈페이지 링크를 사용하고 README의 대표 링크를 되돌린다. 백엔드의 기존 출처 허용은 그대로 유지되어 있다.
+- 외부 확인: 홈페이지·빌드 자산·제품 사진 HTTP200, 상품87개, 새 주소와 이전 주소의 CORS 허용, 임의 출처 거부, 가상 설문 실제 Gemini 추천·비교·철회를 확인했다. 새 주소의 브라우저에서도 동의와 실제 AI 답변·출처 표시를 확인했다. [이전 검증 기록](vitastep-migration-check.json), [새 홈 화면](screenshots/vitastep-home.png), [새 주소 AI 대화](screenshots/vitastep-chat.png).
+- 새 홈페이지와 백엔드 설정 배포 모두 `live`로 확인했다. 이 변경의 검증은 기능 연결 확인이며 실제 타깃 사용자 피드백이 아니다.

@@ -1,0 +1,48 @@
+{
+  "checkedAt": "2026-10-22T08:43:44.989858+00:00",
+  "frontend": "https://vitastep-guide.onrender.com",
+  "backend": "https://m2-1-api.onrender.com",
+  "data": "public product information and synthetic survey choices only",
+  "checks": {
+    "frontend": {
+      "status": 200,
+      "assetStatus": 200,
+      "imageStatus": 200,
+      "apiConfigured": true
+    },
+    "legacyFrontend": "still accessible, no redirect",
+    "cors": {
+      "allowed": [
+        "https://vitastep-guide.onrender.com",
+        "https://m2-1-itfc.onrender.com"
+      ],
+      "unrelatedOriginDenied": true
+    },
+    "catalog": {
+      "publicProducts": 87,
+      "cors": "https://vitastep-guide.onrender.com"
+    },
+    "recommendation": {
+      "mode": "gemini",
+      "productIds": [
+        "034345002",
+        "591580521",
+        "600651647"
+      ],
+      "elapsedSeconds": 16.41,
+      "cors": "https://vitastep-guide.onrender.com"
+    },
+    "compare": "passed with new Origin header",
+    "withdrawal": "passed"
+  },
+  "passed": true,
+  "browserCheck": {
+    "frontend": "https://vitastep-guide.onrender.com/#/chat",
+    "question": "함량과 기준량의 차이가 궁금해요.",
+    "result": "AI 생성 답변과 FDA·식품안전나라 공식 안내 요약 출처가 화면에 표시됨",
+    "screenshots": [
+      "screenshots/vitastep-home.png",
+      "screenshots/vitastep-chat.png"
+    ]
+  }
+}
