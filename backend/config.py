@@ -5,7 +5,7 @@ from dotenv import load_dotenv
 ROOT = Path(__file__).resolve().parents[1]
 load_dotenv(ROOT / '.env', override=False)
 DATABASE = ROOT / 'data/products/products.sqlite3'
-POLICY_VERSION = '2026-10-21.1'
+POLICY_VERSION = '2026-10-23.2'
 CONSENT_VERSION = '2026-10-23.copa.1'
 MODEL = os.getenv('COPA_MODEL', 'gpt-5.4')
 API_KEY = os.getenv('COPA_API_KEY', '').strip()

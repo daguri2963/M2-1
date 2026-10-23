@@ -1,6 +1,6 @@
 # 백엔드 API와 데이터 흐름
 
-> canary 전환 안내: 현재 코드는 코디세이 GPT Chat Completions를 사용하며 실제 키 검증 전이다. 성공 모드는 `ai`, 동의에는 `provider=codyssey`가 필요하다. 아래 Gemini 관련 실행·검증 설명은 기존 운영 버전의 기록이며, 새 연결·키 입력·검증 절차는 [코디세이 GPT 안내](codyssey-gpt.md)를 따른다.
+> canary 현재 계약: 코디세이 GPT 실제 연결 검증을 통과했다. 성공 모드는 `ai`, 동의에는 `provider=codyssey`가 필요하다. 추천 정책2026-10-23.2는 일곱 관심 분야와 `specialtyConfirmed`, 목적별 분류·포장 변형 정리·분야 부족 안내를 지원한다. 상세 입력·응답은 [추천 정책 v2](recommendation-policy-v2.md)를 따른다. 아래 Gemini 관련 실행·검증 설명은 기존 운영 버전의 기록이며 새 연결은 [코디세이 GPT 안내](codyssey-gpt.md)를 따른다.
 
 FastAPI + SQLite + Google GenAI SDK. 프런트는 기존 React·TypeScript·Vite를 유지한다. 상품을 정적 JSON에서 읽던 실행 경로를 HTTP 어댑터로 교체했다. JSON 파일은 오프라인 재현·형식 검사에 남으며 실제 제품 목록은 SQLite를 조회한다.
 

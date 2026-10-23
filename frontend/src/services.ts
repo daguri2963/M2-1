@@ -6,7 +6,7 @@ export type Product=typeof productData[number];
 export type Citation={id:string;productId:string|null;title:string;text:string;url:string;productUrl:string|null;observedAt:string;kind?:'label_guide'|'knowledge'};
 export type ChatReply={text:string;mode:string;citations:Citation[];productIds:string[]};
 export type Overlap={status:string;duplicates:{name:string;items:{productId:string;productName:string;amount:string;operator:string;unit:string;basis:string|null}[];dailyTotal:{amount:string;unit:string}|null;totalStatus:string}[];notice?:string};
-export type Recommendation={status:'ok'|'empty'|'insufficient'|'restricted';message:string;nextStep?:number;policyVersion:string;products:Product[];reasons:Record<string,string[]>;evidence:Citation[];notices:string[];overlap:Overlap;ai:Partial<ChatReply>&{message?:string;code?:string}};
+export type Recommendation={status:'ok'|'empty'|'insufficient'|'restricted';message:string;nextStep?:number;policyVersion:string;products:Product[];reasons:Record<string,string[]>;evidence:Citation[];notices:string[];missingInterests?:string[];relatedProducts?:Product[];guidance?:{goal:string;description:string}[];overlap:Overlap;ai:Partial<ChatReply>&{message?:string;code?:string}};
 const local=window.location.hostname==='127.0.0.1'||window.location.hostname==='localhost';
 const base=(import.meta.env.VITE_API_BASE_URL||(local?`http://${window.location.hostname}:8000`:'')).replace(/\/$/,'');
 let token:string|undefined;

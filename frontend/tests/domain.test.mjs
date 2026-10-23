@@ -1,6 +1,6 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import {emptySurvey,isHealthFood,toggleChoice,validateStep,selectCompare,replaceCompare,parseRoute,canCompareAmounts} from '../src/domain.ts';
+import {emptySurvey,isHealthFood,toggleChoice,validateStep,selectCompare,replaceCompare,parseRoute,canCompareAmounts,interestOptions,needsSpecialtyCheck} from '../src/domain.ts';
 import {readFileSync} from 'node:fs';
 const fixture=()=>structuredClone(emptySurvey);
 test('required steps block incomplete answers and optional final step can skip',()=>{const s=fixture();for(let i=1;i<=4;i++)assert.ok(validateStep(i,s));assert.equal(validateStep(5,s),null);s.interests=['잘 모르겠어요'];s.habits=['잘 모르겠어요'];s.existing='잘 모르겠어요';s.cautions=['잘 모르겠어요'];for(let i=1;i<=5;i++)assert.equal(validateStep(i,s),null);});
@@ -12,3 +12,6 @@ test('same amount unit is insufficient when basis differs',()=>{assert.equal(can
 test('public export includes 87 reviewed products and no held SKU/OCR/audit data',()=>{const ps=JSON.parse(readFileSync(new URL('../src/data/products.json',import.meta.url)));assert.equal(ps.length,87);assert.equal(ps.some(p=>p.id==='600651654'),false);assert.equal(new Set(ps.map(p=>p.id)).size,87);assert.ok(ps.some(p=>p.type!=='건강기능식품'));for(const p of ps){assert.ok(p.sourceUrl.startsWith('https://www.daisomall.co.kr/'));assert.ok(p.checkedAt);assert.equal('sources' in p,false);assert.equal('raw_ocr_text' in p,false);assert.equal('nutrient_candidates' in p,false);}const calcium=ps.find(p=>p.id==='600000147').nutrients.find(n=>n.name==='칼슘');assert.equal(calcium.amount,'700');assert.ok(calcium.basis.includes('4정'));});
 
 test('food type keeps functional suffixes out of general food filter',()=>{assert.equal(isHealthFood('건강기능식품/철 제품'),true);assert.equal(isHealthFood('건강기능식품(마그네슘, 비타민B1)'),true);assert.equal(isHealthFood('기타가공품'),false);assert.equal(isHealthFood(null),false);});
+
+test('six specific goals plus exclusive unsure replace broad ingredient browsing',()=>{assert.equal(interestOptions.length,7);assert.ok(interestOptions.includes('혈당 관리')&&interestOptions.includes('다이어트'));assert.ok(!interestOptions.includes('다양한 성분 보기'));assert.deepEqual(toggleChoice(['혈당 관리'],'잘 모르겠어요',['잘 모르겠어요']),['잘 모르겠어요']);});
+test('specialty scope check is required only after clear caution answers',()=>{const s=fixture();s.interests=['혈당 관리'];s.cautions=['해당 없어요'];assert.ok(needsSpecialtyCheck(s));assert.ok(validateStep(4,s));s.specialtyConfirmed=true;assert.equal(validateStep(4,s),null);s.specialtyConfirmed=false;s.cautions=['질환 진단·치료·의약품 복용 중이에요'];assert.equal(validateStep(4,s),null);s.interests=['장 건강'];s.cautions=['해당 없어요'];assert.equal(validateStep(4,s),null);});
