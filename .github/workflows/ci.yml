@@ -1,0 +1,89 @@
+name: CI
+
+on:
+  push:
+    branches: [canary, dev, production]
+  pull_request:
+    branches: [dev, production]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: ci-${{ github.workflow }}-${{ github.event.pull_request.number || github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  promotion:
+    name: Promotion policy
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Check promotion direction
+        run: |
+          python3 - <<'PY'
+          import json, os
+          if os.environ['GITHUB_EVENT_NAME'] != 'pull_request':
+              print('Branch validation run; promotion direction is checked on pull requests.')
+          else:
+              with open(os.environ['GITHUB_EVENT_PATH']) as f:
+                  event = json.load(f)
+              pr = event['pull_request']
+              expected = {'dev': 'canary', 'production': 'dev'}
+              assert pr['head']['repo']['full_name'] == os.environ['GITHUB_REPOSITORY'], 'Promote from a branch in this repository.'
+              assert pr['head']['ref'] == expected[pr['base']['ref']], 'Allowed promotion flow: canary -> dev -> production.'
+              print('Promotion direction passed.')
+          PY
+
+  backend:
+    name: Backend checks
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    env:
+      GEMINI_API_KEY: ''
+    steps:
+      - uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v6
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@ece7cb06caefa5fff74198d8649806c4678c61a1 # v6
+        with:
+          python-version: '3.13'
+          cache: pip
+          cache-dependency-path: backend/requirements.lock
+      - run: python -m pip install -r backend/requirements.lock
+      - run: python -m pytest -q
+
+  frontend:
+    name: Frontend checks
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    defaults:
+      run:
+        working-directory: frontend
+    steps:
+      - uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v6
+        with:
+          persist-credentials: false
+      - uses: actions/setup-node@249970729cb0ef3589644e2896645e5dc5ba9c38 # v6
+        with:
+          node-version: '24.19.0'
+          cache: npm
+          cache-dependency-path: frontend/package-lock.json
+      - run: npm ci
+      - run: npm test
+      - run: npm run build
+
+  products:
+    name: Product data checks
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v6
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@ece7cb06caefa5fff74198d8649806c4678c61a1 # v6
+        with:
+          python-version: '3.13'
+      - run: python scripts/validate_product_database.py
+      - run: python scripts/validate_product_thumbnails.py
