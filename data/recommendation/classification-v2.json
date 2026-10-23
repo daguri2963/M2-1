@@ -1,5 +1,5 @@
 {
-  "version": "2026-10-23.2",
+  "version": "2026-10-23.3",
   "classifiedAt": "2026-10-23",
   "basis": "Existing verified labels; classification is not a new label review or medical suitability assessment.",
   "entries": {
@@ -446,14 +446,6 @@
           "ingredient": "비타민B1",
           "claim": "탄수화물과 에너지 대사에 필요.",
           "evidenceId": "600000135:function"
-        },
-        {
-          "goal": "눈 건강",
-          "tier": "related",
-          "subgoal": "시각 관련 영양소",
-          "ingredient": "비타민A",
-          "claim": "어두운 곳에서 시각 적응을 위해 필요, 피부와 점막을 형성하고 기능을 유지하는데 필요, 상피세포의 성장과 발달에 필요.",
-          "evidenceId": "600000135:function"
         }
       ],
       "specialties": [],
@@ -467,14 +459,6 @@
           "subgoal": "복합 영양소",
           "ingredient": "비타민B1",
           "claim": "탄수화물과 에너지 대사에 필요.",
-          "evidenceId": "600000283:function"
-        },
-        {
-          "goal": "눈 건강",
-          "tier": "related",
-          "subgoal": "시각 관련 영양소",
-          "ingredient": "비타민A",
-          "claim": "어두운 곳에서 시각 적응을 위해 필요, 피부와 점막을 형성하고 기능을 유지하는데 필요, 상피세포의 성장과 발달에 필요.",
           "evidenceId": "600000283:function"
         }
       ],
@@ -490,48 +474,10 @@
           "ingredient": "비타민B1",
           "claim": "탄수화물과 에너지 대사에 필요.",
           "evidenceId": "591581101:function"
-        },
-        {
-          "goal": "눈 건강",
-          "tier": "related",
-          "subgoal": "시각 관련 영양소",
-          "ingredient": "베타카로틴/비타민A",
-          "claim": "어두운 곳에서 시각 적응을 위해 필요, 피부와 점막을 형성하고 기능을 유지하는데 필요, 상피세포의 성장과 발달에 필요.",
-          "evidenceId": "591581101:function"
         }
       ],
       "specialties": [],
       "family": "591581101"
-    },
-    "968235547": {
-      "matches": [
-        {
-          "goal": "눈 건강",
-          "tier": "direct",
-          "subgoal": "눈 피로 관련 기능",
-          "ingredient": "헤마토코쿠스추출물",
-          "claim": "눈의 피로도 개선에 도움을 줄 수 있음.",
-          "evidenceId": "968235547:function"
-        }
-      ],
-      "specialties": [],
-      "family": "968235547",
-      "holdReason": "성별·여러 특화 기능이 결합되어 현재 지원 범위 밖"
-    },
-    "968235548": {
-      "matches": [
-        {
-          "goal": "눈 건강",
-          "tier": "direct",
-          "subgoal": "눈 피로 관련 기능",
-          "ingredient": "헤마토코쿠스추출물",
-          "claim": "눈의 피로도 개선에 도움을 줄 수 있음.",
-          "evidenceId": "968235548:function"
-        }
-      ],
-      "specialties": [],
-      "family": "968235548",
-      "holdReason": "성별·여러 특화 기능이 결합되어 현재 지원 범위 밖"
     },
     "968235549": {
       "matches": [

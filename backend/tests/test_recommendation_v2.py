@@ -3,7 +3,7 @@ import copy,itertools,json,re
 import pytest
 from pydantic import ValidationError
 from backend import classification as catalog,policy,repository as repo
-from backend.models import Survey
+from backend.models import INTERESTS,Survey
 from backend.privacy import public_survey,public_recommendation
 
 V='일상의 활력';B='뼈·근육 건강';G='장 건강';E='눈 건강';S='혈당 관리';W='다이어트'
@@ -29,11 +29,6 @@ def test_gut_does_not_silently_include_glucose_or_weight_specialties():
     assert ids(r)=={'034345002','591580521','600651647'}
     assert all(not re.search('혈당|체지방',p['functionText']) for p in r['products'])
 
-def test_eye_reports_coverage_gap_and_separates_related_nutrition():
-    r=policy.recommend(profile(E))
-    assert r['status']=='empty' and r['products']==[] and r['missingInterests']==[E]
-    assert r['relatedProducts'] and not r['evidence']
-
 @pytest.mark.parametrize('goal',[S,W])
 def test_new_specialties_need_explicit_scope_confirmation(goal):
     r=policy.recommend(profile(goal,specialtyConfirmed=False))
@@ -52,11 +47,6 @@ def test_weight_returns_one_reviewed_candidate_without_padding_or_sleep_products
     assert policy.exclusion(repo.get_product('032306284'),[W])
     assert policy.exclusion(repo.get_product('968235549'),[W])
 
-def test_unknown_is_a_guidance_flow_not_multivitamin_recommendation():
-    r=policy.recommend(profile('잘 모르겠어요'))
-    assert r['status']=='insufficient' and not r['products']
-    assert {g['goal'] for g in r['guidance']}==set(catalog.GOAL_DESCRIPTIONS)
-
 def test_multiple_purposes_cover_available_goals_instead_of_generic_multis():
     r=policy.recommend(profile(V,B))
     assert {m['goal'] for ms in r['purposeMatches'].values() for m in ms}=={V,B}
@@ -72,13 +62,6 @@ def test_gut_weight_has_explicit_separate_coverage_not_weight_claim_for_probioti
     r=policy.recommend(profile(G,W))
     assert '976195543' in ids(r)
     assert all(m['goal']!=W for sku,ms in r['purposeMatches'].items() if sku!='976195543' for m in ms)
-
-def test_missing_eye_purpose_is_not_inferred_from_available_vitality_products():
-    r=policy.recommend(profile(V,E))
-    assert r['status']=='ok' and r['missingInterests']==[E]
-    assert all(m['goal']==V for ms in r['purposeMatches'].values() for m in ms)
-    assert public_recommendation(r)['missingInterests']==[E]
-    assert 'relatedProducts' not in public_recommendation(r)
 
 def test_family_grouping_needs_same_daily_labels_not_just_a_family_annotation():
     a=repo.get_product('600000128');b=repo.get_product('600000270')
@@ -123,7 +106,7 @@ def test_luteolin_is_not_a_lutein_eye_match():
     assert any(n['name']=='루테올린' for n in p['nutrients'])
     assert catalog.matches_for(p,[E])==[]
 
-@pytest.mark.parametrize('goals',[['잘 모르겠어요',S],['다양한 성분 보기']])
+@pytest.mark.parametrize('goals',[[E],['잘 모르겠어요'],[V,E],['잘 모르겠어요',S],['다양한 성분 보기']])
 def test_old_or_conflicting_interest_payloads_are_rejected(goals):
     with pytest.raises(ValidationError):profile(*goals)
 
@@ -156,3 +139,12 @@ def test_specialty_screening_is_not_in_provider_preferences_or_recommendation_co
 def test_interest_selection_order_does_not_change_selected_products():
     results=[ids(policy.recommend(profile(*goals))) for goals in itertools.permutations([V,B,G])]
     assert all(value==results[0] for value in results)
+
+def test_five_supported_goals_have_direct_candidates_and_no_eye_annotations():
+    assert INTERESTS==tuple(catalog.GOAL_DESCRIPTIONS)==(V,B,G,S,W)
+    for goal in INTERESTS:
+        result=policy.recommend(profile(goal))
+        assert result['status']=='ok' and result['products']
+        assert all(m['goal']==goal for ms in result['purposeMatches'].values() for m in ms)
+    assert all(m['goal'] in INTERESTS for e in catalog.CATALOG['entries'].values() for m in e['matches'])
+    assert Survey(**profile(V,B,G,S,W).model_dump()).interests==list(INTERESTS)

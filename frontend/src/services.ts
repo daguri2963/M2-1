@@ -5,6 +5,8 @@ export type {Connection} from './connection';
 export type Product=typeof productData[number];
 export type Citation={id:string;productId:string|null;title:string;text:string;url:string;productUrl:string|null;observedAt:string;kind?:'label_guide'|'knowledge'};
 export type ChatReply={text:string;mode:string;citations:Citation[];productIds:string[]};
+export type ComparisonFact={id:string;title:string;values:string[];different:boolean;citationIds:string[];notice?:string;comparable?:boolean;direction?:string|null};
+export type ComparisonExplanation={mode:'ai';productIds:string[];products:{id:string;label:string;name:string}[];summary:{text:string;factIds:string[]};highlights:{factId:string;text:string;fact:ComparisonFact}[];selectionGuide:{text:string;factIds:string[]};citations:Citation[];notice:string;cached:boolean;version:string};
 export type Overlap={status:string;duplicates:{name:string;items:{productId:string;productName:string;amount:string;operator:string;unit:string;basis:string|null}[];dailyTotal:{amount:string;unit:string}|null;totalStatus:string}[];notice?:string};
 export type Recommendation={status:'ok'|'empty'|'insufficient'|'restricted';message:string;nextStep?:number;policyVersion:string;products:Product[];reasons:Record<string,string[]>;evidence:Citation[];notices:string[];missingInterests?:string[];relatedProducts?:Product[];guidance?:{goal:string;description:string}[];overlap:Overlap;ai:Partial<ChatReply>&{message?:string;code?:string}};
 const local=window.location.hostname==='127.0.0.1'||window.location.hostname==='localhost';
@@ -58,6 +60,7 @@ export const api={
  async clearSession(){try{if(token)await request('/api/sessions/current',undefined,{personal:true,method:'DELETE'});}finally{token=undefined;}},
  detail(id:string,signal?:AbortSignal){return request<Product>('/api/products/'+encodeURIComponent(id),undefined,{signal});},
  compare(productIds:string[],signal?:AbortSignal){return request<{rows:{label:string;values:string[]}[];notice:string}>('/api/compare',{productIds},{signal});},
+ compareExplanation(productIds:string[],signal?:AbortSignal){return request<ComparisonExplanation>('/api/compare/explanation',{productIds},{personal:true,signal});},
  recommend(survey:Survey,signal?:AbortSignal){return request<Recommendation>('/api/recommendations',survey,{personal:true,signal});},
  reply(question:string,context:{productId?:string;survey?:Survey;history:{role:'user'|'assistant';text:string}[]},signal?:AbortSignal){return request<ChatReply>('/api/chat',{question,...context},{personal:true,signal});}
 };

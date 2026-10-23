@@ -4,10 +4,8 @@ export const interestDescriptions:Record<string,string>={
  '일상의 활력':'에너지 대사 관련 성분과 표시를 알아봐요.',
  '뼈·근육 건강':'뼈와 정상적인 근육 기능을 구분해 살펴봐요.',
  '장 건강':'유산균·프리바이오틱스의 기능을 비교해요.',
- '눈 건강':'눈 관련 기능을 가진 제품을 알아봐요.',
  '혈당 관리':'식후 혈당 관련 기능 표시를 살펴봐요.',
  '다이어트':'체지방 감소 기능 표시를 살펴봐요.',
- '잘 모르겠어요':'분야의 차이를 먼저 알아봐요.',
 };
 export const interestOptions=Object.keys(interestDescriptions);
 export const needsSpecialtyCheck=(s:Survey)=>s.interests.some(g=>g==='혈당 관리'||g==='다이어트');
@@ -16,7 +14,7 @@ export function toggleChoice(current:string[],value:string,exclusive:string[]=[]
  return exclusive.includes(value)?[value]:[...current.filter(v=>!exclusive.includes(v)),value];
 }
 export function validateStep(step:number,s:Survey):string|null{
- if(step===1&&!s.interests.length)return '관심 분야를 하나 이상 선택해 주세요. 잘 모르겠어요도 괜찮아요.';
+ if(step===1&&(!s.interests.length||s.interests.some(g=>!interestOptions.includes(g))))return '다섯 관심 분야 중 하나 이상 선택해 주세요.';
  if(step===2&&!s.habits.length)return '식습관을 하나 이상 선택해 주세요. 잘 모르겠어요도 선택할 수 있어요.';
  if(step===3&&(!s.existing||(s.existing==='제품 선택'&&!s.productIds.length)))return '현재 제품 상태를 선택해 주세요. 제품 선택 시 목록에서 하나 이상 골라 주세요.';
  if(step===4&&!s.cautions.length)return '확인할 조건을 선택해 주세요. 잘 모르겠어요도 괜찮아요.';

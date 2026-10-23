@@ -30,13 +30,16 @@ def main():
                 assert all(e['productId'] in expected for e in data['ai']['citations'])
                 assert any(t['ok'] for t in data['ai']['toolTrace'])
                 report['checks'].append({'case':goal,'elapsedSeconds':round(time.monotonic()-started,2),'productIds':[p['id'] for p in data['products']],'mode':data['ai']['mode'],'toolTrace':data['ai']['toolTrace'],'citationIds':[e['id'] for e in data['ai']['citations']],'text':data['ai']['text']})
-            cases=[('eye_gap',{'interests':['눈 건강']},'empty'),('unsure',{'interests':['잘 모르겠어요']},'insufficient'),('scope_missing',{'interests':['혈당 관리'],'specialtyConfirmed':False},'insufficient'),('diagnosis',{'interests':['혈당 관리'],'cautions':['질환 진단·치료·의약품 복용 중이에요']},'restricted'),('same_weight_function',{'interests':['다이어트'],'existing':'제품 선택','productIds':['968235549']},'restricted')]
+            cases=[('scope_missing',{'interests':['혈당 관리'],'specialtyConfirmed':False},'insufficient'),('diagnosis',{'interests':['혈당 관리'],'cautions':['질환 진단·치료·의약품 복용 중이에요']},'restricted'),('same_weight_function',{'interests':['다이어트'],'existing':'제품 선택','productIds':['968235549']},'restricted')]
             for stage,patch,expected in cases:
                 response=client.post('/api/recommendations',json={**base,**patch},headers=headers);response.raise_for_status();data=response.json()
                 assert data['status']==expected and not data['products'] and data['ai']['mode']=='not_requested'
-                if stage=='eye_gap':assert data['missingInterests']==['눈 건강'] and data['relatedProducts']
-                if stage=='unsure':assert len(data['guidance'])==6
                 report['checks'].append({'case':stage,'status':data['status'],'mode':data['ai']['mode']})
+            for removed in ['눈 건강','잘 모르겠어요']:
+                stage='removed_interest'
+                response=client.post('/api/recommendations',json={**base,'interests':[removed]},headers=headers)
+                assert response.status_code==422 and response.json()['error']['code']=='INVALID_INPUT'
+                report['checks'].append({'case':stage,'interest':removed,'status':422})
             stage='withdrawal';client.delete('/api/sessions/current',headers=headers).raise_for_status()
             assert client.post('/api/recommendations',json={**base,'interests':['일상의 활력']},headers=headers).status_code==401
             report['checks'].append({'case':stage,'status':401});report['passed']=True
