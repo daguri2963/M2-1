@@ -134,7 +134,7 @@ class FakeModels:
     def __init__(self):self.calls=[]
     async def create(self,**kwargs):
         self.calls.append(kwargs)
-        if 'response_format' in kwargs:
+        if 'tools' not in kwargs:
             return reply({'text':'공식 표시에는 근육 기능 유지와 관련된 기능정보가 있어요. 표시 섭취방법과 주의사항을 함께 확인해 주세요.','citationIds':['600000128:function'],'productIds':['600000128']})
         if len(self.calls)==1:
             return reply(tool='search_evidence',args={'query':'근육','product_ids':['600000128']})
@@ -149,8 +149,8 @@ def test_agent_selects_and_executes_multiple_tools_then_validates_grounding():
     assert [t['tool'] for t in result['toolTrace']]==['search_evidence','get_product_details']
     assert result['citations'][0]['productId']=='600000128'
     assert len(models.calls)==3
-    assert models.calls[0]['tool_choice']=='required'
-    assert models.calls[0]['reasoning_effort']=='none' and models.calls[0]['store'] is False
+    assert models.calls[0]['tool_choice']=='auto'
+    assert 'reasoning_effort' not in models.calls[0] and models.calls[0]['store'] is False
 
 @pytest.mark.parametrize('answer',[
     {'text':'출처 설명','citationIds':['fake'],'productIds':[]},
@@ -211,7 +211,7 @@ def test_starter_question_works_when_model_chooses_an_empty_search():
         def __init__(self):self.calls=[]
         async def create(self,**kwargs):
             self.calls.append(kwargs)
-            if 'response_format' in kwargs:
+            if 'tools' not in kwargs:
                 payload=json.loads(kwargs['messages'][-1]['content'])
                 assert any(e['id']=='label-guide:amount-and-basis' for e in payload['evidence'])
                 return reply({'text':'함량은 표시된 분량에 들어 있는 성분의 양이고, 기준량은 그 함량을 읽는 분량 기준이에요. 영양성분 기준치는 식품을 비교하기 위한 값이에요.','citationIds':['label-guide:amount-and-basis','label-guide:daily-reference'],'productIds':[]})

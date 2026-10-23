@@ -24,7 +24,7 @@ def create_client():
 async def complete(client,messages,**options):
     from .agent import AIError
     response=await client.chat.completions.create(
-        model=config.MODEL,messages=messages,reasoning_effort='none',
+        model=config.MODEL,messages=messages,
         store=False,max_completion_tokens=1800,**options)
     if not response.choices:
         raise AIError('AI_INVALID_RESPONSE','AI 답변 형식을 확인하지 못했어요.')

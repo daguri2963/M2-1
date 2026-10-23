@@ -1,0 +1,52 @@
+{
+  "checkedAt": "2026-10-23T03:45:05.587674+00:00",
+  "passed": true,
+  "baseUrl": "https://copa.codyssey.kr/v1",
+  "model": "gpt-5.4",
+  "data": "synthetic status and public product/knowledge only",
+  "checks": [
+    "plain_chat",
+    "function_call",
+    {
+      "case": "server_validated_tool_result",
+      "outputValidation": "server Pydantic; provider response_format is not supported"
+    },
+    {
+      "case": "knowledge_agent",
+      "toolTrace": [
+        {
+          "tool": "search_nutrition_knowledge",
+          "ok": true
+        }
+      ],
+      "citationIds": [
+        "knowledge:d-meal",
+        "knowledge:d-role"
+      ]
+    },
+    {
+      "case": "product_agent",
+      "toolTrace": [
+        {
+          "tool": "get_product_details",
+          "ok": true
+        },
+        {
+          "tool": "search_evidence",
+          "ok": true
+        }
+      ],
+      "citationIds": [
+        "600000128:function",
+        "600000128:cautions",
+        "600000128:allergen_or_cross_contact",
+        "600000128:intake",
+        "600000128:storage",
+        "600000128:nutrition",
+        "label-guide:amount-and-basis",
+        "label-guide:daily-reference"
+      ]
+    }
+  ],
+  "elapsedSeconds": 20.1
+}

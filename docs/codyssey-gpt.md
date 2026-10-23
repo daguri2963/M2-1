@@ -1,6 +1,6 @@
 # 코디세이 GPT 연결 (canary)
 
-현재 작업은 Gemini 전용 호출을 코디세이의 OpenAI 호환 Chat Completions로 전환한다. **실제 가상 키로 검증하기 전에는 dev·production에 반영하지 않는다.** 운영 서버는 기존 Gemini 버전을 유지한다.
+현재 canary는 Gemini 전용 호출을 코디세이의 OpenAI 호환 Chat Completions로 전환했다. **2026-10-23 실제 가상 키로 소규모 호환 검증을 통과했다.** dev·production 반영과 Render 환경변수 등록은 아직 수행하지 않았으며 운영 서버는 기존 Gemini 버전을 유지한다.
 
 ## 키 입력 위치
 
@@ -19,12 +19,23 @@ AI_TIMEOUT_SECONDS=45
 
 ## 구현
 
-- `backend/copa.py`: 공식 OpenAI SDK의 비동기 Chat Completions. 기본 주소는 코디세이이며 `reasoning_effort=none`, `store=false`, SDK 재시도0회, 제한된 출력 토큰을 사용한다.
-- `backend/agent.py`: 기존7개 도구·검색·추천 제한·출처 검증은 유지한다. 도구 정의는 strict JSON Schema, 결과 전달은 assistant tool_calls와 tool_call_id로 연결한다. 최종 답변은 strict schema와 서버 Pydantic 검사를 모두 거친다.
+- `backend/copa.py`: 공식 OpenAI SDK의 비동기 Chat Completions. 기본 주소는 코디세이이며 `store=false`, SDK 재시도0회, 제한된 출력 토큰을 사용한다. 실측에서 거부된 `reasoning_effort`는 보내지 않는다.
+- `backend/agent.py`: 기존7개 도구·검색·추천 제한·출처 검증은 유지한다. 도구 정의는 strict JSON Schema, 결과 전달은 assistant tool_calls와 tool_call_id로 연결한다. 지원되는 `tool_choice=auto`로 모델이 도구를 선택하며 첫 응답에 실제 도구 호출이 없으면 실패로 처리한다. 최종 응답 스키마는 메시지로 전달하고 JSON을 서버의 Pydantic과 출처·제품·금지 표현 검사로 검증한다. 공급자가 최종 응답 형식을 강제한다고 표현하지 않는다.
 - API의 성공 모드는 공급자에 독립적인 `ai`, 제공자는 `codyssey`다. 화면의 성공 판정·전송 안내·동의 버전도 함께 변경한다. 동의 요청은 `provider=codyssey`를 명시해야 하며, 이전 화면이 새 동의 버전만 자동 수용해 다른 제공자로 전송하는 것을 막는다. 새 화면도 health의 제공자가 일치해야 동의할 수 있다. 모든 공급자 실패가 성공한 답변으로 표시되지는 않는다.
-- 개인 건강정보 필터·설문 최소화·세션·추천 규칙은 유지한다. `store=false`는 중계 서버까지 포함한 무보관을 뜻하지 않는다. 코디세이의 로그·보관 정책, 키의 공개 서비스 사용 범위·한도·만료는 별도로 확인해야 한다. 현재 가상 입력 검증용 코드이며 운영 변경은 아직 하지 않는다.
+- 개인 건강정보 필터·설문 최소화·세션·추천 규칙은 유지한다. `store=false`는 중계 서버까지 포함한 무보관을 뜻하지 않는다. 코디세이의 로그·보관 정책, 키의 공개 서비스 사용 범위·한도·만료는 별도로 확인해야 한다. 실제 검증에는 가상 입력·공개 지식·공개 상품만 사용했으며 운영 변경은 아직 하지 않는다.
 
-사용자가 제공한 안내에는 `https://copa.codyssey.kr/v1/chat/completions`, 예제 모델 `gpt-5-mini`, 사용 가능 목록의 `gpt-5.4`가 있다. 실제 목록을 기준으로 `gpt-5.4`를 선택했다. 단순 채팅 호환만으로 tools·tool_choice·strict·response_format 등의 중계 호환성을 확정하지 않는다.
+사용자가 제공한 안내에는 `https://copa.codyssey.kr/v1/chat/completions`, 예제 모델 `gpt-5-mini`, 사용 가능 목록의 `gpt-5.4`가 있다. 실제 목록을 기준으로 `gpt-5.4`를 선택했다. OpenAI 공식 API와 중계 API의 지원 범위는 다르며 아래는 이 키·모델·확인일의 실제 결과다.
+
+| 요청 기능 | 실제 확인 결과 |
+|---|---|
+| 기본 대화, `store=false`, `max_completion_tokens` | 정상 응답 |
+| 기본 도구, `strict=true` 도구 스키마, `tool_choice=auto` | 실제 도구 호출 정상 |
+| assistant tool_calls → tool_call_id 결과 전달 | 도구 결과에 근거한 최종 답변 정상 |
+| `reasoning_effort=none` | HTTP 400 `unsupported_feature` |
+| `tool_choice=required`·특정 함수 지정 | HTTP 400 `unsupported_feature` |
+| `response_format=json_schema`·`json_object` | HTTP 400 `unsupported_feature` |
+
+따라서 지원되지 않는 옵션을 제거했다. 잘못된 JSON·추가 필드·없는 출처·없는 제품·허용되지 않는 수치는 서버가 실패로 처리하며 실패를 임의의 성공 답변으로 바꾸지 않는다. 다른 공급자나 Gemini로 자동 전환하지 않는다.
 
 ## 검증
 
@@ -37,7 +48,7 @@ npm test
 npm run build
 ```
 
-실제 키를 저장한 뒤 프로젝트 루트에서 수행한다. 첫 명령은 키 존재 여부만 확인하며 요청하지 않는다. 두 번째는 사용량을 소비하고 가상 공개 입력으로 일반 채팅 → 함수 호출 → 도구 결과의 구조화 출력 → 일반 영양 Agent → 제품 Agent 순서로 확인한다. 키·인증 헤더·원문 오류는 출력하지 않는다.
+실제 키를 저장한 뒤 프로젝트 루트에서 수행한다. 첫 명령은 키 존재 여부만 확인하며 요청하지 않는다. 두 번째는 사용량을 소비하고 가상 공개 입력으로 일반 채팅 → 함수 호출 → 도구 결과의 JSON 응답·서버 검증 → 일반 영양 Agent → 제품 Agent 순서로 확인한다. 키·인증 헤더·원문 오류는 출력하지 않는다.
 
 ```sh
 .venv/bin/python scripts/check_copa_compatibility.py
@@ -50,6 +61,10 @@ npm run build
 
 공식 참고: [GPT-5.4](https://developers.openai.com/api/docs/models/gpt-5.4), [함수 호출](https://developers.openai.com/api/docs/guides/function-calling), [Chat Completions 호환 조건](https://developers.openai.com/api/docs/guides/migrate-to-responses), [구조화 출력](https://developers.openai.com/api/docs/guides/structured-outputs). 코디세이 중계 구현과 계정 한도는 OpenAI 공식 문서만으로 확정할 수 없다.
 
-## 키 입력 전 확인 결과
+## 실제 확인 결과
 
-백엔드94개·프런트10개 검사, TypeScript·배포 빌드가 통과했다. 실제 OpenAI SDK의 모의 HTTP 전송으로 tools·tool_call_id·strict 응답·출처·실패 정규화·잘못된 키 전송 대상 거부를 확인했다. 로컬 화면에서도 새 제공자 동의 → GPT 표시 → 키 미설정 오류를 확인했다. 코디세이 실제 네트워크 요청은 수행하지 않았으며 `COPA_API_KEY` 입력 대기 상태다. 8001·5174 포트의 일시적인 화면 검증은 기존 미리보기와 분리해 수행했고, 완료 후 해당 검증 프로세스만 종료한다.
+이전 키 입력 전 단계에서 백엔드94개·프런트10개 검사와 빌드가 통과했고, 새 제공자 동의·GPT 표시·키 미설정 오류를 로컬 화면에서 확인했다. 당시의 임시 화면 검증 서버는 종료했다.
+
+키 입력 후 호환 옵션을 수정해 실행한 [실제 호출 보고서](copa-compatibility-check.json)는 전체 20.1초에 통과했다. 기본 대화·실제 함수 호출·도구 결과 전달·JSON의 서버 검증·일반 영양 Agent·제품 Agent를 확인했다. 일반 질문은 `search_nutrition_knowledge`, 제품 질문은 `get_product_details`와 `search_evidence`를 GPT가 선택했다. 공개 지식과 제품 출처가 실제 응답에 포함됐다. 이 소규모 결과는 운영 배포나 모든 질문의 품질 검증을 의미하지 않는다.
+
+수정 후 백엔드100개 검사가 통과했다. 공급자의 `response_format` 없이도 코드 블록·배열·추가 필드·존재하지 않는 출처와 제품·금지된 수치를 거부하는 회귀 검사를 포함한다.

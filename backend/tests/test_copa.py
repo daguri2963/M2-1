@@ -19,12 +19,14 @@ def test_real_sdk_wire_contract_keeps_tool_ids_and_structured_grounding():
         assert str(request.url)=='https://copa.codyssey.kr/v1/chat/completions'
         assert request.headers['authorization']=='Bearer test-virtual-key'
         body=json.loads(request.content);sent.append(body)
-        assert body['model']=='gpt-5.4' and body['reasoning_effort']=='none'
+        assert body['model']=='gpt-5.4' and 'reasoning_effort' not in body
+        assert 'response_format' not in body
         assert body['store'] is False and body['max_completion_tokens']==1800
-        if 'response_format' not in body:
-            assert body['tool_choice']=='required'
+        if 'tools' in body:
+            assert body['tool_choice']=='auto'
+            assert body['tools'][0]['function']['strict'] is True
             return httpx.Response(200,json=envelope(calls=[{'id':'call-evidence','type':'function','function':{'name':'search_nutrition_knowledge','arguments':json.dumps({'query':'비타민D 식사'})}}],finish='tool_calls'))
-        assert body['response_format']['json_schema']['strict'] is True
+        assert json.loads(body['messages'][-1]['content'])['responseSchema']['additionalProperties'] is False
         assert any(m.get('tool_call_id')=='call-evidence' and m['role']=='tool' for m in body['messages'])
         assert body['messages'][-1]['role']=='user'
         return httpx.Response(200,json=envelope(content=json.dumps({'text':'비타민D는 식사와 관련해 흡수를 살펴볼 수 있어요.','citationIds':['knowledge:d-meal'],'productIds':[]})))
@@ -84,6 +86,31 @@ def test_missing_tools_incomplete_or_refused_output_never_becomes_a_success(body
         agent=SupplementAgent(c)
         try:
             with pytest.raises(AIError):await agent.answer(ChatRequest(question='비타민D 역할'))
+        finally:await agent.close()
+    asyncio.run(run())
+
+
+@pytest.mark.parametrize('content,expected',[
+    ('```json\n{}\n```','AI_INVALID_RESPONSE'),
+    ('[]','AI_INVALID_RESPONSE'),
+    (json.dumps({'text':'설명','citationIds':['knowledge:d-meal'],'productIds':[],'extra':'untrusted'}),'AI_INVALID_RESPONSE'),
+    (json.dumps({'text':'설명','citationIds':['invented'],'productIds':[]}),'AI_INVALID_EVIDENCE'),
+    (json.dumps({'text':'설명','citationIds':['knowledge:d-meal'],'productIds':['invented']}),'AI_INVALID_PRODUCT'),
+    (json.dumps({'text':'함량은 99mg이에요.','citationIds':['knowledge:d-meal'],'productIds':[]}),'AI_UNSUPPORTED_CLAIM'),
+])
+def test_plain_json_output_still_requires_server_schema_and_grounding(content,expected):
+    def handle(request):
+        body=json.loads(request.content)
+        assert 'response_format' not in body
+        if 'tools' in body:
+            return httpx.Response(200,json=envelope(calls=[{'id':'evidence','type':'function','function':{'name':'search_nutrition_knowledge','arguments':json.dumps({'query':'비타민D 식사'})}}],finish='tool_calls'))
+        return httpx.Response(200,json=envelope(content=content))
+    async def run():
+        c=AsyncOpenAI(api_key='test-virtual-key',base_url=config.BASE_URL,max_retries=0,http_client=httpx.AsyncClient(transport=httpx.MockTransport(handle)))
+        agent=SupplementAgent(c)
+        try:
+            with pytest.raises(AIError) as error:await agent.answer(ChatRequest(question='비타민D와 식사의 관계가 궁금해요.'))
+            assert error.value.code==expected
         finally:await agent.close()
     asyncio.run(run())
 

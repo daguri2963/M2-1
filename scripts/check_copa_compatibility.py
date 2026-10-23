@@ -27,19 +27,20 @@ async def run(args):
         report['checks'].append(stage)
         stage='function_call'
         tool={'type':'function','function':{'name':'get_check_status','description':'검증용 공개 연결 상태를 조회합니다.','strict':True,'parameters':{'type':'object','properties':{},'required':[],'additionalProperties':False}}}
-        messages=[{'role':'user','content':'도구로 검증용 상태를 조회하고 근거 id compat:status를 사용해 설명해 주세요.'}]
-        response=await complete(agent.client,messages,tools=[tool],tool_choice={'type':'function','function':{'name':'get_check_status'}})
+        messages=[{'role':'user','content':'반드시 먼저 get_check_status 도구로 검증용 상태를 조회하고 근거 id compat:status를 사용해 설명해 주세요.'}]
+        response=await complete(agent.client,messages,tools=[tool],tool_choice='auto')
         calls=response.choices[0].message.tool_calls or []
         assert len(calls)==1 and calls[0].function.name=='get_check_status' and json.loads(calls[0].function.arguments)=={}
         call=calls[0]
         messages.extend([{'role':'assistant','content':response.choices[0].message.content,'tool_calls':[{'id':call.id,'type':'function','function':{'name':call.function.name,'arguments':call.function.arguments}}]},
                          {'role':'tool','tool_call_id':call.id,'content':json.dumps({'id':'compat:status','state':'ready'})}])
         report['checks'].append(stage)
-        stage='structured_tool_result'
-        response=await complete(agent.client,messages,response_format={'type':'json_schema','json_schema':{'name':'compatibility_answer','strict':True,'schema':ANSWER_SCHEMA}})
+        stage='server_validated_tool_result'
+        messages.append({'role':'user','content':json.dumps({'instruction':'이 스키마를 따르는 JSON 객체 하나만 출력하세요. 코드 블록과 부연 문구 금지. 조회한 상태만 설명하고 citationIds는 ["compat:status"], productIds는 []로 쓰세요.','responseSchema':ANSWER_SCHEMA},ensure_ascii=False)})
+        response=await complete(agent.client,messages)
         answer=AgentAnswer.model_validate_json(response.choices[0].message.content)
         assert answer.citationIds==['compat:status'] and answer.productIds==[]
-        report['checks'].append(stage)
+        report['checks'].append({'case':stage,'outputValidation':'server Pydantic; provider response_format is not supported'})
         stage='knowledge_agent'
         answer=await agent.answer(ChatRequest(question='비타민D와 식사의 관계가 궁금해요.'))
         assert answer['mode']=='ai' and any(c['id']=='knowledge:d-meal' for c in answer['citations']) and answer['productIds']==[]

@@ -78,7 +78,7 @@ class KnowledgeModels:
  def __init__(self):self.calls=[]
  async def create(self,**kwargs):
   self.calls.append(kwargs)
-  if 'response_format' in kwargs:
+  if 'tools' not in kwargs:
    return reply({'text':'비타민D는 지용성 영양소예요. 지방을 조금 포함한 식사와 함께 있을 때 흡수가 더 잘 돼요.','citationIds':['knowledge:d-meal'],'productIds':[]})
   return reply(tool='search_nutrition_knowledge',args={'query':'비타민D 식사 흡수'})
 

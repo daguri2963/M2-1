@@ -22,7 +22,7 @@ SYSTEM='''너는 영양제 첫걸음의 친절하고 차분한 '영양제 AI 상
 진단, 영양 결핍 추정, 의약품 병용 안전 판정, 복용량 변경, 치료·효과 보장을 하지 않는다.
 개인별 복용 지시는 하지 않는다. 일반 상호작용 원리·알레르기 표시의 의미는 근거로 설명할 수 있다.
 정량과 구체적인 섭취 횟수·용량은 검수 원문으로 안내한다. 숫자는 B12·오메가3 같은 성분명에만 쓴다.
-관련 도구로 조회한 근거만 사용하고 모르면 추가 질문한다. 추측으로 제품·출처를 만들지 않는다.
+첫 응답에서는 반드시 관련 도구를 호출한다. 도구로 조회한 근거만 사용하고 모르면 추가 질문한다. 추측으로 제품·출처를 만들지 않는다.
 일반 영양 질문에는 search_nutrition_knowledge, 제품 질문에는 제품 조회 도구를 사용한다. 혼합 질문은 둘 다 조회할 수 있다.
 일반 지식을 특정 제품의 효과로 옮기지 않는다. 국내 제품에 미국의 섭취 기준이나 법적 기준을 적용하지 않는다.
 표시 읽기 개념은 공식 안내 요약을 사용한다. 함량을 읽는 분량 기준과 영양성분 기준치를 구별한다.
@@ -31,7 +31,7 @@ SYSTEM='''너는 영양제 첫걸음의 친절하고 차분한 '영양제 AI 상
 질문에 필요한 도구를 스스로 고르고 결과에 따라 다른 도구를 사용한다.
 추천 도구의 restricted/insufficient/empty 상태를 바꾸거나 후보에 없는 제품을 추천하지 않는다.
 일반 상품 검색 결과는 제품 정보 탐색이며 개인 맞춤 추천으로 표현하지 않는다.
-최종 답변은 text, citationIds, productIds 형식이다. URL·마크다운 링크를 쓰지 않는다.
+최종 답변은 text, citationIds, productIds를 가진 JSON 객체 하나만 출력한다. 코드 블록·머리말·URL·마크다운 링크를 쓰지 않는다.
 citationIds는 실제 조회한 근거의 id만, productIds는 실제 조회한 제품만 사용한다.
 적어도 하나의 근거를 인용한다. 질문에 없는 상품 구매를 유도하지 않는다.
 일반 정보만 필요한 질문에는 그 정보를 설명하고 마친다. 제품 정량이 필요한 질문에만 제품 표시 확인을 안내한다.'''
@@ -169,7 +169,9 @@ class SupplementAgent:
         messages=[{'role':'system','content':SYSTEM},*history,{'role':'user','content':json.dumps(context,ensure_ascii=False)}]
         for step in range(2):
             active_tools=[t for t in TOOLS if not general_only or t['function']['name'] in ('search_nutrition_knowledge','search_evidence')]
-            response=await complete(self.client,messages,tools=active_tools,tool_choice='required' if step==0 else 'auto')
+            # COPA accepts native tools and auto, but rejects required/named tool_choice.
+            # The first response is still required to contain a real tool call below.
+            response=await complete(self.client,messages,tools=active_tools,tool_choice='auto')
             message=response.choices[0].message
             calls=message.tool_calls or []
             if not calls:
@@ -194,8 +196,10 @@ class SupplementAgent:
         if general_only:
             source_pool={key:e for key,e in source_pool.items() if e.get('kind') in ('knowledge','label_guide')}
             product_pool={}
-        messages.append({'role':'user','content':json.dumps({'instruction':'이 근거로 질문에 먼저 답하고, 쉬운 설명과 필요한 확인점만 덧붙이세요. 성분명 이외의 숫자나 복용 지시 금지. 일반 지식과 제품 표시를 구분하세요. 개인 추천과 후보 변경 금지.','evidence':list(source_pool.values()),'allowedProductIds':candidate_ids if candidate_ids is not None else list(product_pool)},ensure_ascii=False)})
-        response=await complete(self.client,messages,response_format={'type':'json_schema','json_schema':{'name':'supplement_answer','strict':True,'schema':ANSWER_SCHEMA}})
+        messages.append({'role':'user','content':json.dumps({'instruction':'이 근거로 질문에 먼저 답하고, 쉬운 설명과 필요한 확인점만 덧붙이세요. 성분명 이외의 숫자나 복용 지시 금지. 일반 지식과 제품 표시를 구분하세요. 개인 추천과 후보 변경 금지. responseSchema를 따르는 JSON 객체 하나만 출력하세요. 코드 블록과 부연 문구는 쓰지 마세요.','responseSchema':ANSWER_SCHEMA,'evidence':list(source_pool.values()),'allowedProductIds':candidate_ids if candidate_ids is not None else list(product_pool)},ensure_ascii=False)})
+        # COPA rejects both response_format=json_schema and json_object. Do not claim
+        # provider-enforced output: parse and validate strictly on the server instead.
+        response=await complete(self.client,messages)
         answer=AgentAnswer.model_validate_json(response.choices[0].message.content)
         result=sanitize_answer(answer,source_pool,product_pool,candidate_ids)
         result.update(mode='ai',provider='codyssey',model=config.MODEL,toolTrace=trace,policyVersion=config.POLICY_VERSION)
