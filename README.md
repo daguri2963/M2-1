@@ -6,6 +6,10 @@
 
 `main`은 기준 프로토타입으로 보존하며 **`canary → dev → production`** 순서로 반영합니다. 대표 브랜치와 Render 배포 기준은 `production`입니다. 소유자 `sayknow`가 통합·운영을 관리하고, 쓰기 권한을 받은 팀원은 `canary`에서 참여합니다. 삭제·강제 푸시 보호와 필수 자동 검사를 적용하며 다른 팀원의 승인은 필수가 아닙니다. 별도 시험 서버는 만들지 않습니다. [참여 방법·권한·배포 절차](CONTRIBUTING.md)를 먼저 확인하세요.
 
+## canary: 코디세이 GPT 전환 준비
+
+현재 canary 코드는 코디세이의 `gpt-5.4` Chat Completions를 사용하도록 변경 중입니다. 실제 키 검증 전이며 운영 홈페이지는 기존 Gemini 버전을 유지합니다. 프로젝트 루트 `.env`의 `COPA_API_KEY=`에 가상 키를 입력하는 방법과 검증 명령은 [코디세이 GPT 연결 안내](docs/codyssey-gpt.md)를 확인하세요. DB·추천 정책은 유지하며 dev·production 반영은 실제 호환 검증 이후 진행합니다. 아래 Gemini 실행 결과는 기존 운영 버전의 기록입니다.
+
 ## 현재 구현
 
 - 공식 표시 검수 완료 **87개**를 SQLite에서 조회합니다. 전체 수집 88개 중 보류 1개는 공개 목록에서 제외합니다.
@@ -27,7 +31,7 @@
 | React·TypeScript·Vite | 기존 모바일 UI 유지, 입력·응답 형식 검사, 정적 배포 가능 |
 | Python·FastAPI | 기존 데이터 작업과 언어 통일, 입력 검증·비동기 AI 연결·API 문서 |
 | SQLite | 88개 규모의 검수 DB 재사용, 별도 DB 서버 없이 읽기 전용 배포 |
-| Google GenAI SDK | 공식 Gemini 함수 호출과 구조화 출력 연결 |
+| OpenAI Python SDK | 코디세이 호환 함수 호출과 구조화 출력 연결 |
 | Gemini 3.5 Flash Lite | 실제 계정에서 도구·출처 검증을 확인하고 상품 설명 응답 지연을 줄이기 위해 선택 |
 
 ## 로컬 실행
@@ -42,7 +46,7 @@ python3 -m venv .venv
 cp -n .env.example .env
 ```
 
-키는 루트 `.env`의 `GEMINI_API_KEY`에 저장합니다. 값은 대화·로그·소스에 복사하지 않습니다. `.env`는 Git 제외 대상이며 프런트의 `VITE_` 변수에 비밀키를 넣지 않습니다. 모델은 `GEMINI_MODEL`로 설정합니다. 키를 변경하면 백엔드를 다시 실행합니다.
+canary의 코디세이 키는 루트 `.env`의 `COPA_API_KEY`에 저장합니다. 값은 대화·로그·소스에 복사하지 않습니다. `.env`는 Git 제외 대상이며 프런트의 `VITE_` 변수에 비밀키를 넣지 않습니다. 모델은 `COPA_MODEL`로 설정합니다. 키를 변경하면 백엔드를 다시 실행합니다.
 
 ```sh
 # 터미널 1: 백엔드
@@ -77,7 +81,7 @@ npm run build
 
 ```sh
 # 저장소 루트: 실제 Gemini 호출 (API 사용량 발생)
-.venv/bin/python scripts/check_gemini_connection.py
+.venv/bin/python scripts/check_copa_compatibility.py --run-live
 # 로컬 백엔드를 켠 상태의 전체 HTTP 검사
 .venv/bin/python scripts/check_backend.py
 ```

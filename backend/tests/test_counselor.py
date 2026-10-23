@@ -3,9 +3,9 @@ from pathlib import Path
 from types import SimpleNamespace
 import pytest
 from fastapi.testclient import TestClient
-from google.genai import types
+from backend.tests.copa_fakes import reply,client as fake_client
 from backend import config,knowledge,repository as repo
-from backend.agent import GeminiAgent,AIError,sanitize_answer
+from backend.agent import SupplementAgent,AIError,sanitize_answer
 from backend.main import app,sessions,traffic
 from backend.models import ChatRequest,HistoryMessage,AgentAnswer,Survey
 from backend.privacy import question_kind,safe_history
@@ -76,21 +76,20 @@ def test_safe_history_removes_private_turn_and_its_reply_but_retains_later_gener
 
 class KnowledgeModels:
  def __init__(self):self.calls=[]
- async def generate_content(self,**kwargs):
+ async def create(self,**kwargs):
   self.calls.append(kwargs)
-  if kwargs['config'].response_mime_type=='application/json':
-   return SimpleNamespace(text=json.dumps({'text':'비타민D는 지용성 영양소예요. 지방을 조금 포함한 식사와 함께 있을 때 흡수가 더 잘 돼요.','citationIds':['knowledge:d-meal'],'productIds':[]}))
-  part=types.Part.from_function_call(name='search_nutrition_knowledge',args={'query':'비타민D 식사 흡수'})
-  return SimpleNamespace(candidates=[SimpleNamespace(content=types.Content(role='model',parts=[part]))])
+  if 'response_format' in kwargs:
+   return reply({'text':'비타민D는 지용성 영양소예요. 지방을 조금 포함한 식사와 함께 있을 때 흡수가 더 잘 돼요.','citationIds':['knowledge:d-meal'],'productIds':[]})
+  return reply(tool='search_nutrition_knowledge',args={'query':'비타민D 식사 흡수'})
 
 def test_agent_uses_new_tool_and_never_sends_unsafe_history_or_survey_cautions():
  models=KnowledgeModels()
  history=[HistoryMessage(role='user',text='저는 신장질환 진단을 받았어요'),HistoryMessage(role='assistant',text='개인의 상황은 전문가에게 확인해 주세요.')]
  s=Survey(interests=['뼈·근육 건강'],habits=['다양하게 먹는 편이에요'],existing='없어요',cautions=['임신·수유 중이에요'])
- result=asyncio.run(GeminiAgent(SimpleNamespace(aio=SimpleNamespace(models=models))).answer(ChatRequest(question='비타민D와 식사의 관계가 궁금해요.',history=history,survey=s)))
- assert result['mode']=='gemini' and result['productIds']==[] and result['toolTrace'][0]['tool']=='search_nutrition_knowledge'
+ result=asyncio.run(SupplementAgent(fake_client(models)).answer(ChatRequest(question='비타민D와 식사의 관계가 궁금해요.',history=history,survey=s)))
+ assert result['mode']=='ai' and result['productIds']==[] and result['toolTrace'][0]['tool']=='search_nutrition_knowledge'
  for call in models.calls:
-  sent=json.dumps([c.model_dump(mode='json',exclude_none=True) for c in call['contents']],ensure_ascii=False)
+  sent=json.dumps(call['messages'],ensure_ascii=False)
   assert '신장질환' not in sent and '임신·수유 중이에요' not in sent
 
 def test_general_questions_work_with_caution_profile_but_personal_questions_never_call_agent(monkeypatch):
@@ -98,20 +97,20 @@ def test_general_questions_work_with_caution_profile_but_personal_questions_neve
  seen=[]
  async def answer(request,recommendation=None):
   seen.append(request.question)
-  return {'mode':'gemini','text':'일반 안내','citations':[],'productIds':[]}
+  return {'mode':'ai','text':'일반 안내','citations':[],'productIds':[]}
  monkeypatch.setattr(main.agent,'answer',answer)
  sessions.clear();traffic.clear()
  with TestClient(app) as c:
-  token=c.post('/api/sessions',json={'adultConfirmed':True,'privacyAccepted':True,'aiAccepted':True,'version':config.CONSENT_VERSION}).json()['token']
+  token=c.post('/api/sessions',json={'provider':'codyssey','adultConfirmed':True,'privacyAccepted':True,'aiAccepted':True,'version':config.CONSENT_VERSION}).json()['token']
   headers={'X-Session-Token':token}
   s={'interests':['장 건강'],'habits':['다양하게 먹는 편이에요'],'existing':'없어요','cautions':['임신·수유 중이에요']}
   r=c.post('/api/chat',headers=headers,json={'question':'영양제에도 알레르기 표시가 있나요?','survey':s})
-  assert r.status_code==200 and r.json()['mode']=='gemini'
+  assert r.status_code==200 and r.json()['mode']=='ai'
   for question in ('임신 중 영양제를 추천해줘','제 전화번호는 010-1234-5678 입니다','숨을 못 쉬겠어요'):
    r=c.post('/api/chat',headers=headers,json={'question':question})
    assert r.status_code==200 and r.json()['mode'] in ('restricted','urgent')
   assert seen==['영양제에도 알레르기 표시가 있나요?']
-  assert c.post('/api/chat',headers=headers,json={'question':'비타민D 역할의 공식 근거를 찾아주세요.'}).json()['mode']=='gemini'
+  assert c.post('/api/chat',headers=headers,json={'question':'비타민D 역할의 공식 근거를 찾아주세요.'}).json()['mode']=='ai'
 
 @pytest.mark.parametrize('text',[
  '하루 99 mg을 먹으면 됩니다.',
