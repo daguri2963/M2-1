@@ -68,7 +68,7 @@ def test_overlap_aliases_daily_units_and_unsupported_basis():
     assert magnesium['dailyTotal']=={'amount':'630','unit':'mg'}
 
 def test_foods_specialized_and_high_percentage_not_auto_candidates():
-    result=policy.recommend(survey(interests=['다양한 성분 보기']))
+    result=policy.recommend(survey(interests=['일상의 활력','뼈·근육 건강','장 건강']))
     for p in result['products']:
         assert policy.exclusion(p) is None and '건강기능식품' in p['type']
     assert policy.exclusion(repo.get_product('610911095')) is not None
@@ -131,17 +131,17 @@ def test_session_expiry_and_bounded_requests(client):
 
 class FakeModels:
     """Contract test only. Live Codyssey compatibility verification is reported separately."""
-    def __init__(self):self.calls=[]
+    def __init__(self,product_id='600000128'):self.calls=[];self.product_id=product_id
     async def create(self,**kwargs):
         self.calls.append(kwargs)
         if 'tools' not in kwargs:
-            return reply({'text':'공식 표시에는 근육 기능 유지와 관련된 기능정보가 있어요. 표시 섭취방법과 주의사항을 함께 확인해 주세요.','citationIds':['600000128:function'],'productIds':['600000128']})
+            return reply({'text':'공식 표시에는 근육 기능 유지와 관련된 기능정보가 있어요. 표시 섭취방법과 주의사항을 함께 확인해 주세요.','citationIds':[self.product_id+':function'],'productIds':[self.product_id]})
         if len(self.calls)==1:
-            return reply(tool='search_evidence',args={'query':'근육','product_ids':['600000128']})
+            return reply(tool='search_evidence',args={'query':'근육','product_ids':[self.product_id]})
         elif len(self.calls)==2:
-            return reply(tool='get_product_details',args={'product_id':'600000128'})
+            return reply(tool='get_product_details',args={'product_id':self.product_id})
         else:
-            return reply({'text':'공식 표시에는 근육 기능 유지와 관련된 기능정보가 있어요. 표시 섭취방법과 주의사항을 함께 확인해 주세요.','citationIds':['600000128:function'],'productIds':['600000128']})
+            return reply({'text':'공식 표시에는 근육 기능 유지와 관련된 기능정보가 있어요. 표시 섭취방법과 주의사항을 함께 확인해 주세요.','citationIds':[self.product_id+':function'],'productIds':[self.product_id]})
 
 def test_agent_selects_and_executes_multiple_tools_then_validates_grounding():
     models=FakeModels();client=fake_client(models)
@@ -170,7 +170,7 @@ def test_agent_timeout_is_bounded(monkeypatch):
     assert error.value.code=='AI_TIMEOUT'
 
 def test_provider_receives_preferences_not_health_screen_or_existing_record():
-    models=FakeModels();client=fake_client(models)
+    models=FakeModels('600000148');client=fake_client(models)
     s=survey(habits=['식사 시간이 불규칙해요'])
     result=asyncio.run(SupplementAgent(client).answer(ChatRequest(question='후보의 근거를 설명해 주세요.',survey=s),policy.recommend(s)))
     context=json.loads(models.calls[0]['messages'][1]['content'])

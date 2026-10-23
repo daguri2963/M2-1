@@ -1,0 +1,571 @@
+{
+  "version": "2026-10-23.2",
+  "classifiedAt": "2026-10-23",
+  "basis": "Existing verified labels; classification is not a new label review or medical suitability assessment.",
+  "entries": {
+    "600000129": {
+      "matches": [
+        {
+          "goal": "일상의 활력",
+          "tier": "direct",
+          "subgoal": "에너지 대사",
+          "ingredient": "비타민B1",
+          "claim": "탄수화물과 에너지 대사에 필요",
+          "evidenceId": "600000129:function"
+        },
+        {
+          "goal": "일상의 활력",
+          "tier": "direct",
+          "subgoal": "에너지 대사",
+          "ingredient": "비타민B2",
+          "claim": "체내 에너지 생성에 필요.",
+          "evidenceId": "600000129:function"
+        }
+      ],
+      "specialties": [],
+      "family": "600000129"
+    },
+    "601678603": {
+      "matches": [
+        {
+          "goal": "일상의 활력",
+          "tier": "direct",
+          "subgoal": "에너지 대사",
+          "ingredient": "비타민B1",
+          "claim": "탄수화물과 에너지 대사에 필요",
+          "evidenceId": "601678603:function"
+        },
+        {
+          "goal": "일상의 활력",
+          "tier": "direct",
+          "subgoal": "에너지 대사",
+          "ingredient": "비타민B2",
+          "claim": "체내 에너지 생성에 필요",
+          "evidenceId": "601678603:function"
+        }
+      ],
+      "specialties": [],
+      "family": "601678603"
+    },
+    "613602132": {
+      "matches": [
+        {
+          "goal": "일상의 활력",
+          "tier": "direct",
+          "subgoal": "에너지 대사",
+          "ingredient": "비타민B1",
+          "claim": "탄수화물과 에너지 대사에 필요",
+          "evidenceId": "613602132:function"
+        },
+        {
+          "goal": "일상의 활력",
+          "tier": "direct",
+          "subgoal": "에너지 대사",
+          "ingredient": "비타민B2",
+          "claim": "체내 에너지 생성에 필요",
+          "evidenceId": "613602132:function"
+        }
+      ],
+      "specialties": [],
+      "family": "613602132"
+    },
+    "610911093": {
+      "matches": [
+        {
+          "goal": "일상의 활력",
+          "tier": "direct",
+          "subgoal": "에너지 대사",
+          "ingredient": "비타민B1",
+          "claim": "탄수화물과 에너지 대사에 필요",
+          "evidenceId": "610911093:function"
+        },
+        {
+          "goal": "일상의 활력",
+          "tier": "direct",
+          "subgoal": "에너지 대사",
+          "ingredient": "비타민B2",
+          "claim": "체내 에너지 생성에 필요",
+          "evidenceId": "610911093:function"
+        }
+      ],
+      "specialties": [],
+      "family": "610911093"
+    },
+    "591581091": {
+      "matches": [
+        {
+          "goal": "일상의 활력",
+          "tier": "direct",
+          "subgoal": "에너지 대사",
+          "ingredient": "비타민B1",
+          "claim": "탄수화물과 에너지 대사에 필요.",
+          "evidenceId": "591581091:function"
+        },
+        {
+          "goal": "일상의 활력",
+          "tier": "direct",
+          "subgoal": "에너지 대사",
+          "ingredient": "비타민B2",
+          "claim": "체내 에너지 생성에 필요.",
+          "evidenceId": "591581091:function"
+        }
+      ],
+      "specialties": [],
+      "family": "591581091"
+    },
+    "600000147": {
+      "matches": [
+        {
+          "goal": "뼈·근육 건강",
+          "tier": "direct",
+          "subgoal": "뼈 중심",
+          "ingredient": "칼슘",
+          "claim": "뼈와 치아 형성에 필요. 신경과 근육 기능 유지에 필요. 정상적인 혈액응고에 필요. 골다공증 발생 위험 감소에 도움을 줌.",
+          "evidenceId": "600000147:function"
+        },
+        {
+          "goal": "뼈·근육 건강",
+          "tier": "direct",
+          "subgoal": "뼈 중심",
+          "ingredient": "비타민D",
+          "claim": "칼슘과 인이 흡수되고 이용되는데 필요. 뼈의 형성과 유지에 필요. 골다공증 발생 위험 감소에 도움을 줌",
+          "evidenceId": "600000147:function"
+        }
+      ],
+      "specialties": [],
+      "family": "600000147"
+    },
+    "600000148": {
+      "matches": [
+        {
+          "goal": "뼈·근육 건강",
+          "tier": "direct",
+          "subgoal": "뼈 중심",
+          "ingredient": "칼슘",
+          "claim": "뼈와 치아 형성에 필요. 신경과 근육 기능 유지에 필요. 정상적인 혈액응고에 필요. 골다공증 발생 위험 감소에 도움을 줌.",
+          "evidenceId": "600000148:function"
+        },
+        {
+          "goal": "뼈·근육 건강",
+          "tier": "direct",
+          "subgoal": "뼈 중심",
+          "ingredient": "비타민D",
+          "claim": "칼슘과 인이 흡수되고 이용되는데 필요. 뼈의 형성과 유지에 필요. 골다공증 발생 위험 감소에 도움을 줌",
+          "evidenceId": "600000148:function"
+        },
+        {
+          "goal": "뼈·근육 건강",
+          "tier": "direct",
+          "subgoal": "근육 기능 중심",
+          "ingredient": "마그네슘",
+          "claim": "에너지 이용에 필요. 신경과 근육 기능 유지에 필요",
+          "evidenceId": "600000148:function"
+        }
+      ],
+      "specialties": [],
+      "family": "600000148"
+    },
+    "601678605": {
+      "matches": [
+        {
+          "goal": "뼈·근육 건강",
+          "tier": "direct",
+          "subgoal": "뼈 중심",
+          "ingredient": "비타민D",
+          "claim": "칼슘과 인이 흡수되고 이용되는데 필요. 뼈의 형성과 유지에 필요. 골다공증 발생 위험 감소에 도움을 줌",
+          "evidenceId": "601678605:function"
+        }
+      ],
+      "specialties": [],
+      "family": "601678605"
+    },
+    "600000128": {
+      "matches": [
+        {
+          "goal": "뼈·근육 건강",
+          "tier": "direct",
+          "subgoal": "근육 기능 중심",
+          "ingredient": "마그네슘",
+          "claim": "에너지 이용에 필요. 신경과 근육 기능 유지에 필요",
+          "evidenceId": "600000128:function"
+        },
+        {
+          "goal": "일상의 활력",
+          "tier": "related",
+          "subgoal": "에너지 관련 영양소",
+          "ingredient": "마그네슘",
+          "claim": "에너지 이용에 필요. 신경과 근육 기능 유지에 필요",
+          "evidenceId": "600000128:function"
+        }
+      ],
+      "specialties": [],
+      "family": "daewoong-magnesium-315-d-10-tablet"
+    },
+    "600000270": {
+      "matches": [
+        {
+          "goal": "뼈·근육 건강",
+          "tier": "direct",
+          "subgoal": "근육 기능 중심",
+          "ingredient": "마그네슘",
+          "claim": "에너지 이용에 필요. 신경과 근육 기능 유지에 필요",
+          "evidenceId": "600000270:function"
+        },
+        {
+          "goal": "일상의 활력",
+          "tier": "related",
+          "subgoal": "에너지 관련 영양소",
+          "ingredient": "마그네슘",
+          "claim": "에너지 이용에 필요. 신경과 근육 기능 유지에 필요",
+          "evidenceId": "600000270:function"
+        }
+      ],
+      "specialties": [],
+      "family": "daewoong-magnesium-315-d-10-tablet"
+    },
+    "034345002": {
+      "matches": [
+        {
+          "goal": "장 건강",
+          "tier": "direct",
+          "subgoal": "프로바이오틱스",
+          "ingredient": "프로바이오틱스",
+          "claim": "유산균 증식 및 유해균 억제·배변활동 원활·장 건강에 도움을 줄 수 있음",
+          "evidenceId": "034345002:function"
+        }
+      ],
+      "specialties": [],
+      "family": "034345002"
+    },
+    "591580521": {
+      "matches": [
+        {
+          "goal": "장 건강",
+          "tier": "direct",
+          "subgoal": "프로바이오틱스",
+          "ingredient": "프로바이오틱스",
+          "claim": "유산균 증식 및 유해균 억제·배변활동 원활·장 건강에 도움을 줄 수 있음",
+          "evidenceId": "591580521:function"
+        }
+      ],
+      "specialties": [],
+      "family": "591580521"
+    },
+    "600651651": {
+      "matches": [
+        {
+          "goal": "장 건강",
+          "tier": "direct",
+          "subgoal": "프로바이오틱스",
+          "ingredient": "프로바이오틱스",
+          "claim": "유산균 증식 및 유해균 억제·배변활동 원활·장 건강에 도움을 줄 수 있음",
+          "evidenceId": "600651651:function"
+        }
+      ],
+      "specialties": [],
+      "family": "600651651"
+    },
+    "600651652": {
+      "matches": [
+        {
+          "goal": "장 건강",
+          "tier": "direct",
+          "subgoal": "프로바이오틱스",
+          "ingredient": "프로바이오틱스",
+          "claim": "유산균 증식 및 유해균 억제·배변활동 원활·장 건강에 도움을 줄 수 있음",
+          "evidenceId": "600651652:function"
+        }
+      ],
+      "specialties": [],
+      "family": "600651652"
+    },
+    "600651648": {
+      "matches": [
+        {
+          "goal": "장 건강",
+          "tier": "direct",
+          "subgoal": "프로바이오틱스",
+          "ingredient": "프로바이오틱스",
+          "claim": "유산균 증식 및 유해균 억제·배변활동 원활·장 건강에 도움을 줄 수 있음",
+          "evidenceId": "600651648:function"
+        }
+      ],
+      "specialties": [],
+      "family": "600651648"
+    },
+    "600651649": {
+      "matches": [
+        {
+          "goal": "장 건강",
+          "tier": "direct",
+          "subgoal": "프로바이오틱스",
+          "ingredient": "프로바이오틱스",
+          "claim": "유산균 증식 및 유해균 억제·배변활동 원활·장 건강에 도움을 줄 수 있음",
+          "evidenceId": "600651649:function"
+        }
+      ],
+      "specialties": [],
+      "family": "600651649"
+    },
+    "600651650": {
+      "matches": [
+        {
+          "goal": "장 건강",
+          "tier": "direct",
+          "subgoal": "프로바이오틱스",
+          "ingredient": "프로바이오틱스",
+          "claim": "유산균 증식 및 유해균 억제·배변활동 원활·장 건강에 도움을 줄 수 있음",
+          "evidenceId": "600651650:function"
+        }
+      ],
+      "specialties": [],
+      "family": "600651650"
+    },
+    "610910677": {
+      "matches": [
+        {
+          "goal": "장 건강",
+          "tier": "direct",
+          "subgoal": "프로바이오틱스",
+          "ingredient": "프로바이오틱스",
+          "claim": "유산균 증식 및 유해균 억제·배변활동 원활·장 건강에 도움을 줄 수 있음",
+          "evidenceId": "610910677:function"
+        }
+      ],
+      "specialties": [],
+      "family": "610910677"
+    },
+    "600651647": {
+      "matches": [
+        {
+          "goal": "장 건강",
+          "tier": "direct",
+          "subgoal": "프리바이오틱스",
+          "ingredient": "프락토올리고당",
+          "claim": "장내 유익균 증식 및 배변활동 원활에 도움을 줄 수 있음",
+          "evidenceId": "600651647:function"
+        }
+      ],
+      "specialties": [],
+      "family": "600651647"
+    },
+    "601678608": {
+      "matches": [
+        {
+          "goal": "혈당 관리",
+          "tier": "direct",
+          "subgoal": "식후 혈당 관련 기능",
+          "ingredient": "바나바잎추출물",
+          "claim": "식후 혈당상승 억제에 도움을 줄 수 있음",
+          "evidenceId": "601678608:function"
+        }
+      ],
+      "specialties": [
+        "혈당 관리"
+      ],
+      "family": "601678608",
+      "scopeReviewVersion": "2026-10-23.2",
+      "scopeReviewNote": "Existing verified function, daily quantities, intake and cautions checked for this bounded general-adult policy. Clear diagnosis/treatment/medicine, pregnancy/lactation and allergy screening plus specialty confirmation required. Not a clinical safety approval."
+    },
+    "591580761": {
+      "matches": [
+        {
+          "goal": "혈당 관리",
+          "tier": "direct",
+          "subgoal": "식후 혈당 관련 기능",
+          "ingredient": "바나바잎추출물",
+          "claim": "식후 혈당상승 억제에 도움을 줄 수 있음.",
+          "evidenceId": "591580761:function"
+        },
+        {
+          "goal": "장 건강",
+          "tier": "direct",
+          "subgoal": "장·혈당 복합",
+          "ingredient": "프로바이오틱스",
+          "claim": "유산균 증식 및 유해균 억제·배변활동 원활·장 건강에 도움을 줄 수 있음.",
+          "evidenceId": "591580761:function"
+        }
+      ],
+      "specialties": [
+        "혈당 관리"
+      ],
+      "family": "591580761",
+      "scopeReviewVersion": "2026-10-23.2",
+      "scopeReviewNote": "Existing verified function, daily quantities, intake and cautions checked for this bounded general-adult policy. Clear diagnosis/treatment/medicine, pregnancy/lactation and allergy screening plus specialty confirmation required. Not a clinical safety approval."
+    },
+    "610910678": {
+      "matches": [
+        {
+          "goal": "혈당 관리",
+          "tier": "direct",
+          "subgoal": "식후 혈당 관련 기능",
+          "ingredient": "바나바잎 추출물",
+          "claim": "식후 혈당상승 억제에 도움을 줄 수 있음.",
+          "evidenceId": "610910678:function"
+        },
+        {
+          "goal": "장 건강",
+          "tier": "direct",
+          "subgoal": "장·혈당 복합",
+          "ingredient": "프로바이오틱스",
+          "claim": "유산균 증식 및 유해균 억제·배변활동 원활·장 건강에 도움을 줄 수 있음",
+          "evidenceId": "610910678:function"
+        }
+      ],
+      "specialties": [
+        "혈당 관리"
+      ],
+      "family": "610910678",
+      "scopeReviewVersion": "2026-10-23.2",
+      "scopeReviewNote": "Existing verified function, daily quantities, intake and cautions checked for this bounded general-adult policy. Clear diagnosis/treatment/medicine, pregnancy/lactation and allergy screening plus specialty confirmation required. Not a clinical safety approval."
+    },
+    "976195543": {
+      "matches": [
+        {
+          "goal": "다이어트",
+          "tier": "direct",
+          "subgoal": "체지방 관련 기능",
+          "ingredient": "다이크로스타키스 글로메라타 추출물(Dyglomera®)(제2023-36호)",
+          "claim": "체지방 감소에 도움을 줄 수 있음.",
+          "evidenceId": "976195543:function"
+        }
+      ],
+      "specialties": [
+        "다이어트"
+      ],
+      "family": "976195543",
+      "scopeReviewVersion": "2026-10-23.2",
+      "scopeReviewNote": "Existing verified function, daily quantities, intake and cautions checked for this bounded general-adult policy. Clear diagnosis/treatment/medicine, pregnancy/lactation and allergy screening plus specialty confirmation required. Not a clinical safety approval."
+    },
+    "600000135": {
+      "matches": [
+        {
+          "goal": "일상의 활력",
+          "tier": "related",
+          "subgoal": "복합 영양소",
+          "ingredient": "비타민B1",
+          "claim": "탄수화물과 에너지 대사에 필요.",
+          "evidenceId": "600000135:function"
+        },
+        {
+          "goal": "눈 건강",
+          "tier": "related",
+          "subgoal": "시각 관련 영양소",
+          "ingredient": "비타민A",
+          "claim": "어두운 곳에서 시각 적응을 위해 필요, 피부와 점막을 형성하고 기능을 유지하는데 필요, 상피세포의 성장과 발달에 필요.",
+          "evidenceId": "600000135:function"
+        }
+      ],
+      "specialties": [],
+      "family": "daewoong-multi-tablet-standard"
+    },
+    "600000283": {
+      "matches": [
+        {
+          "goal": "일상의 활력",
+          "tier": "related",
+          "subgoal": "복합 영양소",
+          "ingredient": "비타민B1",
+          "claim": "탄수화물과 에너지 대사에 필요.",
+          "evidenceId": "600000283:function"
+        },
+        {
+          "goal": "눈 건강",
+          "tier": "related",
+          "subgoal": "시각 관련 영양소",
+          "ingredient": "비타민A",
+          "claim": "어두운 곳에서 시각 적응을 위해 필요, 피부와 점막을 형성하고 기능을 유지하는데 필요, 상피세포의 성장과 발달에 필요.",
+          "evidenceId": "600000283:function"
+        }
+      ],
+      "specialties": [],
+      "family": "daewoong-multi-tablet-standard"
+    },
+    "591581101": {
+      "matches": [
+        {
+          "goal": "일상의 활력",
+          "tier": "related",
+          "subgoal": "복합 영양소",
+          "ingredient": "비타민B1",
+          "claim": "탄수화물과 에너지 대사에 필요.",
+          "evidenceId": "591581101:function"
+        },
+        {
+          "goal": "눈 건강",
+          "tier": "related",
+          "subgoal": "시각 관련 영양소",
+          "ingredient": "베타카로틴/비타민A",
+          "claim": "어두운 곳에서 시각 적응을 위해 필요, 피부와 점막을 형성하고 기능을 유지하는데 필요, 상피세포의 성장과 발달에 필요.",
+          "evidenceId": "591581101:function"
+        }
+      ],
+      "specialties": [],
+      "family": "591581101"
+    },
+    "968235547": {
+      "matches": [
+        {
+          "goal": "눈 건강",
+          "tier": "direct",
+          "subgoal": "눈 피로 관련 기능",
+          "ingredient": "헤마토코쿠스추출물",
+          "claim": "눈의 피로도 개선에 도움을 줄 수 있음.",
+          "evidenceId": "968235547:function"
+        }
+      ],
+      "specialties": [],
+      "family": "968235547",
+      "holdReason": "성별·여러 특화 기능이 결합되어 현재 지원 범위 밖"
+    },
+    "968235548": {
+      "matches": [
+        {
+          "goal": "눈 건강",
+          "tier": "direct",
+          "subgoal": "눈 피로 관련 기능",
+          "ingredient": "헤마토코쿠스추출물",
+          "claim": "눈의 피로도 개선에 도움을 줄 수 있음.",
+          "evidenceId": "968235548:function"
+        }
+      ],
+      "specialties": [],
+      "family": "968235548",
+      "holdReason": "성별·여러 특화 기능이 결합되어 현재 지원 범위 밖"
+    },
+    "968235549": {
+      "matches": [
+        {
+          "goal": "다이어트",
+          "tier": "direct",
+          "subgoal": "체지방 관련 기능",
+          "ingredient": "녹차추출물",
+          "claim": "항산화, 체지방감소, 혈중콜레스테롤 개선에 도움을 줄 수 있음.",
+          "evidenceId": "968235549:function"
+        }
+      ],
+      "specialties": [
+        "다이어트"
+      ],
+      "family": "968235549",
+      "holdReason": "카페인 관련 추가 확인과 표시 기준치 200% 초과 정책 검토 필요"
+    },
+    "032306284": {
+      "matches": [
+        {
+          "goal": "다이어트",
+          "tier": "direct",
+          "subgoal": "체지방 관련 기능",
+          "ingredient": "녹차추출물",
+          "claim": "항산화·체지방 감소·혈중 콜레스테롤 개선에 도움을 줄 수 있음.",
+          "evidenceId": "032306284:function"
+        }
+      ],
+      "specialties": [
+        "다이어트"
+      ],
+      "family": "032306284",
+      "holdReason": "미지원 수면 기능이 함께 있는 복합 제품"
+    }
+  }
+}
