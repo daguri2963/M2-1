@@ -8,7 +8,7 @@
 
 ## canary: 코디세이 GPT 전환 준비
 
-현재 canary 코드는 코디세이의 `gpt-5.4` Chat Completions로 소규모 실제 호출 검증을 통과했습니다. 중계 API가 지원하는 도구 호출을 사용하고 최종 JSON·출처·제품은 서버에서 검증합니다. 운영 홈페이지는 기존 Gemini 버전을 유지합니다. 키 입력·지원 옵션·실제 검증 결과는 [코디세이 GPT 연결 안내](docs/codyssey-gpt.md)를 확인하세요. DB·추천 정책은 유지하며 dev·production 반영과 운영 키 등록은 후속 단계입니다. 아래 Gemini 실행 결과는 기존 운영 버전의 기록입니다.
+현재 canary 코드는 코디세이의 `gpt-5.4` Chat Completions로 소규모 실제 호출과 [로컬 API·화면 통합 검사](docs/copa-local-integration.md)를 통과했습니다. 중계 API가 지원하는 도구 호출을 사용하고 최종 JSON·출처·제품은 서버에서 검증합니다. 운영 홈페이지는 기존 Gemini 버전을 유지합니다. 키 입력·지원 옵션·실제 검증 결과는 [코디세이 GPT 연결 안내](docs/codyssey-gpt.md)를 확인하세요. DB·추천 정책은 유지하며 검증 후 dev로 통합합니다. production 반영과 운영 키 등록은 후속 단계입니다. 아래 Gemini 실행 결과는 기존 운영 버전의 기록입니다.
 
 ## 현재 구현
 

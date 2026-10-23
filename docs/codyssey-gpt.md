@@ -1,6 +1,6 @@
 # 코디세이 GPT 연결 (canary)
 
-현재 canary는 Gemini 전용 호출을 코디세이의 OpenAI 호환 Chat Completions로 전환했다. **2026-10-23 실제 가상 키로 소규모 호환 검증을 통과했다.** dev·production 반영과 Render 환경변수 등록은 아직 수행하지 않았으며 운영 서버는 기존 Gemini 버전을 유지한다.
+현재 canary는 Gemini 전용 호출을 코디세이의 OpenAI 호환 Chat Completions로 전환했다. **2026-10-23 실제 가상 키로 소규모 호환 검증과 canary 로컬 통합 검사를 통과했다.** 검증 후 dev PR로 통합하며 production 전환·Render 환경변수 등록은 별도 단계다. 운영 서버는 기존 Gemini 버전을 유지한다.
 
 ## 키 입력 위치
 
@@ -57,7 +57,7 @@ npm run build
 
 실제 확인 결과는 `docs/copa-compatibility-check.json`으로 저장한다. 실행하지 않았다면 통과로 기록하지 않는다. 기존 Gemini 검증 JSON들은 과거 결과이므로 새 공급자 성공 증거로 사용하거나 덮어쓰지 않는다.
 
-호환 검증과 canary CI 통과 → canary에서 dev로 PR 병합 → dev 로컬 연결 확인 → production PR·서버 환경변수·화면 동의 전환 → 운영 확인 순서로 진행한다. 운영 전환 시 키 등록은 실제 서버와 데이터 전송 대상을 확인한 뒤 수행한다.
+호환 검증과 canary CI 통과 → canary 로컬 API·화면 통합 검사 → canary에서 dev로 PR 병합 → 충돌 해결·추가 변경이 있었다면 dev에서 관련 검사 → production PR·서버 환경변수·화면 동의 전환 → 운영 확인 순서로 진행한다. 운영 전환 시 키 등록은 실제 서버와 데이터 전송 대상을 확인한 뒤 수행한다.
 
 공식 참고: [GPT-5.4](https://developers.openai.com/api/docs/models/gpt-5.4), [함수 호출](https://developers.openai.com/api/docs/guides/function-calling), [Chat Completions 호환 조건](https://developers.openai.com/api/docs/guides/migrate-to-responses), [구조화 출력](https://developers.openai.com/api/docs/guides/structured-outputs). 코디세이 중계 구현과 계정 한도는 OpenAI 공식 문서만으로 확정할 수 없다.
 
