@@ -6,6 +6,10 @@
 
 `main`은 기준 프로토타입으로 보존하며 **`canary → dev → production`** 순서로 반영합니다. 대표 브랜치와 Render 배포 기준은 `production`입니다. 소유자 `sayknow`가 통합·운영을 관리하고, 쓰기 권한을 받은 팀원은 `canary`에서 참여합니다. 삭제·강제 푸시 보호와 필수 자동 검사를 적용하며 다른 팀원의 승인은 필수가 아닙니다. 별도 시험 서버는 만들지 않습니다. [참여 방법·권한·배포 절차](CONTRIBUTING.md)를 먼저 확인하세요.
 
+## canary: 코디세이 GPT 전환 준비
+
+현재 canary 코드는 코디세이의 `gpt-5.4` Chat Completions로 소규모 실제 호출과 [로컬 API·화면 통합 검사](docs/copa-local-integration.md)를 통과했습니다. 중계 API가 지원하는 도구 호출을 사용하고 최종 JSON·출처·제품은 서버에서 검증합니다. 운영 홈페이지는 기존 Gemini 버전을 유지합니다. 키 입력·지원 옵션·실제 검증 결과는 [코디세이 GPT 연결 안내](docs/codyssey-gpt.md)를 확인하세요. DB·추천 정책은 유지하며 검증 후 dev로 통합합니다. production 반영과 운영 키 등록은 후속 단계입니다. 아래 Gemini 실행 결과는 기존 운영 버전의 기록입니다.
+
 ## 현재 구현
 
 - 공식 표시 검수 완료 **87개**를 SQLite에서 조회합니다. 전체 수집 88개 중 보류 1개는 공개 목록에서 제외합니다.
@@ -27,8 +31,8 @@
 | React·TypeScript·Vite | 기존 모바일 UI 유지, 입력·응답 형식 검사, 정적 배포 가능 |
 | Python·FastAPI | 기존 데이터 작업과 언어 통일, 입력 검증·비동기 AI 연결·API 문서 |
 | SQLite | 88개 규모의 검수 DB 재사용, 별도 DB 서버 없이 읽기 전용 배포 |
-| Google GenAI SDK | 공식 Gemini 함수 호출과 구조화 출력 연결 |
-| Gemini 3.5 Flash Lite | 실제 계정에서 도구·출처 검증을 확인하고 상품 설명 응답 지연을 줄이기 위해 선택 |
+| OpenAI Python SDK·GPT-5.4 (canary) | 코디세이의 실제 도구 호출·근거 검색·서버 응답 검증을 확인 |
+| Gemini 3.5 Flash Lite (현재 운영) | 기존 운영 버전이며 전환 완료 전까지 유지 |
 
 ## 로컬 실행
 
@@ -38,11 +42,11 @@ Python 3.11 이상(검증: 3.13), Node.js 22.12 이상(검증: 24)이 필요합�
 # 저장소 루트에서 최초 한 번
 python3 -m venv .venv
 .venv/bin/python -m pip install -r backend/requirements.lock
-# .env가 없는 경우에만 예시를 복사하고 서버용 Gemini 키를 직접 입력
+# .env가 없는 경우에만 예시를 복사하고 서버용 코디세이 키를 직접 입력
 cp -n .env.example .env
 ```
 
-키는 루트 `.env`의 `GEMINI_API_KEY`에 저장합니다. 값은 대화·로그·소스에 복사하지 않습니다. `.env`는 Git 제외 대상이며 프런트의 `VITE_` 변수에 비밀키를 넣지 않습니다. 모델은 `GEMINI_MODEL`로 설정합니다. 키를 변경하면 백엔드를 다시 실행합니다.
+canary의 코디세이 키는 루트 `.env`의 `COPA_API_KEY`에 저장합니다. 값은 대화·로그·소스에 복사하지 않습니다. `.env`는 Git 제외 대상이며 프런트의 `VITE_` 변수에 비밀키를 넣지 않습니다. 모델은 `COPA_MODEL`로 설정합니다. 키를 변경하면 백엔드를 다시 실행합니다.
 
 ```sh
 # 터미널 1: 백엔드
@@ -76,8 +80,8 @@ npm run build
 ```
 
 ```sh
-# 저장소 루트: 실제 Gemini 호출 (API 사용량 발생)
-.venv/bin/python scripts/check_gemini_connection.py
+# 저장소 루트: 실제 코디세이 GPT 호출 (API 사용량 발생)
+.venv/bin/python scripts/check_copa_compatibility.py --run-live
 # 로컬 백엔드를 켠 상태의 전체 HTTP 검사
 .venv/bin/python scripts/check_backend.py
 ```

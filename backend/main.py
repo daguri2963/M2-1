@@ -8,11 +8,11 @@ from fastapi.exceptions import RequestValidationError
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import JSONResponse
 from . import config,policy,repository as repo
-from .agent import GeminiAgent,AIError
+from .agent import SupplementAgent,AIError
 from .models import Consent,Survey,Selection,OverlapRequest,ChatRequest
 from .privacy import question_kind,local_reply
 
-agent=GeminiAgent()
+agent=SupplementAgent()
 sessions={}
 traffic=defaultdict(deque)
 
@@ -66,7 +66,7 @@ def rate_limit(token):
 
 @app.get('/api/health')
 def health():
-    return {'ready':True,'aiConfigured':agent.configured(),'consentVersion':config.CONSENT_VERSION,'policyVersion':config.POLICY_VERSION}
+    return {'ready':True,'aiConfigured':agent.configured(),'aiProvider':'codyssey','aiModel':config.MODEL,'consentVersion':config.CONSENT_VERSION,'policyVersion':config.POLICY_VERSION}
 
 @app.post('/api/sessions')
 def create_session(consent:Consent):

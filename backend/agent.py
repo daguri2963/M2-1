@@ -1,10 +1,10 @@
-"""Bounded Gemini tool loop with query-time SQLite retrieval and validated citations."""
+"""Bounded Codyssey GPT tool loop with query-time SQLite retrieval and validated citations."""
 import asyncio
 import json
 import re
-from google import genai
-from google.genai import types
+from .copa import create_client, complete
 from pydantic import ValidationError
+from openai import APITimeoutError
 from . import config, repository as repo, policy,knowledge
 from .models import AgentAnswer
 from .privacy import sensitive_text,safe_history,public_survey,public_recommendation
@@ -22,7 +22,7 @@ SYSTEM='''너는 영양제 첫걸음의 친절하고 차분한 '영양제 AI 상
 진단, 영양 결핍 추정, 의약품 병용 안전 판정, 복용량 변경, 치료·효과 보장을 하지 않는다.
 개인별 복용 지시는 하지 않는다. 일반 상호작용 원리·알레르기 표시의 의미는 근거로 설명할 수 있다.
 정량과 구체적인 섭취 횟수·용량은 검수 원문으로 안내한다. 숫자는 B12·오메가3 같은 성분명에만 쓴다.
-관련 도구로 조회한 근거만 사용하고 모르면 추가 질문한다. 추측으로 제품·출처를 만들지 않는다.
+첫 응답에서는 반드시 관련 도구를 호출한다. 도구로 조회한 근거만 사용하고 모르면 추가 질문한다. 추측으로 제품·출처를 만들지 않는다.
 일반 영양 질문에는 search_nutrition_knowledge, 제품 질문에는 제품 조회 도구를 사용한다. 혼합 질문은 둘 다 조회할 수 있다.
 일반 지식을 특정 제품의 효과로 옮기지 않는다. 국내 제품에 미국의 섭취 기준이나 법적 기준을 적용하지 않는다.
 표시 읽기 개념은 공식 안내 요약을 사용한다. 함량을 읽는 분량 기준과 영양성분 기준치를 구별한다.
@@ -31,13 +31,21 @@ SYSTEM='''너는 영양제 첫걸음의 친절하고 차분한 '영양제 AI 상
 질문에 필요한 도구를 스스로 고르고 결과에 따라 다른 도구를 사용한다.
 추천 도구의 restricted/insufficient/empty 상태를 바꾸거나 후보에 없는 제품을 추천하지 않는다.
 일반 상품 검색 결과는 제품 정보 탐색이며 개인 맞춤 추천으로 표현하지 않는다.
-최종 답변은 text, citationIds, productIds 형식이다. URL·마크다운 링크를 쓰지 않는다.
+최종 답변은 text, citationIds, productIds를 가진 JSON 객체 하나만 출력한다. 코드 블록·머리말·URL·마크다운 링크를 쓰지 않는다.
 citationIds는 실제 조회한 근거의 id만, productIds는 실제 조회한 제품만 사용한다.
 적어도 하나의 근거를 인용한다. 질문에 없는 상품 구매를 유도하지 않는다.
 일반 정보만 필요한 질문에는 그 정보를 설명하고 마친다. 제품 정량이 필요한 질문에만 제품 표시 확인을 안내한다.'''
 
 def declaration(name,description,properties,required=()):
-    return types.FunctionDeclaration(name=name,description=description,parameters={'type':'OBJECT','properties':properties,'required':list(required)})
+    # Strict Chat Completions tools require all properties; optional values are nullable.
+    def schema(value):
+        result={k:(v.lower() if k=='type' and isinstance(v,str) else v) for k,v in value.items()}
+        if 'items' in result:result['items']=schema(result['items'])
+        return result
+    fields={k:schema(v) for k,v in properties.items()}
+    for key,value in fields.items():
+        if key not in required:value['type']=[value['type'],'null']
+    return {'type':'function','function':{'name':name,'description':description,'strict':True,'parameters':{'type':'object','properties':fields,'required':list(fields),'additionalProperties':False}}}
 
 TOOLS=[
     declaration('search_nutrition_knowledge','공식 자료로 검토한 성분 역할·식사/시간·보관·일반 주의·상호작용 지식 검색. 개인 복용 판단이나 용량 처방이 아님.',{'query':{'type':'STRING'}},['query']),
@@ -65,7 +73,9 @@ def sanitize_answer(answer,source_pool,product_pool,allowed_candidates=None):
         raise AIError('AI_UNSUPPORTED_CLAIM','수치·복용 안내를 검수하지 못했어요. 제품 표시를 직접 확인해 주세요.')
     return {'text':answer.text,'citations':[source_pool[i] for i in dict.fromkeys(answer.citationIds)],'productIds':list(dict.fromkeys(answer.productIds))}
 
-class GeminiAgent:
+ANSWER_SCHEMA={'type':'object','properties':{'text':{'type':'string'},'citationIds':{'type':'array','items':{'type':'string'}},'productIds':{'type':'array','items':{'type':'string'}}},'required':['text','citationIds','productIds'],'additionalProperties':False}
+
+class SupplementAgent:
     def __init__(self,client=None):
         self.client=client
         self.semaphore=asyncio.Semaphore(2)
@@ -84,13 +94,13 @@ class GeminiAgent:
         try:
             return await asyncio.wait_for(self._run(request,recommendation),timeout=config.AI_TIMEOUT)
         except AIError:raise
-        except TimeoutError:
+        except (TimeoutError,APITimeoutError):
             raise AIError('AI_TIMEOUT','AI 응답이 지연되고 있어요. 잠시 후 다시 시도해 주세요.',504)
         except (ValidationError,ValueError,IndexError,AttributeError):
             raise AIError('AI_INVALID_RESPONSE','AI 답변을 확인하지 못했어요. 다시 시도해 주세요.')
         except Exception as error:
             # Never expose provider exception strings (may contain request details).
-            code=getattr(error,'code',None)
+            code=getattr(error,'status_code',None)
             if code==429:raise AIError('AI_RATE_LIMIT','AI 사용 한도에 도달했어요. 잠시 후 다시 시도해 주세요.',429)
             if code in (400,401,403,404):raise AIError('AI_CONFIGURATION','AI 연결 설정을 확인해야 해요. 운영자에게 알려 주세요.')
             raise AIError('AI_UNAVAILABLE','AI 서비스에 연결하지 못했어요. 잠시 후 다시 시도해 주세요.')
@@ -99,7 +109,7 @@ class GeminiAgent:
 
     async def _run(self,request,recommendation):
         if self.client is None:
-            self.client=genai.Client(api_key=config.API_KEY,http_options=types.HttpOptions(timeout=int(config.AI_TIMEOUT*1000),retry_options=types.HttpRetryOptions(attempts=1)))
+            self.client=create_client()
         source_pool={};product_pool={};trace=[]
         candidate_ids=[p['id'] for p in recommendation['products']] if recommendation else None
         def register(ps):
@@ -155,23 +165,30 @@ class GeminiAgent:
             raise ValueError('Invalid tool arguments')
 
         context={'question':request.question,'selectedProduct':request.productId,'preferences':public_survey(request.survey),'recommendation':public_recommendation(recommendation) if recommendation else None,'knowledgeHints':[e['title'] for e in nutrition]}
-        history=[types.Content(role='user' if h.role=='user' else 'model',parts=[types.Part.from_text(text=h.text)]) for h in safe_history(request.history)]
-        contents=history+[types.Content(role='user',parts=[types.Part.from_text(text=json.dumps(context,ensure_ascii=False))])]
+        history=[{'role':h.role,'content':h.text} for h in safe_history(request.history)]
+        messages=[{'role':'system','content':SYSTEM},*history,{'role':'user','content':json.dumps(context,ensure_ascii=False)}]
         for step in range(2):
-            active_tools=[t for t in TOOLS if not general_only or t.name in ('search_nutrition_knowledge','search_evidence')]
-            response=await self.client.aio.models.generate_content(model=config.MODEL,contents=contents,config=types.GenerateContentConfig(system_instruction=SYSTEM,tools=[types.Tool(function_declarations=active_tools)],tool_config=types.ToolConfig(function_calling_config=types.FunctionCallingConfig(mode='ANY' if step==0 else 'AUTO')),automatic_function_calling=types.AutomaticFunctionCallingConfig(disable=True),max_output_tokens=1600,temperature=0,thinking_config=types.ThinkingConfig(thinking_level='LOW')))
-            content=response.candidates[0].content
-            calls=[p.function_call for p in (content.parts or []) if p.function_call]
-            if not calls:break
-            if len(calls)>4:raise AIError('AI_TOOL_LIMIT','AI가 너무 많은 조회를 요청했어요. 질문을 좁혀 다시 시도해 주세요.')
-            contents.append(content)  # Preserve all parts, including model thought signatures.
-            responses=[]
+            active_tools=[t for t in TOOLS if not general_only or t['function']['name'] in ('search_nutrition_knowledge','search_evidence')]
+            # COPA accepts native tools and auto, but rejects required/named tool_choice.
+            # The first response is still required to contain a real tool call below.
+            response=await complete(self.client,messages,tools=active_tools,tool_choice='auto')
+            message=response.choices[0].message
+            calls=message.tool_calls or []
+            if not calls:
+                if step==0:raise AIError('AI_INVALID_RESPONSE','AI 도구 호출을 확인하지 못했어요. 연결 호환성을 확인해야 해요.')
+                break
+            if len(calls)>4 or len({c.id for c in calls})!=len(calls):raise AIError('AI_TOOL_LIMIT','AI가 너무 많은 조회를 요청했어요. 질문을 좁혀 다시 시도해 주세요.')
+            messages.append({'role':'assistant','content':message.content,'tool_calls':[{'id':c.id,'type':'function','function':{'name':c.function.name,'arguments':c.function.arguments}} for c in calls]})
+            allowed={t['function']['name'] for t in active_tools}
             for call in calls:
-                try:result=execute(call.name,dict(call.args or {}))
+                try:
+                    if call.function.name not in allowed:raise ValueError()
+                    args=json.loads(call.function.arguments)
+                    if not isinstance(args,dict):raise ValueError()
+                    result=execute(call.function.name,args)
                 except (ValueError,LookupError,TypeError):result={'error':'Invalid or unavailable tool input; do not infer missing data.'}
-                trace.append({'tool':call.name,'ok':'error' not in result if isinstance(result,dict) else True})
-                responses.append(types.Part(function_response=types.FunctionResponse(id=call.id,name=call.name,response={'result':result})))
-            contents.append(types.Content(role='user',parts=responses))
+                trace.append({'tool':call.function.name,'ok':'error' not in result if isinstance(result,dict) else True})
+                messages.append({'role':'tool','tool_call_id':call.id,'content':json.dumps({'result':result},ensure_ascii=False)})
             if source_pool and (request.productId or recommendation or guides or nutrition):break
         if not source_pool:
             retrieve('섭취' if request.productId else request.question,[request.productId] if request.productId else None)
@@ -179,16 +196,15 @@ class GeminiAgent:
         if general_only:
             source_pool={key:e for key,e in source_pool.items() if e.get('kind') in ('knowledge','label_guide')}
             product_pool={}
-        contents.append(types.Content(role='user',parts=[types.Part.from_text(text=json.dumps({'instruction':'이 근거로 질문에 먼저 답하고, 쉬운 설명과 필요한 확인점만 덧붙이세요. 성분명 이외의 숫자나 복용 지시 금지. 일반 지식과 제품 표시를 구분하세요. 개인 추천과 후보 변경 금지.','evidence':list(source_pool.values()),'allowedProductIds':candidate_ids if candidate_ids is not None else list(product_pool)},ensure_ascii=False))]))
-        # Gemini's Schema subset does not accept Pydantic extra='forbid' additionalProperties.
-        # Send a minimal provider schema; validate the full strict Pydantic model locally.
-        schema={'type':'OBJECT','properties':{'text':{'type':'STRING'},'citationIds':{'type':'ARRAY','items':{'type':'STRING'}},'productIds':{'type':'ARRAY','items':{'type':'STRING'}}},'required':['text','citationIds','productIds']}
-        response=await self.client.aio.models.generate_content(model=config.MODEL,contents=contents,config=types.GenerateContentConfig(system_instruction=SYSTEM,response_mime_type='application/json',response_schema=schema,max_output_tokens=1800,temperature=0,thinking_config=types.ThinkingConfig(thinking_level='LOW')))
-        answer=AgentAnswer.model_validate_json(response.text)
+        messages.append({'role':'user','content':json.dumps({'instruction':'이 근거로 질문에 먼저 답하고, 쉬운 설명과 필요한 확인점만 덧붙이세요. 성분명 이외의 숫자나 복용 지시 금지. 일반 지식과 제품 표시를 구분하세요. 개인 추천과 후보 변경 금지. responseSchema를 따르는 JSON 객체 하나만 출력하세요. 코드 블록과 부연 문구는 쓰지 마세요.','responseSchema':ANSWER_SCHEMA,'evidence':list(source_pool.values()),'allowedProductIds':candidate_ids if candidate_ids is not None else list(product_pool)},ensure_ascii=False)})
+        # COPA rejects both response_format=json_schema and json_object. Do not claim
+        # provider-enforced output: parse and validate strictly on the server instead.
+        response=await complete(self.client,messages)
+        answer=AgentAnswer.model_validate_json(response.choices[0].message.content)
         result=sanitize_answer(answer,source_pool,product_pool,candidate_ids)
-        result.update(mode='gemini',model=config.MODEL,toolTrace=trace,policyVersion=config.POLICY_VERSION)
+        result.update(mode='ai',provider='codyssey',model=config.MODEL,toolTrace=trace,policyVersion=config.POLICY_VERSION)
         return result
 
     async def close(self):
         if self.client:
-            await self.client.aio.aclose()
+            await self.client.close()

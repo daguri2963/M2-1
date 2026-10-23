@@ -5,9 +5,9 @@ from pathlib import Path
 from types import SimpleNamespace
 import pytest
 from fastapi.testclient import TestClient
-from google.genai import types
+from backend.tests.copa_fakes import reply,client as fake_client
 from backend import config, policy, repository as repo
-from backend.agent import AIError, GeminiAgent, sanitize_answer
+from backend.agent import AIError, SupplementAgent, sanitize_answer
 from backend.main import app, sessions, traffic
 from backend.models import AgentAnswer, ChatRequest, Survey
 
@@ -20,7 +20,7 @@ def client():
     with TestClient(app) as c:yield c
 
 def headers(client):
-    r=client.post('/api/sessions',json={'adultConfirmed':True,'privacyAccepted':True,'aiAccepted':True,'version':config.CONSENT_VERSION})
+    r=client.post('/api/sessions',json={'provider':'codyssey','adultConfirmed':True,'privacyAccepted':True,'aiAccepted':True,'version':config.CONSENT_VERSION})
     assert r.status_code==200
     return {'X-Session-Token':r.json()['token']}
 
@@ -85,7 +85,7 @@ def test_query_specific_rag_has_real_sources_and_changes_by_question():
 def test_api_requires_consent_validates_and_withdraws(client):
     assert client.get('/api/health').json()['ready']
     assert client.post('/api/recommendations',json=survey().model_dump()).status_code==401
-    assert client.post('/api/sessions',json={'adultConfirmed':False,'privacyAccepted':True,'aiAccepted':True,'version':config.CONSENT_VERSION}).status_code==400
+    assert client.post('/api/sessions',json={'provider':'codyssey','adultConfirmed':False,'privacyAccepted':True,'aiAccepted':True,'version':config.CONSENT_VERSION}).status_code==400
     h=headers(client)
     invalid=survey().model_dump();invalid['cautions']=['해당 없어요','임신·수유 중이에요']
     response=client.post('/api/recommendations',json=invalid,headers=h)
@@ -130,27 +130,27 @@ def test_session_expiry_and_bounded_requests(client):
     assert client.post('/api/chat',json={'question':'임신 중 추천'},headers=h).status_code==429
 
 class FakeModels:
-    """Contract test only. Live Gemini verification is reported separately."""
+    """Contract test only. Live Codyssey compatibility verification is reported separately."""
     def __init__(self):self.calls=[]
-    async def generate_content(self,**kwargs):
+    async def create(self,**kwargs):
         self.calls.append(kwargs)
-        if kwargs['config'].response_mime_type=='application/json':
-            return SimpleNamespace(text=json.dumps({'text':'공식 표시에는 근육 기능 유지와 관련된 기능정보가 있어요. 표시 섭취방법과 주의사항을 함께 확인해 주세요.','citationIds':['600000128:function'],'productIds':['600000128']}))
+        if 'tools' not in kwargs:
+            return reply({'text':'공식 표시에는 근육 기능 유지와 관련된 기능정보가 있어요. 표시 섭취방법과 주의사항을 함께 확인해 주세요.','citationIds':['600000128:function'],'productIds':['600000128']})
         if len(self.calls)==1:
-            part=types.Part.from_function_call(name='search_evidence',args={'query':'근육','product_ids':['600000128']})
+            return reply(tool='search_evidence',args={'query':'근육','product_ids':['600000128']})
         elif len(self.calls)==2:
-            part=types.Part.from_function_call(name='get_product_details',args={'product_id':'600000128'})
+            return reply(tool='get_product_details',args={'product_id':'600000128'})
         else:
-            return SimpleNamespace(text=json.dumps({'text':'공식 표시에는 근육 기능 유지와 관련된 기능정보가 있어요. 표시 섭취방법과 주의사항을 함께 확인해 주세요.','citationIds':['600000128:function'],'productIds':['600000128']}))
-        return SimpleNamespace(candidates=[SimpleNamespace(content=types.Content(role='model',parts=[part]))])
+            return reply({'text':'공식 표시에는 근육 기능 유지와 관련된 기능정보가 있어요. 표시 섭취방법과 주의사항을 함께 확인해 주세요.','citationIds':['600000128:function'],'productIds':['600000128']})
 
 def test_agent_selects_and_executes_multiple_tools_then_validates_grounding():
-    models=FakeModels();client=SimpleNamespace(aio=SimpleNamespace(models=models))
-    result=asyncio.run(GeminiAgent(client).answer(ChatRequest(question='마그네슘 표시 설명')))
+    models=FakeModels();client=fake_client(models)
+    result=asyncio.run(SupplementAgent(client).answer(ChatRequest(question='마그네슘 표시 설명')))
     assert [t['tool'] for t in result['toolTrace']]==['search_evidence','get_product_details']
     assert result['citations'][0]['productId']=='600000128'
     assert len(models.calls)==3
-    assert models.calls[0]['config'].automatic_function_calling.disable is True
+    assert models.calls[0]['tool_choice']=='auto'
+    assert 'reasoning_effort' not in models.calls[0] and models.calls[0]['store'] is False
 
 @pytest.mark.parametrize('answer',[
     {'text':'출처 설명','citationIds':['fake'],'productIds':[]},
@@ -163,21 +163,21 @@ def test_unverified_model_output_rejected(answer):
 
 def test_agent_timeout_is_bounded(monkeypatch):
     class Slow:
-        async def generate_content(self,**kwargs):await asyncio.sleep(1)
-    client=SimpleNamespace(aio=SimpleNamespace(models=Slow()))
+        async def create(self,**kwargs):await asyncio.sleep(1)
+    client=fake_client(Slow())
     monkeypatch.setattr(config,'AI_TIMEOUT',.01)
-    with pytest.raises(AIError) as error:asyncio.run(GeminiAgent(client).answer(ChatRequest(question='마그네슘')))
+    with pytest.raises(AIError) as error:asyncio.run(SupplementAgent(client).answer(ChatRequest(question='마그네슘')))
     assert error.value.code=='AI_TIMEOUT'
 
 def test_provider_receives_preferences_not_health_screen_or_existing_record():
-    models=FakeModels();client=SimpleNamespace(aio=SimpleNamespace(models=models))
+    models=FakeModels();client=fake_client(models)
     s=survey(habits=['식사 시간이 불규칙해요'])
-    result=asyncio.run(GeminiAgent(client).answer(ChatRequest(question='후보의 근거를 설명해 주세요.',survey=s),policy.recommend(s)))
-    context=json.loads(models.calls[0]['contents'][0].parts[0].text)
+    result=asyncio.run(SupplementAgent(client).answer(ChatRequest(question='후보의 근거를 설명해 주세요.',survey=s),policy.recommend(s)))
+    context=json.loads(models.calls[0]['messages'][1]['content'])
     assert set(context['preferences'])=={'interests','budget','form'}
     assert 'survey' not in context and 'overlap' not in context['recommendation']
     assert '식사 시간이 불규칙해요' not in json.dumps(context,ensure_ascii=False)
-    assert result['mode']=='gemini'
+    assert result['mode']=='ai'
 
 def test_no_profile_recommendation_and_personal_identifiers_stay_local(client):
     h=headers(client)
@@ -209,17 +209,16 @@ def test_guide_with_selected_product_keeps_product_specific_label_evidence():
 def test_starter_question_works_when_model_chooses_an_empty_search():
     class GuideModels:
         def __init__(self):self.calls=[]
-        async def generate_content(self,**kwargs):
+        async def create(self,**kwargs):
             self.calls.append(kwargs)
-            if kwargs['config'].response_mime_type=='application/json':
-                payload=json.loads(kwargs['contents'][-1].parts[0].text)
+            if 'tools' not in kwargs:
+                payload=json.loads(kwargs['messages'][-1]['content'])
                 assert any(e['id']=='label-guide:amount-and-basis' for e in payload['evidence'])
-                return SimpleNamespace(text=json.dumps({'text':'함량은 표시된 분량에 들어 있는 성분의 양이고, 기준량은 그 함량을 읽는 분량 기준이에요. 영양성분 기준치는 식품을 비교하기 위한 값이에요.','citationIds':['label-guide:amount-and-basis','label-guide:daily-reference'],'productIds':[]}))
-            part=types.Part.from_function_call(name='search_products',args={'query':'존재하지않는표시용어'})
-            return SimpleNamespace(candidates=[SimpleNamespace(content=types.Content(role='model',parts=[part]))])
+                return reply({'text':'함량은 표시된 분량에 들어 있는 성분의 양이고, 기준량은 그 함량을 읽는 분량 기준이에요. 영양성분 기준치는 식품을 비교하기 위한 값이에요.','citationIds':['label-guide:amount-and-basis','label-guide:daily-reference'],'productIds':[]})
+            return reply(tool='search_evidence',args={'query':'존재하지않는표시용어'})
     models=GuideModels()
-    result=asyncio.run(GeminiAgent(SimpleNamespace(aio=SimpleNamespace(models=models))).answer(ChatRequest(question='함량과 기준량의 차이가 궁금해요.')))
-    assert result['mode']=='gemini' and result['productIds']==[]
+    result=asyncio.run(SupplementAgent(fake_client(models)).answer(ChatRequest(question='함량과 기준량의 차이가 궁금해요.')))
+    assert result['mode']=='ai' and result['productIds']==[]
     assert result['citations'][0]['kind']=='label_guide' and len(models.calls)==2
 
 def test_missing_evidence_requests_clarification_but_provider_failure_stays_error(client,monkeypatch):

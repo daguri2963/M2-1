@@ -38,9 +38,9 @@ GitHub Actions의 `CI`는 `canary`·`dev`·`production` 푸시와 `dev`·`produc
 - `Frontend checks`: 잠근 Node 의존성 설치, 테스트, TypeScript·배포 빌드
 - `Product data checks`: 검수 DB·원문 근거·사진·공개 데이터의 무결성 검사
 
-검사는 GitHub의 임시 실행 환경에서 수행하며 Render 시험 서버나 실제 Gemini 키를 사용하지 않는다. 실제 Gemini 동작은 필요할 때 소유자가 로컬에서 가상 입력으로 확인한다. 자동 검사 통과가 의료·영양학 검증을 의미하지 않는다.
+검사는 GitHub의 임시 실행 환경에서 수행하며 Render 시험 서버나 실제 AI 키를 사용하지 않는다. 실제 AI 동작은 소유자가 로컬에서 가상 입력으로 확인한다. 자동 검사 통과가 의료·영양학 검증을 의미하지 않는다.
 
-소유자는 `dev`로 통합한 뒤 로컬에서 연결 동작을 확인한다. 준비되면 `dev → production` PR을 만들고 필수 검사 통과 후 병합한다. 장기 브랜치의 공통 이력을 유지하도록 단계 간 PR은 **merge commit** 방식으로 병합한다. 완료된 `canary`·`dev`를 삭제하지 않는다. 운영 반영 후 소유자가 `production`을 `canary`에 정상 병합해 다음 작업의 기준을 맞춘다. 다음 `canary → dev` PR이 운영 반영 이력도 함께 전달하므로 이후 `dev → production`의 최신 기준 검사를 통과할 수 있다. 강제 동기화는 하지 않는다.
+소유자는 먼저 `canary` 상태에서 로컬 API·화면·실제 AI 연결을 가상 입력으로 검증하고 결과를 기록한다. 통과한 변경만 `canary → dev` PR로 통합하며 필수 자동 검사도 모두 통과해야 한다. 병합 과정에 충돌 해결이나 추가 변경이 있었다면 `dev`에서 영향을 받은 검사를 다시 수행한다. 준비되면 `dev → production` PR을 만들고 필수 검사 통과 후 병합한다. 장기 브랜치의 공통 이력을 유지하도록 단계 간 PR은 **merge commit** 방식으로 병합한다. 완료된 `canary`·`dev`를 삭제하지 않는다. 운영 반영 후 소유자가 `production`을 `canary`에 정상 병합해 다음 작업의 기준을 맞춘다. 다음 `canary → dev` PR이 운영 반영 이력도 함께 전달하므로 이후 `dev → production`의 최신 기준 검사를 통과할 수 있다. 강제 동기화는 하지 않는다.
 
 ## 적용하는 GitHub Rulesets
 
