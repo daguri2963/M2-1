@@ -120,8 +120,6 @@ def recommend(survey):
         return {**base,'status':'insufficient','message':'현재 먹는 제품을 확인할 수 없어 중복 검사를 완료하지 못했어요. 제품을 확인하거나 전체 상품 정보를 둘러보세요.','nextStep':3}
     if base['overlap']['status']=='incomplete':
         return {**base,'status':'insufficient','message':'기존 제품의 표시 정량이 부족해 중복 검사를 완료하지 못했어요.','nextStep':3}
-    if survey.interests==['잘 모르겠어요']:
-        return {**base,'status':'insufficient','message':'관심 분야의 차이를 먼저 알아봐요. 제품을 임의로 고르지 않고, 선택한 분야의 표시 정보를 이어서 확인해 드릴게요.','nextStep':1,'guidance':[{'goal':goal,'description':description} for goal,description in catalog.GOAL_DESCRIPTIONS.items()]}
     specialties=set(survey.interests)&catalog.SPECIALTIES
     if specialties and not survey.specialtyConfirmed:
         return {**base,'status':'insufficient','message':'혈당 관리·다이어트 제품의 안내 범위와 질환·의약품 관련 주의조건을 먼저 확인해 주세요.','nextStep':4}
@@ -149,7 +147,7 @@ def recommend(survey):
     covered={m['goal'] for c in selected for m in c['matches']}
     missing=[g for g in survey.interests if g not in covered]
     base.update(status='ok' if selected else 'empty',message='선택한 목적을 중심으로 표시 근거가 확인된 후보입니다.' if selected else '현재 자료와 조건에서 목적 중심 후보를 찾지 못했어요. 관련 성분 제품은 별도 정보로 살펴볼 수 있어요.',products=[c['product'] for c in selected],excludedCounts=dict(excluded),missingInterests=missing)
-    if not selected:base['nextStep']=1 if '눈 건강' in missing else 5
+    if not selected:base['nextStep']=5
     if missing:base['notices'].append('목적 중심 후보를 확보하지 못한 분야: '+', '.join(missing)+'. 다른 분야의 후보가 이 목적까지 충족한다는 뜻은 아니에요.')
     base['relatedProducts']=[c['product'] for c in _representatives(related) if any(m['goal'] in missing for m in c['matches'])][:2]
     for c in selected:

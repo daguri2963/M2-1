@@ -46,7 +46,7 @@ def test_sensitive_conditions_never_produce_candidates(caution):
     result=policy.recommend(survey(cautions=[caution]))
     assert result['status']=='restricted' and result['products']==[]
 
-@pytest.mark.parametrize('changes',[{'cautions':['잘 모르겠어요']},{'existing':'목록에 없어요'},{'existing':'잘 모르겠어요'},{'interests':['잘 모르겠어요']}])
+@pytest.mark.parametrize('changes',[{'cautions':['잘 모르겠어요']},{'existing':'목록에 없어요'},{'existing':'잘 모르겠어요'}])
 def test_unknown_is_not_assumed_clear(changes):
     assert policy.recommend(survey(**changes))['status']=='insufficient'
 
@@ -240,3 +240,11 @@ def test_general_guide_is_not_product_recommendation_evidence():
     with pytest.raises(AIError) as error:sanitize_answer(answer,sources,{},['600000128'])
     assert error.value.code=='AI_POLICY_MISMATCH'
     assert repo.evidence('존재하지않는자료표현')==[]
+
+@pytest.mark.parametrize('interests',[['눈 건강'],['잘 모르겠어요'],['장 건강','눈 건강']])
+def test_removed_interests_rejected_for_recommendations_and_chat(client,interests):
+    h=headers(client)
+    payload=survey().model_dump();payload['interests']=interests
+    for path,body in [('/api/recommendations',payload),('/api/chat',{'question':'성분이 궁금해요','survey':payload})]:
+        response=client.post(path,json=body,headers=h)
+        assert response.status_code==422 and response.json()['error']['code']=='INVALID_INPUT'
