@@ -1,0 +1,554 @@
+{
+  "checkedAt": "2026-10-23T07:27:30.214290+00:00",
+  "passed": true,
+  "data": "public product pairs only; no survey or chat",
+  "checks": [
+    {
+      "case": "table_public_ai_requires_consent",
+      "passed": true
+    },
+    {
+      "case": "different_purposes",
+      "elapsedSeconds": 6.35,
+      "result": {
+        "mode": "ai",
+        "provider": "codyssey",
+        "model": "gpt-5.4",
+        "version": "2026-10-23.compare.2",
+        "productIds": [
+          "600000129",
+          "600000128"
+        ],
+        "products": [
+          {
+            "id": "600000129",
+            "label": "A",
+            "name": "비타민B"
+          },
+          {
+            "id": "600000128",
+            "label": "B",
+            "name": "마그네슘"
+          }
+        ],
+        "summary": {
+          "text": "제품 A는 비타민B1·비타민B2·비타민B6·비타민B12와 나이아신·엽산·비오틴·판토텐산이 표시된 제품이고, 제품 B는 마그네슘·비타민D가 표시된 제품입니다. 둘 다 건강기능식품이고 정제 형태이며 표시 섭취방법과 관찰 가격은 같습니다.",
+          "factIds": [
+            "composition",
+            "type",
+            "form",
+            "intake",
+            "price"
+          ]
+        },
+        "selectionGuide": {
+          "text": "고를 때는 먼저 어떤 기능과 주요 성분 구성을 보고 싶은지 확인하는 것이 핵심입니다. 그다음 두 제품은 제형, 표시 섭취방법, 관찰 가격이 같으므로 이런 부분보다 기능 표시와 주요 성분 표시, 그리고 포장·규격 차이를 구분해서 보면 됩니다.",
+          "factIds": [
+            "function",
+            "composition",
+            "form",
+            "intake",
+            "price",
+            "package"
+          ]
+        },
+        "highlights": [
+          {
+            "factId": "function",
+            "text": "제품 A는 비타민B군 중심으로 에너지 대사, 아미노산 이용, 엽산 대사, 혈액 생성 관련 기능이 표시되어 있고, 제품 B는 마그네슘과 비타민D 중심으로 에너지 이용, 신경과 근육 기능 유지, 뼈 형성과 유지 관련 기능이 표시되어 있습니다.",
+            "fact": {
+              "id": "function",
+              "title": "표시된 기능",
+              "values": [
+                "[비타민B1] 탄수화물과 에너지 대사에 필요 [비타민B2] 체내 에너지 생성에 필요. [비타민B6] 단백질 및 아미노산 이용에 필요. 혈액의 호모시스테인 수준을 정상으로 유지하는데 필요 [비타민B12] 정상적인 엽산 대사에 필요. [나이아신] 체내 에너지 생성에 필요. [엽산] 세포와 혈액생성에 필요. 태아 신경관의 정상 발달에 필요. 혈액의 호모시스테인 수준을 정상으로 유지하는데 필요. [비오틴·판토텐산] 지방, 탄수화물, 단백질 대사와 에너지 생성에 필요",
+                "[마그네슘] 에너지 이용에 필요. 신경과 근육 기능 유지에 필요 [비타민D] 칼슘과 인이 흡수되고 이용되는데 필요. 뼈의 형성과 유지에 필요. 골다공증 발생 위험 감소에 도움을 줌"
+              ],
+              "different": true,
+              "citationIds": [
+                "600000129:function",
+                "600000128:function"
+              ]
+            }
+          },
+          {
+            "factId": "composition",
+            "text": "표시된 주요 성분 구성이 다릅니다. 제품 A는 여러 비타민B군이 함께 표시되어 있고, 제품 B는 마그네슘과 비타민D가 표시되어 있습니다.",
+            "fact": {
+              "id": "composition",
+              "title": "주요 표시 성분",
+              "values": [
+                "비타민B1 · 비타민B2 · 비타민B6 · 나이아신 · 판토텐산 · 엽산 · 비오틴 · 비타민B12",
+                "마그네슘 · 비타민D"
+              ],
+              "different": true,
+              "citationIds": [
+                "600000129:nutrition",
+                "600000128:nutrition"
+              ],
+              "notice": "여기에 없는 성분도 미함유나 0이라고 판단할 수 없어요."
+            }
+          },
+          {
+            "factId": "package",
+            "text": "포장·규격은 다르지만, 이 차이만으로 조성이나 효과 차이, 하루 비용 차이로 해석할 수는 없습니다.",
+            "fact": {
+              "id": "package",
+              "title": "포장·규격",
+              "values": [
+                "15 g (500 mg × 30정)",
+                "30 g (1,000 mg × 30정)"
+              ],
+              "different": true,
+              "citationIds": [
+                "600000129:catalog",
+                "600000128:catalog"
+              ],
+              "notice": "규격 차이가 조성·효과의 차이나 하루 비용을 뜻하지는 않아요."
+            }
+          }
+        ],
+        "citations": [
+          {
+            "id": "600000129:nutrition",
+            "productId": "600000129",
+            "title": "대웅제약 비타민B 30정 30일분 · 영양정보",
+            "text": "열량 0 kcal\n탄수화물 0 g\n단백질 0 g\n지방 0 g\n나트륨 0 mg\n비타민B1 1.2 mg\n비타민B2 1.4 mg\n비타민B6 1.5 mg\n나이아신 15 mg NE\n판토텐산 5 mg\n엽산 400 μg DFE\n비오틴 30 μg\n비타민B12 2.4 μg",
+            "url": "https://cdn.daisomall.co.kr/file/resize/PD/20250618/description/850/yBgTkLj4OyldMqVRzspW600000129_01_00yBgTkLj4OyldMqVRzspW.png",
+            "productUrl": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=600000129",
+            "observedAt": "2026-10-19"
+          },
+          {
+            "id": "600000128:nutrition",
+            "productId": "600000128",
+            "title": "대웅제약 마그네슘 30정 30일분 · 영양정보",
+            "text": "열량 0 kcal\n탄수화물 0 g\n단백질 0 g\n지방 0 g\n나트륨 0 mg\n마그네슘 315 mg\n비타민D 10 μg",
+            "url": "https://cdn.daisomall.co.kr/file/resize/PD/20260821/description/850/kRqZjQlUk8iA6h6u0OAT600000128_01_00kRqZjQlUk8iA6h6u0OAT.png",
+            "productUrl": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=600000128",
+            "observedAt": "2026-10-19"
+          },
+          {
+            "id": "600000129:catalog",
+            "productId": "600000129",
+            "title": "비타민B · 공식 상품 정보",
+            "text": "식품유형: 건강기능식품 / 규격: 15 g (500 mg × 30정) / 제형: 정제 / 관찰 가격: 3000원 (확인 2026-10-19)",
+            "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=600000129",
+            "productUrl": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=600000129",
+            "observedAt": "2026-10-19"
+          },
+          {
+            "id": "600000128:catalog",
+            "productId": "600000128",
+            "title": "마그네슘 · 공식 상품 정보",
+            "text": "식품유형: 건강기능식품 / 규격: 30 g (1,000 mg × 30정) / 제형: 정제 / 관찰 가격: 3000원 (확인 2026-10-19)",
+            "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=600000128",
+            "productUrl": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=600000128",
+            "observedAt": "2026-10-19"
+          },
+          {
+            "id": "600000129:intake",
+            "productId": "600000129",
+            "title": "대웅제약 비타민B 30정 30일분 · 표시 섭취방법",
+            "text": "1일 1회, 1회 1정을 충분한 물과 함께 섭취하십시오.",
+            "url": "https://cdn.daisomall.co.kr/file/resize/PD/20250618/description/850/yBgTkLj4OyldMqVRzspW600000129_01_00yBgTkLj4OyldMqVRzspW.png",
+            "productUrl": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=600000129",
+            "observedAt": "2026-10-19"
+          },
+          {
+            "id": "600000128:intake",
+            "productId": "600000128",
+            "title": "대웅제약 마그네슘 30정 30일분 · 표시 섭취방법",
+            "text": "1일 1회, 1회 1정을 충분한 물과 함께 섭취하십시오.",
+            "url": "https://cdn.daisomall.co.kr/file/resize/PD/20260821/description/850/kRqZjQlUk8iA6h6u0OAT600000128_01_00kRqZjQlUk8iA6h6u0OAT.png",
+            "productUrl": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=600000128",
+            "observedAt": "2026-10-19"
+          },
+          {
+            "id": "600000129:function",
+            "productId": "600000129",
+            "title": "대웅제약 비타민B 30정 30일분 · 기능정보",
+            "text": "[비타민B1] 탄수화물과 에너지 대사에 필요 [비타민B2] 체내 에너지 생성에 필요. [비타민B6] 단백질 및 아미노산 이용에 필요. 혈액의 호모시스테인 수준을 정상으로 유지하는데 필요 [비타민B12] 정상적인 엽산 대사에 필요. [나이아신] 체내 에너지 생성에 필요. [엽산] 세포와 혈액생성에 필요. 태아 신경관의 정상 발달에 필요. 혈액의 호모시스테인 수준을 정상으로 유지하는데 필요. [비오틴·판토텐산] 지방, 탄수화물, 단백질 대사와 에너지 생성에 필요",
+            "url": "https://cdn.daisomall.co.kr/file/resize/PD/20250618/description/850/yBgTkLj4OyldMqVRzspW600000129_01_00yBgTkLj4OyldMqVRzspW.png",
+            "productUrl": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=600000129",
+            "observedAt": "2026-10-19"
+          },
+          {
+            "id": "600000128:function",
+            "productId": "600000128",
+            "title": "대웅제약 마그네슘 30정 30일분 · 기능정보",
+            "text": "[마그네슘] 에너지 이용에 필요. 신경과 근육 기능 유지에 필요 [비타민D] 칼슘과 인이 흡수되고 이용되는데 필요. 뼈의 형성과 유지에 필요. 골다공증 발생 위험 감소에 도움을 줌",
+            "url": "https://cdn.daisomall.co.kr/file/resize/PD/20260821/description/850/kRqZjQlUk8iA6h6u0OAT600000128_01_00kRqZjQlUk8iA6h6u0OAT.png",
+            "productUrl": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=600000128",
+            "observedAt": "2026-10-19"
+          }
+        ],
+        "notice": "AI 생성 해설이며 오류가 있을 수 있어요. 개인별 적합성·효과·병용 가능 여부를 판단하지 않아요.",
+        "cached": false
+      }
+    },
+    {
+      "case": "same_formula_different_pack",
+      "elapsedSeconds": 5.05,
+      "result": {
+        "mode": "ai",
+        "provider": "codyssey",
+        "model": "gpt-5.4",
+        "version": "2026-10-23.compare.2",
+        "productIds": [
+          "600000128",
+          "600000270"
+        ],
+        "products": [
+          {
+            "id": "600000128",
+            "label": "A",
+            "name": "마그네슘"
+          },
+          {
+            "id": "600000270",
+            "label": "B",
+            "name": "마그네슘 10일분"
+          }
+        ],
+        "summary": {
+          "text": "제품 A와 제품 B는 표시된 주요 성분, 표시된 기능, 제형, 섭취방법이 같아 핵심 구성은 같은 편입니다. 실제로 보이는 차이는 포장·규격, 관찰 가격, 알레르기·교차오염 표시입니다.",
+          "factIds": [
+            "composition",
+            "function",
+            "form",
+            "intake",
+            "package",
+            "price",
+            "allergen"
+          ]
+        },
+        "selectionGuide": {
+          "text": "고를 때는 먼저 표시된 주요 성분과 기능이 같은지 보고, 그다음 포장·규격 차이를 구분해 살펴보면 됩니다. 마지막으로 관찰 가격은 확인 시점의 단품 가격으로만 보고, 알레르기·교차오염 표시는 원료 확인 기준으로 따로 체크하면 됩니다.",
+          "factIds": [
+            "composition",
+            "function",
+            "package",
+            "price",
+            "allergen"
+          ]
+        },
+        "highlights": [
+          {
+            "factId": "package",
+            "text": "포장·규격은 다릅니다. 제품 A와 제품 B는 담긴 분량과 정 수가 다르게 표시되어 있습니다.",
+            "fact": {
+              "id": "package",
+              "title": "포장·규격",
+              "values": [
+                "30 g (1,000 mg × 30정)",
+                "10 g (1,000 mg × 10정)"
+              ],
+              "different": true,
+              "citationIds": [
+                "600000128:catalog",
+                "600000270:catalog"
+              ],
+              "notice": "규격 차이가 조성·효과의 차이나 하루 비용을 뜻하지는 않아요."
+            }
+          },
+          {
+            "factId": "price",
+            "text": "관찰 가격은 다릅니다. 다만 이것은 확인 시점의 단품 가격으로, 실시간 가격이나 하루 비용을 뜻하지는 않습니다.",
+            "fact": {
+              "id": "price",
+              "title": "관찰 가격",
+              "values": [
+                "3,000원 (확인 2026-10-19)",
+                "1,000원 (확인 2026-10-19)"
+              ],
+              "different": true,
+              "citationIds": [
+                "600000128:catalog",
+                "600000270:catalog"
+              ],
+              "notice": "관찰 당시 단품 가격이며 실시간 가격·재고나 하루 비용은 아니에요."
+            }
+          },
+          {
+            "factId": "allergen",
+            "text": "알레르기·교차오염 표시는 차이가 있습니다. 둘 다 우유 함유로 표시됐고, 함께 제조되는 알레르기 유발 가능 원료 표시에 차이가 있습니다.",
+            "fact": {
+              "id": "allergen",
+              "title": "알레르기·교차오염",
+              "values": [
+                "우유 함유. 본 제품은 알레르기 발생 가능성이 있는 알류(가금류), 우유, 메밀, 땅콩, 밀, 고등어, 게, 새우, 돼지고기, 복숭아, 토마토, 아황산류, 호두, 닭고기, 쇠고기, 오징어, 조개류(굴, 전복, 홍합 포함), 잣을 사용한 제품과 같은 제조시설에서 제조되었습니다.",
+                "우유 함유. 본 제품은 알레르기 발생 가능성이 있는 알류(가금류), 우유, 메밀, 땅콩, 대두, 밀, 고등어, 게, 새우, 돼지고기, 복숭아, 토마토, 아황산류, 호두, 닭고기, 쇠고기, 오징어, 조개류(굴, 전복, 홍합 포함), 잣을 사용한 제품과 같은 제조시설에서 제조되었습니다."
+              ],
+              "different": true,
+              "citationIds": [
+                "600000128:allergen_or_cross_contact",
+                "600000270:allergen_or_cross_contact"
+              ],
+              "notice": "표시 미확인은 알레르기 유발 성분이 없다는 뜻이 아니에요."
+            }
+          }
+        ],
+        "citations": [
+          {
+            "id": "600000128:nutrition",
+            "productId": "600000128",
+            "title": "대웅제약 마그네슘 30정 30일분 · 영양정보",
+            "text": "열량 0 kcal\n탄수화물 0 g\n단백질 0 g\n지방 0 g\n나트륨 0 mg\n마그네슘 315 mg\n비타민D 10 μg",
+            "url": "https://cdn.daisomall.co.kr/file/resize/PD/20260821/description/850/kRqZjQlUk8iA6h6u0OAT600000128_01_00kRqZjQlUk8iA6h6u0OAT.png",
+            "productUrl": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=600000128",
+            "observedAt": "2026-10-19"
+          },
+          {
+            "id": "600000270:nutrition",
+            "productId": "600000270",
+            "title": "대웅제약 마그네슘 10정 10일분 · 영양정보",
+            "text": "열량 0 kcal\n탄수화물 0 g(0%)\n단백질 0 g(0%)\n지방 0 g(0%)\n나트륨 0 mg(0%)\n마그네슘 315 mg(100%)\n비타민D 10 μg(100%)",
+            "url": "https://cdn.daisomall.co.kr/file/resize/PD/20260504/description/850/vA5f7ccX5V9RSqjQilxo600000270_01_02vA5f7ccX5V9RSqjQilxo.png",
+            "productUrl": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=600000270",
+            "observedAt": "2026-10-19"
+          },
+          {
+            "id": "600000128:function",
+            "productId": "600000128",
+            "title": "대웅제약 마그네슘 30정 30일분 · 기능정보",
+            "text": "[마그네슘] 에너지 이용에 필요. 신경과 근육 기능 유지에 필요 [비타민D] 칼슘과 인이 흡수되고 이용되는데 필요. 뼈의 형성과 유지에 필요. 골다공증 발생 위험 감소에 도움을 줌",
+            "url": "https://cdn.daisomall.co.kr/file/resize/PD/20260821/description/850/kRqZjQlUk8iA6h6u0OAT600000128_01_00kRqZjQlUk8iA6h6u0OAT.png",
+            "productUrl": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=600000128",
+            "observedAt": "2026-10-19"
+          },
+          {
+            "id": "600000270:function",
+            "productId": "600000270",
+            "title": "대웅제약 마그네슘 10정 10일분 · 기능정보",
+            "text": "[마그네슘] 에너지 이용에 필요. 신경과 근육 기능 유지에 필요 [비타민D] 칼슘과 인이 흡수되고 이용되는데 필요. 뼈의 형성과 유지에 필요. 골다공증 발생 위험 감소에 도움을 줌",
+            "url": "https://cdn.daisomall.co.kr/file/resize/PD/20260504/description/850/vA5f7ccX5V9RSqjQilxo600000270_01_02vA5f7ccX5V9RSqjQilxo.png",
+            "productUrl": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=600000270",
+            "observedAt": "2026-10-19"
+          },
+          {
+            "id": "600000128:catalog",
+            "productId": "600000128",
+            "title": "마그네슘 · 공식 상품 정보",
+            "text": "식품유형: 건강기능식품 / 규격: 30 g (1,000 mg × 30정) / 제형: 정제 / 관찰 가격: 3000원 (확인 2026-10-19)",
+            "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=600000128",
+            "productUrl": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=600000128",
+            "observedAt": "2026-10-19"
+          },
+          {
+            "id": "600000270:catalog",
+            "productId": "600000270",
+            "title": "마그네슘 10일분 · 공식 상품 정보",
+            "text": "식품유형: 건강기능식품 / 규격: 10 g (1,000 mg × 10정) / 제형: 정제 / 관찰 가격: 1000원 (확인 2026-10-19)",
+            "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=600000270",
+            "productUrl": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=600000270",
+            "observedAt": "2026-10-19"
+          },
+          {
+            "id": "600000128:intake",
+            "productId": "600000128",
+            "title": "대웅제약 마그네슘 30정 30일분 · 표시 섭취방법",
+            "text": "1일 1회, 1회 1정을 충분한 물과 함께 섭취하십시오.",
+            "url": "https://cdn.daisomall.co.kr/file/resize/PD/20260821/description/850/kRqZjQlUk8iA6h6u0OAT600000128_01_00kRqZjQlUk8iA6h6u0OAT.png",
+            "productUrl": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=600000128",
+            "observedAt": "2026-10-19"
+          },
+          {
+            "id": "600000270:intake",
+            "productId": "600000270",
+            "title": "대웅제약 마그네슘 10정 10일분 · 표시 섭취방법",
+            "text": "1일 1회, 1회 1정을 충분한 물과 함께 섭취하십시오.",
+            "url": "https://cdn.daisomall.co.kr/file/resize/PD/20260504/description/850/vA5f7ccX5V9RSqjQilxo600000270_01_02vA5f7ccX5V9RSqjQilxo.png",
+            "productUrl": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=600000270",
+            "observedAt": "2026-10-19"
+          },
+          {
+            "id": "600000128:allergen_or_cross_contact",
+            "productId": "600000128",
+            "title": "대웅제약 마그네슘 30정 30일분 · 알레르기·교차오염",
+            "text": "우유 함유. 본 제품은 알레르기 발생 가능성이 있는 알류(가금류), 우유, 메밀, 땅콩, 밀, 고등어, 게, 새우, 돼지고기, 복숭아, 토마토, 아황산류, 호두, 닭고기, 쇠고기, 오징어, 조개류(굴, 전복, 홍합 포함), 잣을 사용한 제품과 같은 제조시설에서 제조되었습니다.",
+            "url": "https://cdn.daisomall.co.kr/file/resize/PD/20260821/description/850/kRqZjQlUk8iA6h6u0OAT600000128_01_00kRqZjQlUk8iA6h6u0OAT.png",
+            "productUrl": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=600000128",
+            "observedAt": "2026-10-19"
+          },
+          {
+            "id": "600000270:allergen_or_cross_contact",
+            "productId": "600000270",
+            "title": "대웅제약 마그네슘 10정 10일분 · 알레르기·교차오염",
+            "text": "우유 함유. 본 제품은 알레르기 발생 가능성이 있는 알류(가금류), 우유, 메밀, 땅콩, 대두, 밀, 고등어, 게, 새우, 돼지고기, 복숭아, 토마토, 아황산류, 호두, 닭고기, 쇠고기, 오징어, 조개류(굴, 전복, 홍합 포함), 잣을 사용한 제품과 같은 제조시설에서 제조되었습니다.",
+            "url": "https://cdn.daisomall.co.kr/file/resize/PD/20260504/description/850/vA5f7ccX5V9RSqjQilxo600000270_01_02vA5f7ccX5V9RSqjQilxo.png",
+            "productUrl": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=600000270",
+            "observedAt": "2026-10-19"
+          }
+        ],
+        "notice": "AI 생성 해설이며 오류가 있을 수 있어요. 개인별 적합성·효과·병용 가능 여부를 판단하지 않아요.",
+        "cached": false
+      }
+    },
+    {
+      "case": "general_food_vs_functional",
+      "elapsedSeconds": 4.61,
+      "result": {
+        "mode": "ai",
+        "provider": "codyssey",
+        "model": "gpt-5.4",
+        "version": "2026-10-23.compare.2",
+        "productIds": [
+          "610911097",
+          "600000313"
+        ],
+        "products": [
+          {
+            "id": "610911097",
+            "label": "A",
+            "name": "프로폴리스 & 아연 필름"
+          },
+          {
+            "id": "600000313",
+            "label": "B",
+            "name": "셀레늄 아연"
+          }
+        ],
+        "summary": {
+          "text": "제품 A는 일반 식품 유형으로 기능 표시가 확인되지 않았고, 제품 B는 건강기능식품으로 셀레늄과 아연의 기능이 표시돼 있습니다. 또한 제품 A는 필름형, 제품 B는 정제형이라 섭취 방식도 다릅니다.",
+          "factIds": [
+            "type",
+            "function",
+            "form",
+            "intake"
+          ]
+        },
+        "selectionGuide": {
+          "text": "고를 때는 먼저 건강기능식품 여부와 기능 표시 유무를 보고, 다음으로 필름형인지 정제형인지처럼 먹는 형태와 표시된 섭취방법을 함께 살펴보면 됩니다. 포장·규격과 관찰 가격도 서로 다르지만, 이는 조성이나 효과 차이를 뜻하는 기준으로만 보기는 어렵습니다.",
+          "factIds": [
+            "type",
+            "function",
+            "form",
+            "intake",
+            "package",
+            "price"
+          ]
+        },
+        "highlights": [
+          {
+            "factId": "function",
+            "text": "제품 B는 셀레늄과 아연의 기능이 표시된 반면, 제품 A는 기능 표시가 확인되지 않았습니다.",
+            "fact": {
+              "id": "function",
+              "title": "표시된 기능",
+              "values": [
+                "기능 표시 미확인",
+                "[셀레늄] 유해산소로부터 세포를 보호하는데 필요. [아연] 정상적인 면역기능에 필요. 정상적인 세포분열에 필요."
+              ],
+              "different": true,
+              "citationIds": [
+                "610911097:catalog",
+                "600000313:function"
+              ]
+            }
+          },
+          {
+            "factId": "composition",
+            "text": "주요 표시 성분 기준으로 제품 B는 셀레늄과 아연이 확인되지만, 제품 A는 표시 정량이 확인되지 않습니다.",
+            "fact": {
+              "id": "composition",
+              "title": "주요 표시 성분",
+              "values": [
+                "표시 정량 미확인",
+                "셀레늄 · 아연"
+              ],
+              "different": true,
+              "citationIds": [
+                "610911097:catalog",
+                "600000313:nutrition"
+              ],
+              "notice": "여기에 없는 성분도 미함유나 0이라고 판단할 수 없어요."
+            }
+          },
+          {
+            "factId": "form",
+            "text": "제품 A는 필름형이고 제품 B는 정제형이라 먹는 형태가 다릅니다.",
+            "fact": {
+              "id": "form",
+              "title": "제형",
+              "values": [
+                "필름",
+                "정제"
+              ],
+              "different": true,
+              "citationIds": [
+                "610911097:catalog",
+                "600000313:catalog"
+              ]
+            }
+          }
+        ],
+        "citations": [
+          {
+            "id": "610911097:catalog",
+            "productId": "610911097",
+            "title": "프로폴리스 & 아연 필름 · 공식 상품 정보",
+            "text": "식품유형: 기타가공품 / 규격: 1.8282 g (152.35 mg × 12매) / 제형: 필름 / 관찰 가격: 5000원 (확인 2026-10-19)",
+            "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=610911097",
+            "productUrl": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=610911097",
+            "observedAt": "2026-10-19"
+          },
+          {
+            "id": "600000313:catalog",
+            "productId": "600000313",
+            "title": "셀레늄 아연 · 공식 상품 정보",
+            "text": "식품유형: 건강기능식품 / 규격: 15 g (500 mg × 30정) / 제형: 정제 / 관찰 가격: 3000원 (확인 2026-10-19)",
+            "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=600000313",
+            "productUrl": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=600000313",
+            "observedAt": "2026-10-19"
+          },
+          {
+            "id": "600000313:function",
+            "productId": "600000313",
+            "title": "대웅제약 셀레늄 아연 30정 30일분 · 기능정보",
+            "text": "[셀레늄] 유해산소로부터 세포를 보호하는데 필요. [아연] 정상적인 면역기능에 필요. 정상적인 세포분열에 필요.",
+            "url": "https://cdn.daisomall.co.kr/file/resize/PD/20261014/description/850/sNVQyA6XAIJHUBL3l3FL600000313_01_02sNVQyA6XAIJHUBL3l3FL.png",
+            "productUrl": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=600000313",
+            "observedAt": "2026-10-19"
+          },
+          {
+            "id": "610911097:intake",
+            "productId": "610911097",
+            "title": "[신혜선 PICK] 동국제약 프로폴리스＆아연 필름 12매 12일분 · 표시 섭취방법",
+            "text": "필름을 입천장에 붙여 천천히 녹여 섭취하십시오.",
+            "url": "https://cdn.daisomall.co.kr/file/resize/PD/20260810/description/850/XgwCdZgSVdtHGy1vjyW3610911097_01_00XgwCdZgSVdtHGy1vjyW3.jpg",
+            "productUrl": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=610911097",
+            "observedAt": "2026-10-19"
+          },
+          {
+            "id": "600000313:intake",
+            "productId": "600000313",
+            "title": "대웅제약 셀레늄 아연 30정 30일분 · 표시 섭취방법",
+            "text": "1일 1회, 1회 1정을 물과 함께 섭취하십시오.",
+            "url": "https://cdn.daisomall.co.kr/file/resize/PD/20261014/description/850/sNVQyA6XAIJHUBL3l3FL600000313_01_02sNVQyA6XAIJHUBL3l3FL.png",
+            "productUrl": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=600000313",
+            "observedAt": "2026-10-19"
+          },
+          {
+            "id": "600000313:nutrition",
+            "productId": "600000313",
+            "title": "대웅제약 셀레늄 아연 30정 30일분 · 영양정보",
+            "text": "열량 0 kcal\n탄수화물 0 g(0%)\n단백질 0 g(0%)\n지방 0 g(0%)\n나트륨 0 mg(0%)\n셀레늄 200 μg(364%)\n아연 8.5 mg(100%)",
+            "url": "https://cdn.daisomall.co.kr/file/resize/PD/20261014/description/850/sNVQyA6XAIJHUBL3l3FL600000313_01_02sNVQyA6XAIJHUBL3l3FL.png",
+            "productUrl": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=600000313",
+            "observedAt": "2026-10-19"
+          }
+        ],
+        "notice": "AI 생성 해설이며 오류가 있을 수 있어요. 개인별 적합성·효과·병용 가능 여부를 판단하지 않아요.",
+        "cached": false
+      }
+    },
+    {
+      "case": "cache",
+      "cached": true,
+      "elapsedSeconds": 0.1
+    },
+    {
+      "case": "withdrawal",
+      "passed": true
+    }
+  ]
+}

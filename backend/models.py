@@ -1,31 +1,33 @@
 from typing import Literal
 from pydantic import BaseModel, ConfigDict, Field, model_validator
 
-INTERESTS = ('일상의 활력','뼈·근육 건강','장 건강','눈 건강','다양한 성분 보기','잘 모르겠어요')
+INTERESTS = ('일상의 활력','뼈·근육 건강','장 건강','혈당 관리','다이어트')
 HABITS = ('식사 시간이 불규칙해요','채소·과일이 적은 편이에요','다양하게 먹는 편이에요','잘 모르겠어요')
-CAUTIONS = ('의약품 복용·치료 중이에요','임신·수유 중이에요','알레르기를 확인해야 해요','해당 없어요','잘 모르겠어요')
+CAUTIONS = ('질환 진단·치료·의약품 복용 중이에요','의약품 복용·치료 중이에요','임신·수유 중이에요','알레르기를 확인해야 해요','해당 없어요','잘 모르겠어요')
 
 class StrictModel(BaseModel):
     model_config = ConfigDict(extra='forbid')
 
 class Consent(StrictModel):
+    provider: Literal['codyssey']
     adultConfirmed: bool
     privacyAccepted: bool
     aiAccepted: bool
     version: str
 
 class Survey(StrictModel):
-    interests: list[str] = Field(min_length=1, max_length=6)
+    interests: list[str] = Field(min_length=1, max_length=len(INTERESTS))
     habits: list[str] = Field(min_length=1, max_length=4)
     existing: Literal['없어요','잘 모르겠어요','목록에 없어요','제품 선택']
     productIds: list[str] = Field(default_factory=list, max_length=10)
     cautions: list[str] = Field(min_length=1, max_length=5)
     budget: Literal['','3,000원 이하','5,000원 이하','상관없어요'] = ''
-    form: Literal['','정제·캡슐','분말·포','필름·액상','상관없어요'] = ''
+    form: Literal['','정제·캡슐','구미·츄어블','분말·포','필름·액상','상관없어요'] = ''
+    specialtyConfirmed: bool = False
 
     @model_validator(mode='after')
     def validate_choices(self):
-        for choices, permitted, exclusive in [(self.interests, INTERESTS, ('잘 모르겠어요',)), (self.habits, HABITS, ('잘 모르겠어요',)), (self.cautions, CAUTIONS, ('해당 없어요','잘 모르겠어요'))]:
+        for choices, permitted, exclusive in [(self.interests, INTERESTS, ()), (self.habits, HABITS, ('잘 모르겠어요',)), (self.cautions, CAUTIONS, ('해당 없어요','잘 모르겠어요'))]:
             if len(set(choices)) != len(choices) or not set(choices) <= set(permitted):
                 raise ValueError('Invalid survey choices')
             if len(choices) > 1 and set(choices).intersection(exclusive):

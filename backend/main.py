@@ -8,11 +8,13 @@ from fastapi.exceptions import RequestValidationError
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import JSONResponse
 from . import config,policy,repository as repo
-from .agent import GeminiAgent,AIError
+from .agent import SupplementAgent,AIError
 from .models import Consent,Survey,Selection,OverlapRequest,ChatRequest
+from .comparison import ComparisonExplainer
 from .privacy import question_kind,local_reply
 
-agent=GeminiAgent()
+agent=SupplementAgent()
+comparison_explainer=ComparisonExplainer(agent)
 sessions={}
 traffic=defaultdict(deque)
 
@@ -20,6 +22,7 @@ traffic=defaultdict(deque)
 async def lifespan(app):
     repo.list_products()  # Fail startup if the reviewed DB cannot be opened.
     yield
+    await comparison_explainer.close()
     await agent.close()
 
 app=FastAPI(title='영양제 첫걸음 API',version='1.0.0',lifespan=lifespan)
@@ -66,7 +69,7 @@ def rate_limit(token):
 
 @app.get('/api/health')
 def health():
-    return {'ready':True,'aiConfigured':agent.configured(),'consentVersion':config.CONSENT_VERSION,'policyVersion':config.POLICY_VERSION}
+    return {'ready':True,'aiConfigured':agent.configured(),'aiProvider':'codyssey','aiModel':config.MODEL,'consentVersion':config.CONSENT_VERSION,'policyVersion':config.POLICY_VERSION}
 
 @app.post('/api/sessions')
 def create_session(consent:Consent):
@@ -92,6 +95,11 @@ def product_detail(product_id:str):return repo.get_product(product_id)
 
 @app.post('/api/compare')
 def compare(request:Selection):return repo.compare(request.productIds)
+
+@app.post('/api/compare/explanation')
+async def compare_explanation(request:Selection,token=Depends(session)):
+    rate_limit(token)
+    return await comparison_explainer.explain(request.productIds)
 
 @app.post('/api/overlap')
 def overlap(request:OverlapRequest,token=Depends(session)):

@@ -1,0 +1,77 @@
+{
+  "passed": true,
+  "checkedAt": "2026-10-23T03:52:53.342449+00:00",
+  "baseUrl": "http://127.0.0.1:8001",
+  "data": "synthetic general-adult choices and public product labels only",
+  "publicProducts": 87,
+  "checks": [
+    "health",
+    "consent",
+    "review_gate",
+    "recommendation_with_live_ai",
+    "comparison",
+    "overlap",
+    "restricted",
+    "insufficient",
+    "label_reading_without_product",
+    "chat_with_live_ai",
+    "withdrawal"
+  ],
+  "recommendation": {
+    "elapsedSeconds": 11.48,
+    "productIds": [
+      "034345002",
+      "591580521",
+      "600651647"
+    ],
+    "mode": "ai",
+    "model": "gpt-5.4",
+    "toolTrace": [
+      {
+        "tool": "search_evidence",
+        "ok": true
+      }
+    ],
+    "citationIds": [
+      "034345002:function",
+      "591580521:function",
+      "600651647:function",
+      "034345002:cautions",
+      "591580521:cautions",
+      "600651647:cautions"
+    ]
+  },
+  "labelReading": {
+    "elapsedSeconds": 9.02,
+    "mode": "ai",
+    "text": "핵심만 말하면, 함량은 실제 들어 있는 양이고 기준량은 그 함량을 어떤 분량을 기준으로 적었는지 또는 비교를 위해 정한 기준인지입니다.\n\n쉽게 나누면 두 가지예요.\n첫째, 함량의 기준량은 성분량을 읽는 기준입니다. 즉, 제품이 정한 한 분량을 기준으로 성분이 얼마나 들어 있는지 보여주는 뜻이에요. 그래서 함량을 볼 때는 반드시 무엇을 기준으로 적은 값인지 함께 봐야 합니다.\n\n둘째, 영양성분 기준치는 비교를 위한 기준입니다. 여러 식품이나 제품의 표시를 이해하기 쉽게 만든 평균적인 하루 기준이라서, 어떤 성분이 많고 적은지 비교할 때 쓰는 개념이에요. 이건 개인에게 꼭 맞는 필요량이나 복용 지시를 뜻하지 않습니다.\n\n정리하면, 함량은 제품 안의 실제 양이고, 기준량은 그 양을 읽는 기준 또는 비교 기준입니다. 그래서 표시를 볼 때는 함량 자체와 함께 그 값이 어떤 분량 기준인지, 또 영양성분 기준치와는 다른 개념인지 구분해서 보면 헷갈림이 줄어듭니다.\n\n확인할 점은 간단해요. 제품 표시에 적힌 분량 기준과 영양성분 기준치 비율은 서로 다른 정보이니 따로 읽으면 됩니다. 특정 제품이 궁금하면 그 제품의 영양정보와 표시 섭취방법을 직접 확인해야 해요.",
+    "citationIds": [
+      "label-guide:amount-and-basis",
+      "label-guide:daily-reference"
+    ],
+    "productIds": []
+  },
+  "chat": {
+    "elapsedSeconds": 8.83,
+    "mode": "ai",
+    "model": "gpt-5.4",
+    "toolTrace": [
+      {
+        "tool": "get_product_details",
+        "ok": true
+      },
+      {
+        "tool": "search_evidence",
+        "ok": true
+      }
+    ],
+    "citationIds": [
+      "600000128:function",
+      "600000128:cautions",
+      "600000128:allergen_or_cross_contact",
+      "600000128:intake",
+      "600000128:storage",
+      "knowledge:consult"
+    ]
+  }
+}

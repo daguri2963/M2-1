@@ -44,4 +44,4 @@ def public_survey(survey):
     return {'interests':survey.interests,'budget':survey.budget,'form':survey.form}
 
 def public_recommendation(data):
-    return {k:data[k] for k in ('status','message','products','reasons','evidence','policyVersion') if k in data}
+    return {k:data[k] for k in ('status','message','products','reasons','evidence','policyVersion','purposeMatches','missingInterests') if k in data}

@@ -55,7 +55,7 @@ def evidence(query='',product_ids=None,limit=8):
     if guides and not product_ids:return guides[:limit]
     terms=list(dict.fromkeys(re.findall(r'[가-힣A-Za-z0-9]{2,}',query)))[:8]
     # User phrasing expands into label vocabulary; it never invents a health claim.
-    synonyms={'활력':['에너지'],'뼈':['칼슘','뼈'],'근육':['근육'],'장':['배변','유익균'],'눈':['시각','눈'],'중복':['영양'],'섭취':['섭취'],'주의':['주의']}
+    synonyms={'활력':['에너지'],'뼈':['칼슘','뼈'],'근육':['근육'],'장':['배변','유익균'],'눈':['시각','눈'],'혈당':['바나바','코로솔산'],'다이어트':['체지방'],'중복':['영양'],'섭취':['섭취'],'주의':['주의']}
     for word,values in synonyms.items():
         if word in query:terms.extend(values)
     field_map={'function':('기능정보','function'),'nutrition':('영양정보','nutrition'),'intake':('표시 섭취방법','intake'),'cautions':('주의사항','cautions'),'allergen_or_cross_contact':('알레르기·교차오염','allergen_or_cross_contact'),'storage':('표시 보관방법','storage')}

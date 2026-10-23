@@ -1,5 +1,7 @@
 # 백엔드 API와 데이터 흐름
 
+> canary 현재 계약: 코디세이 GPT 실제 연결 검증을 통과했다. 성공 모드는 `ai`, 동의에는 `provider=codyssey`가 필요하다. 추천 정책2026-10-23.2는 다섯 관심 분야와 `specialtyConfirmed`, 목적별 분류·포장 변형 정리·분야 부족 안내를 지원한다. 상세 입력·응답은 [추천 정책 v2](recommendation-policy-v2.md)를 따른다. 아래 Gemini 관련 실행·검증 설명은 기존 운영 버전의 기록이며 새 연결은 [코디세이 GPT 안내](codyssey-gpt.md)를 따른다.
+
 FastAPI + SQLite + Google GenAI SDK. 프런트는 기존 React·TypeScript·Vite를 유지한다. 상품을 정적 JSON에서 읽던 실행 경로를 HTTP 어댑터로 교체했다. JSON 파일은 오프라인 재현·형식 검사에 남으며 실제 제품 목록은 SQLite를 조회한다.
 
 ## 요청 경로
@@ -7,6 +9,7 @@ FastAPI + SQLite + Google GenAI SDK. 프런트는 기존 React·TypeScript·Vite
 | 요청 | 용도 | 동의 필요 |
 |---|---|---|
 | `GET /api/health` | 서버 준비·AI 설정 유무·동의/정책 버전 | 아니오 |
+| `POST /api/compare/explanation` | 두 제품의 AI 차이 해설·출처 (비교표와 독립) | 예 |
 | `GET /api/products` | 검수 완료 87개 조회 | 아니오 |
 | `GET /api/products/{id}` | 품번별 상세 조회, 보류·없는 품번 404 | 아니오 |
 | `POST /api/compare` | `productIds` 두 개의 표시 비교 | 아니오 |
@@ -78,3 +81,7 @@ Dockerfile은 백엔드와 검수 SQLite만 담고 실제 `.env`·원본 이미�
 ## 일반 영양 상담 확장
 
 영양제 AI 상담가가 공식 영양 지식35항목과 표시 안내를 질의별로 검색한다. `search_nutrition_knowledge` 도구를 추가했고 지식 출처는 `kind=knowledge`, 상품 식별자는 null이다. 일반 질문과 개인별 판단을 구별하고 과거의 제한된 질문 때문에 다음 일반 질문이 차단되지 않도록 문맥을 필터링한다. 동의 버전은 `2026-10-21.2`이며 추천 정책 버전은 유지한다. [구현·자료 범위·최신 평가](ai-counselor.md)를 참고한다.
+
+## 두 제품 AI 해설
+
+기존 공개 비교표와 별도로 동의 후 `/api/compare/explanation`을 호출한다. 설문·대화는 전송하지 않으며 서버가 만든 비교 사실과 출처로 GPT가 설명한다. 실패해도 비교표는 유지한다. API·캐시·검증·예외의 상세는 [비교 해설 설계](comparison-explanation.md)를 따른다.

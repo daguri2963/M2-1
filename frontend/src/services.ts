@@ -5,12 +5,15 @@ export type {Connection} from './connection';
 export type Product=typeof productData[number];
 export type Citation={id:string;productId:string|null;title:string;text:string;url:string;productUrl:string|null;observedAt:string;kind?:'label_guide'|'knowledge'};
 export type ChatReply={text:string;mode:string;citations:Citation[];productIds:string[]};
+export type ComparisonFact={id:string;title:string;values:string[];different:boolean;citationIds:string[];notice?:string;comparable?:boolean;direction?:string|null};
+export type ComparisonExplanation={mode:'ai';productIds:string[];products:{id:string;label:string;name:string}[];summary:{text:string;factIds:string[]};highlights:{factId:string;text:string;fact:ComparisonFact}[];selectionGuide:{text:string;factIds:string[]};citations:Citation[];notice:string;cached:boolean;version:string};
 export type Overlap={status:string;duplicates:{name:string;items:{productId:string;productName:string;amount:string;operator:string;unit:string;basis:string|null}[];dailyTotal:{amount:string;unit:string}|null;totalStatus:string}[];notice?:string};
-export type Recommendation={status:'ok'|'empty'|'insufficient'|'restricted';message:string;nextStep?:number;policyVersion:string;products:Product[];reasons:Record<string,string[]>;evidence:Citation[];notices:string[];overlap:Overlap;ai:Partial<ChatReply>&{message?:string;code?:string}};
+export type Recommendation={status:'ok'|'empty'|'insufficient'|'restricted';message:string;nextStep?:number;policyVersion:string;products:Product[];reasons:Record<string,string[]>;evidence:Citation[];notices:string[];missingInterests?:string[];relatedProducts?:Product[];guidance?:{goal:string;description:string}[];overlap:Overlap;ai:Partial<ChatReply>&{message?:string;code?:string}};
 const local=window.location.hostname==='127.0.0.1'||window.location.hostname==='localhost';
 const base=(import.meta.env.VITE_API_BASE_URL||(local?`http://${window.location.hostname}:8000`:'')).replace(/\/$/,'');
 let token:string|undefined;
-let consentVersion='2026-10-21.1';
+let consentVersion='2026-10-23.copa.1';
+let aiProvider:string|undefined;
 let healthPromise:Promise<void>|undefined;
 let connection:Connection='checking';
 let healthCheckedAt=0;
@@ -24,8 +27,8 @@ export async function waitForServer(){
  healthPromise=(async()=>{
   try{const health=await waitUntilReady({onState:setConnection,probe:async()=>{
    const controller=new AbortController();const timeout=setTimeout(()=>controller.abort(),5000);
-   try{const r=await fetch(base+'/api/health',{signal:controller.signal,cache:'no-store'});if(!r.ok)throw new Error('not ready');return await r.json() as {ready:boolean;consentVersion:string};}finally{clearTimeout(timeout);}
-  }});consentVersion=health.consentVersion;healthCheckedAt=Date.now();}catch{throw new APIError('SERVER_UNAVAILABLE','서버 연결이 지연되고 있어요. 잠시 후 다시 시도해 주세요.');}
+   try{const r=await fetch(base+'/api/health',{signal:controller.signal,cache:'no-store'});if(!r.ok)throw new Error('not ready');return await r.json() as {ready:boolean;consentVersion:string;aiProvider?:string};}finally{clearTimeout(timeout);}
+  }});consentVersion=health.consentVersion;aiProvider=health.aiProvider;healthCheckedAt=Date.now();}catch{throw new APIError('SERVER_UNAVAILABLE','서버 연결이 지연되고 있어요. 잠시 후 다시 시도해 주세요.');}
  })().finally(()=>{healthPromise=undefined;});
  return healthPromise;
 }
@@ -53,10 +56,11 @@ export let featured:Product[]=[];
 export const getProduct=(id:string)=>products.find(p=>p.id===id);
 export async function loadProducts(signal?:AbortSignal){const data=await request<{products:Product[]}>('/api/products',undefined,{signal});products=data.products;featured=featuredIds.map(id=>getProduct(id)!).filter(Boolean);return products;}
 export const api={
- async consent(){const data=await request<{token:string}>('/api/sessions',{adultConfirmed:true,privacyAccepted:true,aiAccepted:true,version:consentVersion});token=data.token;},
+ async consent(){await waitForServer();if(aiProvider!=='codyssey')throw new APIError('AI_PROVIDER_MISMATCH','AI 연결 업데이트 중이에요. 잠시 후 새로고침해 주세요.');const data=await request<{token:string}>('/api/sessions',{provider:'codyssey',adultConfirmed:true,privacyAccepted:true,aiAccepted:true,version:consentVersion});token=data.token;},
  async clearSession(){try{if(token)await request('/api/sessions/current',undefined,{personal:true,method:'DELETE'});}finally{token=undefined;}},
  detail(id:string,signal?:AbortSignal){return request<Product>('/api/products/'+encodeURIComponent(id),undefined,{signal});},
  compare(productIds:string[],signal?:AbortSignal){return request<{rows:{label:string;values:string[]}[];notice:string}>('/api/compare',{productIds},{signal});},
+ compareExplanation(productIds:string[],signal?:AbortSignal){return request<ComparisonExplanation>('/api/compare/explanation',{productIds},{personal:true,signal});},
  recommend(survey:Survey,signal?:AbortSignal){return request<Recommendation>('/api/recommendations',survey,{personal:true,signal});},
  reply(question:string,context:{productId?:string;survey?:Survey;history:{role:'user'|'assistant';text:string}[]},signal?:AbortSignal){return request<ChatReply>('/api/chat',{question,...context},{personal:true,signal});}
 };
