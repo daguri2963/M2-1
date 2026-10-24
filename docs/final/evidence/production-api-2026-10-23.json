@@ -1,0 +1,82 @@
+{
+  "passed": true,
+  "checkedAt": "2026-10-23T11:16:46.961164+00:00",
+  "baseUrl": "https://m2-1-api.onrender.com",
+  "data": "synthetic general-adult choices and public product labels only",
+  "publicProducts": 87,
+  "checks": [
+    "health",
+    "consent",
+    "review_gate",
+    "recommendation_with_live_ai",
+    "comparison",
+    "overlap",
+    "restricted",
+    "insufficient",
+    "label_reading_without_product",
+    "chat_with_live_ai",
+    "withdrawal"
+  ],
+  "recommendation": {
+    "elapsedSeconds": 21.74,
+    "productIds": [
+      "034345002",
+      "600651647",
+      "591580521"
+    ],
+    "mode": "ai",
+    "model": "gpt-5.4",
+    "toolTrace": [
+      {
+        "tool": "search_evidence",
+        "ok": true
+      },
+      {
+        "tool": "compare_products",
+        "ok": false
+      }
+    ],
+    "citationIds": [
+      "034345002:function",
+      "600651647:function",
+      "591580521:function",
+      "600651647:cautions",
+      "034345002:cautions",
+      "034345002:intake",
+      "591580521:intake"
+    ]
+  },
+  "labelReading": {
+    "elapsedSeconds": 7.91,
+    "mode": "ai",
+    "text": "차이는 이렇게 보시면 됩니다.\n\n함량은 그 제품에 들어 있는 성분의 실제 양이고, 기준량은 그 함량을 어떤 분량을 기준으로 적었는지 보는 기준입니다. 쉽게 말해 함량은 “얼마나 들었는지”, 기준량은 “어느 만큼을 기준으로 쓴 값인지”입니다.\n\n또 비슷한 말로 영양성분 기준치가 있는데, 이건 제품 안의 실제 들어 있는 양을 뜻하는 게 아니라 표시를 이해하고 제품끼리 비교하려고 만든 평균적인 하루 기준입니다. 그래서 함량의 기준량과 영양성분 기준치는 서로 다른 개념입니다.\n\n정리하면,\n함량: 성분의 양\n기준량: 그 성분의 양을 읽는 분량 기준\n영양성분 기준치: 표시 해석과 비교를 위한 하루 기준\n\n제품을 볼 때는 먼저 “이 함량이 어느 분량 기준인지”를 보고, 그다음 필요하면 “영양성분 기준치 대비 어느 정도인지”를 따로 보면 헷갈림이 줄어듭니다. 지금 답변은 일반적인 표시 읽기 설명이고, 특정 제품의 실제 기준은 그 제품의 영양정보와 섭취방법 표시에서 확인해야 합니다.",
+    "citationIds": [
+      "label-guide:amount-and-basis",
+      "label-guide:daily-reference"
+    ],
+    "productIds": []
+  },
+  "chat": {
+    "elapsedSeconds": 12.52,
+    "mode": "ai",
+    "model": "gpt-5.4",
+    "toolTrace": [
+      {
+        "tool": "get_product_details",
+        "ok": true
+      },
+      {
+        "tool": "search_evidence",
+        "ok": true
+      }
+    ],
+    "citationIds": [
+      "600000128:function",
+      "600000128:cautions",
+      "600000128:allergen_or_cross_contact",
+      "label-guide:amount-and-basis",
+      "label-guide:daily-reference",
+      "knowledge:consult"
+    ]
+  }
+}

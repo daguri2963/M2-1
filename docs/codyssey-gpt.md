@@ -1,3 +1,5 @@
+> **과거 단계 기록 보존 / 2026-10-24:** 이 문서에는 당시 Gemini·main·canary 또는 이전 정책 설명이 포함될 수 있습니다. 현재 운영은 production의 COPA GPT-5.4입니다. 최종 제출 기준은 [최종 문서 목차](final/README.md), [현재 구조](final/architecture.md), [AI 설계](final/ai-design.md), [현재 검증](final/test-results.md)을 확인하세요. 아래 날짜·이전 실행 결과는 원래 이력으로 보존합니다.
+
 # 코디세이 GPT 연결 (canary)
 
 현재 canary는 Gemini 전용 호출을 코디세이의 OpenAI 호환 Chat Completions로 전환했다. **2026-10-23 실제 가상 키로 소규모 호환 검증과 canary 로컬 통합 검사를 통과했다.** 검증 후 dev PR로 통합하며 production 전환·Render 환경변수 등록은 별도 단계다. 운영 서버는 기존 Gemini 버전을 유지한다.

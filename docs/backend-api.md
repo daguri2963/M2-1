@@ -1,3 +1,5 @@
+> **과거 단계 기록 보존 / 2026-10-24:** 이 문서에는 당시 Gemini·main·canary 또는 이전 정책 설명이 포함될 수 있습니다. 현재 운영은 production의 COPA GPT-5.4입니다. 최종 제출 기준은 [최종 문서 목차](final/README.md), [현재 구조](final/architecture.md), [AI 설계](final/ai-design.md), [현재 검증](final/test-results.md)을 확인하세요. 아래 날짜·이전 실행 결과는 원래 이력으로 보존합니다.
+
 # 백엔드 API와 데이터 흐름
 
 > canary 현재 계약: 코디세이 GPT 실제 연결 검증을 통과했다. 성공 모드는 `ai`, 동의에는 `provider=codyssey`가 필요하다. 추천 정책2026-10-23.2는 다섯 관심 분야와 `specialtyConfirmed`, 목적별 분류·포장 변형 정리·분야 부족 안내를 지원한다. 상세 입력·응답은 [추천 정책 v2](recommendation-policy-v2.md)를 따른다. 아래 Gemini 관련 실행·검증 설명은 기존 운영 버전의 기록이며 새 연결은 [코디세이 GPT 안내](codyssey-gpt.md)를 따른다.

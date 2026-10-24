@@ -1,3 +1,5 @@
+> **과거 단계 기록 보존 / 2026-10-24:** 이 문서에는 당시 Gemini·main·canary 또는 이전 정책 설명이 포함될 수 있습니다. 현재 운영은 production의 COPA GPT-5.4입니다. 최종 제출 기준은 [최종 문서 목차](final/README.md), [현재 구조](final/architecture.md), [AI 설계](final/ai-design.md), [현재 검증](final/test-results.md)을 확인하세요. 아래 날짜·이전 실행 결과는 원래 이력으로 보존합니다.
+
 # 버전 관리 범위
 
 2026-10-20. 현재 코드·문서·검수 데이터를 기존 비공개 GitHub 저장소 `sayknow/M2-1`의 `main`에 저장한다. 공개 배포나 저장소 공개 범위 변경은 하지 않는다.
