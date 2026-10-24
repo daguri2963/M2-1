@@ -1,0 +1,348 @@
+{
+  "passed": true,
+  "checkedAt": "2026-10-23T11:20:54.909080+00:00",
+  "commit": "0bc17dca34f3ec6479549248798e76bfcb962064",
+  "pullRequest": "https://github.com/sayknow/M2-1/pull/6",
+  "homepage": "https://vitastep-guide.onrender.com/",
+  "backend": "https://m2-1-api.onrender.com",
+  "render": {
+    "frontend": {
+      "service": "srv-dbcsntavcj2c73fofdpg",
+      "deploy": "dep-dbdht70u01pc73cn90jg",
+      "status": "live"
+    },
+    "backend": {
+      "service": "srv-dbc2hefavr4c73ekh06g",
+      "deploy": "dep-dbdk39i9lscs73c1oce0",
+      "status": "live"
+    }
+  },
+  "productionCI": {
+    "runId": 39926789312,
+    "conclusion": "success",
+    "requiredChecks": 4
+  },
+  "health": {
+    "aiConfigured": true,
+    "aiProvider": "codyssey",
+    "aiModel": "gpt-5.4"
+  },
+  "apiChecks": {
+    "passed": true,
+    "checkedAt": "2026-10-23T11:16:46.961164+00:00",
+    "baseUrl": "https://m2-1-api.onrender.com",
+    "data": "synthetic general-adult choices and public product labels only",
+    "publicProducts": 87,
+    "checks": [
+      "health",
+      "consent",
+      "review_gate",
+      "recommendation_with_live_ai",
+      "comparison",
+      "overlap",
+      "restricted",
+      "insufficient",
+      "label_reading_without_product",
+      "chat_with_live_ai",
+      "withdrawal"
+    ],
+    "recommendation": {
+      "elapsedSeconds": 21.74,
+      "productIds": [
+        "034345002",
+        "600651647",
+        "591580521"
+      ],
+      "mode": "ai",
+      "model": "gpt-5.4",
+      "toolTrace": [
+        {
+          "tool": "search_evidence",
+          "ok": true
+        },
+        {
+          "tool": "compare_products",
+          "ok": false
+        }
+      ],
+      "citationIds": [
+        "034345002:function",
+        "600651647:function",
+        "591580521:function",
+        "600651647:cautions",
+        "034345002:cautions",
+        "034345002:intake",
+        "591580521:intake"
+      ]
+    },
+    "labelReading": {
+      "elapsedSeconds": 7.91,
+      "mode": "ai",
+      "text": "차이는 이렇게 보시면 됩니다.\n\n함량은 그 제품에 들어 있는 성분의 실제 양이고, 기준량은 그 함량을 어떤 분량을 기준으로 적었는지 보는 기준입니다. 쉽게 말해 함량은 “얼마나 들었는지”, 기준량은 “어느 만큼을 기준으로 쓴 값인지”입니다.\n\n또 비슷한 말로 영양성분 기준치가 있는데, 이건 제품 안의 실제 들어 있는 양을 뜻하는 게 아니라 표시를 이해하고 제품끼리 비교하려고 만든 평균적인 하루 기준입니다. 그래서 함량의 기준량과 영양성분 기준치는 서로 다른 개념입니다.\n\n정리하면,\n함량: 성분의 양\n기준량: 그 성분의 양을 읽는 분량 기준\n영양성분 기준치: 표시 해석과 비교를 위한 하루 기준\n\n제품을 볼 때는 먼저 “이 함량이 어느 분량 기준인지”를 보고, 그다음 필요하면 “영양성분 기준치 대비 어느 정도인지”를 따로 보면 헷갈림이 줄어듭니다. 지금 답변은 일반적인 표시 읽기 설명이고, 특정 제품의 실제 기준은 그 제품의 영양정보와 섭취방법 표시에서 확인해야 합니다.",
+      "citationIds": [
+        "label-guide:amount-and-basis",
+        "label-guide:daily-reference"
+      ],
+      "productIds": []
+    },
+    "chat": {
+      "elapsedSeconds": 12.52,
+      "mode": "ai",
+      "model": "gpt-5.4",
+      "toolTrace": [
+        {
+          "tool": "get_product_details",
+          "ok": true
+        },
+        {
+          "tool": "search_evidence",
+          "ok": true
+        }
+      ],
+      "citationIds": [
+        "600000128:function",
+        "600000128:cautions",
+        "600000128:allergen_or_cross_contact",
+        "label-guide:amount-and-basis",
+        "label-guide:daily-reference",
+        "knowledge:consult"
+      ]
+    }
+  },
+  "recommendationAndComparisonChecks": {
+    "passed": true,
+    "checkedAt": "2026-10-23T11:18:06.253905+00:00",
+    "commit": "0bc17dca34f3ec6479549248798e76bfcb962064",
+    "baseUrl": "https://m2-1-api.onrender.com",
+    "data": "Synthetic general-adult survey and public product labels only",
+    "checks": [
+      {
+        "case": "vitality",
+        "elapsedSeconds": 13.99,
+        "productIds": [
+          "600000129",
+          "601678603",
+          "613602132"
+        ],
+        "mode": "ai",
+        "citationIds": [
+          "600000129:function",
+          "601678603:function",
+          "613602132:function"
+        ]
+      },
+      {
+        "case": "removed_interest",
+        "interest": "눈 건강",
+        "status": 422
+      },
+      {
+        "case": "removed_interest",
+        "interest": "잘 모르겠어요",
+        "status": 422
+      },
+      {
+        "case": "specialty_scope",
+        "passed": true
+      },
+      {
+        "case": "ai_comparison",
+        "elapsedSeconds": 5.71,
+        "result": {
+          "mode": "ai",
+          "provider": "codyssey",
+          "model": "gpt-5.4",
+          "version": "2026-10-23.compare.2",
+          "productIds": [
+            "600000129",
+            "600000128"
+          ],
+          "products": [
+            {
+              "id": "600000129",
+              "label": "A",
+              "name": "비타민B"
+            },
+            {
+              "id": "600000128",
+              "label": "B",
+              "name": "마그네슘"
+            }
+          ],
+          "summary": {
+            "text": "제품 A와 제품 B의 가장 큰 차이는 표시된 기능과 주요 표시 성분입니다. 제품 A는 비타민B1·비타민B2·비타민B6·비타민B12를 포함한 비타민B군 중심이고, 제품 B는 마그네슘과 비타민D 중심입니다.",
+            "factIds": [
+              "function",
+              "composition"
+            ]
+          },
+          "selectionGuide": {
+            "text": "고를 때는 먼저 표시된 주요 성분과 기능이 무엇인지 확인하고, 그다음 제형과 표시 섭취방법이 같은지, 마지막으로 포장·규격과 관찰 가격이 어떻게 적혀 있는지 구분해서 보면 됩니다. 이 비교에서는 두 제품 모두 건강기능식품, 정제, 표시 섭취방법이 같고 관찰 가격도 같습니다.",
+            "factIds": [
+              "composition",
+              "function",
+              "form",
+              "intake",
+              "package",
+              "price",
+              "type"
+            ]
+          },
+          "highlights": [
+            {
+              "factId": "composition",
+              "text": "제품 A는 비타민B1·비타민B2·비타민B6·나이아신·판토텐산·엽산·비오틴·비타민B12가 표시되어 있고, 제품 B는 마그네슘·비타민D가 표시되어 있어 성분 구성이 다릅니다.",
+              "fact": {
+                "id": "composition",
+                "title": "주요 표시 성분",
+                "values": [
+                  "비타민B1 · 비타민B2 · 비타민B6 · 나이아신 · 판토텐산 · 엽산 · 비오틴 · 비타민B12",
+                  "마그네슘 · 비타민D"
+                ],
+                "different": true,
+                "citationIds": [
+                  "600000129:nutrition",
+                  "600000128:nutrition"
+                ],
+                "notice": "여기에 없는 성분도 미함유나 0이라고 판단할 수 없어요."
+              }
+            },
+            {
+              "factId": "function",
+              "text": "제품 A는 에너지 대사와 비타민B군 관련 기능이 중심이고, 제품 B는 에너지 이용, 신경·근육 기능 유지, 비타민D 관련 기능이 중심입니다.",
+              "fact": {
+                "id": "function",
+                "title": "표시된 기능",
+                "values": [
+                  "[비타민B1] 탄수화물과 에너지 대사에 필요 [비타민B2] 체내 에너지 생성에 필요. [비타민B6] 단백질 및 아미노산 이용에 필요. 혈액의 호모시스테인 수준을 정상으로 유지하는데 필요 [비타민B12] 정상적인 엽산 대사에 필요. [나이아신] 체내 에너지 생성에 필요. [엽산] 세포와 혈액생성에 필요. 태아 신경관의 정상 발달에 필요. 혈액의 호모시스테인 수준을 정상으로 유지하는데 필요. [비오틴·판토텐산] 지방, 탄수화물, 단백질 대사와 에너지 생성에 필요",
+                  "[마그네슘] 에너지 이용에 필요. 신경과 근육 기능 유지에 필요 [비타민D] 칼슘과 인이 흡수되고 이용되는데 필요. 뼈의 형성과 유지에 필요. 골다공증 발생 위험 감소에 도움을 줌"
+                ],
+                "different": true,
+                "citationIds": [
+                  "600000129:function",
+                  "600000128:function"
+                ]
+              }
+            },
+            {
+              "factId": "package",
+              "text": "포장·규격 표시는 서로 다릅니다. 다만 이 차이만으로 조성이나 효과 차이로 해석할 수는 없습니다.",
+              "fact": {
+                "id": "package",
+                "title": "포장·규격",
+                "values": [
+                  "15 g (500 mg × 30정)",
+                  "30 g (1,000 mg × 30정)"
+                ],
+                "different": true,
+                "citationIds": [
+                  "600000129:catalog",
+                  "600000128:catalog"
+                ],
+                "notice": "규격 차이가 조성·효과의 차이나 하루 비용을 뜻하지는 않아요."
+              }
+            }
+          ],
+          "citations": [
+            {
+              "id": "600000129:function",
+              "productId": "600000129",
+              "title": "대웅제약 비타민B 30정 30일분 · 기능정보",
+              "text": "[비타민B1] 탄수화물과 에너지 대사에 필요 [비타민B2] 체내 에너지 생성에 필요. [비타민B6] 단백질 및 아미노산 이용에 필요. 혈액의 호모시스테인 수준을 정상으로 유지하는데 필요 [비타민B12] 정상적인 엽산 대사에 필요. [나이아신] 체내 에너지 생성에 필요. [엽산] 세포와 혈액생성에 필요. 태아 신경관의 정상 발달에 필요. 혈액의 호모시스테인 수준을 정상으로 유지하는데 필요. [비오틴·판토텐산] 지방, 탄수화물, 단백질 대사와 에너지 생성에 필요",
+              "url": "https://cdn.daisomall.co.kr/file/resize/PD/20250618/description/850/yBgTkLj4OyldMqVRzspW600000129_01_00yBgTkLj4OyldMqVRzspW.png",
+              "productUrl": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=600000129",
+              "observedAt": "2026-10-19"
+            },
+            {
+              "id": "600000128:function",
+              "productId": "600000128",
+              "title": "대웅제약 마그네슘 30정 30일분 · 기능정보",
+              "text": "[마그네슘] 에너지 이용에 필요. 신경과 근육 기능 유지에 필요 [비타민D] 칼슘과 인이 흡수되고 이용되는데 필요. 뼈의 형성과 유지에 필요. 골다공증 발생 위험 감소에 도움을 줌",
+              "url": "https://cdn.daisomall.co.kr/file/resize/PD/20260821/description/850/kRqZjQlUk8iA6h6u0OAT600000128_01_00kRqZjQlUk8iA6h6u0OAT.png",
+              "productUrl": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=600000128",
+              "observedAt": "2026-10-19"
+            },
+            {
+              "id": "600000129:nutrition",
+              "productId": "600000129",
+              "title": "대웅제약 비타민B 30정 30일분 · 영양정보",
+              "text": "열량 0 kcal\n탄수화물 0 g\n단백질 0 g\n지방 0 g\n나트륨 0 mg\n비타민B1 1.2 mg\n비타민B2 1.4 mg\n비타민B6 1.5 mg\n나이아신 15 mg NE\n판토텐산 5 mg\n엽산 400 μg DFE\n비오틴 30 μg\n비타민B12 2.4 μg",
+              "url": "https://cdn.daisomall.co.kr/file/resize/PD/20250618/description/850/yBgTkLj4OyldMqVRzspW600000129_01_00yBgTkLj4OyldMqVRzspW.png",
+              "productUrl": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=600000129",
+              "observedAt": "2026-10-19"
+            },
+            {
+              "id": "600000128:nutrition",
+              "productId": "600000128",
+              "title": "대웅제약 마그네슘 30정 30일분 · 영양정보",
+              "text": "열량 0 kcal\n탄수화물 0 g\n단백질 0 g\n지방 0 g\n나트륨 0 mg\n마그네슘 315 mg\n비타민D 10 μg",
+              "url": "https://cdn.daisomall.co.kr/file/resize/PD/20260821/description/850/kRqZjQlUk8iA6h6u0OAT600000128_01_00kRqZjQlUk8iA6h6u0OAT.png",
+              "productUrl": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=600000128",
+              "observedAt": "2026-10-19"
+            },
+            {
+              "id": "600000129:catalog",
+              "productId": "600000129",
+              "title": "비타민B · 공식 상품 정보",
+              "text": "식품유형: 건강기능식품 / 규격: 15 g (500 mg × 30정) / 제형: 정제 / 관찰 가격: 3000원 (확인 2026-10-19)",
+              "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=600000129",
+              "productUrl": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=600000129",
+              "observedAt": "2026-10-19"
+            },
+            {
+              "id": "600000128:catalog",
+              "productId": "600000128",
+              "title": "마그네슘 · 공식 상품 정보",
+              "text": "식품유형: 건강기능식품 / 규격: 30 g (1,000 mg × 30정) / 제형: 정제 / 관찰 가격: 3000원 (확인 2026-10-19)",
+              "url": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=600000128",
+              "productUrl": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=600000128",
+              "observedAt": "2026-10-19"
+            },
+            {
+              "id": "600000129:intake",
+              "productId": "600000129",
+              "title": "대웅제약 비타민B 30정 30일분 · 표시 섭취방법",
+              "text": "1일 1회, 1회 1정을 충분한 물과 함께 섭취하십시오.",
+              "url": "https://cdn.daisomall.co.kr/file/resize/PD/20250618/description/850/yBgTkLj4OyldMqVRzspW600000129_01_00yBgTkLj4OyldMqVRzspW.png",
+              "productUrl": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=600000129",
+              "observedAt": "2026-10-19"
+            },
+            {
+              "id": "600000128:intake",
+              "productId": "600000128",
+              "title": "대웅제약 마그네슘 30정 30일분 · 표시 섭취방법",
+              "text": "1일 1회, 1회 1정을 충분한 물과 함께 섭취하십시오.",
+              "url": "https://cdn.daisomall.co.kr/file/resize/PD/20260821/description/850/kRqZjQlUk8iA6h6u0OAT600000128_01_00kRqZjQlUk8iA6h6u0OAT.png",
+              "productUrl": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=600000128",
+              "observedAt": "2026-10-19"
+            }
+          ],
+          "notice": "AI 생성 해설이며 오류가 있을 수 있어요. 개인별 적합성·효과·병용 가능 여부를 판단하지 않아요.",
+          "cached": false
+        }
+      },
+      {
+        "case": "comparison_cache",
+        "elapsedSeconds": 2.54,
+        "cached": true
+      },
+      {
+        "case": "withdrawal",
+        "passed": true
+      }
+    ]
+  },
+  "browserChecks": [
+    "production consent",
+    "five supported interests",
+    "two-product selection",
+    "live AI comparison",
+    "expand exact label facts",
+    "expand both product sources"
+  ],
+  "screenshots": [
+    "/tmp/m2-1-production-five-interests.jpg",
+    "/tmp/m2-1-production-comparison-ai.jpg"
+  ],
+  "note": "Synthetic adult choices and public product data only. No API key or session token recorded. Single-run checks are not load or clinical validation."
+}

@@ -1,0 +1,35 @@
+{
+  "checkedAt": "2026-10-24",
+  "operator": "developer QA; command results transcribed from tool output",
+  "baselineCommit": "0bc17dca34f3ec6479549248798e76bfcb962064",
+  "checks": [
+    {
+      "command": ".venv/bin/python -m pytest -q",
+      "passed": true,
+      "tests": 159,
+      "seconds": 9.05,
+      "warnings": 1
+    },
+    {
+      "command": "npm test (frontend)",
+      "passed": true,
+      "tests": 15
+    },
+    {
+      "command": "npm run build (frontend)",
+      "passed": true
+    },
+    {
+      "command": "python3 scripts/validate_product_database.py",
+      "passed": true,
+      "checks": 14587
+    },
+    {
+      "command": "python3 scripts/validate_product_thumbnails.py",
+      "passed": true,
+      "available": 88,
+      "public": 87,
+      "unique": 88
+    }
+  ]
+}

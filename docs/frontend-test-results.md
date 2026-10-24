@@ -1,3 +1,5 @@
+> **과거 단계 기록 보존 / 2026-10-24:** 이 문서에는 당시 Gemini·main·canary 또는 이전 정책 설명이 포함될 수 있습니다. 현재 운영은 production의 COPA GPT-5.4입니다. 최종 제출 기준은 [최종 문서 목차](final/README.md), [현재 구조](final/architecture.md), [AI 설계](final/ai-design.md), [현재 검증](final/test-results.md)을 확인하세요. 아래 날짜·이전 실행 결과는 원래 이력으로 보존합니다.
+
 # 프런트엔드 검증 기록
 
 2026-10-20 (Asia/Seoul). React·TypeScript·Vite의 로컬 프런트엔드만 검증했다. 실제 추천·Gemini·서버 연동에 대한 통과 결과가 아니다.

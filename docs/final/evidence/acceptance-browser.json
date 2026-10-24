@@ -1,0 +1,84 @@
+{
+  "checkedAt": "2026-10-24T01:08:03.938Z",
+  "baseUrl": "https://vitastep-guide.onrender.com/",
+  "operator": "developer synthetic browser QA; not user feedback",
+  "scope": "M01 consent and withdrawal; M02 required fields, selection persistence and five survey steps",
+  "trials": [
+    {
+      "attempt": 1,
+      "M01": true,
+      "M02": true,
+      "checks": [
+        "missing consent blocked",
+        "all three notices accepted",
+        "missing interest blocked",
+        "selection retained after back",
+        "five survey steps reached",
+        "withdrawal clears session UI"
+      ],
+      "trace": [
+        "Browser tab: 28, Title: \"영양제 첫걸음 · 쉽게 고르고 비교하기\", URL: \"https://vitastep-guide.onrender.com/#/survey/1\".",
+        "Browser tab: 28, Title: \"영양제 첫걸음 · 쉽게 고르고 비교하기\", URL: \"https://vitastep-guide.onrender.com/#/survey/1\".",
+        "Browser tab: 28, Title: \"영양제 첫걸음 · 쉽게 고르고 비교하기\", URL: \"https://vitastep-guide.onrender.com/#/survey/1\".",
+        "Browser tab: 28, Title: \"영양제 첫걸음 · 쉽게 고르고 비교하기\", URL: \"https://vitastep-guide.onrender.com/#/survey/2\".",
+        "Browser tab: 28, Title: \"영양제 첫걸음 · 쉽게 고르고 비교하기\", URL: \"https://vitastep-guide.onrender.com/#/survey/1\".",
+        "Browser tab: 28, Title: \"영양제 첫걸음 · 쉽게 고르고 비교하기\", URL: \"https://vitastep-guide.onrender.com/#/survey/2\".",
+        "Browser tab: 28, Title: \"영양제 첫걸음 · 쉽게 고르고 비교하기\", URL: \"https://vitastep-guide.onrender.com/#/survey/3\".",
+        "Browser tab: 28, Title: \"영양제 첫걸음 · 쉽게 고르고 비교하기\", URL: \"https://vitastep-guide.onrender.com/#/survey/4\".",
+        "Browser tab: 28, Title: \"영양제 첫걸음 · 쉽게 고르고 비교하기\", URL: \"https://vitastep-guide.onrender.com/#/survey/5\".",
+        "Browser tab: 28, Title: \"영양제 첫걸음 · 쉽게 고르고 비교하기\", URL: \"https://vitastep-guide.onrender.com/#/\"."
+      ]
+    },
+    {
+      "attempt": 2,
+      "M01": true,
+      "M02": true,
+      "checks": [
+        "missing consent blocked",
+        "all three notices accepted",
+        "missing interest blocked",
+        "selection retained after back",
+        "five survey steps reached",
+        "withdrawal clears session UI"
+      ],
+      "trace": [
+        "Browser tab: 28, Title: \"영양제 첫걸음 · 쉽게 고르고 비교하기\", URL: \"https://vitastep-guide.onrender.com/#/survey/1\".",
+        "Browser tab: 28, Title: \"영양제 첫걸음 · 쉽게 고르고 비교하기\", URL: \"https://vitastep-guide.onrender.com/#/survey/1\".",
+        "Browser tab: 28, Title: \"영양제 첫걸음 · 쉽게 고르고 비교하기\", URL: \"https://vitastep-guide.onrender.com/#/survey/1\".",
+        "Browser tab: 28, Title: \"영양제 첫걸음 · 쉽게 고르고 비교하기\", URL: \"https://vitastep-guide.onrender.com/#/survey/2\".",
+        "Browser tab: 28, Title: \"영양제 첫걸음 · 쉽게 고르고 비교하기\", URL: \"https://vitastep-guide.onrender.com/#/survey/1\".",
+        "Browser tab: 28, Title: \"영양제 첫걸음 · 쉽게 고르고 비교하기\", URL: \"https://vitastep-guide.onrender.com/#/survey/2\".",
+        "Browser tab: 28, Title: \"영양제 첫걸음 · 쉽게 고르고 비교하기\", URL: \"https://vitastep-guide.onrender.com/#/survey/3\".",
+        "Browser tab: 28, Title: \"영양제 첫걸음 · 쉽게 고르고 비교하기\", URL: \"https://vitastep-guide.onrender.com/#/survey/4\".",
+        "Browser tab: 28, Title: \"영양제 첫걸음 · 쉽게 고르고 비교하기\", URL: \"https://vitastep-guide.onrender.com/#/survey/5\".",
+        "Browser tab: 28, Title: \"영양제 첫걸음 · 쉽게 고르고 비교하기\", URL: \"https://vitastep-guide.onrender.com/#/\"."
+      ]
+    },
+    {
+      "attempt": 3,
+      "M01": true,
+      "M02": true,
+      "checks": [
+        "missing consent blocked",
+        "all three notices accepted",
+        "missing interest blocked",
+        "selection retained after back",
+        "five survey steps reached",
+        "withdrawal clears session UI"
+      ],
+      "trace": [
+        "Browser tab: 28, Title: \"영양제 첫걸음 · 쉽게 고르고 비교하기\", URL: \"https://vitastep-guide.onrender.com/#/survey/1\".",
+        "Browser tab: 28, Title: \"영양제 첫걸음 · 쉽게 고르고 비교하기\", URL: \"https://vitastep-guide.onrender.com/#/survey/1\".",
+        "Browser tab: 28, Title: \"영양제 첫걸음 · 쉽게 고르고 비교하기\", URL: \"https://vitastep-guide.onrender.com/#/survey/1\".",
+        "Browser tab: 28, Title: \"영양제 첫걸음 · 쉽게 고르고 비교하기\", URL: \"https://vitastep-guide.onrender.com/#/survey/2\".",
+        "Browser tab: 28, Title: \"영양제 첫걸음 · 쉽게 고르고 비교하기\", URL: \"https://vitastep-guide.onrender.com/#/survey/1\".",
+        "Browser tab: 28, Title: \"영양제 첫걸음 · 쉽게 고르고 비교하기\", URL: \"https://vitastep-guide.onrender.com/#/survey/2\".",
+        "Browser tab: 28, Title: \"영양제 첫걸음 · 쉽게 고르고 비교하기\", URL: \"https://vitastep-guide.onrender.com/#/survey/3\".",
+        "Browser tab: 28, Title: \"영양제 첫걸음 · 쉽게 고르고 비교하기\", URL: \"https://vitastep-guide.onrender.com/#/survey/4\".",
+        "Browser tab: 28, Title: \"영양제 첫걸음 · 쉽게 고르고 비교하기\", URL: \"https://vitastep-guide.onrender.com/#/survey/5\".",
+        "Browser tab: 28, Title: \"영양제 첫걸음 · 쉽게 고르고 비교하기\", URL: \"https://vitastep-guide.onrender.com/#/\"."
+      ]
+    }
+  ],
+  "passed": true
+}
