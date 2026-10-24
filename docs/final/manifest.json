@@ -69,7 +69,8 @@
     "docs/final/security-and-operations.md",
     "docs/final/team-contributions.md",
     "docs/final/test-results.md",
-    "docs/final/user-feedback.md"
+    "docs/final/user-feedback.md",
+    "docs/adult-intake-reference.md"
   ],
   "sourceSha256": {
     "backend/main.py": "a4a7366940a71e182897b4874719762e8874e68d9c5c55f661486ed053766946",
@@ -78,7 +79,7 @@
     "backend/repository.py": "f5e1e9793d7a2d0c469278f1a608209e6ec1d6d0bb34f6c3dc2f07ef0fbbf8e8",
     "backend/policy.py": "94d28ec1020de4fba0a9d266625cab8937fe88d08c60ae2796e0118556ef3a20",
     "backend/classification.py": "db31c66686dff7775aa49899fcd16100536fb15942c3e3129fecbdcc75557de3",
-    "backend/agent.py": "7d80ae117b78077470e7a34fafec39f8b73b8b068fee4fd4efc3eb3c3ca511d0",
+    "backend/agent.py": "dc8ce429fe428c16be3e97828280d96ae43836fef20fcb5d975a51d4c3a1924a",
     "backend/copa.py": "462fd9f68b08f4fcda42c55ab83d327b131946fd23214a60759c57bdaa239dec",
     "backend/comparison.py": "f978542f6c30574dca651eef52835c668cd816b90e9abf608048c7c611419530",
     "backend/privacy.py": "d7c8da09d373b107b8bcc72861caa584861fc321139963085d687fed8b6cd8b3",
@@ -88,12 +89,48 @@
     "backend/label-guides.json": "4f05d76c468184f884a7c401656d4fd0b1a9264d5c40a087de6cf9e79b269793",
     "data/recommendation/classification-v2.json": "7623483b41acf814d3d6877027494930374812bef034b4b111a5ca7b36f120cf",
     "data/products/products.sqlite3": "92063ab4a509df594331dd5b46097f8aa2c37bb5b324f9d88a08553e06a4499e",
-    "frontend/src/App.tsx": "9be72a38ee589e6721336e7ed7fd5716525138abe81f21700be699c749941f73",
-    "frontend/src/services.ts": "306af9e4daccaec3c68c2c710775440c3a869364ebf0c5498eb65398bfda8fc8",
+    "frontend/src/App.tsx": "21a9368dcde8a8e24836fce5e378d1e4c90814678fef995569ec9b3fd6d2ecd8",
+    "frontend/src/services.ts": "3eaba9a8e4c5286b43adb220796aa891a2a577de1b5d8bff79cd135645fef68d",
     "frontend/src/domain.ts": "f28615edfd5821e85288963b055433a2cfe172be58ec7138ed49e547c1490cdf",
     "frontend/src/CompareExplanation.tsx": "c8ba0cacabfdd29d00030dcc2237921d1969f33ee5c99f6d9665cfdd18d356da",
     "frontend/src/connection.ts": "dc0a5da3924541786cae4859272bac4ad58d808d5b7f8a0c977e510e222d4ea1",
     "Dockerfile": "5d6236684be7f19ff427557e8d3185fa1c703a00f0566a1eb7c988aaabe2a4de",
-    ".github/workflows/ci.yml": "e90e2fe234e99b361c4d6f99792cab914dfe7e659befe279118b2a84a855a11c"
+    ".github/workflows/ci.yml": "e90e2fe234e99b361c4d6f99792cab914dfe7e659befe279118b2a84a855a11c",
+    "frontend/src/data/product-chat-prompts.json": "6bf5a9df93497e3c22fe7b10e746b629d125cbf379efbd50e24846d507bd9fbe",
+    "frontend/src/styles.css": "6f0c07ba26d399df7a404f66faa0792adbcf29f87bedffb50268de1c029e2496",
+    "frontend/src/ChatNutritionSummary.tsx": "a238bfc18b24c3f098258529ee22f4e65380131e199f29551e9a98967fdd33d4",
+    "backend/product_summary.py": "a2dca6944d975fab2af0af8fa7a9ed346b123194a91e1f184b1c78dc0aa3e7ab",
+    "frontend/src/adult-intake.ts": "2dd7f3407ba92839dd38bf44fc2d4947ddefad796bb0177c1aec82bff50f3e96",
+    "frontend/src/data/adult-intake-references.json": "4a4f300a4f5c361fbf9e3acf8916935524ad479c1b85001bf089bba61923b1f1",
+    "data/references/kdri-2025-summary-ko.pdf": "605ff8431ea7b6c465165bb5335aba580dcd4d56ba13a69583e62d163a7cc0c2"
+  },
+  "sourceSnapshot": {
+    "baseCommit": "4eedc4e329028f560857b241d5290d1fdd07e88b",
+    "status": "canary changeset; local verification complete; production deployment pending",
+    "changesAfterBaseline": [
+      "frontend/src/App.tsx",
+      "frontend/src/services.ts",
+      "frontend/src/styles.css",
+      "frontend/src/ChatNutritionSummary.tsx",
+      "frontend/src/data/product-chat-prompts.json",
+      "backend/agent.py",
+      "backend/product_summary.py",
+      "frontend/src/adult-intake.ts",
+      "frontend/src/data/adult-intake-references.json",
+      "data/references/kdri-2025-summary-ko.pdf"
+    ],
+    "reason": "Local canary product overview and starter follow-up; quantities from reviewed DB, adult RNI/AI comparison calculated in-browser from verified 2025 Korean reference tables, short AI prose and collapsed labels. Original API evidence baseline remains separate.",
+    "evidence": [
+      "docs/final/evidence/product-context-prompts-local.json",
+      "docs/final/evidence/product-nutrition-overview-local.json",
+      "docs/final/evidence/adult-intake-reference-check.json"
+    ]
+  },
+  "adultIntakeReferences": {
+    "version": "2025-kdri-adults.2026-10-24.1",
+    "nutrients": 25,
+    "groups": 10,
+    "values": 250,
+    "sourceSha256": "605ff8431ea7b6c465165bb5335aba580dcd4d56ba13a69583e62d163a7cc0c2"
   }
 }

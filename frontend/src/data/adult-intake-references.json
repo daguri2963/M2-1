@@ -1,0 +1,679 @@
+{
+  "version": "2025-kdri-adults.2026-10-24.1",
+  "title": "2025 한국인 영양소 섭취기준",
+  "source": {
+    "publisher": "보건복지부·한국영양학회",
+    "year": 2025,
+    "url": "https://www.kns.or.kr/fileroom/FileRoom_view.asp?BoardID=Kdr&idx=167",
+    "downloadUrl": "https://www.kns.or.kr/common/download.asp?FileDir=FileRoom&filename=2025+KDRI_%EC%9A%94%EC%95%BD%ED%91%9C_%EA%B5%AD%EB%AC%B8_2025.12.29.pdf&filerename=2025123102020340340.pdf",
+    "localPath": "data/references/kdri-2025-summary-ko.pdf",
+    "sha256": "605ff8431ea7b6c465165bb5335aba580dcd4d56ba13a69583e62d163a7cc0c2",
+    "checkedAt": "2026-10-24",
+    "reviewMethod": "Adult RNI/AI columns extracted from the publisher PDF and compared with rendered tables by the same agent; not independent clinical review."
+  },
+  "scope": "Healthy adults age 19+ excluding pregnancy and lactation. Whole-diet reference comparison, not individual need, deficiency diagnosis or a supplement dose. RNI where established, otherwise AI; never EAR or UL.",
+  "groups": [
+    {
+      "id": "male-19-29",
+      "sex": "male",
+      "age": "19-29",
+      "label": "남자 19-29세"
+    },
+    {
+      "id": "male-30-49",
+      "sex": "male",
+      "age": "30-49",
+      "label": "남자 30-49세"
+    },
+    {
+      "id": "male-50-64",
+      "sex": "male",
+      "age": "50-64",
+      "label": "남자 50-64세"
+    },
+    {
+      "id": "male-65-74",
+      "sex": "male",
+      "age": "65-74",
+      "label": "남자 65-74세"
+    },
+    {
+      "id": "male-75+",
+      "sex": "male",
+      "age": "75+",
+      "label": "남자 75세 이상"
+    },
+    {
+      "id": "female-19-29",
+      "sex": "female",
+      "age": "19-29",
+      "label": "여자 19-29세"
+    },
+    {
+      "id": "female-30-49",
+      "sex": "female",
+      "age": "30-49",
+      "label": "여자 30-49세"
+    },
+    {
+      "id": "female-50-64",
+      "sex": "female",
+      "age": "50-64",
+      "label": "여자 50-64세"
+    },
+    {
+      "id": "female-65-74",
+      "sex": "female",
+      "age": "65-74",
+      "label": "여자 65-74세"
+    },
+    {
+      "id": "female-75+",
+      "sex": "female",
+      "age": "75+",
+      "label": "여자 75세 이상"
+    }
+  ],
+  "nutrients": {
+    "식이섬유": {
+      "unit": "g",
+      "kind": "AI",
+      "values": {
+        "male-19-29": "30",
+        "male-30-49": "30",
+        "male-50-64": "30",
+        "male-65-74": "30",
+        "male-75+": "30",
+        "female-19-29": "20",
+        "female-30-49": "20",
+        "female-50-64": "25",
+        "female-65-74": "25",
+        "female-75+": "25"
+      },
+      "sourcePdfPage": 2,
+      "sourcePrintedPage": "ix",
+      "extraction": {
+        "maleAdultRow": 0,
+        "femaleAdultRow": 1,
+        "column": 12
+      },
+      "reviewStatus": "source_table_and_render_checked"
+    },
+    "비타민A": {
+      "unit": "μg RAE",
+      "kind": "RNI",
+      "values": {
+        "male-19-29": "800",
+        "male-30-49": "800",
+        "male-50-64": "750",
+        "male-65-74": "700",
+        "male-75+": "700",
+        "female-19-29": "650",
+        "female-30-49": "650",
+        "female-50-64": "600",
+        "female-65-74": "600",
+        "female-75+": "600"
+      },
+      "sourcePdfPage": 5,
+      "sourcePrintedPage": "xii",
+      "extraction": {
+        "maleAdultRow": 0,
+        "femaleAdultRow": 1,
+        "column": 3
+      },
+      "reviewStatus": "source_table_and_render_checked"
+    },
+    "비타민D": {
+      "unit": "μg",
+      "kind": "AI",
+      "values": {
+        "male-19-29": "10",
+        "male-30-49": "10",
+        "male-50-64": "10",
+        "male-65-74": "15",
+        "male-75+": "15",
+        "female-19-29": "10",
+        "female-30-49": "10",
+        "female-50-64": "10",
+        "female-65-74": "15",
+        "female-75+": "15"
+      },
+      "sourcePdfPage": 5,
+      "sourcePrintedPage": "xii",
+      "extraction": {
+        "maleAdultRow": 0,
+        "femaleAdultRow": 1,
+        "column": 8
+      },
+      "reviewStatus": "source_table_and_render_checked"
+    },
+    "비타민E": {
+      "unit": "mg α-TE",
+      "kind": "AI",
+      "values": {
+        "male-19-29": "12",
+        "male-30-49": "12",
+        "male-50-64": "12",
+        "male-65-74": "12",
+        "male-75+": "12",
+        "female-19-29": "12",
+        "female-30-49": "12",
+        "female-50-64": "12",
+        "female-65-74": "12",
+        "female-75+": "12"
+      },
+      "sourcePdfPage": 5,
+      "sourcePrintedPage": "xii",
+      "extraction": {
+        "maleAdultRow": 2,
+        "femaleAdultRow": 3,
+        "column": 4
+      },
+      "reviewStatus": "source_table_and_render_checked"
+    },
+    "비타민K": {
+      "unit": "μg",
+      "kind": "AI",
+      "values": {
+        "male-19-29": "75",
+        "male-30-49": "75",
+        "male-50-64": "75",
+        "male-65-74": "75",
+        "male-75+": "75",
+        "female-19-29": "65",
+        "female-30-49": "65",
+        "female-50-64": "65",
+        "female-65-74": "65",
+        "female-75+": "65"
+      },
+      "sourcePdfPage": 5,
+      "sourcePrintedPage": "xii",
+      "extraction": {
+        "maleAdultRow": 2,
+        "femaleAdultRow": 3,
+        "column": 8
+      },
+      "reviewStatus": "source_table_and_render_checked"
+    },
+    "비타민C": {
+      "unit": "mg",
+      "kind": "RNI",
+      "values": {
+        "male-19-29": "100",
+        "male-30-49": "100",
+        "male-50-64": "100",
+        "male-65-74": "100",
+        "male-75+": "100",
+        "female-19-29": "100",
+        "female-30-49": "100",
+        "female-50-64": "100",
+        "female-65-74": "100",
+        "female-75+": "100"
+      },
+      "sourcePdfPage": 6,
+      "sourcePrintedPage": "xiii",
+      "extraction": {
+        "maleAdultRow": 0,
+        "femaleAdultRow": 1,
+        "column": 4
+      },
+      "reviewStatus": "source_table_and_render_checked"
+    },
+    "비타민B1": {
+      "unit": "mg",
+      "kind": "RNI",
+      "values": {
+        "male-19-29": "1.2",
+        "male-30-49": "1.2",
+        "male-50-64": "1.2",
+        "male-65-74": "1.1",
+        "male-75+": "1.1",
+        "female-19-29": "1.1",
+        "female-30-49": "1.1",
+        "female-50-64": "1.1",
+        "female-65-74": "1.0",
+        "female-75+": "0.8"
+      },
+      "sourcePdfPage": 6,
+      "sourcePrintedPage": "xiii",
+      "extraction": {
+        "maleAdultRow": 0,
+        "femaleAdultRow": 1,
+        "column": 12
+      },
+      "reviewStatus": "source_table_and_render_checked"
+    },
+    "비타민B2": {
+      "unit": "mg",
+      "kind": "RNI",
+      "values": {
+        "male-19-29": "1.5",
+        "male-30-49": "1.5",
+        "male-50-64": "1.5",
+        "male-65-74": "1.4",
+        "male-75+": "1.4",
+        "female-19-29": "1.2",
+        "female-30-49": "1.2",
+        "female-50-64": "1.2",
+        "female-65-74": "1.1",
+        "female-75+": "1.0"
+      },
+      "sourcePdfPage": 6,
+      "sourcePrintedPage": "xiii",
+      "extraction": {
+        "maleAdultRow": 2,
+        "femaleAdultRow": 3,
+        "column": 3
+      },
+      "reviewStatus": "source_table_and_render_checked"
+    },
+    "나이아신": {
+      "unit": "mg NE",
+      "kind": "RNI",
+      "values": {
+        "male-19-29": "14",
+        "male-30-49": "14",
+        "male-50-64": "14",
+        "male-65-74": "13",
+        "male-75+": "12",
+        "female-19-29": "13",
+        "female-30-49": "13",
+        "female-50-64": "13",
+        "female-65-74": "12",
+        "female-75+": "11"
+      },
+      "sourcePdfPage": 6,
+      "sourcePrintedPage": "xiii",
+      "extraction": {
+        "maleAdultRow": 2,
+        "femaleAdultRow": 3,
+        "column": 11
+      },
+      "reviewStatus": "source_table_and_render_checked"
+    },
+    "비타민B6": {
+      "unit": "mg",
+      "kind": "RNI",
+      "values": {
+        "male-19-29": "1.5",
+        "male-30-49": "1.5",
+        "male-50-64": "1.5",
+        "male-65-74": "1.5",
+        "male-75+": "1.5",
+        "female-19-29": "1.4",
+        "female-30-49": "1.4",
+        "female-50-64": "1.4",
+        "female-65-74": "1.4",
+        "female-75+": "1.4"
+      },
+      "sourcePdfPage": 7,
+      "sourcePrintedPage": "xiv",
+      "extraction": {
+        "maleAdultRow": 0,
+        "femaleAdultRow": 1,
+        "column": 5
+      },
+      "reviewStatus": "source_table_and_render_checked"
+    },
+    "엽산": {
+      "unit": "μg DFE",
+      "kind": "RNI",
+      "values": {
+        "male-19-29": "400",
+        "male-30-49": "400",
+        "male-50-64": "400",
+        "male-65-74": "400",
+        "male-75+": "400",
+        "female-19-29": "400",
+        "female-30-49": "400",
+        "female-50-64": "400",
+        "female-65-74": "400",
+        "female-75+": "400"
+      },
+      "sourcePdfPage": 7,
+      "sourcePrintedPage": "xiv",
+      "extraction": {
+        "maleAdultRow": 0,
+        "femaleAdultRow": 1,
+        "column": 13
+      },
+      "reviewStatus": "source_table_and_render_checked"
+    },
+    "비타민B12": {
+      "unit": "μg",
+      "kind": "RNI",
+      "values": {
+        "male-19-29": "2.4",
+        "male-30-49": "2.4",
+        "male-50-64": "2.4",
+        "male-65-74": "2.4",
+        "male-75+": "2.4",
+        "female-19-29": "2.4",
+        "female-30-49": "2.4",
+        "female-50-64": "2.4",
+        "female-65-74": "2.4",
+        "female-75+": "2.4"
+      },
+      "sourcePdfPage": 7,
+      "sourcePrintedPage": "xiv",
+      "extraction": {
+        "maleAdultRow": 2,
+        "femaleAdultRow": 3,
+        "column": 4
+      },
+      "reviewStatus": "source_table_and_render_checked"
+    },
+    "판토텐산": {
+      "unit": "mg",
+      "kind": "AI",
+      "values": {
+        "male-19-29": "5.0",
+        "male-30-49": "5.0",
+        "male-50-64": "5.0",
+        "male-65-74": "5.0",
+        "male-75+": "5.0",
+        "female-19-29": "5.0",
+        "female-30-49": "5.0",
+        "female-50-64": "5.0",
+        "female-65-74": "5.0",
+        "female-75+": "5.0"
+      },
+      "sourcePdfPage": 7,
+      "sourcePrintedPage": "xiv",
+      "extraction": {
+        "maleAdultRow": 2,
+        "femaleAdultRow": 3,
+        "column": 11
+      },
+      "reviewStatus": "source_table_and_render_checked"
+    },
+    "비오틴": {
+      "unit": "μg",
+      "kind": "AI",
+      "values": {
+        "male-19-29": "30",
+        "male-30-49": "30",
+        "male-50-64": "30",
+        "male-65-74": "30",
+        "male-75+": "30",
+        "female-19-29": "30",
+        "female-30-49": "30",
+        "female-50-64": "30",
+        "female-65-74": "30",
+        "female-75+": "30"
+      },
+      "sourcePdfPage": 7,
+      "sourcePrintedPage": "xiv",
+      "extraction": {
+        "maleAdultRow": 2,
+        "femaleAdultRow": 3,
+        "column": 17
+      },
+      "reviewStatus": "source_table_and_render_checked"
+    },
+    "칼슘": {
+      "unit": "mg",
+      "kind": "RNI",
+      "values": {
+        "male-19-29": "800",
+        "male-30-49": "800",
+        "male-50-64": "800",
+        "male-65-74": "800",
+        "male-75+": "800",
+        "female-19-29": "650",
+        "female-30-49": "650",
+        "female-50-64": "750",
+        "female-65-74": "750",
+        "female-75+": "750"
+      },
+      "sourcePdfPage": 9,
+      "sourcePrintedPage": "xvi",
+      "extraction": {
+        "maleAdultRow": 0,
+        "femaleAdultRow": 1,
+        "column": 3
+      },
+      "reviewStatus": "source_table_and_render_checked"
+    },
+    "칼륨": {
+      "unit": "mg",
+      "kind": "AI",
+      "values": {
+        "male-19-29": "3500",
+        "male-30-49": "3500",
+        "male-50-64": "3500",
+        "male-65-74": "3500",
+        "male-75+": "3500",
+        "female-19-29": "3500",
+        "female-30-49": "3500",
+        "female-50-64": "3500",
+        "female-65-74": "3500",
+        "female-75+": "3500"
+      },
+      "sourcePdfPage": 9,
+      "sourcePrintedPage": "xvi",
+      "extraction": {
+        "maleAdultRow": 2,
+        "femaleAdultRow": 3,
+        "column": 8
+      },
+      "reviewStatus": "source_table_and_render_checked"
+    },
+    "마그네슘": {
+      "unit": "mg",
+      "kind": "RNI",
+      "values": {
+        "male-19-29": "360",
+        "male-30-49": "380",
+        "male-50-64": "380",
+        "male-65-74": "380",
+        "male-75+": "380",
+        "female-19-29": "280",
+        "female-30-49": "280",
+        "female-50-64": "280",
+        "female-65-74": "280",
+        "female-75+": "280"
+      },
+      "sourcePdfPage": 9,
+      "sourcePrintedPage": "xvi",
+      "extraction": {
+        "maleAdultRow": 2,
+        "femaleAdultRow": 3,
+        "column": 11
+      },
+      "reviewStatus": "source_table_and_render_checked"
+    },
+    "철": {
+      "unit": "mg",
+      "kind": "RNI",
+      "values": {
+        "male-19-29": "8",
+        "male-30-49": "8",
+        "male-50-64": "8",
+        "male-65-74": "8",
+        "male-75+": "7",
+        "female-19-29": "12",
+        "female-30-49": "12",
+        "female-50-64": "7",
+        "female-65-74": "6",
+        "female-75+": "6"
+      },
+      "sourcePdfPage": 10,
+      "sourcePrintedPage": "xvii",
+      "extraction": {
+        "maleAdultRow": 0,
+        "femaleAdultRow": 1,
+        "column": 3
+      },
+      "reviewStatus": "source_table_and_render_checked"
+    },
+    "아연": {
+      "unit": "mg",
+      "kind": "RNI",
+      "values": {
+        "male-19-29": "10",
+        "male-30-49": "10",
+        "male-50-64": "10",
+        "male-65-74": "9",
+        "male-75+": "9",
+        "female-19-29": "8",
+        "female-30-49": "8",
+        "female-50-64": "8",
+        "female-65-74": "7",
+        "female-75+": "7"
+      },
+      "sourcePdfPage": 10,
+      "sourcePrintedPage": "xvii",
+      "extraction": {
+        "maleAdultRow": 0,
+        "femaleAdultRow": 1,
+        "column": 7
+      },
+      "reviewStatus": "source_table_and_render_checked"
+    },
+    "구리": {
+      "unit": "μg",
+      "kind": "RNI",
+      "values": {
+        "male-19-29": "850",
+        "male-30-49": "850",
+        "male-50-64": "850",
+        "male-65-74": "800",
+        "male-75+": "800",
+        "female-19-29": "650",
+        "female-30-49": "650",
+        "female-50-64": "650",
+        "female-65-74": "600",
+        "female-75+": "600"
+      },
+      "sourcePdfPage": 10,
+      "sourcePrintedPage": "xvii",
+      "extraction": {
+        "maleAdultRow": 0,
+        "femaleAdultRow": 1,
+        "column": 11
+      },
+      "reviewStatus": "source_table_and_render_checked"
+    },
+    "망간": {
+      "unit": "mg",
+      "kind": "AI",
+      "values": {
+        "male-19-29": "4.0",
+        "male-30-49": "4.0",
+        "male-50-64": "4.0",
+        "male-65-74": "4.0",
+        "male-75+": "4.0",
+        "female-19-29": "3.5",
+        "female-30-49": "3.5",
+        "female-50-64": "3.5",
+        "female-65-74": "3.5",
+        "female-75+": "3.5"
+      },
+      "sourcePdfPage": 10,
+      "sourcePrintedPage": "xvii",
+      "extraction": {
+        "maleAdultRow": 2,
+        "femaleAdultRow": 3,
+        "column": 8
+      },
+      "reviewStatus": "source_table_and_render_checked"
+    },
+    "요오드": {
+      "unit": "μg",
+      "kind": "RNI",
+      "values": {
+        "male-19-29": "150",
+        "male-30-49": "150",
+        "male-50-64": "150",
+        "male-65-74": "150",
+        "male-75+": "150",
+        "female-19-29": "150",
+        "female-30-49": "150",
+        "female-50-64": "150",
+        "female-65-74": "150",
+        "female-75+": "150"
+      },
+      "sourcePdfPage": 10,
+      "sourcePrintedPage": "xvii",
+      "extraction": {
+        "maleAdultRow": 2,
+        "femaleAdultRow": 3,
+        "column": 11
+      },
+      "reviewStatus": "source_table_and_render_checked"
+    },
+    "셀레늄": {
+      "unit": "μg",
+      "kind": "RNI",
+      "values": {
+        "male-19-29": "60",
+        "male-30-49": "60",
+        "male-50-64": "60",
+        "male-65-74": "60",
+        "male-75+": "60",
+        "female-19-29": "60",
+        "female-30-49": "60",
+        "female-50-64": "60",
+        "female-65-74": "60",
+        "female-75+": "60"
+      },
+      "sourcePdfPage": 11,
+      "sourcePrintedPage": "xviii",
+      "extraction": {
+        "maleAdultRow": 0,
+        "femaleAdultRow": 1,
+        "column": 3
+      },
+      "reviewStatus": "source_table_and_render_checked"
+    },
+    "몰리브덴": {
+      "unit": "μg",
+      "kind": "RNI",
+      "values": {
+        "male-19-29": "30",
+        "male-30-49": "30",
+        "male-50-64": "30",
+        "male-65-74": "30",
+        "male-75+": "25",
+        "female-19-29": "25",
+        "female-30-49": "25",
+        "female-50-64": "25",
+        "female-65-74": "25",
+        "female-75+": "20"
+      },
+      "sourcePdfPage": 11,
+      "sourcePrintedPage": "xviii",
+      "extraction": {
+        "maleAdultRow": 0,
+        "femaleAdultRow": 1,
+        "column": 7
+      },
+      "reviewStatus": "source_table_and_render_checked"
+    },
+    "크롬": {
+      "unit": "μg",
+      "kind": "AI",
+      "values": {
+        "male-19-29": "30",
+        "male-30-49": "30",
+        "male-50-64": "30",
+        "male-65-74": "25",
+        "male-75+": "25",
+        "female-19-29": "20",
+        "female-30-49": "20",
+        "female-50-64": "20",
+        "female-65-74": "20",
+        "female-75+": "20"
+      },
+      "sourcePdfPage": 11,
+      "sourcePrintedPage": "xviii",
+      "extraction": {
+        "maleAdultRow": 0,
+        "femaleAdultRow": 1,
+        "column": 12
+      },
+      "reviewStatus": "source_table_and_render_checked"
+    }
+  }
+}
