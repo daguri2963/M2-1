@@ -8,6 +8,8 @@ export const interestDescriptions:Record<string,string>={
  '다이어트':'체지방 감소 기능 표시를 살펴봐요.',
 };
 export const interestOptions=Object.keys(interestDescriptions);
+export const existingOptions=['없어요','제품 선택'];
+export const cautionOptions=['질환 진단·치료·의약품 복용 중이에요','임신·수유 중이에요','알레르기를 확인해야 해요','해당 없어요'];
 export const needsSpecialtyCheck=(s:Survey)=>s.interests.some(g=>g==='혈당 관리'||g==='다이어트');
 export function toggleChoice(current:string[],value:string,exclusive:string[]=[]):string[]{
  if(current.includes(value))return current.filter(v=>v!==value);
@@ -16,8 +18,8 @@ export function toggleChoice(current:string[],value:string,exclusive:string[]=[]
 export function validateStep(step:number,s:Survey):string|null{
  if(step===1&&(!s.interests.length||s.interests.some(g=>!interestOptions.includes(g))))return '다섯 관심 분야 중 하나 이상 선택해 주세요.';
  if(step===2&&!s.habits.length)return '식습관을 하나 이상 선택해 주세요. 잘 모르겠어요도 선택할 수 있어요.';
- if(step===3&&(!s.existing||(s.existing==='제품 선택'&&!s.productIds.length)))return '현재 제품 상태를 선택해 주세요. 제품 선택 시 목록에서 하나 이상 골라 주세요.';
- if(step===4&&!s.cautions.length)return '확인할 조건을 선택해 주세요. 잘 모르겠어요도 괜찮아요.';
+ if(step===3&&(!existingOptions.includes(s.existing)||(s.existing==='제품 선택'&&!s.productIds.length)))return '현재 제품 상태를 선택해 주세요. 제품 선택 시 목록에서 하나 이상 골라 주세요.';
+ if(step===4&&(!s.cautions.length||s.cautions.some(value=>!cautionOptions.includes(value))))return '확인할 조건을 선택해 주세요.';
  if(step===4&&needsSpecialtyCheck(s)&&s.cautions.length===1&&s.cautions[0]==='해당 없어요'&&!s.specialtyConfirmed)return '혈당 관리·다이어트 안내 범위와 주의조건을 확인해 주세요.';
  return null;
 }

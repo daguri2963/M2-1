@@ -89,9 +89,9 @@
     "backend/label-guides.json": "4f05d76c468184f884a7c401656d4fd0b1a9264d5c40a087de6cf9e79b269793",
     "data/recommendation/classification-v2.json": "7623483b41acf814d3d6877027494930374812bef034b4b111a5ca7b36f120cf",
     "data/products/products.sqlite3": "92063ab4a509df594331dd5b46097f8aa2c37bb5b324f9d88a08553e06a4499e",
-    "frontend/src/App.tsx": "21a9368dcde8a8e24836fce5e378d1e4c90814678fef995569ec9b3fd6d2ecd8",
+    "frontend/src/App.tsx": "8fc004623e4bd98aa3d53aa5787a1d3e7ade9c8d7dde88ba56f6b14712af01e9",
     "frontend/src/services.ts": "3eaba9a8e4c5286b43adb220796aa891a2a577de1b5d8bff79cd135645fef68d",
-    "frontend/src/domain.ts": "f28615edfd5821e85288963b055433a2cfe172be58ec7138ed49e547c1490cdf",
+    "frontend/src/domain.ts": "0256bf287034cb3423dd5d90b7f03b0453160d5b63a5279e112be457a46a3c6d",
     "frontend/src/CompareExplanation.tsx": "c8ba0cacabfdd29d00030dcc2237921d1969f33ee5c99f6d9665cfdd18d356da",
     "frontend/src/connection.ts": "dc0a5da3924541786cae4859272bac4ad58d808d5b7f8a0c977e510e222d4ea1",
     "Dockerfile": "5d6236684be7f19ff427557e8d3185fa1c703a00f0566a1eb7c988aaabe2a4de",
@@ -106,7 +106,7 @@
   },
   "sourceSnapshot": {
     "baseCommit": "4eedc4e329028f560857b241d5290d1fdd07e88b",
-    "status": "canary changeset; local verification complete; production deployment pending",
+    "status": "canary survey follow-up after product chat changeset; production deployment pending",
     "changesAfterBaseline": [
       "frontend/src/App.tsx",
       "frontend/src/services.ts",
@@ -117,7 +117,8 @@
       "backend/product_summary.py",
       "frontend/src/adult-intake.ts",
       "frontend/src/data/adult-intake-references.json",
-      "data/references/kdri-2025-summary-ko.pdf"
+      "data/references/kdri-2025-summary-ko.pdf",
+      "frontend/src/domain.ts"
     ],
     "reason": "Local canary product overview and starter follow-up; quantities from reviewed DB, adult RNI/AI comparison calculated in-browser from verified 2025 Korean reference tables, short AI prose and collapsed labels. Original API evidence baseline remains separate.",
     "evidence": [
