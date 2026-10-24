@@ -1,3 +1,5 @@
+> **과거 단계 기록 보존 / 2026-10-24:** 이 문서에는 당시 Gemini·main·canary 또는 이전 정책 설명이 포함될 수 있습니다. 현재 운영은 production의 COPA GPT-5.4입니다. 최종 제출 기준은 [최종 문서 목차](final/README.md), [현재 구조](final/architecture.md), [AI 설계](final/ai-design.md), [현재 검증](final/test-results.md)을 확인하세요. 아래 날짜·이전 실행 결과는 원래 이력으로 보존합니다.
+
 # Render 외부 배포
 
 최초 배포일: 2026-10-21. 기본 홈페이지 주소 변경: 2026-10-22. 홈페이지·백엔드 모두 Render의 `live` 상태와 실제 외부 응답을 확인했다. 최초에는 GitHub 비공개 저장소 `sayknow/M2-1`의 `main`을 연결했다. 이후 소유자가 저장소를 공개했고, 2026-10-23 브랜치 구조 전환 후 운영 연결 기준은 `production`이다. 홈페이지 공개와 저장소 공개 여부는 별개다.

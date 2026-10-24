@@ -1,0 +1,99 @@
+{
+  "documentDate": "2026-10-24",
+  "baselineCommit": "0bc17dca34f3ec6479549248798e76bfcb962064",
+  "homepage": "https://vitastep-guide.onrender.com/",
+  "backend": "https://m2-1-api.onrender.com",
+  "provider": "codyssey",
+  "model": "gpt-5.4",
+  "policyVersion": "2026-10-23.2",
+  "classificationVersion": "2026-10-23.3",
+  "consentVersion": "2026-10-23.copa.1",
+  "comparisonVersion": "2026-10-23.compare.2",
+  "knowledgeVersion": "2026-10-21.1",
+  "interests": [
+    "일상의 활력",
+    "뼈·근육 건강",
+    "장 건강",
+    "혈당 관리",
+    "다이어트"
+  ],
+  "products": {
+    "collected": 88,
+    "public": 87,
+    "held": 1,
+    "heldIds": [
+      "600651654"
+    ],
+    "thumbnails": 88,
+    "publicThumbnails": 87,
+    "classifiedProducts": 28,
+    "claimLinks": 40,
+    "knowledgeCards": 35,
+    "knowledgeSources": 12
+  },
+  "mustIds": [
+    "M01",
+    "M02",
+    "M03",
+    "M04",
+    "M05",
+    "M06",
+    "M07",
+    "M09"
+  ],
+  "team": [
+    "이승현",
+    "윤준서",
+    "배창민",
+    "김재욱",
+    "조준수"
+  ],
+  "confirmedAccount": {
+    "sayknow": "이승현"
+  },
+  "submissionReady": false,
+  "pendingEvidence": [
+    "five actual target users with target eligibility and anonymized originals; test dates supplied by team",
+    "self-written contributions and individual evidence for all five members",
+    "presentation PDF"
+  ],
+  "documents": [
+    "README.md",
+    "docs/project-plan.md",
+    "docs/functional-requirements.md",
+    "docs/final/README.md",
+    "docs/final/ai-design.md",
+    "docs/final/architecture.md",
+    "docs/final/presentation-outline.md",
+    "docs/final/progress.md",
+    "docs/final/security-and-operations.md",
+    "docs/final/team-contributions.md",
+    "docs/final/test-results.md",
+    "docs/final/user-feedback.md"
+  ],
+  "sourceSha256": {
+    "backend/main.py": "a4a7366940a71e182897b4874719762e8874e68d9c5c55f661486ed053766946",
+    "backend/models.py": "c19dd48617cbcb859c4f049a110d54c08edbb5924320455fecd424901af9eae4",
+    "backend/config.py": "a951d3368f1bc89e92e52d8af8bac5e0e88894c4557739e8d0f583f6f2dec0f8",
+    "backend/repository.py": "f5e1e9793d7a2d0c469278f1a608209e6ec1d6d0bb34f6c3dc2f07ef0fbbf8e8",
+    "backend/policy.py": "94d28ec1020de4fba0a9d266625cab8937fe88d08c60ae2796e0118556ef3a20",
+    "backend/classification.py": "db31c66686dff7775aa49899fcd16100536fb15942c3e3129fecbdcc75557de3",
+    "backend/agent.py": "7d80ae117b78077470e7a34fafec39f8b73b8b068fee4fd4efc3eb3c3ca511d0",
+    "backend/copa.py": "462fd9f68b08f4fcda42c55ab83d327b131946fd23214a60759c57bdaa239dec",
+    "backend/comparison.py": "f978542f6c30574dca651eef52835c668cd816b90e9abf608048c7c611419530",
+    "backend/privacy.py": "d7c8da09d373b107b8bcc72861caa584861fc321139963085d687fed8b6cd8b3",
+    "backend/knowledge.py": "2c7c4c5db49faad8b256a0728db9fc7a48337474fd9fb91598a4388305e2d9d9",
+    "backend/label_guide.py": "9858dc345261714924809a1b1da33d10c6ea8178340f7ed41ec8fa237905a627",
+    "backend/nutrition-knowledge.json": "9634e129b0cfdc275eacc773f8676207578c5fa42678dbac34f4755ed42072cf",
+    "backend/label-guides.json": "4f05d76c468184f884a7c401656d4fd0b1a9264d5c40a087de6cf9e79b269793",
+    "data/recommendation/classification-v2.json": "7623483b41acf814d3d6877027494930374812bef034b4b111a5ca7b36f120cf",
+    "data/products/products.sqlite3": "92063ab4a509df594331dd5b46097f8aa2c37bb5b324f9d88a08553e06a4499e",
+    "frontend/src/App.tsx": "9be72a38ee589e6721336e7ed7fd5716525138abe81f21700be699c749941f73",
+    "frontend/src/services.ts": "306af9e4daccaec3c68c2c710775440c3a869364ebf0c5498eb65398bfda8fc8",
+    "frontend/src/domain.ts": "f28615edfd5821e85288963b055433a2cfe172be58ec7138ed49e547c1490cdf",
+    "frontend/src/CompareExplanation.tsx": "c8ba0cacabfdd29d00030dcc2237921d1969f33ee5c99f6d9665cfdd18d356da",
+    "frontend/src/connection.ts": "dc0a5da3924541786cae4859272bac4ad58d808d5b7f8a0c977e510e222d4ea1",
+    "Dockerfile": "5d6236684be7f19ff427557e8d3185fa1c703a00f0566a1eb7c988aaabe2a4de",
+    ".github/workflows/ci.yml": "e90e2fe234e99b361c4d6f99792cab914dfe7e659befe279118b2a84a855a11c"
+  }
+}

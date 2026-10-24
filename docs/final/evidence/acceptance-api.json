@@ -1,0 +1,467 @@
+{
+  "checkedAt": "2026-10-24T01:07:09.293983+00:00",
+  "baseUrl": "https://m2-1-api.onrender.com",
+  "layer": "HTTP API",
+  "operator": "developer QA with synthetic adult selections, not independent users",
+  "passed": true,
+  "trials": [
+    {
+      "attempt": 1,
+      "checks": [
+        {
+          "id": "M02",
+          "passed": true,
+          "seconds": 0.46,
+          "evidence": {
+            "rejected": "missing and removed interests",
+            "status": 422
+          }
+        },
+        {
+          "id": "M03",
+          "passed": true,
+          "seconds": 11.32,
+          "evidence": {
+            "mode": "ai",
+            "citationIds": [
+              "label-guide:amount-and-basis",
+              "label-guide:daily-reference"
+            ],
+            "toolTrace": [
+              {
+                "tool": "search_evidence",
+                "ok": true
+              }
+            ]
+          }
+        },
+        {
+          "id": "M04",
+          "passed": false,
+          "seconds": 14.99,
+          "error": {
+            "code": "AssertionError"
+          }
+        },
+        {
+          "id": "M05",
+          "passed": true,
+          "seconds": 0.81,
+          "evidence": {
+            "productId": "600000128",
+            "checkedAt": "2026-10-20",
+            "heldStatus": 404,
+            "sourceUrl": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=600000128"
+          }
+        },
+        {
+          "id": "M06",
+          "passed": true,
+          "seconds": 0.31,
+          "evidence": {
+            "status": "checked_registered_products",
+            "magnesiumDailyLabelTotal": {
+              "amount": "630",
+              "unit": "mg"
+            },
+            "scope": "registered product labels only, not combined-use safety"
+          }
+        },
+        {
+          "id": "M07",
+          "passed": true,
+          "seconds": 0.5,
+          "evidence": {
+            "productIds": [
+              "600000128",
+              "600000147"
+            ],
+            "calciumLabel": [
+              "표시 정량 없음",
+              "700 mg / 1일 섭취량: 4정(3.6 g)"
+            ],
+            "duplicateStatus": 422
+          }
+        },
+        {
+          "id": "M09",
+          "passed": true,
+          "seconds": 2.6,
+          "evidence": {
+            "restricted": "restricted",
+            "unknown": "insufficient",
+            "scopeMissing": "insufficient",
+            "externalAI": "not_requested"
+          }
+        },
+        {
+          "id": "S01",
+          "passed": true,
+          "seconds": 7.82,
+          "evidence": {
+            "mode": "ai",
+            "version": "2026-10-23.compare.2",
+            "cached": false,
+            "citationIds": [
+              "600000129:catalog",
+              "600000128:catalog",
+              "600000129:intake",
+              "600000128:intake",
+              "600000129:nutrition",
+              "600000128:nutrition",
+              "600000129:function",
+              "600000128:function"
+            ]
+          }
+        },
+        {
+          "id": "M01",
+          "passed": true,
+          "seconds": 0.47,
+          "evidence": {
+            "beforeConsent": 401,
+            "missingConsent": 400,
+            "afterWithdrawal": 401,
+            "publicCompare": 200
+          }
+        }
+      ]
+    },
+    {
+      "attempt": 2,
+      "checks": [
+        {
+          "id": "M02",
+          "passed": true,
+          "seconds": 0.41,
+          "evidence": {
+            "rejected": "missing and removed interests",
+            "status": 422
+          }
+        },
+        {
+          "id": "M03",
+          "passed": true,
+          "seconds": 7.72,
+          "evidence": {
+            "mode": "ai",
+            "citationIds": [
+              "label-guide:amount-and-basis",
+              "label-guide:daily-reference"
+            ],
+            "toolTrace": [
+              {
+                "tool": "search_evidence",
+                "ok": true
+              }
+            ]
+          }
+        },
+        {
+          "id": "M04",
+          "passed": true,
+          "seconds": 15.65,
+          "evidence": {
+            "mode": "ai",
+            "classificationVersion": "2026-10-23.3",
+            "productIds": [
+              "600000129",
+              "601678603",
+              "613602132"
+            ],
+            "citationIds": [
+              "600000129:function",
+              "601678603:function",
+              "613602132:function",
+              "600000129:intake",
+              "601678603:intake",
+              "613602132:intake"
+            ],
+            "toolTrace": [
+              {
+                "tool": "search_evidence",
+                "ok": true
+              },
+              {
+                "tool": "search_nutrition_knowledge",
+                "ok": true
+              }
+            ]
+          }
+        },
+        {
+          "id": "M05",
+          "passed": true,
+          "seconds": 0.69,
+          "evidence": {
+            "productId": "600000128",
+            "checkedAt": "2026-10-20",
+            "heldStatus": 404,
+            "sourceUrl": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=600000128"
+          }
+        },
+        {
+          "id": "M06",
+          "passed": true,
+          "seconds": 0.47,
+          "evidence": {
+            "status": "checked_registered_products",
+            "magnesiumDailyLabelTotal": {
+              "amount": "630",
+              "unit": "mg"
+            },
+            "scope": "registered product labels only, not combined-use safety"
+          }
+        },
+        {
+          "id": "M07",
+          "passed": true,
+          "seconds": 0.64,
+          "evidence": {
+            "productIds": [
+              "600000128",
+              "600000147"
+            ],
+            "calciumLabel": [
+              "표시 정량 없음",
+              "700 mg / 1일 섭취량: 4정(3.6 g)"
+            ],
+            "duplicateStatus": 422
+          }
+        },
+        {
+          "id": "M09",
+          "passed": true,
+          "seconds": 2.07,
+          "evidence": {
+            "restricted": "restricted",
+            "unknown": "insufficient",
+            "scopeMissing": "insufficient",
+            "externalAI": "not_requested"
+          }
+        },
+        {
+          "id": "S01",
+          "passed": true,
+          "seconds": 1.11,
+          "evidence": {
+            "mode": "ai",
+            "version": "2026-10-23.compare.2",
+            "cached": true,
+            "citationIds": [
+              "600000129:catalog",
+              "600000128:catalog",
+              "600000129:intake",
+              "600000128:intake",
+              "600000129:nutrition",
+              "600000128:nutrition",
+              "600000129:function",
+              "600000128:function"
+            ]
+          }
+        },
+        {
+          "id": "M01",
+          "passed": true,
+          "seconds": 0.61,
+          "evidence": {
+            "beforeConsent": 401,
+            "missingConsent": 400,
+            "afterWithdrawal": 401,
+            "publicCompare": 200
+          }
+        }
+      ]
+    },
+    {
+      "attempt": 3,
+      "checks": [
+        {
+          "id": "M02",
+          "passed": true,
+          "seconds": 0.32,
+          "evidence": {
+            "rejected": "missing and removed interests",
+            "status": 422
+          }
+        },
+        {
+          "id": "M03",
+          "passed": true,
+          "seconds": 7.19,
+          "evidence": {
+            "mode": "ai",
+            "citationIds": [
+              "label-guide:amount-and-basis",
+              "label-guide:daily-reference"
+            ],
+            "toolTrace": [
+              {
+                "tool": "search_evidence",
+                "ok": true
+              }
+            ]
+          }
+        },
+        {
+          "id": "M04",
+          "passed": true,
+          "seconds": 12.78,
+          "evidence": {
+            "mode": "ai",
+            "classificationVersion": "2026-10-23.3",
+            "productIds": [
+              "600000129",
+              "601678603",
+              "613602132"
+            ],
+            "citationIds": [
+              "600000129:function",
+              "601678603:function",
+              "613602132:function",
+              "600000129:cautions",
+              "600000129:intake",
+              "601678603:cautions",
+              "601678603:intake",
+              "613602132:intake"
+            ],
+            "toolTrace": [
+              {
+                "tool": "search_evidence",
+                "ok": true
+              }
+            ]
+          }
+        },
+        {
+          "id": "M05",
+          "passed": true,
+          "seconds": 0.81,
+          "evidence": {
+            "productId": "600000128",
+            "checkedAt": "2026-10-20",
+            "heldStatus": 404,
+            "sourceUrl": "https://www.daisomall.co.kr/pd/pdr/SCR_PDR_0001?pdNo=600000128"
+          }
+        },
+        {
+          "id": "M06",
+          "passed": true,
+          "seconds": 0.32,
+          "evidence": {
+            "status": "checked_registered_products",
+            "magnesiumDailyLabelTotal": {
+              "amount": "630",
+              "unit": "mg"
+            },
+            "scope": "registered product labels only, not combined-use safety"
+          }
+        },
+        {
+          "id": "M07",
+          "passed": true,
+          "seconds": 0.48,
+          "evidence": {
+            "productIds": [
+              "600000128",
+              "600000147"
+            ],
+            "calciumLabel": [
+              "표시 정량 없음",
+              "700 mg / 1일 섭취량: 4정(3.6 g)"
+            ],
+            "duplicateStatus": 422
+          }
+        },
+        {
+          "id": "M09",
+          "passed": true,
+          "seconds": 2.08,
+          "evidence": {
+            "restricted": "restricted",
+            "unknown": "insufficient",
+            "scopeMissing": "insufficient",
+            "externalAI": "not_requested"
+          }
+        },
+        {
+          "id": "S01",
+          "passed": true,
+          "seconds": 0.8,
+          "evidence": {
+            "mode": "ai",
+            "version": "2026-10-23.compare.2",
+            "cached": true,
+            "citationIds": [
+              "600000129:catalog",
+              "600000128:catalog",
+              "600000129:intake",
+              "600000128:intake",
+              "600000129:nutrition",
+              "600000128:nutrition",
+              "600000129:function",
+              "600000128:function"
+            ]
+          }
+        },
+        {
+          "id": "M01",
+          "passed": true,
+          "seconds": 0.53,
+          "evidence": {
+            "beforeConsent": 401,
+            "missingConsent": 400,
+            "afterWithdrawal": 401,
+            "publicCompare": 200
+          }
+        }
+      ]
+    }
+  ],
+  "health": {
+    "ready": true,
+    "aiConfigured": true,
+    "aiProvider": "codyssey",
+    "aiModel": "gpt-5.4",
+    "consentVersion": "2026-10-23.copa.1",
+    "policyVersion": "2026-10-23.2"
+  },
+  "summary": {
+    "M01": {
+      "attempts": 3,
+      "successes": 3
+    },
+    "M02": {
+      "attempts": 3,
+      "successes": 3
+    },
+    "M03": {
+      "attempts": 3,
+      "successes": 3
+    },
+    "M04": {
+      "attempts": 3,
+      "successes": 2
+    },
+    "M05": {
+      "attempts": 3,
+      "successes": 3
+    },
+    "M06": {
+      "attempts": 3,
+      "successes": 3
+    },
+    "M07": {
+      "attempts": 3,
+      "successes": 3
+    },
+    "M09": {
+      "attempts": 3,
+      "successes": 3
+    },
+    "S01": {
+      "attempts": 3,
+      "successes": 3
+    }
+  }
+}
