@@ -54,7 +54,7 @@ flowchart TD
 | POST `/api/compare` | 서로 다른 `productIds` 정확히2개, 공개 | `products`, `rows`; 잘못된 선택422 |
 | POST `/api/overlap` | 제품1~10개, 동의 토큰 | `duplicates`, 합산 가능 여부·표시 합계 |
 | POST `/api/recommendations` | Survey, 동의 토큰 | `status`, `products`, `reasons`, `evidence`, 정책/분류 버전, `ai` |
-| POST `/api/chat` | 질문≤300자·선택 productId/설문/이력, 동의 토큰 | `mode`, `text`, `citations`, `productIds`, `toolTrace` |
+| POST `/api/chat` | 질문≤300자·선택 productId/설문/이력, 동의 토큰 | `mode`, `text`, `citations`, `productIds`, `toolTrace`; 후속 로컬 성분 요약은 선택적 `nutritionSummary` |
 | POST `/api/compare/explanation` | 서로 다른 품번2개, 동의 토큰 | 해설·구조화 차이·인용·`version`, `cached` |
 
 추천 상태 `ok/restricted/insufficient/empty`와 AI 모드를 분리한다. 일반 오류 형식은 `{"error":{"code":"…","message":"…"}}`다. 동의401·입력422·제품404·요청 제한429·외부 AI 장애 등을 구분한다. 대화 근거 부족은 정보 부족 응답으로 안내하며, 실제 장애를 성공 답변으로 바꾸지 않는다.
@@ -76,3 +76,5 @@ DB: [products.sqlite3](../../data/products/products.sqlite3). 주요 관계는 `
 ## 구조의 한계
 
 세션·요청 제한·비교 캐시는 단일 프로세스 메모리 기준이며 서버 재시작 시 사라진다. 여러 인스턴스로 확장할 경우 공유 저장소·전역 제한이 필요하다. 지금은 회원 서비스나 대규모 트래픽을 전제로 하지 않는다. Agent 실행은 기본45초로 제한하고 여러 모델 호출을 그 안에서 수행한다. 서버 기동·연결·정책 처리까지 포함한 전체 UI 대기 시간을45초로 보장하는 것은 아니다. 자동 검사가 모든 자연어·의학적 의미 오류를 검출하지는 못한다.
+
+후속 로컬 성분 카드의 성인 비율은 [공식 기준 JSON](../../frontend/src/data/adult-intake-references.json)과 서버의 검수 정량으로 브라우저에서 계산한다. 기준군 선택은 API 계약에 추가하지 않았으며 외부 모델로 보내지 않는다. 원래 상품의 표시 비율은 별도 원문 값으로 보존한다.

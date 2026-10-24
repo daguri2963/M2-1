@@ -1,0 +1,40 @@
+{
+  "checkedAt": "2026-10-24T06:16:36.803874+00:00",
+  "scope": "developer synthetic browser and unit QA; comparison groups are examples, not user demographics",
+  "referenceVersion": "2025-kdri-adults.2026-10-24.1",
+  "sourceSha256": "605ff8431ea7b6c465165bb5335aba580dcd4d56ba13a69583e62d163a7cc0c2",
+  "sourceReview": "PDF adult RNI/AI columns extracted and visually compared on rendered pages 2,5,6,7,9,10,11 by the same agent",
+  "nutrients": 25,
+  "groups": 10,
+  "values": 250,
+  "frontendTests": 23,
+  "frontendBuild": "passed",
+  "backendSummaryTests": 12,
+  "browserChecks": [
+    {
+      "group": "unselected",
+      "percentShown": false
+    },
+    {
+      "group": "male-19-29",
+      "magnesiumPercent": 87.5,
+      "magnesiumReference": "RNI 360 mg/day",
+      "vitaminDPercent": 100,
+      "vitaminDReference": "AI 10 μg/day"
+    },
+    {
+      "group": "female-19-29",
+      "magnesiumPercent": 112.5,
+      "magnesiumReference": "RNI 280 mg/day",
+      "vitaminDPercent": 100
+    },
+    {
+      "group": "male-65-74",
+      "magnesiumPercent": 82.9,
+      "magnesiumReference": "RNI 380 mg/day",
+      "vitaminDPercent": 66.7,
+      "vitaminDReference": "AI 15 μg/day"
+    }
+  ],
+  "passed": true
+}

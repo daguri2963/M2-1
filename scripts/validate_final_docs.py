@@ -63,6 +63,21 @@ def main():
     assert len(knowledge['cards']) == manifest['products']['knowledgeCards']
     assert len(knowledge['sources']) == manifest['products']['knowledgeSources']
 
+    adult = read_json(ROOT / 'frontend/src/data/adult-intake-references.json')
+    groups = {group['id'] for group in adult['groups']}
+    assert len(groups) == len(adult['groups'])
+    values = sum(len(item['values']) for item in adult['nutrients'].values())
+    assert manifest['adultIntakeReferences'] == {
+        'version': adult['version'], 'nutrients': len(adult['nutrients']),
+        'groups': len(groups), 'values': values, 'sourceSha256': adult['source']['sha256'],
+    }
+    source = (ROOT / adult['source']['localPath']).resolve()
+    assert source.is_relative_to(ROOT) and source.is_file()
+    assert hashlib.sha256(source.read_bytes()).hexdigest() == adult['source']['sha256']
+    for item in adult['nutrients'].values():
+        assert item['kind'] in {'RNI', 'AI'} and set(item['values']) == groups
+        assert all(float(value) > 0 for value in item['values'].values())
+
     with sqlite3.connect(f'file:{ROOT / "data/products/products.sqlite3"}?mode=ro', uri=True) as db:
         assert db.execute('SELECT count(*) FROM products').fetchone()[0] == manifest['products']['collected']
         public = db.execute("SELECT count(*) FROM label_reviews WHERE data_review_status='verified'").fetchone()[0]
