@@ -8,6 +8,7 @@ from openai import APITimeoutError
 from . import config, repository as repo, policy,knowledge
 from .models import AgentAnswer
 from .privacy import sensitive_text,safe_history,public_survey,public_recommendation
+from .product_summary import overview_requested,nutrition_summary
 
 class AIError(Exception):
     def __init__(self,code,message,status=503):
@@ -119,6 +120,9 @@ class SupplementAgent:
         def retrieve(query,ids=None):
             found=repo.evidence(query,ids)
             if candidate_ids is not None:found=[e for e in found if e.get('productId') in candidate_ids]
+            if overview:
+                selected=[e for e in found if e.get('productId')==selected_product['id']]
+                found=[e for e in selected if e['id'].endswith((':function',':nutrition'))] or selected
             source_pool.update({e['id']:e for e in found})
             for e in found:
                 if e.get('productId'):register([repo.get_product(e['productId'])])
@@ -126,13 +130,15 @@ class SupplementAgent:
         if recommendation:
             register(recommendation['products'])
             source_pool.update({e['id']:e for e in recommendation['evidence']})
-        if request.productId:register([repo.get_product(request.productId)])
+        selected_product=repo.get_product(request.productId) if request.productId else None
+        if selected_product:register([selected_product])
+        overview=selected_product is not None and recommendation is None and overview_requested(request.question)
         # The advertised starter question must not depend on a model guessing label synonyms.
         # General guides are retrieved per question and never admitted to recommendation evidence.
         guides=repo.guide_evidence(request.question) if recommendation is None else []
         source_pool.update({e['id']:e for e in guides})
         retrieval_query=knowledge.context_query(request.question,request.history)
-        nutrition=knowledge.search(retrieval_query) if recommendation is None and not knowledge.is_product_question(request.question) else []
+        nutrition=knowledge.search(retrieval_query) if not overview and recommendation is None and not knowledge.is_product_question(request.question) else []
         source_pool.update({e['id']:e for e in nutrition})
         general_only=bool(guides or nutrition) and not request.productId and recommendation is None and not knowledge.is_product_question(request.question)
 
@@ -148,7 +154,7 @@ class SupplementAgent:
                 return {'mode':'product_information_only','products':[{'id':p['id'],'name':p['name'],'type':p['type']} for p in ps]}
             if name=='get_product_details' and set(args)=={'product_id'} and isinstance(args['product_id'],str):
                 p=repo.get_product(args['product_id']);register([p]);retrieve('',[p['id']])
-                return p
+                return {key:p[key] for key in ('id','name','type','nutrients','functionText')} if overview else p
             if name=='search_evidence' and set(args)<={'query','product_ids'} and isinstance(args.get('query'),str):
                 ids=args.get('product_ids') or ([request.productId] if request.productId else None)
                 if ids is not None and (not isinstance(ids,list) or len(ids)>6 or not all(isinstance(i,str) for i in ids)):raise ValueError()
@@ -168,7 +174,14 @@ class SupplementAgent:
 
         context={'question':request.question,'selectedProduct':request.productId,'preferences':public_survey(request.survey),'recommendation':public_recommendation(recommendation) if recommendation else None,'knowledgeHints':[e['title'] for e in nutrition]}
         history=[{'role':h.role,'content':h.text} for h in safe_history(request.history)]
-        messages=[{'role':'system','content':SYSTEM},*history,{'role':'user','content':json.dumps(context,ensure_ascii=False)}]
+        system=SYSTEM
+        if overview:
+            system+='''\n이번 질문은 선택 제품의 주요 성분을 쉽게 이해하려는 질문이다.
+함량·단위·영양성분 기준치 비율은 서버가 검수 DB에서 읽어 별도 영양정보 카드로 먼저 표시한다. 너는 숫자를 생성하거나 반복하지 않는다.
+답변 본문은 각 주요 성분의 역할을 일상적인 쉬운 말로 풀어 두세 문장 정도로 짧게 쓴다. 전문 용어를 나열하거나 긴 공식 기능 문장을 그대로 옮기지 않는다.
+제품의 공식 기능 문구·섭취방법·주의사항·알레르기·출처는 본문 아래 접힌 상세 영역에서 제공한다. 질문에 없는 주의사항과 상담 안내를 본문에 길게 덧붙이지 않는다.
+제품에 없는 성분·표시 밖 효과는 추정하지 않는다. 기능이 확인되지 않으면 확인되지 않았다고 짧게 말한다.'''
+        messages=[{'role':'system','content':system},*history,{'role':'user','content':json.dumps(context,ensure_ascii=False)}]
         for step in range(2):
             active_tools=[t for t in TOOLS if not general_only or t['function']['name'] in ('search_nutrition_knowledge','search_evidence')]
             # COPA accepts native tools and auto, but rejects required/named tool_choice.
@@ -198,12 +211,18 @@ class SupplementAgent:
         if general_only:
             source_pool={key:e for key,e in source_pool.items() if e.get('kind') in ('knowledge','label_guide')}
             product_pool={}
-        messages.append({'role':'user','content':json.dumps({'instruction':'이 근거로 질문에 먼저 답하고, 쉬운 설명과 필요한 확인점만 덧붙이세요. 성분명 이외의 숫자나 복용 지시 금지. 일반 지식과 제품 표시를 구분하세요. 개인 추천과 후보 변경 금지. responseSchema를 따르는 JSON 객체 하나만 출력하세요. 코드 블록과 부연 문구는 쓰지 마세요.','responseSchema':ANSWER_SCHEMA,'evidence':list(source_pool.values()),'allowedProductIds':candidate_ids if candidate_ids is not None else list(product_pool)},ensure_ascii=False)})
+        instruction='이 근거로 질문에 먼저 답하고, 쉬운 설명과 필요한 확인점만 덧붙이세요. 성분명 이외의 숫자나 복용 지시 금지. 일반 지식과 제품 표시를 구분하세요. 개인 추천과 후보 변경 금지.'
+        if overview:
+            instruction='화면에는 주요 성분·함량·기준치 카드가 이미 표시됩니다. text에는 성분별 역할만 쉬운 말로 두세 문장, 약 이백 자 이내로 적으세요. 성분마다 짧은 한 문장으로 설명하세요. 소개·소제목·숫자·표시 기준 문구 나열·주의사항·알레르기·상담 문구는 본문에 넣지 마세요. 공식 표시와 주의사항은 아래의 접힌 상세 영역에 이미 제공됩니다. 확인되지 않은 성분·효과·개인 복용 판단은 추정하지 마세요.'
+        instruction+=' responseSchema를 따르는 JSON 객체 하나만 출력하세요. 코드 블록과 부연 문구는 쓰지 마세요.'
+        messages.append({'role':'user','content':json.dumps({'instruction':instruction,'responseSchema':ANSWER_SCHEMA,'evidence':list(source_pool.values()),'allowedProductIds':candidate_ids if candidate_ids is not None else list(product_pool)},ensure_ascii=False)})
         # COPA rejects both response_format=json_schema and json_object. Do not claim
         # provider-enforced output: parse and validate strictly on the server instead.
         response=await complete(self.client,messages)
         answer=AgentAnswer.model_validate_json(response.choices[0].message.content)
         result=sanitize_answer(answer,source_pool,product_pool,candidate_ids)
+        if overview:
+            result['nutritionSummary']=nutrition_summary(selected_product)
         result.update(mode='ai',provider='codyssey',model=config.MODEL,toolTrace=trace,policyVersion=config.POLICY_VERSION)
         return result
 
